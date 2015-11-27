@@ -510,3 +510,27 @@ Sources      Affiche les sources de données de l'indicateur   Index sources    
 
 Une fois que l'ensemble des champs sont renseignés, cliquez sur le bouton "Enregistrer" pour sauvegarder le paramétrage. 
 
+Publier un indicateur
+.....................
+
+De la même manière que pour les cartes, pour qu'un indicateur soit
+accessible depuis l'interface publique, il est nécessaire qu'il soit
+publié. Pour ce faire, utilisez le boutton "Publier" en haut à droite du
+formulaire de paramétrage pour publier l'indicateur, il sera alors
+automatiquement disponible lors de votre prochain chargement de la
+page d'accueil de votre instance MapMint.
+
+Dépublier un indicateur
+.....................
+
+Dans le cas où vous voudriez qu'un indicateur ne soit plus accessible,
+vous aves la possibilité de dépublier. En faisant cela, aucune données
+relatives à l'indicateur ne seront supprimées, vous pourrez donc
+toujorus les utiliser comme des couches comme vous le faite avec
+n'inporte qu'elle autre source de données.
+
+Pour dépublier un indicateur, cliquez sur le boutton "Dépublier" en
+haut à driote du formulaire de paramétrage d'un indicateur.
+
+
+
