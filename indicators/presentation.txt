@@ -6,9 +6,13 @@ Présentation
 Qu'est ce qu'un indicateur ?
 ---------------------------------
 
-Un indicateur MapMint constitue une carte (mapfile) regroupant des information statistiques et géométriques issues de sources de données variées. Il est crée par l'utilisateur grâce aux étapes de la :doc:`indicatorspanel`.
+Un indicateur MapMint constitue une carte (mapfile) regroupant des
+information statistiques et géométriques issues de la jointure de deux
+sources de données différentes. Il est crée par l'utilisateur grâce
+aux étapes de la :doc:`indicatorspanel`.
 
-Un indicateur est définit par les éléments suivants, tous accessible depuis l'interface publique une fois l'indicateur publié:
+Un indicateur est définit par les éléments suivants, tous accessible
+depuis l'interface publique une fois l'indicateur publié: 
 
 ======================== =============================================
 **Eléments**             **Description**    
@@ -25,10 +29,35 @@ Fonctionnement général du module
 
 Le module de création d'indicateurs permet à l'utilisateur de configurer et de publier des indicateurs. 
 
-Il enregistre les paramètres renseignés par l'utilisateur, réalise des jointure entre source de données spatiales et statistiques, calcule l'indicateur et enregistre la source de données résultante dans un projet MapMint (mapfile).
+Il enregistre les paramètres renseignés par l'utilisateur, réalise des
+jointure entre sources de données spatiales et statistiques, calcule
+l'indicateur et enregistre la source de données résultante dans un
+projet MapMint spécifique (mapfile).
 
-L'indicateur est finallement automatiquement diffusé en WMS et en WFS dans une visualiseur cartographique spécifique.
+L'indicateur est finallement automatiquement diffusé en WMS et en WFS
+dans un visualiseur cartographique spécifique nommé **indicators** qui
+doit exister lors de la publication d'indicateurs.
 
 Prérequis techniques
 ---------------------------------
 
+Pour utiliser le module indicateur, il est nécessaire de suivre la
+procédure d'activation du module décrite ci-dessous.
+
+.. code-block:: guess
+
+    mkdir /var/data/indexes_maps
+    chown www-data:www-data -R /var/data/indexes_maps
+    mkdir /chemin/vers/mapmint/public_map/idx_templates
+    chown www-data:www-data -R /chemin/vers/mapmint/public_map/idx_templates
+    psql mmdb -f  /chemin/vers/mapmint/template/sql/indicators.sql
+
+Ensuite vous devez attribuer la valeur ``true`` à la clé
+``indicators`` de la section ``[main]`` afin de pouvoir utiliser le
+module depuis l'interface d'administration.
+
+.. note::
+
+    Dans la version 1 de MapMint il était nécessaire d'avoir une clé
+    ``indexes`` ayant la valeur ``true`` pour activer ce module. Il
+    est dont préférable de définir aussi cette valeur.

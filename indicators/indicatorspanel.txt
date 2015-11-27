@@ -7,45 +7,46 @@ Configuration d'un indicateur
     :depth: 4
     :backlinks: top
 
-La configuration d'un indicateur recquiert sept étapes distinctes et obligatoires (à l'exception de l'agrégation des données de l'indicateur qui est optionelle). Chaque étape de la configuration est réalisé dans un onglet, accesssible depuis la barre d'outil du panneau de droite. Un clic sur l'îcone charge et affiche l'onglet correspondant.
+La configuration d'un indicateur se fait à l'aide d'un formulaire
+contenant 6 onglets.  Les deux premiers onglets sont automatiquement
+chargés pour vous permettre l'initialisation de l'indicateur, c'est à
+dire la création de la source de données définie comme la jointure
+d'un territoire et d'une source de données tierce (fichier, table ou
+requête SQL). Il n'est pas possible de passer aux onglets suivants
+avant que l'étape d'initialisation de l'indicateur soit passée.
 
 .. warning::
-   Les onglets sont chargés un à un au cours de la configuration et/ou du chargement des informations. Veuillez attendre que l'ensemble des onglets actifs soient chargés avant de procéder.
+   Les onglets sont chargés un à un au cours de la configuration et/ou
+   du chargement des informations. Veuillez attendre que l'ensemble
+   des onglets actifs soient chargés avant de continuer. 
    
    
-.. |indmet| image:: ../_static/images/indicator-metadata.png
+.. |indmet| image:: ../_static/images/info.png
    :height: 24
-   :width: 24
    :alt: Indicator metadata icon
 
-.. |inddat| image:: ../_static/images/indicator-data.png
+.. |inddat| image:: ../_static/images/link.png
    :height: 24
-   :width: 24
    :alt: Indicator data icon
 
-.. |indsym| image:: ../_static/images/indicator-symbology.png
+.. |indsym| image:: ../_static/images/data-raster-icon.png
    :height: 24
-   :width: 24
    :alt: Indicator symbology icon
 
-.. |indtab| image:: ../_static/images/indicator-table.png
+.. |indtab| image:: ../_static/images/table.png
    :height: 24
-   :width: 24
    :alt: Indicator table icon
    
-.. |indcha| image:: ../_static/images/indicator-chart.png
+.. |indcha| image:: ../_static/images/chart.png
    :height: 24
-   :width: 24
    :alt: Indicator chart icon
    
-.. |indrep| image:: ../_static/images/indicator-report.png
+.. |indrep| image:: ../_static/images/report.png
    :height: 24
-   :width: 24
    :alt: Indicator report icon
    
 .. |indagr| image:: ../_static/images/indicator-agregation.png
    :height: 24
-   :width: 24
    :alt: Indicator agregation icon
    
 ============ ================ =============
@@ -57,12 +58,30 @@ La configuration d'un indicateur recquiert sept étapes distinctes et obligatoir
 |indtab|     Table			  Configuration de la table de l'indicateur 
 |indcha|     Graphique		  Configuration du graphique de l'indicateur 			 
 |indrep|     Rapport		  Configuration du rapport de l'indicateur 	          
-|indagr|     Agrégation		  Configuration de l'agrégation de l'indicateur	           
 ============ ================ =============							
 
-étadonnées
+Initialisation de l'indicateur
+******************************
+
+Comme indiqué dans l'introduction de cette section, il est impératif
+d'intialiser l'indicateur correctement via les deux premiers onglet de
+paramétrage d'un indicateur. Nous présentons donc dans cette section
+spécifique ce deux onglets en particuliers. Les onglets suivants ne
+peuvent être utilisés qu'une fois l'initialisation réalisée avec succès.
+
+Métadonnées
 -------------------------------
-La première étape de la configuration d'un indicateur consiste en la saisie de ses métadonnées. L'onglet Métadonnées est chargé par défaut à l'initialisation du module de création d'indicateurs. Veuillez renseigner l'ensemble des informations listées ci-après.
+La première étape de la configuration d'un indicateur consiste en la
+saisie de ses métadonnées. L'onglet Métadonnées est chargé par défaut
+à l'initialisation du module de création d'indicateurs, son apparence
+est illustré dans la capture d'écran ci-dessous. Veuillez
+renseigner l'ensemble des informations listées ci-après.
+
+.. |indagr| image:: ../_static/images/indicator-metadata.png
+   :width: 100%
+   :alt: Métadonnées de l'indicateur
+
+|indagr|
 
 Nom de l'indicateur
 ..............................
@@ -87,7 +106,7 @@ Sources de l'indicateur
 ..............................
 Les sources de l'indicateur renseignent les droits et/ou la licence des données utilisées pour la création de l'indicateur. Il s'agit en général de spécifier le copyright ou les conditions d'utilisation liées au fournisseur de la donnée.
 
-ots clés de l'indicateur
+Mots clés de l'indicateur
 ..............................
 Les mots clés de l'indicateurs sont une suite de mots décrivant l'indicateur, séparés par des virgules, comme indiqué dans l'exemple ci-dessous. ::
 
@@ -95,34 +114,62 @@ Les mots clés de l'indicateurs sont une suite de mots décrivant l'indicateur, 
 
 Groupe(s) d'utilisateurs
 ..............................
-Le ou les groupes d'utilisateurs sélectionnés dans la liste des groupes seront autorisés à consulter l'indicateur publié, après connexion. Utilisez la touche "Shift" de votre clavier pour effectuer un choix multiple.
+Le ou les groupes d'utilisateurs sélectionnés dans la liste des
+groupes seront autorisés à consulter l'indicateur publié, après
+connexion. Maintenez la touche "CTRL" de votre clavier enfoncée pour
+effectuer une sélection multiple.
 
 Thème(s) de l'indicateur
 ..............................
 L'indicateur sera affecté au(x) thème(s) sélectionnés dans la liste correspondante.  
 
-**Une fois que l'ensemble des métadonnées est renseigné, cliquez sur le bouton "Enregistrer".**
+**Une fois que l'ensemble des métadonnées est renseigné, cliquez sur le bouton "Sauver".**
 
 .. note::
-   La configuration des métadonnées peut être modifiée à tout moment, avant ou après la publication de l'indicateur. Utiliser le bouton "Enregistrer" pour sauvegarder vos modifications.
+   La configuration des métadonnées peut être modifiée à tout moment,
+   avant ou après la publication de l'indicateur. Utiliser le bouton
+   "Sauver" pour sauvegarder vos modifications.
 
 Données
 -----------------------
-La deuxième étape de la configuration d'un indicateur consiste à sélectionner des données statistiques pour le calcul de l'indicateur.  Cliquez sur l'icon "Données" et sélectionnez un des trois type de données proposés (fichier, table ou requête SQL) à l'aide des boutons radio prévus à cet effet.
+La deuxième étape de l'initialisation d'un indicateur est la plus
+important, elle consiste à sélectionner des données statistiques pour
+le calcul de l'indicateur.  Accédez à l'onglet "Données" puis
+sélectionnez un des trois types de données proposés (fichier, table ou
+requête SQL) à l'aide des boutons radio prévus à cet effet.
 
 Fichier
 .......................
 Dans le cas d'un fichier, veuillez cliquer sur l'utilitaire d'ajout de fichier et sélectionner un fichier de données sur votre ordinateur. Cliquez ensuite sur le bouton "Importer".
 
 .. warning::
-   Le fichier selectionné sur votre ordinateur doit être au format .csv ou .xls, et contenir au moins une colone avec une information géographique de référence liée à vos territoires (codes postaux, codes insee...).
-   
-Si l'import de votre fichier s'est correctement déroulé, une table dépliante s'affiche en dessous du formulaire d'ajout. Sinon, un message d'erreur de couleur rouge s'affiche en haut de votre écran (vérifiez votre fichier et recomencez).
+   Le fichier selectionné sur votre ordinateur doit être au format
+   .csv, .xls ou .xslx, et contenir au moins une colone avec une
+   information permettant de réaliser une jointure avec un territoire
+   (codes postaux, codes insee, identifiants, nom ...). 
 
-Dépliez la table et assurer vous que la colone dite "géographique" soit en première position, comme illustré dans l'exemple ci-dessous.
+.. warning::
+   Dans le cas de l'utilisation fichiers .xlsx ou .xsl, ils est
+   possible que le tableur contienne plusieurs pages. L'ensemble de
+   ces pages sera alors affichée dans une liste déroulante vous
+   permettant de sélectionner la page que vous souhaitez utiliser pour
+   initialiser votre indicateur.
+   
+Si l'import de votre fichier s'est correctement déroulé, une table
+s'affiche en dessous du formulaire d'ajout. Dans le cas contraire, un
+message d'erreur de couleur rouge apparait en haut de votre écran
+(vérifiez votre fichier et recomencez).
+
+Assurez-vous que la colone permettant de réaliser la jointure soit en
+première position dans la table, comme illustré dans l'exemple
+ci-dessous. Vous pouvez re-ordonné les colones de la table de données
+du fichier importé en cliquant sur le titre d'une colone de la table
+puis, tout en gardant le bouton de votre souris enfoncé, vous déplacez
+le curseur de votre souris de gauche à droite, les colones devraient
+alors se re-ordonnées.
 
 .. |indtabimg| image:: ../_static/images/indicator-data-table.png
-   :scale: 75%
+   :width: 100%
    :alt: Indicator data table
 
 |indtabimg|
@@ -153,30 +200,38 @@ Rédigez ensuite votre requête SQL dans la zone de texte prévu à cet effet pu
 .. note::
    De nombreux tutoriaux sur le langage SQL sont disponibles sur Internet, notamment `ici <http://sql.developpez.com/>`__.
 
-Symbologie
------------------------
+Style
+**********
 
-La troisième étape de la configuration d'un indicateur consiste à paramétrer sa symbologie, c'est à dire son mode de représentation cartographique. Cliquez sur l'icon "Symbologie" de la barre d'outil et renseignez les paramètres décrits dans les sous-sections ci-après. 
+Le troisième onglet de paramétrage d'un indicateur consiste à
+définir son style, c'est à dire son mode de représentation
+cartographique. Cliquez sur l'icon "Style" de la barre d'onglet et 
+renseignez les paramètres décrits ci-après.
 
-Variable
-.......................
+.. rubric::
+        Variable
 
 La variable de l'indicateur correspond au **champ attributaire** qui sera utilisé pour le calcul de l'indicateur. Veuillez sélectionner la variable désirée dans la première liste déroulante de l'onglet symbologie.
 
-Formule
-.......................
+.. rubric::
+        Formule
 
 La formule de l'indicateur définit la manière dont la variable est utilisée dans le calcul de l'indicateur.
 
 **[_X_]** permet d'utiliser la variable de manière brute.
 
-La valeur **[_X_]** peut également être utilisée dans une requête SQL. 
+La valeur **[_X_]** peut également être utilisée dans une requête
+SQL. Par exemple il est possible de changer le type de la données, qui
+est toujours une chaine de caractère par défaut en une valeur entière
+en utilisant la valeur : ``[_X_]::int``
 
 
-Classification
-.......................
+.. rubric::
+        Classification
 
-Sélectionnez ensuite une méthode de classification statistique pour la symbologie de l'indicateur. Comme dans le :doc:`../maps/index`, quatre types de classification sont proposés:
+Sélectionnez ensuite une méthode de classification statistique pour la
+symbologie de l'indicateur. Comme dans le :doc:`../maps/index`, quatre
+types de classifications sont proposés:
 
 ================= ============================================
 **Type**                
@@ -192,8 +247,8 @@ Dans le cas d'une classification de type **symboles gradués**, les valeurs quan
 
 Dans le cas d'une classification de type **couleur continue**, les valeurs quantitatives de la variable sont regroupées selon un nombre de classes et un dégradé de couleurs. A l'intérieur d'une classe, toutes les entités sont dessinées avec le même symbole ou la même couleur.
 
-Discrétisation
-.......................
+.. rubric::
+        Discrétisation
 
 Dans le cas d'une classification de type symboles gradués, vous avez également la possibilité de choisir une méthode de discrétisation de la variable dans la liste suivante:
 
@@ -210,13 +265,13 @@ fisher            Noyau de Fisher
 .. note::
 	L'utilisation d'une méthode de discrétisation agit sur la classification et donc sur la représentation de l'indicateur sur la carte et dans la légende.
 	
-Nombres de classes
-.......................
+.. rubric::
+        Nombres de classes
 
 Dans tout les cas sauf celui d'une classification de type **valeur unique**, veuillez ensuite spécifier un nombre de classes pour la classification dans la zone texte prévue à cet effet.
 
-Couleurs minimum et maximum
-...........................
+.. rubric::
+        Couleurs minimum et maximum
 
 Sélectionnez ensuite une **couleur minimum** et une **couleur maximum** à l'aide des selecteurs de couleurs, dont un exemple est donné ci-après.
 
@@ -231,63 +286,61 @@ Vous pouvez soit utiliser votre souris dans la partie de gauche soit entrer dire
 .. note::
 	Il est conseillé d'utiliser une couleur claire pour la valeur **min** et une couleur foncée pour la valeur **max** 
 
-Table des classes
-......................
+.. rubric::
+        Table des classes
 
 Une fois l'ensemble des paramètres renseignés, cliquez sur le bouton "Classifier". Cela entraine le calcul de la symbologie de l'indicateur et affiche le résulat de la classification dans la table des classes en dessous du formulaire.
 
 .. |clstbl| image:: ../_static/images/indicator-classes-table.png
-   :scale: 75%
+   :width: 100%
    :alt: color picker window
 
 |clstbl|
 
-Chaque classe peut ensuite être modifiée manuellement en cliquant sur la ligne correspondante dans la table des classes. Cela entraine l'ouverture de la fenêtre d'édition d'une classe, illustrée ci-dessous:
+Chaque classe peut ensuite être modifiée manuellement en cliquant sur
+la ligne correspondante dans la table des classes. Cela entraine
+l'apparission du formulaire d'édition d'une classe, comme illustré
+ci-dessous.
 
-.. |edtcl| image:: ../_static/images/edit-indicator-class.png
-   :scale: 75%
+.. |edtcl| image:: ../_static/images/indicator-classes.png
+   :width: 100%
    :alt: Edit indicator class window
 
 |edtcl|
 
 Le **nom**, les **valeurs limites** et les différentes **options de remplissage et de bordure** peuvent être modifiés. Cliquez sur le bouton "Appliquer" en bas de la fenêtre pour enregistrer les modifications apportées. Celà entraine la modification de la classe dans la table des classes.
 
-A tout moment suite à la classification, vous avez la possibilité de prévisualiser la carte de l'indicateur en cliquant sur le bouton "Prévisualiser". Cela ouvre une fenêtre contenant une image de la carte et vous permet d'apprécier la qualité de la symbologie de l'indicateur.
+A tout moment suite à la classification, vous avez la possibilité de
+prévisualiser la carte de l'indicateur en accédant à m'onglet
+"Prévisualiser". Cela ouvre une carte localisée sur votre indicateur
+présentant votre indicateur afin de vous permettre d'apprécier la
+qualité du style que vous avez défini de l'indicateur.
 
 .. |pvidx| image:: ../_static/images/indicator-preview-window.png
    :scale: 75%
    :alt: Edit indicator class window
 
-|pvidx|
 
 Table
------------------------
+******
 
-La quatrième étape de configuration de l'indicateur consiste à paramétrer l'affichage de la table. Cliquez sur l'icon "Table" de la barre d'outil et renseignez les paramètres décrits dans les sous-sections ci-après. 
+Le quatrième onglet de paramétrage de l'indicateur consiste à définir
+la manière dont la table sera présentée à l'utilisateur final depuis
+l'application publiée. Vous devez renseigner les paramètres décrits
+ci-après. 
 
-.. |settp| image:: ../_static/images/set-table-paramaters.png
-   :height: 16
-   :width: 16
-   :alt: Set table parameters icon
-
-============ ================ 
-**Icône**    **Description**          
------------- ---------------- 
-|settp|      Paramétrage de la table
-============ ================	  
-
-Titre de la table 
-.......................
+.. rubric::
+        Titre de la table 
 
 Entrez premièrement un titre pour la table de l'indicateur dans la zone de texte prévue à cet effet, en haut du formulaire.
 
-Configuration de la table 
-.........................
+.. rubric::
+        Configuration de la table 
 
 Cliquez ensuite sur l'icon de paramétrage de la table en haut à droite de la table. Cela entraine l'ouverture de la fenêtre de paramétrage, illustrée ci-dessous.
 
 .. |settpw| image:: ../_static/images/set-table-parameters-window.png
-   :scale: 75%
+   :width: 100%
    :alt: Edit indicator class window
 
 |settpw|
@@ -296,7 +349,7 @@ Cliquez ensuite sur l'icon de paramétrage de la table en haut à droite de la t
 **Champ**    **Définition**          
 ------------ ---------------- 
 A            Affichage de la colone
-R
+R            Permettre la recherche en utilisant cette colone
 Pos          Position de la colone dans la table
 Column       Titre de la colone par défaut
 Libellé      Titre de la colone
@@ -315,17 +368,26 @@ Cliquez enfin sur le bouton "Enregister" pour enregistrer l'ensemble des informa
 	Il est nécessaire de spécifier un titre et le paramétrere la table pour s'assurer du affichage de la table dans l'interface publique.
 
 Graphique
------------------------
+**********
 
-La cinquième étape de la configurtion de l'indicateur est le parmétrage de son graphique. Cliquez sur l'icon "Graphique" de la barre d'outil et renseignez les paramètres décrits dans les sous-sections ci-après. 
+Le cinquième onglet de paramétrag de l'indicateur consiste à
+définir les propriété du graphique. Vous devez renseigner les
+paramètres décrits dans les  sous-sections ci-après. Une illustration
+de l'affichage du formulaire est fournie ci-dessous.
 
-Titre du graphique
-.......................
+.. |setig| image:: ../_static/images/indicator-graph.png
+   :width: 100%
+   :alt: Edit indicator class window
+
+|setig|
+
+.. rubric::
+        Titre du graphique
 
 Spécifiez premièrement un titre pour le graphique de l'indicateur dans la zone de texte prévue à cet effet, en haut du formulaire.
 
-Type de graphique 
-........................
+.. rubric::
+        Type de graphique 
 
 Sélectionnez ensuite le type de graphique désiré:
  * Histogramme (ou "diagramme en bâtons")
@@ -334,64 +396,82 @@ Sélectionnez ensuite le type de graphique désiré:
 .. note::
 	Un histogramme ou un diagramme circulaire sera affiché dans l'interface publique en fonction de votre choix
 
-Etiquette de l'abscisse 
-........................
+.. rubric::
+        Etiquette de l'abscisse 
 
 L'étiquette de l'abscisse correspond au titre de l'abscisse du graphique qui sera utilisé dans l'interface publique. Entrez un ou plusieurs mots dans la zone de texte prévue à cet effet.
 
-Variable de l'abscisse 
-........................
+.. rubric::
+        Variable de l'abscisse 
 
 Sélectionnez ensuite la variable à représenter sur l'axe des abscisses, c'est à dire l'un des champs attributaire disponible dans la liste déroulante correspondante. Il s'agit la plupart du temps d'un champ décrivant le territoire (communes ou départements par exemple).
 
-Etiquette de l'ordonnée 
-........................
+.. rubric::
+        Etiquette de l'ordonnée 
 
 L'étiquette de l'ordonnée correspond au titre de l'ordonnée du graphique qui sera utilisé dans l'interface publique. Entrez un ou plusieurs mots dans la zone de texte prévue à cet effet.
 
-Variable de l'ordonnée 
-........................
+.. rubric::
+        Variable de l'ordonnée 
 
 Séléctionnez ensuite la variable à utiliser pour l'axe des ordonnées, c'est à dire l'un des champs attributaire disponible dans la liste déroulante correspondante. Il s'agit en général de la variable de l'indicateur.
 
-Formule de l'ordonnée 
-........................
+.. rubric::
+        Formule de l'ordonnée 
 
 Comme pour la configuration de la symbologie de l'indicateur, il est possible de rédiger une requête SQL pour paramétrer l'axe des ordonnées du graphique. La valeur par défaut de la formule est **[_X_]**, également utilisable au sein d'une requête plus complexe. 
 
 .. note::
    De nombreux tutoriaux sur le langage SQL sont disponibles sur Internet, notamment `ici <http://sql.developpez.com/>`__.
 
-Valeur au survol
-.......................
+.. rubric::
+        Valeur au survol
 
 Enfin, il est également possible de paramétrer la valeur au survol des colones de l'histogramme ou des parts du diagramme circulaire. Cette valeur est affichée lorsque l'utilisateur les survole avec son curseur. 
 
 .. note::
 Si ce champ n'est pas renseigné, le système affichera la valeur de l'abscisse et la valeur [_X_] par défaut pour chacun des objets du graphique.
 
-Enregistrement et prévisualisation
-..................................
+.. rubric::
+        Enregistrement et prévisualisation
 
-Une fois l'ensemble des paramètres du graphique renseignés, cliquer sur le bouton "Enregistrer". La sauvegarde de la configuration est stipulée dans un bandeau vert en haut de l'écran.
+Une fois l'ensemble des paramètres du graphique renseignés, cliquer
+sur le bouton "Sauver". La sauvegarde de la configuration est stipulée
+dans un bandeau vert en haut de l'écran.
 
-Vous avez également la possibilité de prévisualiser le graphique en cliquant sur le bouton "Prévisualiser". Cela affiche le graphique en dessous du formulaire tel qu'il sera présenté dans l'interface publique, comme illustré ci-dessous:
+Vous avez également la possibilité de prévisualiser le graphique en
+accédant à l'onglet"Prévisualiser". Cela affiche le graphique en
+tel qu'il sera présenté dans l'interface publique.
 
 .. |prgphw| image:: ../_static/images/preview-graph-window.png
    :scale: 75%
    :alt: Preview graphic window
 
-|prgphw|
 
 Rapport
------------------------
+*******
 
-La dernière étape obligatoire de la configuration d'un indicateur correspond au paramétrage de son rapport. Ce dernier est un document PDF que l'utilisateur peut paramétrer via des sélections d'entités géographique puis générer depuis le visualiseur des indicateurs de l'interface publique.
+Le dernier onglet obligatoire avant la publication d'un indicateur
+correspond au paramétrage de son rapport, il est illustré
+ci-dessou. Ce dernier est un document qui sera utilisé comme modèle
+pour générer un fichier PDF que l'utilisateur peut paramétrer via des
+sélections d'entités géographique puis générer depuis le visualiseur
+des indicateurs de l'interface publique. 
 
-odèle de document 
-........................
+.. |setig| image:: ../_static/images/indicator-graph.png
+   :width: 100%
+   :alt: Edit indicator class window
 
-Un rapport est basé sur un modèle de document générique au **format LibreOffice (.odt)**. Ce dernier peut contenir les éléments listés dans la sous-section suivante (et/ou d'autres) lesquels seront mis à jour en fonction de l'indicateur et des sélection de l'utilisateur final.
+|setig|
+
+.. rubric::
+        Modèle de document 
+
+Un rapport est basé sur un modèle de document générique au **format
+LibreOffice (.odt)**. Ce dernier peut contenir les éléments listés
+dans la sous-section suivante (et/ou d'autres) lesquels seront mis à
+jour en fonction de l'indicateur et des sélection de l'utilisateur
+final.
 
 .. note::
 	Le document .odt peut contenir autant de champs désirés. Sa présentation peut également être modifié en utilisant les options de style de LibreOffice.
@@ -430,50 +510,3 @@ Sources      Affiche les sources de données de l'indicateur   Index sources    
 
 Une fois que l'ensemble des champs sont renseignés, cliquez sur le bouton "Enregistrer" pour sauvegarder le paramétrage. 
 
-Agrégation
------------------------
-
-L'onglet "Agrégation" est la dernière étape de configuration d'un indicateur. Cette fonctionnalité est **optionelle**. Elle permet d'agréger le calcul de l'indicateur à un niveau supérieur, c'est à dire le calcul automatique de l'indicateur pour un territoire parent.
-
-Territoire parent 
-........................
-
-Si vous choisissez cette option, veuillez premièrement séléctionner un territoire parent dans la liste déroulante prévue à cet effet
-
-.. note::
-	Les territoires parents sont ajoutés dans le ...
-
-Formule d'agrégation
-.......................
-
-Cliquez ensuite sur la case à cocher "Agrégation des données au niveau supérieur". Celà entraine l'affichage du formulaire d'agrégation. Entrez finalllement une requête SQL pour paramétrer l'agrégation des données, puis cliquez sur le bouton "Enregistrer". L'enregistrement du paramétrage est stipulé par un bandeau vert en haut de l'écran.
-
-.. note::
-   De nombreux tutoriaux sur le langage SQL sont disponibles sur Internet, notamment `ici <http://sql.developpez.com/>`__.
-   
-Exemple
-.........
-
-Dans l'exemple suivant, un indicateur est calculé pour un ensemble de communes et possède un territoire parent de type département. Celui-ci peut alors être calculé automatiquement pour les départements avec le paramétrage suivant:
-
- * Choisir le territoire parent "Départements" dans la liste déroulante
- * Cocher la case "Agrégation des données au niveau supérieur"
- * Entrer la formule SQL suivante ::
-
-	sum([_X_]::int)
-	
-Il est possible d'apprécier le résultat de l'agrégation en prévisualisant la symbologie de l'indicateur et celle de l'agrégation, comme illustré ci-dessous:
-
-.. |preid| image:: ../_static/images/preview-index2-window.png
-	:scale: 80%
-	:alt: Preview indicator
-
-.. |preag| image:: ../_static/images/preview-agregation-window.png
-	:scale: 80%
-	:alt: Preview agregated indicator
-
-============================== ============================================
-**Indicateur**                 **Indicateur agrégé**       
------------------------------- --------------------------------------------
-|preid|           	  	       |preag|   
-============================== ============================================
