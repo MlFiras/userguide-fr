@@ -19,6 +19,5 @@ Le tableau de bord de MapMint est constitué de 3 sections spécifiques
    :maxdepth: 2
 
    overview
-   usersmanagement
    configuration
    

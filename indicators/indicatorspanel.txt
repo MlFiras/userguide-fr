@@ -484,8 +484,8 @@ final.
 	
 Une fois votre modèle de document LibreOffice préparé, veuillez l'envoyer sur le serveur en utilisant le formulaire d'upload prévu à cet effet.
 
-Paramétrage du rapport
-.......................
+.. rubric::
+        Paramétrage du rapport
 
 Une fois le modèle de document ajouté, un lien hypertexte s'affiche en dessous du formulaire, vous permettant de le télécharger ultérieurement.
 
@@ -511,7 +511,7 @@ Sources      Affiche les sources de données de l'indicateur   Index sources    
 Une fois que l'ensemble des champs sont renseignés, cliquez sur le bouton "Enregistrer" pour sauvegarder le paramétrage. 
 
 Publier un indicateur
-.....................
+*********************
 
 De la même manière que pour les cartes, pour qu'un indicateur soit
 accessible depuis l'interface publique, il est nécessaire qu'il soit
@@ -521,7 +521,7 @@ automatiquement disponible lors de votre prochain chargement de la
 page d'accueil de votre instance MapMint.
 
 Dépublier un indicateur
-.....................
+***********************
 
 Dans le cas où vous voudriez qu'un indicateur ne soit plus accessible,
 vous aves la possibilité de dépublier. En faisant cela, aucune données

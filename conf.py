@@ -190,7 +190,7 @@ htmlhelp_basename = 'ZOOProjectdoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'MapMint.tex', u'MapMint, Guide utilisateur',
-   u'Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb', 'manual'),
+   u'Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, \\\\Abdoulaye Samb', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -223,7 +223,7 @@ latex_preamble = '\setcounter{tocdepth}{2}'
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'mapmint', u'MapMint User Guide',
-     [u'Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'], 1)
+     [u'Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'], 1)
 ]
 
 
@@ -231,9 +231,9 @@ man_pages = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'MapMint Guide utilisateur'
-epub_author = u'Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
-epub_publisher = u'Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
-epub_copyright = u'2015 Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
+epub_author = u'Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
+epub_publisher = u'Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
+epub_copyright = u'2015 Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, Abdoulaye Samb'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
