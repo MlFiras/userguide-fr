@@ -26,7 +26,7 @@ Gestion des données            http://votre-instance.com/Distiller_bs
 Création de territoires        http://votre-instance.com/Territories_bs
 Création d'indicateurs         http://votre-instance.com/Indexes_bs
 Création de thèmes             http://votre-instance.com/Themes_bs
-Import de document             http://votre-instance.com/Documents_bs
+Importation de document             http://votre-instance.com/Documents_bs
 Création de cartes             http://votre-instance.com/Manager_bs
 Publication d'applications     http://votre-instance.com/Publisher_bs
 ============================== ============================================
