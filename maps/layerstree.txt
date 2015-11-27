@@ -1,14 +1,14 @@
 .. _maps-layerstree:
 
-Panneau des couches de données
+Menu couches de données
 ==============================
 
 .. contents:: Table des matières
     :depth: 4
     :backlinks: top
 
-Le panneau des couches de données contient les deux élements suivants:
- * La barre d'outils de gestion des cartes.
+Le menu couches de données contient les deux élements suivants:
+ * La barre d'outils de gestion des cartes et couches.
  * L'arbre des couches de la carte courante.
  
 .. note::
@@ -27,7 +27,12 @@ Ouvrir une carte
 |opmap|      Ouvrir une carte 	           
 ============ ============================================
 
-Pour ouvrir une carte existante, cliquez sur l'icône correspondante en haut à gauche de la fenetre. Celà entraine l'ouverture de la fenêtre d'ouverture de carte. Sélectionnez un projet dans la liste déroulante puis cliquez sur le bouton "Ouvrir".
+Pour ouvrir une carte existante, cliquez sur l'icône correspondante à
+gauche du nom de la carte en cours d'édition. Celà entraine
+l'affichage du menu d'ouverture de carte just en dessous. Sélectionnez
+un projet en saisissant son nom dans le champ texte prévu à cette
+effet, selectionné le nom de la carte à ouvrir dans la liste proposée
+puis cliquez sur le bouton "Charger".
 
 .. |opmapw| image:: ../_static/images/open-map-window.png
    :scale: 80%
@@ -35,14 +40,15 @@ Pour ouvrir une carte existante, cliquez sur l'icône correspondante en haut à 
 
 |opmapw|
 
-L'ouverture de la carte déclanche le rafraichissement du module de création de carte et le chargement de la carte. L'arbre des couches et le visualiseur de carte sont mis à jour avec les couches et la configuration de la carte selectionnée.
+L'ouverture de la carte déclanche le rafraichissement du module de
+création de carte et le chargement de la carte demandée. 
 
 Enregistrer une carte
 -----------------------
 
-Pour enregistrer la carte courante, cliquez sur le bouton "Enregistrer" au dessus de l'arbre des couches.
-
-Pour enregistrer la carte courante sous un nouveau nom, modifiez le nom de la carte dans la case prévue à cet effet, puis cliquez sur le bouton "Enregistrer".
+Pour enregistrer la carte courante sous un nouveau nom, modifiez le
+nom de la carte dans le champ texte prévu à cet effet, puis cliquez
+sur le bouton "Sauver".
 
 .. |savema| image:: ../_static/images/saveasmap-window.png
    :scale: 80%
@@ -53,48 +59,48 @@ Pour enregistrer la carte courante sous un nouveau nom, modifiez le nom de la ca
 .. warning::
    Le nom d'une carte ne doit pas contenir d'espace, d'accent ou de caractères spéciaux
    
-enu contextuel de la légende
+Menu couches
 -------------------------------
 
 En procédant à un clic droit sur le premier noeud de l'arbre ("Layers") des couches, un menu contextuel contenant les outils listés ci-dessous apparait. 
 
 .. |addlay| image:: ../_static/images/add-layer-m.png
-   :height: 16
-   :width: 16
+   :height: 24
    :alt: Add layer icon
 
-.. |addgrd| image:: ../_static/images/folder_add.png
-   :height: 16
-   :width: 16
-   :alt: Add group icon
-
 .. |setlay| image:: ../_static/images/move.png
-   :height: 16
-   :width: 16
+   :height: 24
    :alt: Set layers order icon
 
-.. |addgri| image:: ../_static/images/toggle_grid.png
-   :height: 16
-   :width: 16
+.. |addgri| image:: ../_static/images/add.png
+   :height: 24
    :alt: Add graticule icon
    
 ========== ===================================================
 **Icône**  **Action**                  
 ---------- --------------------------------------------------- 
-|addlay|   Ajoute une couche à l'arbre et sur la carte 	           
-|addgrd|   Ajoute un groupe de couches à l'arbre 			 
-|setlay|   Ouvre la fenêtre de gestion de l'ordre des couches	          
-|addgri|   Ajoute une grille (graticule) à la carte            
+|addlay|   Ajoute une ou plusieurs couches à la carte
+|addgri|   Ajoute une grille aux couches de la carte
+|setlay|   Ouvre le panneau de gestion de l'ordre des couches	          
 ========== ===================================================							
 
 Ajouter une couche
 .......................
 
-Pour ajouter une nouvelle couche à l'arbre et à la carte, faites un clic droit sur le premier noeud de l'arbre puis cliquez sur "Ajouter une couche", ce qui entraîne l'ouverture de la fenêtre correspondante.
+Pour ajouter une nouvelle couche à l'arbre et à la carte, cliquez sur
+le bouton "Ajouter une couche", ce qui entraîne l'affichage du
+formulaire correspondant comme illutré ci-après. 
 
-Selectionnez d'abord un espace de stockage dans la première liste déroulante. Celà refraichit la seconde liste déroulante qui liste les sources de données contenues par l'espace de stockage sélectionné.
+Selectionnez d'abord un espace de stockage dans la première liste
+déroulante. Celà refraichit la seconde liste affcihant les sources de
+données contenues dans l'espace de stockage sélectionné.
 
-Sélectionnez ensuite une ou plusieurs sources de données, et le groupe de couches dans lequel vous souhaitez qu'elle(s) apparaisse(nt). Cliquer enfin sur le bouton "Ajouter". Celà entraîne la fermeture de la fenêtre, le rafraichissement du module et l'ajout de la couche à l'arbre et sur la carte. 
+Sélectionnez ensuite une ou plusieurs sources de données, le groupe de
+couches dans lequel vous souhaitez qu'elle(s) apparaisse(nt), puis
+cliquez sur le bouton "Ajouter". Celà entraîne la disparission du
+formulaire, le rafraichissement du module et l'ajout de la couche à 
+la carte. 
+
 
 .. |addlayw| image:: ../_static/images/add-layer-window.png
    :scale: 80%
@@ -103,27 +109,85 @@ Sélectionnez ensuite une ou plusieurs sources de données, et le groupe de couc
 |addlayw|
 
 .. note::
-	Utiliser la touche "Shift" de votre clavier pour sélectionner plusieurs sources de données à la fois.
+	Maintenez la touche "CTRL" de votre clavier enfoncée pour
+	sélectionner plusieurs sources de données.
 
 .. warning::
-   Si vous ne sélectionnez aucun groupe, la nouvelle couche sera placée à la racine de la légende ("Layers")
+   Si vous ne sélectionnez aucun groupe, la nouvelle couche sera
+   placée à la racine de la légende ("Layers"), la couche en question
+   ne sera alors pas visible sur l'interface grand publique. Il ne
+   sera donc pas possible à l'utlisateur final de définir la visbilité
+   de la couche, ce qui vous permet de forcer l'affichage de certaines
+   couches dans certaines cartes. Cela vous permet aussi de placer des
+   couches dans des cartes pour des applications devant utiliser
+   certaines couches particulières mais que vous ne souhaitez pas voir
+   afficher sur la carte (cas types exemples: les routes dans une
+   application de calcul de plus courts chemins, les sources de
+   données matricielles dans le cas d'un application de calcul de
+   profile d'élévation ...)
+
+Ajouter une grille
+.......................
+
+Pour ajouter une grille à la carte (graticule), cliquez sur le boutton
+"Ajouter une grille", ce qui entraîne l'affichage du formulaire
+correspondant comme présenté ci-dessous.
+
+.. |addgrw| image:: ../_static/images/add-grid-window.png
+   :scale: 80%
+   :alt: Add grid window
+
+|addgrw|
+
+Spécifiez un nom pour la grille puis cliquez sur le bouton "Ajouter",
+ce qui entraîne la disparission du formulaire et l'ajout de la grille
+à la racine de l'arbre des couches. Veuillez consulter la section
+relative au panneau de paramétrage des couches pour parametrer le
+style de la grille.
+
+.. note::
+	Une fois crée, la grille dispose des même outils de paramétrage que les autres couches, accessibles par clic droit et le menu contextuel d'une couche. 
 
 Gérer l'ordre des couches
 ...........................
 
-Pour gérer l'ordre des couches sur la carte, faites un clic droit sur le premier noeud de l'arbre puis cliquez sur "Gérer l'ordre des couches", ce qui entraîne l'ouverture de la fenêtre correspondante.
-
-La fenêtre contient la liste des couches présentes sur la carte, classées par ordre d'ouverture. Vous pouvez ensuite déplacer une couche en maintenant votre curseur appuyé sur le nom de la couche puis en opérant un glisser-déposer à la place désirée. Cliquez ensuite sur le bouton "Enregistrer", ce qui entraîne la fermeture de la fenêtre et le chnagement d'ordre des couches.
+Pour gérer l'ordre des couches sur la carte, cliquez sur le bouton
+"Gérer l'ordre des couches", ce qui entraîne l'ouverture du panneau
+correspondant comme présenté ci-dessous.
 
 .. |setlayow| image:: ../_static/images/set-layer-order-window.png
-   :scale: 80%
+   :width: 100%
    :alt: Set layer order window
 
 |setlayow|
 
+La panneau présente deux onglets, dans le premier la liste des couches
+présentes sur la carte sont classées par ordre d'ouverture. Vous
+pouvez ensuite déplacer une couche en maintenant le curseur de votre
+souris appuyé sur le nom de la couche puis en opérant un
+glisser-déposer à la place désirée. Cliquez ensuite sur le bouton
+"Sauver", ce qui entraîne le changement effectif de l'ordre des
+couches.
+
 .. note::
-	La dernière couche ajoutée à la carte est au-dessus de toute les autres.
-	
+	La dernière couche ajoutée à la carte est au-dessus de toute
+	les autres. La couche la plus en haut dans la liste des
+	couches ordonnées du panneau et la plus basse lors de la
+	supperposition des couches pour l'affichage sur la carte.
+
+Dans le deuxième onglet, il est possible de gérer la légende de la
+carte. Vous pouvez, de la même manière que précédemment re-ordonner
+les couches au sein d'un groupe, re-ordonner les groupe ou encore
+ajouter un groupe comme présenté dans la :ref:`section suivante <maps-layerstree-order>`.
+
+.. warning::
+    Il faut noter ici que l'ordre au sein d'un groupe ou l'ordre des
+    groupes entre eux n'a aucune influence sur l'ordre d'affichage des
+    couches. Il s'agit ici uniquement de l'affichage de l'arbre et non
+    de l'ordre des couches qui est fixé, lui, dans le premier onglet.
+
+.. _maps-layerstree-order:
+
 Ajouter un groupe
 .......................
 
@@ -132,7 +196,7 @@ Pour créer un nouveau groupe de couches, faites un clic droit sur le premier no
 Spécifiez un nom pour le groupe de couches.
 
 .. |addgpw| image:: ../_static/images/add-group-window.png
-   :scale: 80%
+   :width: 100%
    :alt: Add group window
 
 |addgpw|
@@ -140,142 +204,63 @@ Spécifiez un nom pour le groupe de couches.
 .. note::
 	Le nom du groupe est utilisé dans la légende de la carte publiée. Vous pourrez éditer son nom en utilisant son menu contextuel. 
 
-Ajouter une grille
-.......................
 
-Pour ajouter une grille à la carte (graticule), faites un clic droit sur le premier noeud de l'arbre puis cliquez sur "Ajouter une grille", ce qui entraîne l'ouverture de la fenêtre correspondante.
-
-Spécifiez un nom pour la grille puis cliquez sur le bouton "Créer", ce qui entraîne la fermeture de la fenêtre et l'ajout de la grille à la racine de l'arbre des couches. Veuillez consulter la section relative au menu contextuel des couches pour parametrer la grille.
-
-.. |addgrw| image:: ../_static/images/add-grid-window.png
-   :scale: 80%
-   :alt: Add grid window
-
-|addgrw|
-
-.. note::
-	Une fois crée, la grille dispose des même outils de paramétrage que les autres couches, accessibles par clic droit et le menu contextuel d'une couche. 
-
-enu contextuel d'un groupe
+Menu contextuel d'une couche
 -------------------------------
 
-.. |movgr| image:: ../_static/images/move.png
-   :height: 16
-   :width: 16
-   :alt: Move group icon
+Lorsque vous cliquez sur une couche avec le boutton droit de votre
+souris, vous voyez alors apparaitre le menu contextuel d'une couche.
 
-.. |edtgr| image:: ../_static/images/pencil.png
-   :height: 16
-   :width: 16
-   :alt: Edit group name icon
-
-.. |delgr| image:: ../_static/images/edit_remove.png
-   :height: 16
-   :width: 16
-   :alt: Delete group icon
-   
-========== ===================================================
-**Icône**  **Action**                  
----------- --------------------------------------------------- 
-|movgr|    Déplace le groupe dans l'arbre par glisser-déposer 	           
-|edtgr|    Ouvre la fenêtre d'édition du nom du groupe 			 
-|delgr|    Ouvre la fenêtre de suppression du groupe	               
-========== ===================================================		
-
-Déplacer un groupe
-.......................
-
-Pour déplacer un groupe de couches dans l'arbre, faites un clic droit sur le nom du groupe puis cliquez sur "Déplacer". Vous pouvez ensuite le déplacer par glisser-déposer à l'endroit désiré.
-
-.. note::
- 	Maintenez votre curseur et déplacer le groupe à la position désiré dans l'arbre.
-
-Editer un groupe
-.......................
-
-Pour éditer un groupe, faites un clic droit sur le nom du groupe puis cliquez sur "Editer". Cela entraine l'ouverture de la fenêtre d'édition du groupe illustrée ci-dessous:
-
-.. |edgp| image:: ../_static/images/edit-group-window.png
-   :scale: 80%
-   :alt: Set layer template window 
-
-|edgp|
-
-odifiez le nom du groupe dans la zone de texte prévue à cet effet puis cliquer sur "Enregistrer". Cela entraine la fermeture de la fenêtre et la modification du nom du groupe dans l'arbre des couches.
-
-Supprimer un groupe
-.......................
-
-Pour supprimer un groupe de l'arbre, faites un clic droit sur le nom du groupe puis cliquez sur "Supprimer". Cela entraine la suppression du groupe.
-
-.. warning::
-	La suppression d'un groupe entraine la suppression de toutes les couches qu'il contient de manière définitive, dans l'arbre et sur la carte
-
-enu contextuel d'une couche
--------------------------------
-
-.. |zoomt| image:: ../_static/images/zoomtolayer.png
-   :height: 16
-   :width: 16
+.. |zoomt| image:: ../_static/images/search.png
+   :height: 24
    :alt: Zoom to extent icon
 
 .. |viewt| image:: ../_static/images/table.png
-   :height: 16
-   :width: 16
+   :height: 24
    :alt: View table icon
    
-.. |style| image:: ../_static/images/palette.png
-   :height: 16
-   :width: 16
+.. |style| image:: ../_static/images/configuration.png
+   :height: 24
    :alt: Edit style icon
 
-.. |viewp| image:: ../_static/images/properties.png
-   :height: 16
-   :width: 16
+.. |viewp| image:: ../_static/images/delete.png
+   :height: 24
    :alt: View properties icon
    
-.. |setsc| image:: ../_static/images/scales.png
-   :height: 16
-   :width: 16
-   :alt: Set scales icon
-   
-.. |templ| image:: ../_static/images/template.png
-   :height: 16
-   :width: 16
-   :alt: Set template icon
    
 ========== ===================================================
 **Icône**  **Action**                  
 ---------- --------------------------------------------------- 
 |zoomt|    Zoom la carte sur l'étendue géographique de la couche 	           
 |viewt|    Ouvre la fenêtre contenant la table d'attributs de la couche 			 
-|style|    Ouvre la fenêtre d'édition du style de la couche          
-|viewp|    Ouvre la fenêtre des propriétés de la couche 
-|templ|    Ouvre la fenêtre de paramétrage du gabarit de la couche
-|setsc|    Ouvre le menu de gestion des échelles d'affichage de la couche 
-|delgr|    Ouvre la fenêtre de suppression de la couche   
-|movgr|    Déplace la couche dans l'arbre par glisser-déposer       
+|style|    Ouvre le panneau d'édition des propriétés de la couche          
+|viewp|    Supprimer une couche
 ========== ===================================================							
 
 Zoomer sur l'étendue d'une couche
 .................................
 
-Pour zoomer sur l'étendue géographique d'une couche, faites un clic droit sur le nom de la couche puis cliquez sur "Zoomer sur". Celà entraîne le centrage de la carte sur l'étendue de la couche, dans le panneau de visualisation de la carte à droite. 
+Pour zoomer sur l'étendue géographique d'une couche, faites un clic
+droit sur le nom de la couche puis cliquez sur "Zoomer sur". Cele
+entraine le recentrage de la carte sur l'étendue de la couche, dans le
+panneau de visualisation de la carte à droite.
 
 Ouvrir la table d'attributs
 ...........................
 
-Pour ouvrir la tables des attributs d'une couche, faites un clic droit sur le nom de la couche puis cliquez sur "Table". Celà entraîne l'ouverture de la fenêtre contenant la table de données, illustrée ci-dessous:
+Pour ouvrir la tables des attributs d'une couche, cliquez avec le
+boutton droit de votre souris sur le nom de la couche puis cliquez sur
+"Table" dans le menu contextuel. Cela entraine l'ouverture du panneau
+de présentation de la table de données, comme illustré ci-dessous:
  
 .. |viewtw| image:: ../_static/images/view-table-window.png
-   :scale: 80%
+   :width: 100%
    :alt: View table window
 
 |viewtw|
 
-A l'ouverture de la fenêtre, la carte est centrée sur l'étendue géographique des dix premières entités listées dans la table. Il existe deux types d'interactions entre la table et la carte:
- * Au survol d'une ligne de la table, l'entité géographique correspondante est mise en évidence sur la carte (bordure rouge et remplissage jaune de l'entité).
- * Au clic sur une ligne de la table, la carte est centrée sur l'étendue géographique de l'entité mise en évidence.
+Lorsque vous cliquez sur une ligne de la table, l'entité géographique
+correspondante est mise en évidence sur la carte.
  
 .. note::
 	Utilisez les boutons en bas de la table pour naviguer dans les pages de la table
@@ -283,146 +268,16 @@ A l'ouverture de la fenêtre, la carte est centrée sur l'étendue géographique
 .. note::
 	Vous pouvez controler le nombre d'entités affichées par page en utilisant la liste déroulante prévue à cet effet
 
-Style d'une couche
-.......................
+Configuration d'une couche
+..........................
 
-Le contenu de la fenêtre de style et les options proposée varient en fonction du type de couche.
- 
-.. warning::
-	Le style de la couche et l'icône correspondante sont utilisés dans la carte finale une fois publiée.
-	
-.. note::
-	Les paramètres de style correspondent aux propriétés CLASS, STYLE et SYMBOL du mapfile de **MapServer**. Consultez la `documentation de référence <http://mapserver.org/mapfile/index.html>`__ pour en savoir plus.
-	
-Pour modifier le style d'une couche vecteur de type **polygone** ou **ligne**, faites un clic droit sur le nom de la couche puis cliquez sur "Style". Celà entraîne l'ouverture de la fenêtre de paramétrage du style de la couche, illustrée ci-dessous:
-
-.. |setsty| image:: ../_static/images/set-style-window.png
-   :scale: 80%
-   :alt: Set layer style window
-
-|setsty|
-
-Les différents paramétrages possibles sont listés dans le tableau ci-dessous puis détaillés dans les sous-sections correspondantes.
-
-============================ ===================================================
-**Paramètre**                **Action**                  
----------------------------- --------------------------------------------------- 
-Opacité                      Modifie l'opacité de la couche 	           
-Type de légende              Sélectionne un type de légende pour le calcul de la symbologie de la couche 			 
-Expression                   Définit l'expression logique de la couche	
-Remplissage					 Définit la couleur de remplissage de la couche	
-Remplissage avec un symbole  Paramètre le remplissage de la couche avec un symbole
-Remplissahe hachuré          Paramètre le remplissage de la couche avec des hachures (trame)
-Bordure                      Définit la couleur de bordure de la couche
-Modèle de bordure            Paramètre l'affichage de la bordure de la couche
-Largeur                      Définit l'épaisseur de la bordure de la couche
-Légende                      Affiche l'icône correspondant au style définit
-============================ ===================================================	
-
-.. rubric::
-	Opacité
-	
-Déplacer le bouton du slider pour paramétrer la transparence de la couche. Cette valeur exprimée en % définit la transparence de la couche dans la carte finale (i.e dans le mapfile).
-
-.. rubric::
-	Type de légende
-	
-Sélectionnez un des types de légende proposé à l'aide de la liste déroulante prévue à cet effet.
-
-Dans le cas d'une classification de type **valeur unique**, chaque valeur quantitative de la variable (un champ attributaire) est définit par une classe. A l'issue de la classification, l'utilisateur obtient autant de classes qu'il y'a de valeurs différentes dans le champ attributaire.  
-
-Dans le cas d'une classification de type **symboles gradués**, les valeurs quantitatives de la variable sont regroupées selon un nombre de classes ordonnées. A l'intérieur d'une classe, toutes les entités sont dessinées avec le même symbole ou la même couleur.
-
-Dans le cas d'une classification de type **couleur continue**, les valeurs quantitatives de la variable sont regroupées selon un nombre de classes et un dégradé de couleurs. A l'intérieur d'une classe, toutes les entités sont dessinées avec le même symbole ou la même couleur. 
-
-Dans le cas d'une classification de type **série temporelle**, les trois types de classification définit précedemment peuvent être utilisés au sein d'étapes temporelles ("steps") correspondant à des champs de la table attributaire de la couche. Vous pouvez sélectionner ou ajouter une étape en utilisant la liste déroulante dédiée. La classification doit ensuite être paramétrée pour chacune des étapes ajoutées. Chaque étape dispose d'une légende lui étant propre.
-
-.. note::
-	L'utilisation d'une classification de type série temporelle engendre l'ajout d'une frise temporelle interactive dans la carte finale permettant de passer d'une étape à l'autre.
-	
-
-Une fois l'ensemble des paramètres renseignés, cliquez sur le bouton "Classer". Cela entraine le calcul de la classification et affiche le résulat dans la table des classes en bas de la fenêtre.
-
-.. |laycla| image:: ../_static/images/layer-classes-table.png
-   :scale: 75%
-   :alt: Layer classes table
-
-|laycla|
-
-Chaque classe peut ensuite être modifiée manuellement en cliquant sur la ligne correspondante dans la table des classes. Cela entraine l'ouverture de la fenêtre d'édition d'une classe, illustrée ci-dessous:
-
-.. |edtcl| image:: ../_static/images/edit-indicator-class.png
-   :scale: 75%
-   :alt: Edit layer class window
-
-|edtcl|
-
-Le **nom**, les **valeurs limites** et les différentes **options de remplissage et de bordure** peuvent être modifiés. Cliquez sur le bouton "Appliquer" en bas de la fenêtre pour enregistrer les modifications apportées. Celà entraine la modification de la classe dans la table des classes.
-
-
-.. rubric::
-	Expression 
-	
-Le clic sur la case à cocher "Expression" entraine l'affichage d'une zone de texte contenant l'expression logique de la classification (i.e le paramètre "Expresssion settings" de la couche dans le mapfile). Cette zone vous permet d'ajuster votre classification et les valeurs limite de classes.	
-
-.. rubric::
-	Remplissage
-
-Il est possible de définir le remplissage d'une couche avec:
- * Une couleur (sélection d'une couleur prédéfinie ou ajout d'un code couleur héxadécimal)
- * Un symbole (sélection d'un figuré dans la fenêtre du gestionnaire de symbole)
- * Une trame hachurée (paramétrage de l'angle, de la taille et de l'épaisseur des hachures).
-	
-.. rubric::
-	Bordure
-
-Il est possible de définir les attributs de la bordure de couche, avec:
- * Une couleur (sélection d'une couleur prédéfinie ou ajout d'un code couleur héxadécimal)
- * Une épaisseur (par exemple avec la valeur 1.5)
- * Un modèle de bordure tiretée (par exemple avec la valeur 4.0 2.0 4.0 2.0)
- 
-Une fois tout les paramètres renseignés, cliquez sur le bouton "Appliquer". L'icône de la légende est généré instantanément et affichée en bas de la fenêtre.
-
-
-Pour modifier le style d'une couche vecteur de type **point**, faites un clic droit sur le nom de la couche puis cliquez sur "Style". Celà entraîne l'ouverture de la fenêtre de paramétrage du style de la couche, illustrée ci-dessous:
-
-.. |setsym| image:: ../_static/images/set-symbol-window.png
-   :scale: 80%
-   :alt: Set point layer symbol window
-
-|setsym|
-
-Les même paramètres que pour les couches de polygones ou de lignes sont proposés, à l'exception du **choix du symbole** et de la **taille** qui sont des paramètres spécifiquex au style des points. 
-
-.. note::
-	Les options de remplissage avec un symbole ou une trame hachurée ne sont pas supportés pour les couches de points.
-
-Sélectionnez un symbole dans la liste en cliquant dessus, affectez lui une taille et renseignez les paramètres de remplissage et de bordures, puis cliquez sur le bouton "Appliquer". L'icône de la légende est généré instantanément et affichée en bas de la fenêtre.
-
-Il est possible d'ajouter de nouveaux symboles à la liste en cliquant sur le bouton "Ajouter". Cela entraine l'ouverture de la fenêtre du gestionaire de symboles, illustrée ci-dessous:
-
-.. |addsym| image:: ../_static/images/add-symbol-window.png
-   :scale: 80%
-   :alt: Add symbol window
-
-|addsym|
-
-Sélectionnez un fichier de police (.ttf) dans la liste déroulante. Cela entraine l'affichage des symboles contenus par le fichier dans la zone en dessous de la liste déroulante. le contenu de cette dernière est mis à jour en fonction du choix dans la liste déroulante.
-
-.. note::
-	En cliquant sur "Add TTF file" dans la liste déroulante, vous avez la possibilité d'uploader un nouveau fichier .ttf depuis votre ordinateur.
-	
-.. note::
-	En cliquant sur "Add external image" dans la liste déroulante, vous avez la possibilité d'uploader une image au **format .png** depuis votre ordinateur. 
-
-	
-Propriétés d'une couche
-.......................
+Propriétés générales d'une couche
+*********************************
 
 Pour consulter ou éditer les propriétés d'une couche, faites un clic droit sur le nom de la couche puis cliquez sur "Propriétés". Celà entraîne l'ouverture de la fenêtre des propriétés de la couche, illustrée ci-dessous:
 
 .. |setprop| image:: ../_static/images/set-layer-properties-window.png
-   :scale: 80%
+   :width: 100%
    :alt: Set layer properties window
 
 |setprop|
@@ -434,14 +289,15 @@ Les propriétés d'une couche sont listées dans le tableau ci-dessous:
 ---------------------------- --------------------------------------------------- 
 Nom                          Nom de la couche (le nom de la couche dans le mapfile) 	           
 Titre                        Titre de la couche 			 
-Description                  Description de la couche	
-ots clés					 Mots clés de la couche	
+Résumé                       Description de la couche	
+Mots clés					 Mots clés de la couche	
 Crédit                       Copyright, propriété, attribution ou frais relatif à la couche
-Requête                      Eligibilité de la couche à être requêtée par les outils de sélection
-Export                       Eligibilité de la couche à être utilisée par les outils d'export
-Filtre de zoom               Eligibilité de la couche à être utilisée par la fonctionnnalité de filtre
-Recherche                    Eligibilité de la couche à être utilisée par les outils de recherche
-Requêtes spatiales           Eligibilité de la couche à être utilisée par les outils d'analyse spatiale
+Requête                      Possibilité d'utiliser la couche avec les outils de sélection
+Exporter                       Possibilité d'utiliser la couche avec les outil d'export
+Filtre                         Possibilité d'utiliser la couche avec les outil de filtre
+Zoom sur                         Possibilité d'utiliser la couche avec les outils de zoom sur entité
+Chercher                     Possibilité d'utiliser la couche avec les outils de recherche
+Requêtes spatiales           Possibilité d'utiliser la couche avec les outils d'analyse spatiale
 ============================ ===================================================
 
 .. rubric::
@@ -475,73 +331,382 @@ Entrez une chaine de caractère décrivant la provenance des données utilisées
 .. rubric::
 	Requête
 
-Cliquez sur cette case si vous souhaitez pouvoir utiliser les outils de sélection avec cette couche dans la carte publiée.
+Cochez cette case si vous souhaitez pouvoir utiliser les outils de
+sélection avec cette couche dans la carte publiée.
 
 .. warning::
-	Une couche doit obligatoirement être déclarée comme requêtable pour que les fonctionnalités de sélection fonctionnent correctement dans la carte publiée
+	Une couche doit obligatoirement être déclarée comme requêtable
+	pour que les fonctionnalités de sélection fonctionnent
+	correctement pour la couche dans la carte publiée
 
 .. rubric::
-	Export
+	Exporter
 
-Cliquez sur cette case si vous souhaitez pouvoir utiliser les outils d'export avec cette couche dans la carte publiée.
+Cochez cette case si vous souhaitez pouvoir utiliser les outils
+d'export avec cette couche dans la carte publiée.
 
 .. warning::
-	Une couche doit obligatoirement être déclarée comme exportable pour que les fonctionnalités d'export fonctionnent correctement dans la carte publiée
+	Une couche doit obligatoirement être déclarée comme exportable
+	pour que les fonctionnalités d'export fonctionnent
+	correctement pour cette couche dans la carte publiée
 
 .. rubric::
-	Filtre de zoom
+	Filtre
 
-Cliquez sur cette case si vous souhaitez pouvoir utiliser les outils de filtre de zoom avec cette couche dans la carte publiée.		
+Cochez cette case si vous souhaitez pouvoir utiliser les outils
+de filtre de zoom avec cette couche dans la carte publiée.
 
 .. warning::
-	Une couche doit obligatoirement être déclarée comme filtrable pour que les fonctionnalités de filtre de zoom fonctionnent correctement dans la carte publiée
+	Une couche doit obligatoirement être déclarée comme filtrable
+	pour que les fonctionnalités de filtre fonctionnent
+	correctement pour cette couche dans la carte publiée 
 
 .. rubric::
-	Recherche
+	Chercher
 
-Cliquez sur cette case si vous souhaitez pouvoir utiliser le moteur de recherche avec cette couche dans la carte publiée.	
+Cochez cette case si vous souhaitez pouvoir utiliser le moteur de
+recherche avec cette couche dans la carte publiée.	
 
 .. warning::
-	Une couche doit obligatoirement être déclarée comme recherchable pour que la couche apparaisse dans le moteur de recherche de la carte publiée
+	Une couche doit obligatoirement être déclarée comme
+	"echerchable pour que la couche apparaisse dans le moteur de
+	recherche de la carte publiée
 
 .. note::
-	Toutes les couches déclarées comme recherchables apparaissent dans la liste déroulante du moteur de recherche de la carte publiée
+	Toutes les couches déclarées comme recherchables apparaissent
+	dans la liste déroulante du moteur de recherche de la carte
+	publiée 
 
 .. rubric::
 	Requête spatiale
 
-Cliquez sur cette case si vous souhaitez pouvoir utiliser les outils d'analyse et de requête spatiale avec cette couche dans la carte publiée.	
+Cliquez sur cette case si vous souhaitez pouvoir utiliser les outils
+d'analyse et de requête spatiale avec cette couche dans la carte
+publiée.
 
-	
-Gabarit d'une couche
-.......................
+Paramétrage de l'affichage de la table
+**************************************
+L'onglet de paramétrage de l'affichage de la table permet de définir
+la manière dont les données apparaitront dans l'application publiée
+lorsque l'utilisateur utilisera un outil de selection de données.
 
-Le gabarit d'une couche correspond au modèle utilisé dans la fenêtre "popup" d'une couche dans la carte publiée. 
+Le paramétrage se fait à l'aide du formulaire présenté ci-dessous. Il
+affiche chaque colone de la table comme un ligne et permet de définir
+plusieurs paramétres d'affichage de la table dans l'application
+publiée.
+
+.. |setlt| image:: ../_static/images/set-layer-table.png
+   :width: 100%
+   :alt: Set layer properties window
+
+|setlt|
+
+Si vous cliquez sur l'icône à gauche du numéro de ligne, que vous
+maintenez le boutton de votre souris enfoncé et que vous déplacez
+le curseur de votre souris de haut en bas ou de base en haut, vous
+avez la possibilité de définir l'ordre d'affichage des colones.
+
+Pour chaque colone, correspondant donc à une ligne du formulaire, vous
+pouvez définir :
+
+ * si la colone doit être affichée (ou non) en cochant (ou non) la case de la colone "D." du formulaire,
+ * si la colone doit être contenu dans les données téléchargeable par l'utilisateur (ou non) en cochant (ou non) la case de la colone "E." du formulaire,
+ * le titre à afficher dans l'application publiée pour la colonne à l'aide du champ de la colone "Étiquette",
+ * la largeur (en pixel) de la colone de la table à l'aide du champ de la colone "Largeur".
 
 .. note::
-	Les fenêtre popups et donc les gabarits sont à utiliser sur les couches vecteur de petit volume.
 
-Pour configurer le gabarit d'une couche, faites un clic droit sur le nom de la couche puis cliquez sur "Template". Celà entraîne l'ouverture de la fenêtre de l'éditeur de gabarit, illustrée ci-dessous:
+    Si vous affichez la table en même temps que le panneau de
+    paramétrage de l'affichage de la table et la table d'attributs,
+    vous pourrez alors directement l'outil de redimessionnement de la
+    table afin de définir ces valeurs par rapport à l'affichage que
+    vous souhaitez obtenir.
+
+.. warning::
+    La zone d'affichage de la table dans le module de gestion des
+    cartes est beaucoup plus réduit que celui utilisé dans
+    l'application publiée. Merci de considérer des tailles suffisantes
+    pour vos colones, même si ces dernières ne s'affichent pas
+    complètement dans ce module.
+
+Style d'une couche
+**************************
+
+Le contenu de l'onglet de paramétrage du style et les options
+proposées varient en fonction du type de couche. 
+ 
+.. warning::
+	Le style de la couche et l'icône correspondante sont utilisés dans la carte finale une fois publiée.
+	
+.. note::
+	Les paramètres de style correspondent aux propriétés CLASS, STYLE et SYMBOL du mapfile de **MapServer**. Consultez la `documentation de référence <http://mapserver.org/mapfile/index.html>`__ pour en savoir plus.
+	
+.. |setsty| image:: ../_static/images/set-style-window.png
+   :width: 100%
+   :alt: Set layer style window
+
+|setsty|
+
+Les différents paramétrages possibles sont listés dans le tableau
+ci-dessous puis détaillés dans les sous-sections correspondantes.
+
+Nous illustrons nos propos avec l'exemple du paramétrage du style
+d'une couche vecteur de type **polygone**, le paramétrage d'une couche
+de type **ligne** est comparable.
+
+============================ ===================================================
+**Paramètre**                **Action**                  
+---------------------------- --------------------------------------------------- 
+Opacité                      Modifie l'opacité de la couche 	           
+Type de légende              Sélectionne un type de légende pour la couche
+Formule de filtre                   Définit l'expression permettant de filtrer les entités d'une couche	
+Nom                          Définit le nom de la classe
+Remplissage					 Définit la couleur de remplissage de la couche	
+Remplissage avec un symbole  Définit que le remplissage de la couche doit être fait avec un symbole
+Remplissahe hachuré          Définit que la couche doit apparaitre hachurées (trame)
+Bordure                      Définit la couleur de bordure de la couche
+Modèle de bordure            Paramètre l'affichage de la bordure de la couche
+Largeur                      Définit l'épaisseur de la bordure de la couche
+Légende                      Affiche l'icône correspondant au style définit
+============================ ===================================================	
+
+.. rubric::
+	Opacité
+	
+Déplacer le bouton du slider pour paramétrer la transparence de la couche. Cette valeur exprimée en % définit la transparence de la couche dans la carte finale (i.e dans le mapfile).
+
+.. rubric::
+	Type de légende
+	
+Sélectionnez un des types de légende proposés à l'aide de la liste déroulante prévue à cet effet.
+
+Si vous utilisez un type de légende différent de "Symbole unique",
+vous aurez alors la possibilité d'éditer individuellement chacune des classes
+générées. Pour ce faire, il vous suffit de cliquer sur la ligne
+correspondante à la classe que vous souhaitez modifier.
+
+.. note::
+
+    A l'intérieur d'une classe,
+    toutes les entités sont dessinées avec le même symbole et / ou les
+    mêmes couleurs de remplissage et de bordure.
+
+Dans le cas d'une classification de type **valeur unique**, chaque
+valeur quantitative de la variable (un champ attributaire) est définit
+par une classe. A l'issue de la classification, l'utilisateur obtient
+autant de classes qu'il y'a de valeurs différentes dans le champ
+attributaire. 
+
+Dans le cas d'une classification de type **symboles gradués** ou
+**couleur continue** il est possible d'utiliser une méthode de
+discrétisation des données. les libraires de statistiques R est mise
+en oeuvre pour réaliser de telles classifications.
+
+.. warning::
+    Les types de classification **symboles gradués** et **couleur
+    continue** ne peuvent être utilisé qu'avec des champs de type
+    entier ou nombres flotants. Ils ne doivent pas être utilisés avec
+    un champ de type chaine de caractères par exemple.
+
+Dans le cas d'une classification de type **symboles gradués**, les
+valeurs de la variable sont regroupées selon un nombre de classes
+ordonnées par la valeur du champ utilisé pour réaliser la classification.
+
+Dans le cas d'une classification de type **couleur continue**, les
+valeurs quantitatives de la variable sont regroupées selon un nombre
+de classes et un dégradé de couleurs et utilisé pour affecter une
+couleur à une classe générée. 
+
+Dans le cas d'une classification de type **série temporelle**, les
+trois types de classification définit précedemment peuvent être
+utilisés au sein d'"étapes" correspondantes à différentes
+classifications que vous définissez (pour chaque étape créée). Vous
+pouvez sélectionner ou ajouter une étape en utilisant la liste déroulante
+prévue à cette effet. La classification doit ensuite être paramétrée
+pour chacune des étapes ajoutées. Chaque étape dispose d'une légende 
+lui étant propre. Dans l'application publiée, la couche apparaitra
+avec un légende dont la légende et l'affichage sur la carte varie au
+cours du temps.
+
+.. note::
+	L'utilisation d'une classification de type série temporelle engendre l'ajout d'une frise temporelle interactive dans la carte finale permettant de passer d'une étape à l'autre.
+	
+
+Une fois l'ensemble des paramètres renseignés, cliquez sur le bouton
+"Classer". Cela entraine la définition des classes et affiche le
+résulat dans la table des classes juste en dessous du boutton pressé.
+
+.. |laycla| image:: ../_static/images/layer-classes-table.png
+   :width: 100%
+   :alt: Table des classes d'une couche
+
+|laycla|
+
+Chaque classe peut ensuite être modifiée manuellement en cliquant sur
+la ligne correspondante dans la table des classes. Cela entraine
+l'affichage du formulaire d'édition d'une classe, illustré ci-dessous.
+
+.. |edtcl| image:: ../_static/images/edit-indicator-class.png
+   :width: 100%
+   :alt: Edit layer class window
+
+|edtcl|
+
+Le **nom**, les **valeurs limites** et les différentes **options de remplissage et de bordure** peuvent être modifiés. Cliquez sur le bouton "Appliquer" en bas de la fenêtre pour enregistrer les modifications apportées. Celà entraine la modification de la classe dans la table des classes.
+
+.. rubric::
+	Nom 
+	
+Le champ texte permet de définir le nom de la classe, le nom de la
+classe est affiché dans l'application publiée, il est donc important
+de lui attribuer une valeur pertinente.
+
+.. rubric::
+	Formule de filtre 
+	
+Cocher cette case entraine l'activation de la zone de texte contenant
+l'expression logique de la classification (i.e le paramètre
+"Expresssion settings" de la couche dans le mapfile). Cette zone vous
+permet d'ajuster votre classification et les valeurs limite de
+classes
+
+.. note::
+
+    Vous pouvez aussi utiliser le paramètre de filtre au niveau de la
+    classification si vous souhaiter filtrer les données à classer.
+
+.. rubric::
+	Remplissage
+
+Il est possible de définir le remplissage d'une couche avec:
+ * Une couleur (sélection d'une couleur prédéfinie ou ajout d'un code couleur héxadécimal)
+ * Un symbole (sélection d'un symbole dans la liste des symboles activés, couleurs intérieur et extérieur, taille du symbole, largeur de la bordure, saut entre les symboles)
+ * Une trame hachurée (paramétrage de l'angle, de la taille et de l'épaisseur des hachures).
+	
+.. rubric::
+	Bordure
+
+Il est possible de définir les attributs de la bordure de couche, avec:
+ * Une couleur (sélection d'une couleur prédéfinie ou ajout d'un code couleur héxadécimal)
+ * Une épaisseur (par exemple avec la valeur 1.5)
+ * Un modèle de bordure tiretée (par exemple avec la valeur 4.0 2.0 4.0 2.0)
+ 
+Une fois tout les paramètres renseignés, cliquez sur le bouton "Appliquer". L'icône de la légende est généré instantanément et affichée en bas de la fenêtre.
+
+Pour modifier le style d'une couche vecteur de type **point**, la
+procédure est identique à celle explicité pour les lignes et les
+polygones,le formulaire de paramétrafe est illustré ci-dessous:
+
+.. |setsym| image:: ../_static/images/set-symbol-window.png
+   :width: 100%
+   :alt: Set point layer symbol window
+
+|setsym|
+
+Les même paramètres que pour les couches de polygones ou de lignes sont proposés, à l'exception du **choix du symbole** et de la **taille** qui sont des paramètres spécifiquex au style des points. 
+
+.. note::
+	Les options de remplissage avec un symbole ou une trame hachurée ne sont pas supportés pour les couches de points.
+	
+Paramétrage de l'affichage des étiquettes d'une couche
+******************************************************
+
+Vous pouvez afficher ou non des étiquette pour une couche donnée à
+l'aide du formulaire présenté ci-dessous. En cochant la case vous
+pourrez activer l'affichage des étiquettes, en le décochant vous
+désactiverez leur affichage.
+
+.. |setll| image:: ../_static/images/set-layer-labels.png
+   :width: 100%
+   :alt: Set point layer symbol window
+
+|setll|
+
+Les paramétres à renseigner sont les suivants :
+
+.. rubric::
+	Champ d'étiquettes
+
+Le champ à utiliser pour créer l'étiquette, c'est la valeurs qui sera
+affichée sur l'entité de couche sur la carte.
+
+.. rubric::
+	Orientation
+
+Le texte affiché sur l'entité peut être orienté suivant un angel
+définit manuellement ou, en cochant la case en utilisant la valeur
+définie dans un champ de la table que vous pouvez selectionner dans la
+liste prévue à cette effet.
+
+.. rubric::
+	Taille de nettoyage
+
+Le champ text permet de définir la taille d'une la zone tampon autour
+d'une étiquette affichée afin de s'assurer qu'aucune autre étiquette
+ne sera affichée dans cette zone.
+
+.. rubric::
+	Police
+
+Le 3 listes déroulantes permettent de définir la police de caractères
+à utiliser, la taille des caractères et leur couleur.
+
+.. rubric::
+        Buffer autour du texte
+
+Cette case à cocher permet d'activer (ou non) la création d'une zone
+tampon bordant le texte de l'étiquette. Cela permet souvent d'obtenir
+un meilleur rendu des étiquettes. Vous pouvez définir la taille et
+la couleur de la zone.
+
+.. rubric::
+        Position
+
+La position permet de définir où doit être affiché l'étiquette par
+rapport à l'entité géographique à laquelle elle correspond.
+
+Une fois le paramétrage terminé, vous devez cliquer sur le boutton
+"Appliquer" afin de sauvegarder vos modification, l'affichage de la
+couche est alors rafraichi.
+
+Paramétrage de l'affichage des informations d'une couche
+********************************************************
+
+Le gabarit d'une couche correspond au modèle utilisé dans la bulle
+d'information ou la fenêtre au survol ou au clique sur une entité
+d'une couche dans la carte publiée. 
+
+.. note::
+	Les bulles d'informations et donc les gabarits sont à utiliser
+	sur les couches vecteurs uniquement.
+
+Pour configurer le gabarit d'une couche, vous devez utiliser le
+formulaire présenté ci-dessous.
 
 .. |settmpl| image:: ../_static/images/set-template-window.png
-   :scale: 80%
+   :width: 100%
    :alt: Set layer template window
 
 .. |settmplhtml| image:: ../_static/images/set-template-html-window.png
-	:scale: 80%
+	:width: 100%
 	:alt: Set layer template html window
 
-============================== ============================================
+============================== ==============================
 **Mode éditeur de texte**      **Mode éditeur HTML**       
------------------------------- --------------------------------------------
+------------------------------ ------------------------------
 |settmpl|           	  	   |settmplhtml|   
-============================== ============================================
+============================== ==============================
 
 Sélectionnez d'abord un cas d'utilisation disponible dans la première liste déroulante:
- * Default (Le gabarit est affiché dans une fenêtre popup au survol d'une entité de la couche)
- * Click (Le gabarit est affiché dans une fenêtre popup au clic sur une entité de la couche.
+ * "Au survol" (Le gabarit est affiché dans une bulle d'information au survol d'une entité de la couche)
+ * "Au click" (Le gabarit est affiché dans une fenêtre d'information au clic sur une entité de la couche.
  
-La deuxième liste déroulante liste quant à elle les champs présent dans la table attributaire de la couche. Le clic sur l'un des nom de champ entraine l'écriture de l'"item" correspondant dans la zone d'édition du gabarit en dessous.
+La deuxième liste déroulante liste quant à elle les champs présent
+dans la table attributaire de la couche. La sélection de l'un des noms
+de champs entraine l'écriture de la chaine, permettant un remplacement
+dynamique avec la valeur du champ correspondant à l'entité sur laquel
+l'utilisateur à sélectionné correspondant, dans la zone
+d'édition du gabarit en dessous.
 
 Vous disposez d'une grande liberté dans la rédaction du gabarit et vous pouvez facilement interroger les champs de la table attributaire. Une fois votre gabarit préparé, veuillez cliquer sur le bouton "Enregistrer" pour sauvegarder les modifications. Le succès de l'enregistrement est stipulé dans un bandeau vert en haut de l'écran.
 
@@ -553,39 +718,37 @@ Vous disposez d'une grande liberté dans la rédaction du gabarit et vous pouvez
 
 
 Echelles d'affichage d'une couche
-.................................
+*********************************
 
-Le paramétrage des échelles d'affichage d'une couche est réalisé visuellement par l'utilisateur. Le niveau de zoom courant du :doc:`../maps/mapsviewer` correspond à la valeur définie lors du clic sur l'un des types d'échelles proposé.
+Le paramétrage des échelles d'affichages d'une couche se fait à l'aide du
+formulaire présenté ci-dessous.
+
+.. |setldd| image:: ../_static/images/layer-display-def.png
+	:width: 100%
+	:alt: Set layer template html window
+
+|setldd|
+
+Le paramétrage des échelles d'affichage d'une couche peut être réalisé
+visuellement par l'utilisateur. Le niveau de zoom courant du
+:doc:`../maps/mapsviewer` peut être utilisé pour définir la valeur
+lors du click sur le boutton "Utiliser l'echelle de la carte".
 
 ============================ ===================================================
 **Type d'échelle**           **Action**                  
 ---------------------------- --------------------------------------------------- 
 Min                          Définit le zoom courant comme niveau d'affichage minimum d'une couche	           
-Max                          Définit le zoom courant comme niveau d'affichage maximum d'une couche 			 
-Etiquette Min                Définit le zoom courant comme niveau d'affichage minimum des étiquettes d'une couche	
-Etiquette Max			     Définit le zoom courant comme niveau d'affichage maximum des étiquettes d'une couche	
+Max                          Définit le zoom courant comme niveau d'affichage maximum d'une couche
 ============================ ===================================================
 
-.. note::
-
-    Zommer la carte au niveau désiré puis cliquer sur l'un des types d'échelle proposé lors du clic droit sur le nom de la couche
 
 Suppression d'une couche
 .........................
 
-Pour supprimer une couche de la carte comme de l'arbre, veuillez procéder à un clic droit sur le nom de la couche puis cliquer sur "Supprimer".
+Pour supprimer une couche de la carte comme de l'arbre, cliquez avec
+le boutton droit de votre souris sur le nom de la couche puis cliquer
+sur "Supprimer" du menu contextuel.
 
 .. warning::
 	La suppression d'une couche de la carte est définitive et supprime également sa symbologie et ses propriétés
 
-Déplacement d'une couche
-........................
-
-Pour déplacer une couche dans l'arbre, procéder à un clic droit sur le nom de la couche puis cliquer sur "Déplacer". Vous pouvez ensuite déplacer la couche à l'endroit désiré dans l'arbre par glisser-déposer.
-
-.. note::
- 	Maintenez votre curseur et déplacer la couche à la position désiré. Vous pouvez ainsi facilement déplacer une couche d'un groupe de couches à un autre.
-
-.. warning::
-	Cette fonctionnalité déplace uniquement la couche dans l'arbre, elle ne modifie pas l'ordre des couches sur la carte, ni dans le module de création de carte ni dans l'application publiée. 
- 

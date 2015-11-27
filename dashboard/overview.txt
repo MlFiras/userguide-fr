@@ -14,7 +14,7 @@ Différents panneaux présentent des informations spécifiques relatives
 à l'instance de MapMint, ils sont décrits dans les sections suivantes.
 
 .. |mmdhsb| image:: ../_static/images/dashboard-module-preview.png
-   :width: 700
+   :width: 100%
    :alt: Dashboard module preview image
    
 |mmdhsb|
@@ -34,7 +34,7 @@ Une boutton vous permets d'accéder directement au :doc:`../data/index`.
 |mmddb|
 
 .. |mmdmb| image:: ../_static/images/dashboard-manager-block.png
-   :width: 400
+   :width: 33%
    :alt: Visualisation des dernières carte créées
 
 Nombres de cartes disponibles
@@ -54,7 +54,7 @@ relatives aux versions des logiciels installés et utilisés par
 l'application MapMint.
 
 .. |mmdvb| image:: ../_static/images/dashboard-version-block.png
-   :width: 400
+   :width: 33%
    :alt: Visualisation des versions des logiciels installés
    
 |mmdvb|
@@ -63,19 +63,10 @@ Cela permet lors de rapport de problème de spécifier les versions utilisées.
 
 
 .. |mmddb| image:: ../_static/images/dashboard-datastore-block.png
-   :width: 400
+   :width: 33%
    :alt: Visualisation des données disponibles
    
  
-Le nombre de cartes crées dans le :doc:`../maps/index` ainsi que le nombres de projets publiés dans le :doc:`../apps/index` sont par ailleur indiqués en dessous.
-
-
-
-Statistiques du serveur
-L'adresse IP du serveur est : 161.3.155.73
-Version de MapServer : 6.2.0
-Version de GDAL : 1.10.0
-Disk usage
 
 Gestion des symboles
 --------------------------------------------------------
@@ -113,18 +104,18 @@ formulaires de l'application.
 
 
 .. |mmdsrb| image:: ../_static/images/dashboard-srs-block.png
-   :width: 50%
+   :width: 33%
    :alt: Visualisation du panneau de gestion des symboles
 
    
 |mmdsrb|
 
 .. |mmdsb| image:: ../_static/images/dashboard-symbols-block.png
-   :width: 400
+   :width: 33%
    :alt: Visualisation du panneau de gestion des symboles
    
 .. |mmdmb| image:: ../_static/images/dashboard-manager-block.png
-   :width: 400
+   :width: 33%
    :alt: Visualisation des dernières carte créées
    
 
