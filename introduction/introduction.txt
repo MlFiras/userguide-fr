@@ -6,14 +6,14 @@ Généralités
 Qu’est-ce que MapMint?
 ---------------------
 
-apMint est un logiciel de système d'information géographique (SIG) sur l'Internet  conçu pour faciliter le déploiement d'**infrastructures de données spatiales** (IDS). 
+MapMint est un logiciel de système d'information géographique (SIG) sur l'Internet  conçu pour faciliter le déploiement d'**infrastructures de données spatiales** (IDS). 
 
-apMint s'adresse aux individus et aux organisations souhaitant maîtriser et optimiser la mise en place d'IDS et le déploiement d'applications de cartographie dynamique. L'application centralise et simplifie un certain nombre de fonctionnalités SIG et WebSIG. Les différents niveaux de droits utilisateur répartissent les tâches selon les publics (administrateurs système, géomaticiens, techniciens SIG, cartographes, webmasters...).  
+MapMint s'adresse aux individus et aux organisations souhaitant maîtriser et optimiser la mise en place d'IDS et le déploiement d'applications de cartographie dynamique. L'application centralise et simplifie un certain nombre de fonctionnalités SIG et WebSIG. Les différents niveaux de droits utilisateur répartissent les tâches selon les publics (administrateurs système, géomaticiens, techniciens SIG, cartographes, webmasters...).  
 
 Que permet MapMint?
 --------------------
 
-apMint permet d'effectuer plusieurs tâches relative à la mise en place d'une IDS, depuis une interface d'administration modulaire et conviviale. L'utilisateur MapMint peut, selon ses droits: 
+MapMint permet d'effectuer plusieurs tâches relative à la mise en place d'une IDS, depuis une interface d'administration modulaire et conviviale. L'utilisateur MapMint peut, selon ses droits: 
 
  * Importer et stocker des données SIG vecteur et raster
  * Interroger des base de données et des serveur WMS/WFS externes 
@@ -27,7 +27,7 @@ apMint permet d'effectuer plusieurs tâches relative à la mise en place d'une I
 Comment fonctionne MapMint?
 ---------------------------
 
-apMint regroupe plusieurs `logiciels libres <http://mapmint.com/en/Components>`__ dans une plateforme de webmapping complète et cohérente, dont le fonctionnement repose sur l'utilisation des `standards ouverts <http://mapmint.com/en/Components>`__ de la géomatique et de l'internet.
+MapMint regroupe plusieurs `logiciels libres <http://mapmint.com/en/Components>`__ dans une plateforme de webmapping complète et cohérente, dont le fonctionnement repose sur l'utilisation des `standards ouverts <http://mapmint.com/en/Components>`__ de la géomatique et de l'internet.
 
 .. |archi| image:: ../_static/images/mm-architecture-scheme.png
    :height: 345
