@@ -32,7 +32,7 @@ Un document peut être un fichier ou une URL.
 
 Pour ajouter un fichier depuis votre station de travail, veuillez cliquer sur le bouton "Choisissez un fichier". Cela entraine l'ouverture d'une fenêtre de votre navigateur permettant de sélectionner un fichier .pdf, .doc, .xls, .jpg ou .png. Cliquez sur le bouton "Ajouter", ce qui entraine le chargement du document sur le serveur.
 
-Pour ajouter un document de type URL, veuillez spécifier une URL valide dans le champs prévu à cet effet.
+Pour ajouter un document de type URL, veuillez spécifier une URL valide dans le champ prévu à cet effet.
 
 Description du document
 -------------------------------------
@@ -42,7 +42,7 @@ La decription du document est un contenu HTML décrivant le document. Ce contenu
 Droits des groupes
 ---------------------------------
 
-L'accès au document peut être restreint à certain groupes d'utilisateurs. Cliquez sur le/les groupes ciblés dans la liste à choix multiple prévue à cet effet.
+L'accès au document peut être restreint à certains groupes d'utilisateurs. Cliquez sur le/les groupes ciblés dans la liste à choix multiples prévue à cet effet.
 
 .. note::
 	Cliquez en maintenant la touche CTRL enfoncée pour sélectionner plusieurs groupes.
