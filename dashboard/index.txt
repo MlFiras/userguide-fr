@@ -13,7 +13,7 @@ Le tableau de bord de MapMint est constitué de 3 sections spécifiques
 
  * **Utilisateurs** qui permet la gestion des utilisateurs et des groupes d'utilisateurs,
 
- * **Paramétrage**  qui permet la gestion de paramètres de l'application.
+ * **Paramétrage**  qui permet la gestion des paramètres de l'application.
 
 .. toctree::
    :maxdepth: 2
