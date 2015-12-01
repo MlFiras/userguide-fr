@@ -5,7 +5,7 @@ Panneau de configuration
 
 Le panneau de configuration permet de visualiser et d'éditer les
 paramètres d'installation de MapMint. Les formulaires sont renseignés
-automatiquement par rapport au contenu du fichier de paramétrages
+automatiquement par rapport au contenu du fichier de paramétrage
 ``main.cfg``.
 
 .. warning::
