@@ -157,7 +157,7 @@ user         		      Définit le nom d'utilisateur à utiliser pour se connecter
 host               	      Définit le nom de machine ou le scoket de domaine unix à utiliser pour se connecter au serveur de bases de données
 port       		          Définit le port à utiliser pour se connecter au serveur de bases de données
 dbname                            Définit le nom de la base de données à utiliser
-schema						  Définit le schema de stockage utilisé pour les table du système
+schema						  Définit le schema de stockage utilisé pour les tables du système
 password						  Définit le mot de passe à utiliser pour se connecter au serveur de bases de données
 ============================= ============================================
 	
