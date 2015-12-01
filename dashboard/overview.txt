@@ -7,8 +7,8 @@ Le panneau "Vue d'ensemble" du :doc:`../dashboard/index` fournit une
 vision d'ensemble de l'instance MapMint à un des administrateurs de
 l'application.
 
-La date et l'heure de votre dernière connexion à l'instance est
-premièrement indiquée en haut à gauche.
+La date et l'heure de votre dernière connexion à l'instance sont
+premièrement indiquées en haut à gauche.
 
 Différents panneaux présentent des informations spécifiques relatives
 à l'instance de MapMint, ils sont décrits dans les sections suivantes.
@@ -49,7 +49,7 @@ ligne d'une carte, vous pouvez charger cette carte dans le :doc:`../maps/index`
 Versions des logiciels installés
 --------------------------------------------------------
 
-Le panneau orange présenté ci-dessous, fournis les informations
+Le panneau orange présenté ci-dessous, fournit les informations
 relatives aux versions des logiciels installés et utilisés par
 l'application MapMint.
 
@@ -74,7 +74,7 @@ Gestion des symboles
 Le panneau gris présenté ci-dessous liste :
 
  * les symboles que vous pourrez utiliser pour définir le style de vos couches depuis le :doc:`../data/index`, 
- * les polices disponible dans une liste déroulante,
+ * les polices disponibles dans une liste déroulante,
  * la liste des symboles d'une police sélectionnée.
 
 Il permet la gestion des symboles utilisés pour définir le style de
