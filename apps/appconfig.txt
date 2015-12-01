@@ -10,11 +10,11 @@ Panneau de configuration d'applications
 
 La publication d'une application cartographique se fait à l'aide de 4
 onglets de paramétrages distincts, chacune des parties correspondantes
-doivent être correctement reseignées.
+doit être correctement reseignée.
 
 .. note::
    Vous pouvez passer d'un onglet à un autre et effectuer des
-   modifications à tout moment. Vos paramétres ne sont sauvegarder que
+   modifications à tout moment. Vos paramétres ne sont sauvegardés que
    lorsque vous cliquez sur le boutton "Publier"
    
 .. warning::
@@ -45,7 +45,7 @@ doivent être correctement reseignées.
 ------------ ---------------- ------------- 
 |general|    Générale    	  Configuration générale de l'application 	           
 |layerss|    Couches		  Configuration des couches de l'application	          
-|mapssss|    Carte			  Configuration de la carte de l'application 
+|mapssss|    Carte		  Configuration de la carte de l'application 
 |ctrlsss|    Service		  Configuration des fonctionnalités de l'application 			          
 ============ ================ =============							
 
