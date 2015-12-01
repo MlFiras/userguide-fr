@@ -65,7 +65,7 @@ Groupe				 Définit le/les groupe(s) de l'utilisateur
 ==================== ============================================
 
 .. warning::
-	Tout les champs doivent être renseignés pour créer le compte utilisateur.
+	Tous les champs doivent être renseignés pour créer le compte utilisateur.
 	
 .. warning::
 	Vérifiez les droits nécessaires à l'utilisateur et assignez lui un groupe. 
