@@ -93,7 +93,7 @@ Templatespath		Définit le chemin complet vers le répertoire mapmint-ui/templat
 Configuration de l'identification
 ----------------------------------
 
-Les formulaires de configuration de l'identification et du forunisseur des services permet de caractériser l'organisation qui publie les données et la personne responsable du serveur et/ou de l'application MapMint.
+Les formulaires de configuration de l'identification et du forunisseur des services permettent de caractériser l'organisation qui publie les données et la personne responsable du serveur et/ou de l'application MapMint.
 
 ============================= ============================================
 **Paramètre**                 **Définition**       
