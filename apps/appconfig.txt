@@ -67,10 +67,10 @@ URL du projet                Affiche l'URL relative de l'application publiée
 Carte active                 Affiche le nom de la carte utilisée par l'application publiée
 Date                         Affiche la date et l'heure de publication de l'application
 Langue                       Définit la langue utilisée par l'application publiée
-ots-clés                     Définit les mots clés de l'application par une liste de mots séparés par des virgules
+Mots-clés                    Définit les mots clés de l'application par une liste de mots séparés par des virgules
 Auteur                       Définit le nom de l'auteur de l'application publiée
 Copyright                    Définit la valeur du copyright de l'application publiée
-Description                  Définit le description de l'application publiée
+Description                  Définit la description de l'application publiée
 ============================ ===================================================	
 
 .. note::
@@ -91,7 +91,7 @@ Description                  Définit le description de l'application publiée
 .. warning:: 
 	Veillez à renseigner tous les champs éditables.
 
-Un apperçu du premier onglet de paramétrages est présenté ci-dessous.
+Un apperçu du premier onglet de paramétrage est présenté ci-dessous.
 
 .. |pm| image:: ../_static/images/publisher-main-conf.png
    :width: 100%
@@ -115,9 +115,9 @@ Les couches de fond permettent d'afficher des tuiles provenant de serveurs tiers
 **Paramètre**                **Définition**                  
 ---------------------------- --------------------------------------------------- 
 Default                      Désigne la couche de fond affichée par défaut au chargement de l'application publiée	           
-OpenStreetMap                Ajoute les tuiles OpenStreetMap comem couche de fond disponible			 
-MapQuest                      Ajoute les tuiles MapQuest Open comme couches de fond disponibles	
-Google   					 Ajoute les tuiles Google Maps comme couches de fond disponibles	
+OpenStreetMap                Ajoute les tuiles OpenStreetMap comme couches de fond disponibles			 
+MapQuest                     Ajoute les tuiles MapQuest Open comme couches de fond disponibles	
+Google           	     Ajoute les tuiles Google Maps comme couches de fond disponibles	
 Bing                         Ajoute les tuiles Microsoft Bing comme couches de fond disponibles	
 IGN                          Ajoute les tuiles IGN Geoportail comme couches de fond disponibles
 Created layers               Ajoute un projet MapMint comme couche de fond disponible (WMTS)
@@ -130,7 +130,7 @@ Created layers               Ajoute un projet MapMint comme couche de fond dispo
 |confbl|
 
 .. note::
-	Cliquez en mainteant la touche Shift de votre clavier enfoncée pour sélectionner plusieurs couches de fond.
+	Cliquez en maintenant la touche Shift de votre clavier enfoncée pour sélectionner plusieurs couches de fond.
 
 .. rubric:: Couches de fond libres
 
@@ -156,7 +156,7 @@ Les couches de fond MapQuest Map et MapQuest Aerial utilisent l'`Open JavaScript
 ========== ================= ===================================================
 **Icone**  **Paramètre**     **Définition**                  
 ---------- ----------------- ---------------------------------------------------           
-|osml|     OpenStreetMap     Ajoute les tuiles OpenStreetMap comem couche de fond disponible			 
+|osml|     OpenStreetMap     Ajoute les tuiles OpenStreetMap comem couches de fond disponibles			 
 |mqstr|    MapQuest Map      Ajoute les tuiles MapQuest Open comme couches de fond disponibles	
 |mqsat|    MapQuest Satelite Ajoute les tuiles Google Maps comme couches de fond disponibles	
 ========== ================= ===================================================
