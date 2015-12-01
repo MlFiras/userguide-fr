@@ -15,7 +15,7 @@ clic sur le titre de l'onglet entraine l'affichage de la table correspondante.
 
 |mui|   
 
-Chaque onglet dispose de la même barre d'outils comportant trois boutons décrit ci-après.
+Chaque onglet dispose de la même barre d'outils comportant trois boutons décrits ci-après.
 
 .. |addu| image:: ../_static/images/add-user.png
    :width: 25
@@ -85,7 +85,7 @@ verte). Cliquez ensuite sur le bouton "Editer" de la barre d'outils,
 ce qui entraine l'affichage du formulaire d'édition de l'utilisateur
 correspondant.
 
-Tout les paramètres de l'utilisateur sont modifiables. Cliquez sur le
+Tous les paramètres de l'utilisateur sont modifiables. Cliquez sur le
 bouton "Sauver" pour sauvegarder les modifications, qui seront
 signalées dans un bandeau vert en haut de l'écran.
 
@@ -141,7 +141,7 @@ Description       	 Définit le groupe par une courte phrase
 Accès admin       	 Définit si le groupe dispose d'un accès administrateur
 ==================== ============================================
 
-Veuillez renseigner tout les champs listés dans le tableau ci-dessus,
+Veuillez renseigner tous les champs listés dans le tableau ci-dessus,
 puis cliquer sur le bouton "Ajouter". Celà entraine la disparission du formulaire, l'ajout du groupe dans le tableau puis le rechargement de la page. Ouvrez à nouveau la fenêtre de gestion des utilisateurs et l'onglet "Groupe" pour constater l'ajout du nouveau groupe.
 
 .. note::
@@ -156,7 +156,7 @@ bleue). Cliquez ensuite sur le bouton “Editer” de la barre d’outils,
 ce qui entraine l’affichage du formulaire d’édition du groupe
 d'utilisateurs correspondant.
 
-Tout les paramètres du groupe sont modifiables. Cliquez sur le bouton
+Tous les paramètres du groupe sont modifiables. Cliquez sur le bouton
 “Sauver” pour enregistrer les modifications.
 
 .. |eugw| image:: ../_static/images/edit-usergroup-window.png
@@ -169,7 +169,7 @@ Supprimer un groupe
 ---------------------------
 
 Pour supprimer un groupe d'utilisateurs, cliquez sur la ligne du
-tableau correspondante puis cliquez sur le bouton “Supprimer”. Cela
+tableau correspondant puis cliquez sur le bouton “Supprimer”. Cela
 entraine l’affichage du formulaire de suppression d’un groupe
 utilisateur, comme illustré ci-dessous.
 
