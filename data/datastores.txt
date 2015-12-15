@@ -8,9 +8,9 @@ Espaces de stockage
     :backlinks: top
 
 Un espace de stockage contient des sources de données, locales ou
-distantes. Il est défini par un nom (sans accents, espace ou
+distantes. Il est définit par un nom (sans accents, espace ou
 caractères spéciaux), ainsi que par différents paramètres selon son
-type. Il existe quatre types d'espace de stockage dans MapMint:
+type. Il existe quatre types d'espaces de stockage dans MapMint:
 
 .. |adddb| image:: ../_static/images/database.png
    :height: 24
@@ -91,9 +91,9 @@ comme illustré ci-dessous.
 
 |adddbw|
 
-Renseignez tout les champs puis cliquez sur le bouton "Tester". 
+Renseignez tous les champs puis cliquez sur le bouton "Tester". 
 
-Si le test renvoi un message de succès, vous pouvez alors cliquer sur le bouton "Ajouter". Cela entraîne la fermeture de la fenêtre et l'ajout du nouvel espace de stockage dans l'abre de gauche, dans la section PostGIS ou MySQL.
+Si le test renvoie un message de succès, vous pouvez alors cliquer sur le bouton "Ajouter". Cela entraîne la fermeture de la fenêtre et l'ajout du nouvel espace de stockage dans l'abre de gauche, dans la section PostGIS ou MySQL.
 
 .. note::
    Une fois l'espace de stockage crée, cliquez sur ce dernier dans le
@@ -121,7 +121,7 @@ Renseignez le nom de l'espace de stockage, l'URL du serveur OGC ciblé
 ainsi que le protocole à utiliser (WMS ou WFS), puis cliquez sur le
 bouton "Tester". 
 
-Si le test renvoi un message de succès, vous pouvez alors cliquer sur le bouton "Ajouter". Cela entraîne la fermeture de la fenêtre et l'ajout du nouvel espace de stockage dans l'abre de gauche, dans la section Serveur WFS.
+Si le test renvoie un message de succès, vous pouvez alors cliquer sur le bouton "Ajouter". Cela entraîne la fermeture de la fenêtre et l'ajout du nouvel espace de stockage dans l'arbre de gauche, dans la section Serveur WFS.
 
 Le clic sur l'espace de stockage entraine l'affichage des couches OGC du serveur externe.
 
@@ -139,9 +139,9 @@ affichage comme illstré ci-dessous.
 
 Les espaces de stockage offrent des fonctions spécifiques suivant leur
 type, l'ensemble des boutons de la barre d'outils correspondante à un
-espace de stockagre est présenté ci-dessous. Pour chaque boutton, le
+espace de stockagre est présenté ci-dessous. Pour chaque bouton, le
 type d'espace de stockage depuis lequel la fonctionnalité est
-accessible est aussi mis en évidence.
+accessible est aussi mise en évidence.
 
 .. |select| image:: ../_static/images/select.png
    :height: 24
@@ -188,15 +188,15 @@ Barre d'outils d'un espace de stockage
 ============ ==================== ============================================
 **Icône**    **Accessible** 		    **Action**       
 ------------ -------------------- --------------------------------------------
-|select|      Tous                Selectionner toutes les sources de données contenues 	           
+|select|      Tous                Selectionnez toutes les sources de données contenues 	           
 |moz|         Répertoire          Créer une mosaïc d'images (requiert une source de données image sélectionnée)
 |download| 	 Répertoire 	          Télécharge les sources de données sélectionnées (requiert une source de données image sélectionnée)
 |share| 	 Tous 	 	  Ouvrir les sources de données selectionnées dans le :ref:`maps` (requiert une source de données sélectionnée) 			 
 |db| 	         Base de données  Accéder à la base de données
-|upload| 	 Répertoire 	          Envoyer une source de données dans l'espace de stockage du serveur
+|upload| 	 Répertoire 	          Envoyez une source de données dans l'espace de stockage du serveur
 |tile| 	           Répertoire     Créer un index de tuiles dans l'espace de stockage
-|privileges| 	 Tous 	          Gestion des droits d'accés d'un espace de stockage 	          
-|conf|           Tous 	          Paramétrage de l'espace de stockage	          
+|privileges| 	 Toute 	          Gestion des droits d'accés d'un espace de stockage 	          
+|conf|           Tout 	          Paramétrage de l'espace de stockage	          
 |delete| 	 Tous 	          Supprimer l'espace de stockage       
 |refresh| 	 Tous 	          Rafraichir l'espace de stockage 	          
 |toggle| 	 Tous 	          Afficher / masquer l'espace de stockage 	          
@@ -260,7 +260,7 @@ exemple) et a une seule propriété qui est le chemin complet vers le
 fichier image.
 
 Pour créer un index de tuiles, vous devez placer un répertoire
-cotenant l'ensemble des photos à partir desquelles vous souhaiter
+contenant l'ensemble des photos à partir desquelles vous souhaitez
 créer un index de tuiles. Une fois ceci fait, vous pouvez cliquer sur
 le boutton "Créer un index de tuiles" de l'espace de stockage dans
 lequel vous souhaitez le stocker, le formulaire présenté ci-dessous
@@ -279,9 +279,9 @@ de tuiles" pour générer l'index de tuiles.
 Gestion des droits d'accés d'un espace de stockage
 --------------------------------------------------
 
-Une source de données est accessible à tout les groupes d'utilisateurs
+Une source de données est accessible à tous les groupes d'utilisateurs
 par défaut. Pour modifier les permissions l'accès à une couche,
-veuillez cliquer sur l'icone correspondant dans la
+veuillez cliquer sur l'icone correspondante dans la
 :ref:`datasource-table-label`. Celà entraîne l'affichage du formulaire
 de gestion de droits d'accès, illustré ci-dessous.
 
@@ -299,7 +299,7 @@ listés dans la table suivante.
 ---------- --------------------------------------------
 r          Le groupe d'utilisateurs à accès à l'espace de stockage en lecture
 w          Le groupe d'utilisateurs à accès à l'espace de stockage en écriture
-x          Le groupe d'utilisateurs à le droit d'exécuter de services dans l'espace de stockage			           	  	           
+x          Le groupe d'utilisateurs à le droit d'exécuter des services dans l'espace de stockage			           	  	           
 ========== ============================================
 
 Ajoutez un ou plusieur groupes avec le bouton "Ajouter", cela entraine
@@ -326,14 +326,14 @@ Supprimer un espace de stockage
 --------------------------------------------------
 
 Si vous cliquez sur le boutton "Supprimer l’espace de stockage", une
-fenêtre apparait vous invitant à confirmer votre volonter de supprimer
+fenêtre apparait vous invitant à confirmer votre volont� de supprimer
 un espace de stockage. La suppression d'un espace de stockage peut
-entrainer des pertes de données grave et impliquer que l'application
+entrainer des pertes de données graves et impliquer que l'application
 grand publique devienne instable du fait de l'indisponibilité de
 certaines sources de données nécessaires. Il est donc impératif de
 s'assurer qu'aucun projet ne dépend de données présentes dans l'espace
 de stockage que vous souhaitez supprimer avant de le faire. Si vous
-souhaitez vraiment supprimer un espace de stockage, cliquez alors du
+souhaitez vraiment supprimer un espace de stockage, cliquez alors sur
 le bouton "Oui" de la fenêtre vous informant des implications
 de la suppression.
 
@@ -345,7 +345,7 @@ Mapfile spécifique à MapServer qui permet la diffusion des sources de
 données contenues. Une fois ce fichier créé, il n'est plus
 modifié. Cela implique que si vous avez ajouté, supprimé ou créée une
 nouvelle source de données dans un espace de stockage, vous devrez
-utiliser le boutton de rafraichissement permettant d'obtenir une liste
-exhaustive des sources de données contenue dans un espace de
+utilisez le boutton de rafraichissement permettant d'obtenir une liste
+exhaustive des sources de données contenues dans un espace de
 stockage. Lorsque vous cliquez sur le boutton de rafraichissement, le
 contenu de l'espace de stockage est mis à jour.

@@ -68,7 +68,7 @@ Carte publiée                  http://votre-instance.com/public/le-nom-de-votre
 Premiers paramétrages
 ----------------------
 
-Lors d'une première connexion, les étapes suivantes sont recommandées pour le assurer le bon fonctionnement de l'interface publique.
+Lors d'une première connexion, les étapes suivantes sont recommandées pour  assurer le bon fonctionnement de l'interface publique.
 
 Titre de l'interface publique
 .................................
@@ -94,7 +94,7 @@ Deux solutions sont proposées pour charger des données SIG sur le serveur d'in
 
 Si vous souhaitez ajouter des données vectorielles légères (**< 2Mo**), rendez vous dans le :doc:`../data/index` et utiliser l'utilitaire de chargement de données (upload), dont le fonctionnement est décrit dans la section relative aux :doc:`../data/index`.
 
-Si vous désirez charger des données vecteur ou raster plus volumineuses, il vous faudra utiliser l'accès FTP qui vous a été fourni avec les informations de connexion à votre instance MapMint. Pour ce faire, veuillez installer et lancer un client FTP depuis votre ordinateur (comme `FileZilla <https://filezilla-project.org/>`__ par exemple) et renseigner les informations suivantes dans le formulaire prévu à cet effet (en haut de la fenêtre du logiciel dans le cas de FileZilla), puis cliquer sur le bouton "Connexion".
+Si vous désirez charger des données vecteur ou rester plus volumineuses, il vous faudra utiliser l'accès FTP qui vous a été fournit avec les informations de connexion à votre instance MapMint. Pour ce faire, veuillez installer et lancer un client FTP depuis votre ordinateur (comme `FileZilla <https://filezilla-project.org/>`__ par exemple) et renseigner les informations suivantes dans le formulaire prévu à cet effet (en haut de la fenêtre du logiciel dans le cas de FileZilla), puis cliquer sur le bouton "Connexion".
 
 ============================== ============================================
 **Paramètre**                  **Définition**       
@@ -119,7 +119,7 @@ Une fois connecté au serveur, le répertoire général de stockage des sources 
 
 .. warning::
 
-	Le nom d'un nouveau répertoire de données ne doit pas contenir d'accent ou de caractères spéciaux !
+	Le nom d'un nouveau répertoire de données ne doit pas contenir d'accents ou de caractères spéciaux !
 	
 .. 
 

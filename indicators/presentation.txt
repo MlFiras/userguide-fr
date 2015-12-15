@@ -7,11 +7,11 @@ Qu'est ce qu'un indicateur ?
 ---------------------------------
 
 Un indicateur MapMint constitue une carte (mapfile) regroupant des
-information statistiques et géométriques issues de la jointure de deux
+informations statistiques et géométriques issues de la jointure de deux
 sources de données différentes. Il est crée par l'utilisateur grâce
 aux étapes de la :doc:`indicatorspanel`.
 
-Un indicateur est définit par les éléments suivants, tous accessible
+Un indicateur est définit par les éléments suivants, tous accessibles
 depuis l'interface publique une fois l'indicateur publié: 
 
 ======================== =============================================

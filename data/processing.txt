@@ -20,7 +20,7 @@ utilisateur à l'outil en ligne de commande `ogr2ogr
 <http://www.gdal.org/ogr/>`__. Il permet de convertir et de reprojeter
 une source de données vectorielles.
 
-Pour y accéder, veuillez cliquer sur l'icône correspondant dans la
+Pour y accéder, veuillez cliquer sur l'icône correspondante dans la
 barre d'outils des :doc:`datasources`. Cela entraine l'affichage du
 formulaire du convertisseur, avec la source de données selectionnée en
 entrée et affichée dans la partie "Source".
@@ -62,7 +62,7 @@ Utilitaire de traitements des sources de données matricielles
 
 L'utilitaire de traitement des raster fournit une interface utilisateur à la commande `gdaldem <http://www.gdal.org/gdaldem.html>`__ de la librairie `GDAL <http://www.gdal.org>`__. Il permet de procéder de nouvelles sources de données de type raster.
 
-Pour y accéder, veuillez cliquer sur l'icône correspondant dans la barre d'outils des :doc:`datasources`. Cela entraine l'ouverture de la fenêtre de l'utilitaire de traitement, avec la source de données selectionnée en entrée.
+Pour y accéder, veuillez cliquer sur l'icône correspondante dans la barre d'outils des :doc:`datasources`. Cela entraine l'ouverture de la fenêtre de l'utilitaire de traitement, avec la source de données selectionnée en entrée.
 
 .. |rpw| image:: ../_static/images/process-raster-window.png
    :width: 100%

@@ -1,9 +1,9 @@
 .. _themes:
 
-Module de crÃ©ation de thÃ¨mes
+Module de création de thémes
 ================================
 
-Cette section regroupe la documentation relative au module de crÃ©ations de thÃ¨mes de MapMint.
+Cette section regroupe la documentation relative au module de création de thémes de MapMint.
 
 .. toctree::
    :maxdepth: 2

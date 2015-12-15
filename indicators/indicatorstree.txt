@@ -29,7 +29,7 @@ l'utilisateur par date de création, dans le panneau de gauche du
 Ajouter un indicateur
 -------------------------------
 
-Pour ajouter un nouvel indicateur, veuillez cliquer sur l'icône correspondante dans la barre d'outil du paneau de gauche. Cela ouvre la fenêtre d'ajout d'indicateur illustrée ci-dessous.
+Pour ajouter un nouvel indicateur, veuillez cliquer sur l'icône correspondante dans la barre d'outils du panneau de gauche. Cela ouvre la fenêtre d'ajout d'indicateurs illustrée ci-dessous.
 
 .. |addiw| image:: ../_static/images/add-indicator-window.png
 	:scale: 80%
@@ -42,7 +42,7 @@ Veuillez spécifier un nom dans la zone de texte prévue à cet effet puis cliqu
 Supprimer un indicateur
 -----------------------
 
-Pour supprimer un indicateur existant, veuillez cliquer sur le nom d'un indicateur dans l'arbre, puis sur l'icône de suppression dans la barre d'outil du paneau de gauche. Cela ouvre la fenêtre de suppression d'indicateur illustrée ci-dessous.
+Pour supprimer un indicateur existant, veuillez cliquer sur le nom d'un indicateur dans l'arbre, puis sur l'icône de suppression dans la barre d'outil du panneau de gauche. Cela ouvre la fenêtre de suppression d'indicateurs illustrée ci-dessous.
 
 .. |deliw| image:: ../_static/images/delete-indicator-window.png
 	:scale: 80%

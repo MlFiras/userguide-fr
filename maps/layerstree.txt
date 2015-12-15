@@ -92,12 +92,12 @@ le bouton "Ajouter une couche", ce qui entraîne l'affichage du
 formulaire correspondant comme illutré ci-après. 
 
 Selectionnez d'abord un espace de stockage dans la première liste
-déroulante. Celà refraichit la seconde liste affcihant les sources de
+déroulante. Celà refraichit la seconde liste affichant les sources de
 données contenues dans l'espace de stockage sélectionné.
 
 Sélectionnez ensuite une ou plusieurs sources de données, le groupe de
 couches dans lequel vous souhaitez qu'elle(s) apparaisse(nt), puis
-cliquez sur le bouton "Ajouter". Celà entraîne la disparission du
+cliquez sur le bouton "Ajouter". Celà entraîne la disparution du
 formulaire, le rafraichissement du module et l'ajout de la couche à 
 la carte. 
 
@@ -140,7 +140,7 @@ correspondant comme présenté ci-dessous.
 |addgrw|
 
 Spécifiez un nom pour la grille puis cliquez sur le bouton "Ajouter",
-ce qui entraîne la disparission du formulaire et l'ajout de la grille
+ce qui entraîne la disparution du formulaire et l'ajout de la grille
 à la racine de l'arbre des couches. Veuillez consulter la section
 relative au panneau de paramétrage des couches pour parametrer le
 style de la grille.
@@ -248,7 +248,7 @@ panneau de visualisation de la carte à droite.
 Ouvrir la table d'attributs
 ...........................
 
-Pour ouvrir la tables des attributs d'une couche, cliquez avec le
+Pour ouvrir la table des attributs d'une couche, cliquez avec le
 boutton droit de votre souris sur le nom de la couche puis cliquez sur
 "Table" dans le menu contextuel. Cela entraine l'ouverture du panneau
 de présentation de la table de données, comme illustré ci-dessous:
@@ -293,8 +293,8 @@ Résumé                       Description de la couche
 Mots clés					 Mots clés de la couche	
 Crédit                       Copyright, propriété, attribution ou frais relatif à la couche
 Requête                      Possibilité d'utiliser la couche avec les outils de sélection
-Exporter                       Possibilité d'utiliser la couche avec les outil d'export
-Filtre                         Possibilité d'utiliser la couche avec les outil de filtre
+Exporter                       Possibilité d'utiliser la couche avec les outils d'export
+Filtre                         Possibilité d'utiliser la couche avec les outils de filtre
 Zoom sur                         Possibilité d'utiliser la couche avec les outils de zoom sur entité
 Chercher                     Possibilité d'utiliser la couche avec les outils de recherche
 Requêtes spatiales           Possibilité d'utiliser la couche avec les outils d'analyse spatiale
@@ -391,7 +391,7 @@ la manière dont les données apparaitront dans l'application publiée
 lorsque l'utilisateur utilisera un outil de selection de données.
 
 Le paramétrage se fait à l'aide du formulaire présenté ci-dessous. Il
-affiche chaque colone de la table comme un ligne et permet de définir
+affiche chaque colonne de la table comme un ligne et permet de définir
 plusieurs paramétres d'affichage de la table dans l'application
 publiée.
 
@@ -404,29 +404,29 @@ publiée.
 Si vous cliquez sur l'icône à gauche du numéro de ligne, que vous
 maintenez le boutton de votre souris enfoncé et que vous déplacez
 le curseur de votre souris de haut en bas ou de base en haut, vous
-avez la possibilité de définir l'ordre d'affichage des colones.
+avez la possibilité de définir l'ordre d'affichage des colonnes.
 
-Pour chaque colone, correspondant donc à une ligne du formulaire, vous
+Pour chaque colonne, correspondant donc à une ligne du formulaire, vous
 pouvez définir :
 
- * si la colone doit être affichée (ou non) en cochant (ou non) la case de la colone "D." du formulaire,
- * si la colone doit être contenu dans les données téléchargeable par l'utilisateur (ou non) en cochant (ou non) la case de la colone "E." du formulaire,
- * le titre à afficher dans l'application publiée pour la colonne à l'aide du champ de la colone "Étiquette",
- * la largeur (en pixel) de la colone de la table à l'aide du champ de la colone "Largeur".
+ * si la colonne doit être affichée (ou non) en cochant (ou non) la case de la colonne "D." du formulaire,
+ * si la colonne doit être contenue dans les données téléchargeables par l'utilisateur (ou non) en cochant (ou non) la case de la colonne "E." du formulaire,
+ * le titre à afficher dans l'application publiée pour la colonne à l'aide du champ de la colonne "Étiquette",
+ * la largeur (en pixel) de la colonne de la table à l'aide du champ de la colonne "Largeur".
 
 .. note::
 
     Si vous affichez la table en même temps que le panneau de
     paramétrage de l'affichage de la table et la table d'attributs,
-    vous pourrez alors directement l'outil de redimessionnement de la
-    table afin de définir ces valeurs par rapport à l'affichage que
+    vous pourrez alors param�trer directement l'outil de redimessionnement de la
+    table afin de définir ses valeurs par rapport à l'affichage que
     vous souhaitez obtenir.
 
 .. warning::
     La zone d'affichage de la table dans le module de gestion des
     cartes est beaucoup plus réduit que celui utilisé dans
     l'application publiée. Merci de considérer des tailles suffisantes
-    pour vos colones, même si ces dernières ne s'affichent pas
+    pour vos colonnes, même si ces dernières ne s'affichent pas
     complètement dans ce module.
 
 Style d'une couche
@@ -627,7 +627,7 @@ Les paramétres à renseigner sont les suivants :
 .. rubric::
 	Champ d'étiquettes
 
-Le champ à utiliser pour créer l'étiquette, c'est la valeurs qui sera
+Le champ à utiliser pour créer l'étiquette, c'est la valeur qui sera
 affichée sur l'entité de couche sur la carte.
 
 .. rubric::
@@ -666,7 +666,7 @@ La position permet de définir où doit être affiché l'étiquette par
 rapport à l'entité géographique à laquelle elle correspond.
 
 Une fois le paramétrage terminé, vous devez cliquer sur le boutton
-"Appliquer" afin de sauvegarder vos modification, l'affichage de la
+"Appliquer" afin de sauvegarder vos modifications, l'affichage de la
 couche est alors rafraichi.
 
 Paramétrage de l'affichage des informations d'une couche

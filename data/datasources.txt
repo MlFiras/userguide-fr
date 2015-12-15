@@ -25,7 +25,7 @@ Une source de données est constituée d'une ou plusieurs informations à réfé
    :height: 24
    :alt: Raster datasource icon
    
-Les pictogrammes utilisés pour illustrés le type d'une source de
+Les pictogrammes utilisés pour illustrer le type d'une source de
 données sont présentés dans la table suivante.
 
 ========== ============================================
@@ -101,7 +101,7 @@ Définir l'encodage des caractères de la table
 
 MapMint utilise l'encodage UTF-8 par défaut pour afficher les tables des sources de données. Il est toutefois fréquent que des données encodées dans un autre système soient chargées dans le module de gestion des données. Dans ce cas, il est possible d'assigner un système d'encodage différent dans le champs texte prévu à cet effet, à droite de la barre de navigation. 
 
-Veuillez y entrer le code de l'encodage désiré, puis cliqué sur l'icône "Rafraichir" de la barre d'outil. Cela entrâine le rechargement de la table et son affichage dans l'encodage souhaité.
+Veuillez y entrer le code de l'encodage désiré, puis cliquez sur l'icône "Rafraichir" de la barre d'outil. Cela entrâine le rechargement de la table et son affichage dans l'encodage souhaité.
 
 Des exemples d'encodage de caractère sont listés ci-dessous à titre informatif:
 
@@ -116,7 +116,7 @@ shift-jis                Syllabaires et écriture sinographique traditionnelle d
 ======================== =============================================
 
 .. note:: 
-	Obtenez plus d'informaton sur le codage des caractères sur `Wikipédia <http://fr.wikipedia.org/wiki/Codage_des_caract%C3%A8res>`__ 
+	Obtenez plus d'informatons sur le codage des caractères sur `Wikipédia <http://fr.wikipedia.org/wiki/Codage_des_caract%C3%A8res>`__ 
 
 
 Données matricielles
@@ -198,7 +198,7 @@ Barre d'outils des sources de données
 Droits d'accès
 ..................................
 
-Une source de données est accessible à tout les groupes d'utilisateurs par défaut. Pour modifier les permissions l'accès à une couche, veuillez cliquer sur l'icone correspondant dans la :ref:`datasource-table-label`. Celà entraîne l'ouverture de la fenêtre des droits d'accès, illustrée ci-dessous:
+Une source de données est accessible à tous les groupes d'utilisateurs par défaut. Pour modifier les permissions l'accès à une couche, veuillez cliquer sur l'icone correspondant dans la :ref:`datasource-table-label`. Celà entraîne l'ouverture de la fenêtre des droits d'accès, illustrée ci-dessous:
 
 .. |setp| image:: ../_static/images/data-privileges.png
 	:width: 100%
@@ -214,17 +214,17 @@ w          Le groupe d'utilisateur à accès à la couche en écriture
 x          Le groupe d'utilisateur à accès ...			           	  	           
 ========== ============================================
 
-Ajoutez un ou plusieur groupes avec le bouton "Ajouter", cela entraine l'ajout de listes déroulantes dans la fenêtre. Ajustez les valeurs **r**, **w** et **x** puis cliquer sur le bouton "Valider". La fenêtre se ferme et l'enregistrement des modifications est stipulé en haut de votre écran dans un bandeau de couleur verte.
+Ajoutez un ou plusieur groupes avec le boutton "Ajouter", cela entraine l'ajout de listes déroulantes dans la fenêtre. Ajustez les valeurs **r**, **w** et **x** puis cliquer sur le bouton "Valider". La fenêtre se ferme et l'enregistrement des modifications est stipulé en haut de votre écran dans un bandeau de couleur verte.
 
 Convertir une source de données
 ...............................
 
-La conversion de données est traiter dans la partie : :ref:`data-processing`.
+La conversion de données est trait�e dans la partie : :ref:`data-processing`.
 
 Téléchargement
 ..................................
 
-Pour télécharger une source de données sur votre ordinateur, il suffit de cliquer sur l'icône correspondant dans la :ref:`datasource-table-label`. Cela engendre le téléchargement direct de la donnée, archivée dans un fichier .zip 
+Pour télécharger une source de données sur votre ordinateur, il suffit de cliquer sur l'icône correspondante dans la :ref:`datasource-table-label`. Cela engendre le téléchargement direct de la donnée, archivée dans un fichier .zip 
 
 Prévisualisation 
 ..................................
@@ -276,7 +276,7 @@ Ouverture
 Pour ouvrir une source de données dans le :doc:`../maps/index`, veuillez cliquer sur l'icône correspondante dans la :ref:`datasource-table-label`. Cela entraine l'ouverture de la source de données dans le :doc:`../maps/index`. La source de données est ajouté à la racine de l'arbre de couches, dans un projet *Untitled_0* et représentée avec le style par défaut. 
 
 .. note::
-	Une fois la source de données chargée, il est conseiller d'enregistrer le projet *Untitled_0* sous un non adéquat 
+	Une fois la source de données chargée, il est conseill� d'enregistrer le projet *Untitled_0* sous un nom adéquat 
 
 
 

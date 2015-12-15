@@ -66,7 +66,7 @@ Groupe				 Définit le/les groupe(s) de l'utilisateur
 ==================== ============================================
 
 .. warning::
-	Tout les champs doivent être renseignés pour créer le compte utilisateur.
+	Tous les champs doivent être renseignés pour créer le compte utilisateur.
 	
 .. warning::
 	Vérifiez les droits nécessaires à l'utilisateur et assignez lui un groupe. 
@@ -80,9 +80,9 @@ Groupe				 Définit le/les groupe(s) de l'utilisateur
 Editer un utilisateur
 ---------------------------
 
-Pour éditer un utilisateur, veuillez cliquer sur une ligne du tableau des utilisateurs. Cette dernière est alors mis en évidence (couleur verte). Cliquez ensuite sur le bouton "Editéer" de la barre d'outil, ce qui entraine l'ouverture de la fenêtre d'édition de l'utilisateur correspondant.
+Pour éditer un utilisateur, veuillez cliquer sur une ligne du tableau des utilisateurs. Cette dernière est alors mise en évidence (couleur verte). Cliquez ensuite sur le bouton "Editéer" de la barre d'outil, ce qui entraine l'ouverture de la fenêtre d'édition de l'utilisateur correspondant.
 
-Tout les paramètres de l'utilisateur sont modifiables. Cliquez sur le bouton "Enregistrer" pour sauvegarder les modifications, qui seront signalées dans un bandeau vert en haut de l'écran.
+Tous les paramètres de l'utilisateur sont modifiables. Cliquez sur le bouton "Enregistrer" pour sauvegarder les modifications, qui seront signalées dans un bandeau vert en haut de l'écran.
 
 
 .. |euw| image:: ../_static/images/edit-user-window.png
@@ -130,7 +130,7 @@ Accès admin       	 Définit si le groupe dispose d'un accès administrateur
 Utilisateurs		 Définit les utilisateurs du groupe
 ==================== ============================================
 
-Veuillez renseigner tout les champs listés dans le tableau ci-dessus, puis cliquer sur le bouton "Ajouter". Celà entraine la fermeture de la fenêtre, l'ajout du groupe dans le tableau puis le rechargement de la page. Ouvrez à nouveau la fenêtre de gestion des utilisateurs et l'onglet "Groupe" pour constater l'ajout du nouveau groupe.
+Veuillez renseigner tous les champs listés dans le tableau ci-dessus, puis cliquez sur le bouton "Ajouter". Celà entraine la fermeture de la fenêtre, l'ajout du groupe dans le tableau puis le rechargement de la page. Ouvrez à nouveau la fenêtre de gestion des utilisateurs et l'onglet "Groupe" pour constater l'ajout du nouveau groupe.
 
 .. note::
 	L'ajout d'utilisateurs lors de la création du groupe est facultative
@@ -138,9 +138,9 @@ Veuillez renseigner tout les champs listés dans le tableau ci-dessus, puis cliq
 Editer un groupe
 ---------------------------
 
-Pour éditer un groupe, veuillez cliquer sur une ligne du tableau lui correspondant. Cette dernière est alors mis en évidence (couleur verte). Cliquez ensuite sur le bouton “Editéer” de la barre d’outil, ce qui entraine l’ouverture de la fenêtre d’édition du groupe d'utilisateurs correspondant.
+Pour éditer un groupe, veuillez cliquer sur une ligne du tableau lui correspondant. Cette dernière est alors mise en évidence (couleur verte). Cliquez ensuite sur le bouton “Editéer” de la barre d’outil, ce qui entraine l’ouverture de la fenêtre d’édition du groupe d'utilisateurs correspondant.
 
-Tout les paramètres du groupe sont modifiables. Cliquez sur le bouton “Enregistrer” pour sauvegarder les modifications, qui seront signalées dans un bandeau vert en haut de l’écran.
+Tous les paramètres du groupe sont modifiables. Cliquez sur le bouton “Enregistrer” pour sauvegarder les modifications, qui seront signalées dans un bandeau vert en haut de l’écran.
 
 .. |eugw| image:: ../_static/images/edit-usergroup-window.png
    :scale: 80%
@@ -151,7 +151,7 @@ Tout les paramètres du groupe sont modifiables. Cliquez sur le bouton “Enregi
 Supprimer un groupe
 ---------------------------
 
-Pour supprimer un groupe d'utilisateurs, cliquez sur la ligne du tableau lui correspondant puis cliquez sur le bouton “Supprimer”. Cela entraine l’ouverture de la fenêtre de suppression d’un groupe utilisateur, illustrée ci-dessous.
+Pour supprimer un groupe d'utilisateurs, cliquez sur la ligne du tableau lui correspondant puis cliquez sur le bouton “Supprimer”. Cela entraine l’ouverture de la fenêtre de suppression d’un groupe utilisateurs, illustrée ci-dessous.
 
 .. |dugw| image:: ../_static/images/delete-usergroup-window.png
    :scale: 80%
@@ -162,7 +162,7 @@ Pour supprimer un groupe d'utilisateurs, cliquez sur la ligne du tableau lui cor
 Le nom du groupe est spécifié dans un champ texte, cliquez sur le bouton "Supprimer" pour supprimer le groupe. Celà entraine la fermeture de la fenêtre, la suppression du groupe dans le tableau puis le rechargement de la page.
 
 .. warning::
-	La suppression d'un groupe entraine la suppression de tout les utilisateurs qu'il contient.
+	La suppression d'un groupe entraine la suppression de tous les utilisateurs qu'il contient.
 	
 .. warning::
 	La suppression d'un groupe d'utilisateurs est définitive !

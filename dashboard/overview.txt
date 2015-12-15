@@ -29,7 +29,7 @@ dans la panneau bleu présenté ci-dessous, il informe l'administrateur sur:
  * Le nombre de répertoires et de bases de données
  * Le nombre de sources de données disponibles
 
-Une boutton vous permets d'accéder directement au :doc:`../data/index`.
+Une boutton vous permet d'accéder directement au :doc:`../data/index`.
 
 |mmddb|
 
@@ -78,7 +78,7 @@ Le panneau gris présenté ci-dessous liste :
  * la liste des symboles d'une police sélectionnée.
 
 Il permet la gestion des symboles utilisés pour définir le style de
-vos couches. La mode opératoire de ce panneau est très simple.
+vos couches. Le mode opératoire de ce panneau est très simple.
 Si vous selectionnez une police présente dans la liste déroulante au
 milieu du panneau, l'ensemble des symboles qu'elle contient sera alors
 affiché en desous. Vous avez la possibilité de sélectionner un ou plusieur
@@ -116,6 +116,6 @@ formulaires de l'application.
    
 .. |mmdmb| image:: ../_static/images/dashboard-manager-block.png
    :width: 33%
-   :alt: Visualisation des dernières carte créées
+   :alt: Visualisation des dernières cartes créées
    
 

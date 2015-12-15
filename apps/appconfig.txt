@@ -10,7 +10,7 @@ Panneau de configuration d'applications
 
 La publication d'une application cartographique se fait à l'aide de 4
 onglets de paramétrages distincts, chacune des parties correspondantes
-doit être correctement reseignée.
+doit être correctement renseignée.
 
 .. note::
    Vous pouvez passer d'un onglet à un autre et effectuer des
@@ -89,7 +89,7 @@ Description                  Définit la description de l'application publiée
 	La description de l'application est utilisée dans l'interface publique. Vous pouvez l'éditez avec un éditeur rich-text. Pour plus d'information sur les fonctionnalités de l'éditeur, veuillez vous référer à la `documentation de CKEditor <http://docs.cksource.com/Main_Page>`__ .
 	
 .. warning:: 
-	Veillez à renseigner tous les champs éditables.
+	Veuillez à renseigner tous les champs éditables.
 
 Un apperçu du premier onglet de paramétrage est présenté ci-dessous.
 
@@ -109,7 +109,7 @@ Les couches de fond (ou d'arrière plan) et les couches du projet sont paramétr
 Couches de fond
 ..........................
 
-Les couches de fond permettent d'afficher des tuiles provenant de serveurs tiers, mais aussi d'utiliser un projet créer dans le :doc:`../maps/index`. Les différents paramètres disponibles sont listés ci-dessous.
+Les couches de fond permettent d'afficher des tuiles provenant de serveurs tiers, mais aussi d'utiliser un projet créé dans le :doc:`../maps/index`. Les différents paramètres disponibles sont listés ci-dessous.
 
 ============================ ===================================================
 **Paramètre**                **Définition**                  
@@ -156,14 +156,14 @@ Les couches de fond MapQuest Map et MapQuest Aerial utilisent l'`Open JavaScript
 ========== ================= ===================================================
 **Icone**  **Paramètre**     **Définition**                  
 ---------- ----------------- ---------------------------------------------------           
-|osml|     OpenStreetMap     Ajoute les tuiles OpenStreetMap comem couches de fond disponibles			 
+|osml|     OpenStreetMap     Ajoute les tuiles OpenStreetMap comme couches de fond disponibles			 
 |mqstr|    MapQuest Map      Ajoute les tuiles MapQuest Open comme couches de fond disponibles	
 |mqsat|    MapQuest Satelite Ajoute les tuiles Google Maps comme couches de fond disponibles	
 ========== ================= ===================================================
 
 .. rubric:: Couches de fond propriétaires	
 
-Les couches de fond Google Maps utilise l'`API Google Maps v3 <https://developers.google.com/maps/documentation/javascript/>`__. Leur utilisation est soumise aux `termes et conditions <https://developers.google.com/maps/terms/>`__ de Google Maps.
+Les couches de fond Google Maps utilisent l'`API Google Maps v3 <https://developers.google.com/maps/documentation/javascript/>`__. Leur utilisation est soumise aux `termes et conditions <https://developers.google.com/maps/terms/>`__ de Google Maps.
 
 .. |gmap| image:: ../_static/images/gmap-layer-icon.png
    :height: 24
@@ -188,13 +188,13 @@ Les couches de fond Google Maps utilise l'`API Google Maps v3 <https://developer
 ========== ================= ===================================================
 **Icone**  **Paramètre**     **Définition**                  
 ---------- ----------------- ---------------------------------------------------           
-|gmap|     Google Maps       Ajoute les tuiles Google Maps comme couche de fond disponible			 
+|gmap|     Google Maps       Ajoute les tuiles Google Maps comme couches de fond disponibles			 
 |gsat|     Google Satelite   Ajoute les tuiles Google Satelite comme couches de fond disponibles	
 |ghyb|     Google Hybrid     Ajoute les tuiles Google Hybride comme couches de fond disponibles	
 |gter|     Google Terain     Ajoute les tuiles Google Terrain comme couches de fond disponibles
 ========== ================= ===================================================
 
-Les couches de fond Bing Maps utilise l'`API Bing Maps <http://www.microsoft.com/maps/>`__. Leur utilisation est soumise aux `termes et conditions <http://www.microsoft.com/maps/product/terms.html/>`__ de Microsoft Bing.
+Les couches de fond Bing Maps utilise l'`API Bing Maps <http://www.microsoft.com/maps/>`__. Leurs utilisations sont soumises aux `termes et conditions <http://www.microsoft.com/maps/product/terms.html/>`__ de Microsoft Bing.
 
 .. |bmap| image:: ../_static/images/bstr-layer-icon.png
    :height: 24
@@ -214,12 +214,12 @@ Les couches de fond Bing Maps utilise l'`API Bing Maps <http://www.microsoft.com
 ========== ================= ===================================================
 **Icone**  **Paramètre**     **Définition**                  
 ---------- ----------------- ---------------------------------------------------           
-|bmap|     Bing Maps         Ajoute les tuiles Bing Maps comme couche de fond disponible			 
+|bmap|     Bing Maps         Ajoute les tuiles Bing Maps comme couches de fond disponibles			 
 |bsat|     Bing Satelite     Ajoute les tuiles Bing Satelite comme couches de fond disponibles	
 |bhyb|     Bing Hybrid       Ajoute les tuiles Bing Hybride comme couches de fond disponibles	
 ========== ================= ===================================================
 
-Les couches de fond IGN utilise l'`API IGN Geoportail <http://api.ign.fr/services#web>`__. Leur utilisation est soumise aux `termes et conditions <http://api.ign.fr/licences>`__ de l'Institut Géographique National.
+Les couches de fond IGN utilise l'`API IGN Geoportail <http://api.ign.fr/services#web>`__. Leurs utilisations sont soumises aux `termes et conditions <http://api.ign.fr/licences>`__ de l'Institut Géographique National.
 
 .. |ignm| image:: ../_static/images/ignm-layer-icon.png
    :height: 24
@@ -234,27 +234,27 @@ Les couches de fond IGN utilise l'`API IGN Geoportail <http://api.ign.fr/service
 ========== ================= ===================================================
 **Icone**  **Paramètre**     **Définition**                  
 ---------- ----------------- ---------------------------------------------------           
-|ignm|     Cartes            Ajoute les tuiles Cartes IGN comme couche de fond disponible			 
+|ignm|     Cartes            Ajoute les tuiles Cartes IGN comme couches de fond disponibles			 
 |igns|     Photos aériennes  Ajoute les tuiles Photos aérienne IGN comme couches de fond disponibles	
 ========== ================= ===================================================
 
 .. rubric:: Couches de fond MapMint
 
-Les cartes crées dans le :doc:`../maps/index` sont listées dans la dernière liste déroulante du formulaire des couches de fonds.
+Les cartes créées dans le :doc:`../maps/index` sont listées dans la dernière liste déroulante du formulaire des couches de fonds.
 
 Le choix d'une carte crée comme couche de fond entraine la création d'une pyramide de tuile de la carte (WMTS). La couche de fond sera ajoutée à la légende avec un icone généré automatiquement.
 
 Couches du projet
 ..........................
 
-Les couches utilisée dans la carte active sont listées dans un tableau situé dans la partie inférieure de la fenêtre. Utilisez les cases à cocher, les boutons radio et les listes déroulantes pour les paramétrer. Les différents paramètres sont listés dans le tableau ci-dessous.
+Les couches utilisées dans la carte active sont listées dans un tableau situé dans la partie inférieure de la fenêtre. Utilisez les cases à cocher, les boutons radio et les listes déroulantes pour les paramétrer. Les différents paramètres sont listés dans le tableau ci-dessous.
  
 ============================ ===================================================
 **Paramètre**                **Définition**                  
 ---------------------------- --------------------------------------------------- 
 Vector                       Définit la couche en mode Vecteur (WFS)	           
 Raster                       Définit la couche en mode Raster (WMS)			 
-Activated                    Définit si la couche est activé par défaut au chargement de l'application publiée	
+Activated                    Définit si la couche est activée par défaut au chargement de l'application publiée	
 Acess   					 Définit les groupes d'utilisateurs autorisés à consulter la couche 
 MinZoom                       Définit l'échelle d'affichage minimum de la couche	
 MaxZoom                       Définit l'échelle d'affichage maximum de la couche
@@ -275,7 +275,7 @@ Window                       Définit l'ouverte d'une fenetre au clic sur les en
 	Le mode vecteur est à utiliser uniquement pour les couches peu volumineuses (max 2Mo).
 	
 .. warning::
-	L'activation de Popups ou de Fenetres suppose que la couche ai été paramétrée comme requetable dans le :doc:`../maps/index`.
+	L'activation de Popups ou de Fenetres suppose que la couche ait été paramétrée comme requetable dans le :doc:`../maps/index`.
 
 	
 
@@ -341,7 +341,7 @@ GC                                  Définit si le Gestionnaire de Couche doit �
 ============================ ===================================================
 
 
-Les trois listes déroulantes permettent de modifier les propriétés CSS de base des caractères utilisée par l'aplication, telles que la famille de caractère (font-family), la taille générale de caractère (font-size) et la couleur de caractère (color).
+Les trois listes déroulantes permettent de modifier les propriétés CSS de base des caractères utilisée par l'application, telles que la famille de caractère (font-family), la taille générale de caractère (font-size) et la couleur de caractère (color).
 
 Il n'est pas nécessaire de les modifier par défaut, et leur utilisation est prévue pour des cas spécifiques.
 
@@ -534,7 +534,7 @@ Frontières                                               Affiche les limites de
 Zone tampon	                                          Affiche la zone tampon de l'entité sélectionnée
 Zone tampon avec masque		                          Affiche le masque de la zone tampon de l'entité sélectionnée
 Centroïde                                                Affiche le centroide de l'entité sélectionnée
-Envellope convexe                                        Affiche l'envellope convexe de de l'entité sélectionnée
+Envellope convexe                                        Affiche l'envellope convexe  de l'entité sélectionnée
 Requête spatiale                                         Affiche les entités résulant de la requête parmétrée
 Simplification                                           Simplifie par suppression des noeuds de l'entité sélectionnée
 ============================ ===================================================
@@ -568,7 +568,7 @@ Prévisualisation de l'application
 
 Vous avez la possibilité de prévisualiser l'application à publier en
 cliquant sur le bouton "Prévisualiser". Cela entraine l'ouverture de
-l'application dans un nouveal onglet de votre navigateur.
+l'application dans un nouvel onglet de votre navigateur.
 
 Supprimer l'application
 ------------------------------------------

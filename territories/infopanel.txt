@@ -7,7 +7,7 @@ Panneau d'information
     :depth: 4
     :backlinks: top
     
-Le panneau d'information des territoires permet de visualiser et d'Ã©diter les propriÃ©tÃ©s du territoire sÃ©lÃ©ctionnÃ© dans le panneau des territoires. 
+Le panneau d'information des territoires permet de visualiser et d'éditer les propriétés du territoire séléctionné dans le panneau des territoires. 
 
 .. |inftew| image:: ../_static/images/territory-infopanel-window.png
 	:scale: 80%
@@ -18,23 +18,23 @@ Le panneau d'information des territoires permet de visualiser et d'Ã©diter les p
 Nom du territoire
 -------------------------------------
 
-Le nom du territoire renseignÃ© doit Ãªtre synthÃ©tique. La valeur du champs texte est utilisÃ© dans l'interface publique.
+Le nom du territoire renseigné doit étre synthétique. La valeur du champs texte est utilisée dans l'interface publique.
 
-DonnÃ©e gÃ©ographique
+Donnée géographique
 -------------------------------------
 
-SÃ©lectionnez la table de la base de donnÃ©es que vous souhaitez attribuÃ© au territoire, Ã  l'aide la liste dÃ©roulante prÃ©vue Ã  cet effet.
+Sélectionnez la table de la base de données que vous souhaitez attribuer au territoire, Ã  l'aide de la liste déroulante prévue Ã  cet effet.
 
 Territoire parent
 -------------------------------------
 
-SÃ©lectionnez le/les territoires parents avec la liste Ã  choix multiple prÃ©vue Ã  cet effet.
+Sélectionnez le/les territoires parents avec la liste Ã  choix multiple prévue Ã  cet effet.
 
 Droits des groupes
 ---------------------------------
 
-L'accÃ¨s au territoire peut Ãªtre restreint Ã  certain groupes d'utilisateurs. Cliquez sur le/les groupes ciblÃ©s dans la liste Ã  choix multiple prÃ©vue Ã  cet effet.
+L'accés au territoire peut étre restreint Ã  certain groupes d'utilisateurs. Cliquez sur le/les groupes ciblés dans la liste Ã  choix multiple prévue Ã  cet effet.
 
 .. note::
-	Cliquez en maintenant la touche Shift enfoncÃ©e pour sÃ©lectionner plusieurs groupes.
+	Cliquez en maintenant la touche Shift enfoncée pour sélectionner plusieurs groupes.
 

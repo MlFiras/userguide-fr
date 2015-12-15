@@ -3,7 +3,7 @@
 Module de création de documents
 ================================
 
-Cette section regroupe la documentation relative au module de créations de documents de MapMint.
+Cette section regroupe la documentation relative au module de création de documents de MapMint.
 
 Le module de gestion des documents permet la publication sur la page
 d'accueil de divers documents qui apparaitront dans une section

@@ -18,7 +18,7 @@ Le panneau d'information des documents permet de visualiser et d'éditer les pro
 Nom du document
 -------------------------------------
 
-Le nom du document renseigné doit être synthétique. La valeur du champs texte est utilisé dans l'interface publique.
+Le nom du document renseigné doit être synthétique. La valeur du champs texte est utilisée dans l'interface publique.
 
 Thème du document
 -------------------------------------

@@ -64,9 +64,9 @@ Initialisation de l'indicateur
 ******************************
 
 Comme indiqué dans l'introduction de cette section, il est impératif
-d'intialiser l'indicateur correctement via les deux premiers onglet de
+d'intialiser l'indicateur correctement via les deux premiers onglets de
 paramétrage d'un indicateur. Nous présentons donc dans cette section
-spécifique ce deux onglets en particuliers. Les onglets suivants ne
+spécifique ces deux onglets en particuliers. Les onglets suivants ne
 peuvent être utilisés qu'une fois l'initialisation réalisée avec succès.
 
 Métadonnées
@@ -85,14 +85,14 @@ renseigner l'ensemble des informations listées ci-après.
 
 Nom de l'indicateur
 ..............................
-Le nom de l'indicateur est une chaîne de caractère nommant l'indicateur. Cette valeur est utilisé dans l'interface publique et il est conseillé d'utiliser un nom court et significatif.
+Le nom de l'indicateur est une chaîne de caractères nommant l'indicateur. Cette valeur est utilisée dans l'interface publique et il est conseillé d'utiliser un nom court et significatif.
 
 Description de l'indicateur
 ..............................
-La description de l'indicateur est une chaîne de caractère décrivant l'indicateur. L'apparence de ce texte peut être paramétré à l'aide de l'éditeur "richtext" proposé. Il est utilisé dans l'interface publique.
+La description de l'indicateur est une chaîne de caractères décrivant l'indicateur. L'apparence de ce texte peut être paramétrée à l'aide de l'éditeur "richtext" proposé. Il est utilisé dans l'interface publique.
 
 .. note::
-   Pour plus d'information concernant l'utilisation de l'éditeur, veuillez vous référez à son `guide utilisateur <http://docs.cksource.com/CKEditor_3.x/Users_Guide>`__.
+   Pour plus d'informations concernant l'utilisation de l'éditeur, veuillez vous référez à son `guide utilisateur <http://docs.cksource.com/CKEditor_3.x/Users_Guide>`__.
 
 Fiche de l'indicateur
 ..............................
@@ -133,18 +133,18 @@ L'indicateur sera affecté au(x) thème(s) sélectionnés dans la liste correspo
 Données
 -----------------------
 La deuxième étape de l'initialisation d'un indicateur est la plus
-important, elle consiste à sélectionner des données statistiques pour
+importante, elle consiste à sélectionner des données statistiques pour
 le calcul de l'indicateur.  Accédez à l'onglet "Données" puis
 sélectionnez un des trois types de données proposés (fichier, table ou
 requête SQL) à l'aide des boutons radio prévus à cet effet.
 
 Fichier
 .......................
-Dans le cas d'un fichier, veuillez cliquer sur l'utilitaire d'ajout de fichier et sélectionner un fichier de données sur votre ordinateur. Cliquez ensuite sur le bouton "Importer".
+Dans le cas d'un fichier, veuillez cliquer sur l'utilitaire d'ajout de fichiers et sélectionnez un fichier de données sur votre ordinateur. Cliquez ensuite sur le bouton "Importer".
 
 .. warning::
    Le fichier selectionné sur votre ordinateur doit être au format
-   .csv, .xls ou .xslx, et contenir au moins une colone avec une
+   .csv, .xls ou .xslx, et contenir au moins une colonne avec une
    information permettant de réaliser une jointure avec un territoire
    (codes postaux, codes insee, identifiants, nom ...). 
 
@@ -160,12 +160,12 @@ s'affiche en dessous du formulaire d'ajout. Dans le cas contraire, un
 message d'erreur de couleur rouge apparait en haut de votre écran
 (vérifiez votre fichier et recomencez).
 
-Assurez-vous que la colone permettant de réaliser la jointure soit en
+Assurez-vous que la colonne permettant de réaliser la jointure soit en
 première position dans la table, comme illustré dans l'exemple
-ci-dessous. Vous pouvez re-ordonné les colones de la table de données
-du fichier importé en cliquant sur le titre d'une colone de la table
+ci-dessous. Vous pouvez re-ordonné les colonnes de la table de données
+du fichier importé en cliquant sur le titre d'une colonne de la table
 puis, tout en gardant le bouton de votre souris enfoncé, vous déplacez
-le curseur de votre souris de gauche à droite, les colones devraient
+le curseur de votre souris de gauche à droite, les colonnes devraient
 alors se re-ordonnées.
 
 .. |indtabimg| image:: ../_static/images/indicator-data-table.png
@@ -175,9 +175,9 @@ alors se re-ordonnées.
 |indtabimg|
 
 .. note::  
-	Il est possible de déplacer une colone en maintenant votre curseur sur le titre de la colone et en la déplacant par glisser-déposer à la position désirée.
+	Il est possible de déplacer une colonne en maintenant votre curseur sur le titre de la colonne et en la déplacant par glisser-déposer à la position désirée.
 
-**Une fois le fichier chargé et la colone géographique en première position, cliquez sur le bouton "Confirmer".**
+**Une fois le fichier chargé et la colonne géographique en première position, cliquez sur le bouton "Confirmer".**
 
 Un message de couleur verte confirme la création de l'indicateur. Sinon un message de couleur rouge indique une erreur lors de la création de l'indicateur (vérifiez votre fichier et recommencez).
 
@@ -185,7 +185,7 @@ Table
 .......................
 Dans le cas d'une table, veuillez premièrement selectionner un territoire ainsi qu'un champs attributaire (la seconde liste déroulante est mise à jour automatiquement en fonction du choix effectué dans la première liste).
 
-Sélectionnez ensuite un des schemas disponibles dans la base de données indicateurs, puis la table que vous souhaitez utilisez pour le calcul de l'indicateur.
+Sélectionnez ensuite un des schemas disponibles dans la base de données indicateurs, puis la table que vous souhaitez utiliser pour le calcul de l'indicateur.
 
 Cliquez sur le bouton "Confirmer". Cela entraine l'affichage du résulat de la requête sous la forme d'une table, en dessous du formulaire.
 
@@ -195,10 +195,10 @@ Dans le cas d'une requête SQL, veuillez premièrement selectionner un territoir
 
 Sélectionnez ensuite une connexion vers une base de données. La liste déroulante correpondante liste les connexions actives crées dans le :doc:`../data/index`.
 
-Rédigez ensuite votre requête SQL dans la zone de texte prévu à cet effet puis cliquez sur le bouton "Tester". Si votre requête est correcte, un message de succès de couleur verte s'affiche temporairement en haut de votré écran et vou spouvez cliquer sur le bouton "Confirmer". Si votre requête est incorrecte, un message d'erreur de couleur rouge s'affiche en haut de votre écran. Veuillez vérifier la requête et cliquer sur "Tester" à nouveau. 
+Rédigez ensuite votre requête SQL dans la zone de texte prévu à cet effet puis cliquez sur le bouton "Tester". Si votre requête est correcte, un message de succès de couleur verte s'affiche temporairement en haut de votré écran et vous  pouvez cliquer sur le bouton "Confirmer". Si votre requête est incorrecte, un message d'erreur de couleur rouge s'affiche en haut de votre écran. Veuillez vérifier la requête et cliquer sur "Tester" à nouveau. 
 
 .. note::
-   De nombreux tutoriaux sur le langage SQL sont disponibles sur Internet, notamment `ici <http://sql.developpez.com/>`__.
+   De nombreux tutoriaux sur le language SQL sont disponibles sur Internet, notamment `ici <http://sql.developpez.com/>`__.
 
 Style
 **********
@@ -222,7 +222,7 @@ La formule de l'indicateur définit la manière dont la variable est utilisée d
 
 La valeur **[_X_]** peut également être utilisée dans une requête
 SQL. Par exemple il est possible de changer le type de la données, qui
-est toujours une chaine de caractère par défaut en une valeur entière
+est toujours une chaine de caractères par défaut en une valeur entière
 en utilisant la valeur : ``[_X_]::int``
 
 
@@ -299,7 +299,7 @@ Une fois l'ensemble des paramètres renseignés, cliquez sur le bouton "Classifi
 
 Chaque classe peut ensuite être modifiée manuellement en cliquant sur
 la ligne correspondante dans la table des classes. Cela entraine
-l'apparission du formulaire d'édition d'une classe, comme illustré
+l'apparution du formulaire d'édition d'une classe, comme illustré
 ci-dessous.
 
 .. |edtcl| image:: ../_static/images/indicator-classes.png
@@ -314,7 +314,7 @@ A tout moment suite à la classification, vous avez la possibilité de
 prévisualiser la carte de l'indicateur en accédant à m'onglet
 "Prévisualiser". Cela ouvre une carte localisée sur votre indicateur
 présentant votre indicateur afin de vous permettre d'apprécier la
-qualité du style que vous avez défini de l'indicateur.
+qualité du style que vous avez définit de l'indicateur.
 
 .. |pvidx| image:: ../_static/images/indicator-preview-window.png
    :scale: 75%
@@ -337,7 +337,7 @@ Entrez premièrement un titre pour la table de l'indicateur dans la zone de text
 .. rubric::
         Configuration de la table 
 
-Cliquez ensuite sur l'icon de paramétrage de la table en haut à droite de la table. Cela entraine l'ouverture de la fenêtre de paramétrage, illustrée ci-dessous.
+Cliquez ensuite sur l'icone de paramétrage de la table en haut à droite de la table. Cela entraine l'ouverture de la fenêtre de paramétrage, illustrée ci-dessous.
 
 .. |settpw| image:: ../_static/images/set-table-parameters-window.png
    :width: 100%
@@ -348,17 +348,17 @@ Cliquez ensuite sur l'icon de paramétrage de la table en haut à droite de la t
 ============ ================ 
 **Champ**    **Définition**          
 ------------ ---------------- 
-A            Affichage de la colone
-R            Permettre la recherche en utilisant cette colone
-Pos          Position de la colone dans la table
-Column       Titre de la colone par défaut
+A            Affichage de la colonne
+R            Permettre la recherche en utilisant cette colonne
+Pos          Position de la colonne dans la table
+Column       Titre de la colonne par défaut
 Libellé      Titre de la colone
-Valeur       Valeur de la colone
-Largeur      Largeur de la coloneen pixels
+Valeur       Valeur de la colonne
+Largeur      Largeur de la colonne en pixels
 ============ ================	
 
 .. warning::
-	Dans le cas ou ve ne souhaiteriez pas afficher une colone, veuillez supprimer toutes les informations dans la ligne de paramétrage correspondante.
+	Dans le cas ou ve ne souhaiteriez pas afficher une colonne, veuillez supprimer toutes les informations dans la ligne de paramétrage correspondante.
 	
 Une fois le paramétrage de la table éffectué, cliquez sur le bouton "Valider" en bas de la fenêtre. La sauvegarde du paramétrage est stipulé par un bandeau vert en haut de l'écran.
 
@@ -404,7 +404,7 @@ L'étiquette de l'abscisse correspond au titre de l'abscisse du graphique qui se
 .. rubric::
         Variable de l'abscisse 
 
-Sélectionnez ensuite la variable à représenter sur l'axe des abscisses, c'est à dire l'un des champs attributaire disponible dans la liste déroulante correspondante. Il s'agit la plupart du temps d'un champ décrivant le territoire (communes ou départements par exemple).
+Sélectionnez ensuite la variable à représenter sur l'axe des abscisses, c'est à dire l'un des champs attributaires disponibles dans la liste déroulante correspondante. Il s'agit la plupart du temps d'un champ décrivant le territoire (communes ou départements par exemple).
 
 .. rubric::
         Etiquette de l'ordonnée 
@@ -414,7 +414,7 @@ L'étiquette de l'ordonnée correspond au titre de l'ordonnée du graphique qui 
 .. rubric::
         Variable de l'ordonnée 
 
-Séléctionnez ensuite la variable à utiliser pour l'axe des ordonnées, c'est à dire l'un des champs attributaire disponible dans la liste déroulante correspondante. Il s'agit en général de la variable de l'indicateur.
+Séléctionnez ensuite la variable à utiliser pour l'axe des ordonnées, c'est à dire l'un des champs attributaires disponibles dans la liste déroulante correspondante. Il s'agit en général de la variable de l'indicateur.
 
 .. rubric::
         Formule de l'ordonnée 
@@ -427,7 +427,7 @@ Comme pour la configuration de la symbologie de l'indicateur, il est possible de
 .. rubric::
         Valeur au survol
 
-Enfin, il est également possible de paramétrer la valeur au survol des colones de l'histogramme ou des parts du diagramme circulaire. Cette valeur est affichée lorsque l'utilisateur les survole avec son curseur. 
+Enfin, il est également possible de paramétrer la valeur au survol des colonnes de l'histogramme ou des parts du diagramme circulaire. Cette valeur est affichée lorsque l'utilisateur les survole avec son curseur. 
 
 .. note::
 Si ce champ n'est pas renseigné, le système affichera la valeur de l'abscisse et la valeur [_X_] par défaut pour chacun des objets du graphique.
@@ -480,7 +480,7 @@ final.
 	Pour plus d'informations sur l'utilisation de LibreOffice, veuillez consulter sa `documentation <http://www.libreoffice.org/get-help/documentation/>`__
 	
 .. warning::
-	Le nom des éléments du document .odt doivent correspondrent à la valeur stipulé dans la colone "Nom du champ" du tableau de paramétrage présenté ci-après. 
+	Le nom des éléments du document .odt doivent correspondrent à la valeur stipulée dans la colonne "Nom du champ" du tableau de paramétrage présenté ci-après. 
 	
 Une fois votre modèle de document LibreOffice préparé, veuillez l'envoyer sur le serveur en utilisant le formulaire d'upload prévu à cet effet.
 
@@ -499,8 +499,8 @@ Procédez ensuite au paramétrage de chacun des objets de base du rapport, list�
 ------------ ------------------------------------------------ ----------------- ---------------------------------------------
 Table        Affiche la table de l'indicateur                 Table display     Aucune
 Compare      Affiche la table des territoires de comparaison  Table display     Requête SQL
-Titte        Affiche le titre du rapport                      Default display   Chaine de caractère ou requête SQL
-Description  Affiche la description de l'indicateu            Default display   Chaine de caractère ou description par défaut
+Titte        Affiche le titre du rapport                      Default display   Chaine de caractères ou requête SQL
+Description  Affiche la description de l'indicateu            Default display   Chaine de caractères ou description par défaut
 Location     Affiche la carte de localisation (aperçu)        Location Map      Aucune          
 Map          Affiche la carte de l'indicateur                 Main map image    Aucune
 Diag         Affiche le graphique de l'indicateur             Graph display     Aucune
@@ -524,9 +524,9 @@ Dépublier un indicateur
 ***********************
 
 Dans le cas où vous voudriez qu'un indicateur ne soit plus accessible,
-vous aves la possibilité de dépublier. En faisant cela, aucune données
-relatives à l'indicateur ne seront supprimées, vous pourrez donc
-toujorus les utiliser comme des couches comme vous le faite avec
+vous aves la possibilité de dépublier. En faisant cela, aucune donnée
+relatives à l'indicateur ne sera supprimée, vous pourrez donc
+toujorus les utiliser comme des couches comme vous le faites avec
 n'inporte qu'elle autre source de données.
 
 Pour dépublier un indicateur, cliquez sur le boutton "Dépublier" en
