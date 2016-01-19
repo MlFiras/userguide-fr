@@ -1,11 +1,11 @@
 .. _themes-themeslist:
 
-Panneau des thémes
+Panneau des thÃ¨mes
 ====================
 
-Un thémes regroupe un ensemble d'applications ayant une thématique commune. Les thémes créés sont utilisés pour filter l'affichage des images d'aperçu des cartes dans l'interface publique.
+Un thÃ¨mes regroupe un ensemble d'applications ayant une thÃ©matique commune. Les thÃ¨mes crÃ©Ã©s sont utilisÃ©s pour filter l'affichage des images d'aperÃ§u des cartes dans l'interface publique.
 
-.. contents:: Table des matiéres
+.. contents:: Table des matiÃ©res
     :depth: 4
     :backlinks: top
     
@@ -18,18 +18,18 @@ Un thémes regroupe un ensemble d'applications ayant une thématique commune. Les 
    :alt: Delete indicator icon
    
 ============ ============================================
-**IcÃ´ne**    **Action**       
+**IcÃƒÂ´ne**    **Action**       
 ------------ --------------------------------------------
-|addth|      Ajoute un nouveau théme	           
-|remth|      Supprime un théme			  	           
+|addth|      Ajoute un nouveau thÃ¨me	           
+|remth|      Supprime un thÃ¨me			  	           
 ============ ============================================	 
 
-Ajouter un nouveau théme
+Ajouter un nouveau thÃ¨me
 -------------------------------------
 
-Pour ajouter un nouveau théme, veuillez cliquer sur l'icone
+Pour ajouter un nouveau thÃ¨me, veuillez cliquer sur l'icone
 correspodante dans la barre d'outils du menu de gauche. Cela affiche
-le formulaire d'ajout de thémes comme illustré ci-dessous.
+le formulaire d'ajout de thÃ¨mes comme illustrÃ© ci-dessous.
 
 .. |addthw| image:: ../_static/images/add-theme-window.png
 	:scale: 80%
@@ -37,18 +37,18 @@ le formulaire d'ajout de thémes comme illustré ci-dessous.
 
 |addthw|
 
-Veuillez spécifier un nom dans la zone de texte prévue Ã  cet effet
+Veuillez spÃ©cifier un nom dans la zone de texte prÃ©vue Ã  cet effet
 puis cliquer sur le bouton "Ajouter". Cela entraine la disparution du
-formulaire, l'ajout du théme Ã  l'arbre et le rechargement du panneau
-du :doc:`infopanel`, Ã  droite de l'écran.
+formulaire, l'ajout du thÃ¨me Ã  l'arbre et le rechargement du panneau
+du :doc:`infopanel`, Ã  droite de l'Ã©cran.
 
-Supprimer un théme
+Supprimer un thÃ¨me
 ---------------------------------
 
-Pour supprimer un théme existant, veuillez cliquer sur le nom du théme
+Pour supprimer un thÃ¨me existant, veuillez cliquer sur le nom du thÃ¨me
 dans l'arbre, puis sur l'icone de suppression dans la barre d'outils
-du menu de gauche. Cela affiche le formulaire de suppression de théme
-comme illustré ci-dessous.
+du menu de gauche. Cela affiche le formulaire de suppression de thÃ¨me
+comme illustrÃ© ci-dessous.
 
 .. |delthw| image:: ../_static/images/delete-theme-window.png
 	:scale: 80%
@@ -57,7 +57,7 @@ comme illustré ci-dessous.
 |delthw|
 
 Cliquez ensuite sur le bouton "Supprimer". Cela entraine la
-disparution du formulaire et la suppression du théme de la table.
+disparution du formulaire et la suppression du thÃ¨me de la table.
 
 .. warning::
-	La suppression d'un théme est permanente et irréversible
+	La suppression d'un thÃ¨me est permanente et irrÃ©versible

@@ -7,5 +7,6 @@ Introduction
    :maxdepth: 2
    
    introduction
+   installmapmint
    usemapmint
    usersmanagement

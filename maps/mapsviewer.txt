@@ -30,46 +30,46 @@ Outils de navigation
 ========== ===================================================
 **IcÃ´ne**  **Action**                  
 ---------- --------------------------------------------------- 
-|pani|     Déplace la carte en maintenant le curseur de la souris 	           
-|zoomi|    Zoom sur une étendue rectangulaire définie par l'utilisateur 			 
-|maxi|     Zoom sur l'étendue maximale de la carte (étendue mondiale)	          
+|pani|     DÃ©place la carte en maintenant le curseur de la souris 	           
+|zoomi|    Zoom sur une Ã©tendue rectangulaire dÃ©finie par l'utilisateur 			 
+|maxi|     Zoom sur l'Ã©tendue maximale de la carte (Ã©tendue mondiale)	          
 ========== ===================================================	  
    
-Déplacer la carte
+DÃ©placer la carte
 .................................
 
-Cette fonctionalité est activée par défaut. Dans le cas ou vous auriez utilisé un autre outil de navigation, veuillez cliquer sur l'icone correspondante dans la barre d'outils pour repasser en mode déplacement, puis déplacer la carte en maintenant votre curseur appuyé.
+Cette fonctionalitÃ© est activÃ©e par dÃ©faut. Dans le cas ou vous auriez utilisÃ© un autre outil de navigation, veuillez cliquer sur l'icone correspondante dans la barre d'outils pour repasser en mode dÃ©placement, puis dÃ©placer la carte en maintenant votre curseur appuyÃ©.
 
-Zoomer par sélection rectangulaire
+Zoomer par sÃ©lection rectangulaire
 ..................................
 
-Pour effectuer un zoom par sélection rectangulaire, cliquez sur l'icone correspondante dans la barre d'outil puis cliquer sur la carte et dessiner un rectangle en faisant glisser votre curseur. Cela entraine le zoom de la carte sur l'étendue géographique définie par le rectangle.
+Pour effectuer un zoom par sÃ©lection rectangulaire, cliquez sur l'icone correspondante dans la barre d'outil puis cliquer sur la carte et dessiner un rectangle en faisant glisser votre curseur. Cela entraine le zoom de la carte sur l'Ã©tendue gÃ©ographique dÃ©finie par le rectangle.
 
 .. note::
-	Vous pouvez également zoomer par sélection rectangulaire en pressant la touche Shift de votre clavier puis en dessinant le rectangle sur la carte 
+	Vous pouvez Ã©galement zoomer par sÃ©lection rectangulaire en pressant la touche Shift de votre clavier puis en dessinant le rectangle sur la carte 
 
-Zoomer sur l'étendue maximale
+Zoomer sur l'Ã©tendue maximale
 ..................................
 
-Pour zoomer sur l'étendue maximale de la carte, veuillez cliquer sur l'icone correspondante dans la barre d'outil. Cela entraine le zoom de la carte sur l'étendue mondiale (i.e -180, _90, 180, 90). 
+Pour zoomer sur l'Ã©tendue maximale de la carte, veuillez cliquer sur l'icone correspondante dans la barre d'outil. Cela entraine le zoom de la carte sur l'Ã©tendue mondiale (i.e -180, _90, 180, 90). 
 
-Zoomer Ã  une échelle prédÃéfinies
+Zoomer Ã  une Ã©chelle prÃ©dÃ©finies
 ..................................
 
-La liste déroulante en haut Ã  droite du visualiseur vous permet de zoomer Ã  des échelles prédÃ©finies. Le clic sur une échelle entraine le zoom de la carte au niveau de zoom correspondant. 
+La liste dÃ©roulante en haut Ã  droite du visualiseur vous permet de zoomer Ã  des Ã©chelles prÃ©dÃ©finies. Le clic sur une Ã©chelle entraine le zoom de la carte au niveau de zoom correspondant. 
 
 Slider de zoom
 ..................................
 
-Le slider de zoom placé en haut Ã  gauche du visualiseur vous permet de zoomer et de déplacer la carte. Le clic sur l'une des fléches directionelles de la partie supérieure déplace la carte dans la direction correspondante.
+Le slider de zoom placÃ© en haut Ã  gauche du visualiseur vous permet de zoomer et de dÃ©placer la carte. Le clic sur l'une des flÃ©ches directionelles de la partie supÃ©rieure dÃ©place la carte dans la direction correspondante.
 
 .. note::
-	Vous pouvez également déplacer la carte en maintenant votre curseur appuyé sur le "joystick" placé au centre de la partie supérieure du slider et en le déplaçant
+	Vous pouvez Ã©galement dÃ©placer la carte en maintenant votre curseur appuyÃ© sur le "joystick" placÃ© au centre de la partie supÃ©rieure du slider et en le dÃ©plaÃ§ant
 
-Le clic sur la barre des niveaux de zoom placée dans la partie inférieure du slider engendre le zoom de la carte au niveau correspondant.
+Le clic sur la barre des niveaux de zoom placÃ©e dans la partie infÃ©rieure du slider engendre le zoom de la carte au niveau correspondant.
 
 .. note::
-	Vous pouvez également cliquez sur un niveau de zoom prédéfinit (continent, pays, ville, maison) Ã  droite de la barre du slider
+	Vous pouvez Ã©galement cliquez sur un niveau de zoom prÃ©dÃ©finit (continent, pays, ville, maison) Ã  droite de la barre du slider
 	  
 .. |zooms| image:: ../_static/images/zoom-slider.png
    :scale: 80%
@@ -80,7 +80,7 @@ Le clic sur la barre des niveaux de zoom placée dans la partie inférieure du sli
 Importateur OpenStreetMap
 -----------------------------
 
-L'importateur de données OpenStreetMap permet d'importer des points ("nodes") et des lignes ("ways") depuis la base de données OpenStreetMap.
+L'importateur de donnÃ©es OpenStreetMap permet d'importer des points ("nodes") et des lignes ("ways") depuis la base de donnÃ©es OpenStreetMap.
 
 .. |osmi| image:: ../_static/images/import-osm.png
    :height: 24
@@ -101,23 +101,23 @@ Pour l'ouvrir, veuillez cliquer sur l'icone correspondante dans la barre d'outil
 
 |osmiw|
 
-Suivez ensuite les étapes suivantes pour lancer l'import:
+Suivez ensuite les Ã©tapes suivantes pour lancer l'import:
 
  * Dessinez une zone rectangulaire sur la carte
- * Séléctionnez ensuite le mode ligne ou le mode point pour l'import
- * Sélectionnez un des :doc:`../data/datastores`. disponible dans la liste déroulante, dans lequel la donnée importée sera stockée
- * Spécifiez un nom pour la nouvelle couche
+ * SÃ©lÃ©ctionnez ensuite le mode ligne ou le mode point pour l'import
+ * SÃ©lectionnez un des :doc:`../data/datastores`. disponible dans la liste dÃ©roulante, dans lequel la donnÃ©e importÃ©e sera stockÃ©e
+ * SpÃ©cifiez un nom pour la nouvelle couche
  * Cliquez sur le bouton "Importer"
  
-Aprés quelques secondes, les données de type ligne ou point sont affichées sur la carte et la nouvelle couche est ajoutée Ã  l'arbre des couches. Vous pouvez utiliser cette couche comme toute les autres.
+AprÃ©s quelques secondes, les donnÃ©es de type ligne ou point sont affichÃ©es sur la carte et la nouvelle couche est ajoutÃ©e Ã  l'arbre des couches. Vous pouvez utiliser cette couche comme toute les autres.
 
 .. warning::
-	Plus vous sélectionnez une étendue géographique importante, plus le temps d'attente est long lors de l'import. Il est conseillé d'utiliser l'importateur Ã  un niveau de zoom suffisant de maniére Ã  ne pas provoquer de requétes trop longues.
+	Plus vous sÃ©lectionnez une Ã©tendue gÃ©ographique importante, plus le temps d'attente est long lors de l'import. Il est conseillÃ© d'utiliser l'importateur Ã  un niveau de zoom suffisant de maniÃ©re Ã  ne pas provoquer de requÃ©tes trop longues.
 
 Couches de fonds
 -----------------------------
 
-Vous avez la possibilité de changer la couche de fond du visualiseur en utilisant les icones en haut Ã  droite. La couche MapQuest Streets est affichée par défaut.
+Vous avez la possibilitÃ© de changer la couche de fond du visualiseur en utilisant les icones en haut Ã  droite. La couche MapQuest Streets est affichÃ©e par dÃ©faut.
 
 .. |mapq| image:: ../_static/images/mapquest-str.png
    :height: 24

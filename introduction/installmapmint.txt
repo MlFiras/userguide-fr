@@ -1,0 +1,109 @@
+.. _introduction-installmapmint:
+
+Installer MapMint
+=================
+
+.. contents:: Table des matières
+    :depth: 4
+    :backlinks: top
+    
+L'application MapMint peut être installée de manière très simple en
+utilisant des scripts `Ansible <http://ansible.com>`__ . Il est donc
+possible de déployer plusieures instances de MapMint via l'utilisation
+de la commande ``ansible-playbook``. Dans cette partie l'installation
+ne concernera qu'une seule instance, l'hôte local qui utilise une
+distribution GNU/Linux : Ubuntu LTS 14.03.3.
+
+Prérequis
+-------------------------------------
+
+Paquets et modules Python
+.........................
+
+Avant de pouvoir installer MapMint en utilisant les scripts Ansible, il
+est nécessaire de s'assurer de la présence des certains paquets
+Ubuntu ainsi que des modules python spécifiques.
+ 
+.. code-block:: guess
+
+   sudo apt-get install git python-setuptools openssh-server
+   sudo easy_install pip
+   sudo pip install paramiko PyYAML Jinja2 httplib2 six
+
+Télécharger Ansible et les scripts d'installation
+.................................................
+
+Il est nécessaire de télécharger Ansible et les scripts spécifiques
+d'installation de MapMint. Pour ce faire, utilisez les commandes
+suivantes.
+
+.. code-block:: guess
+
+   cd
+   mkdir mm-install
+   cd mm-install
+   git clone git://github.com/ansible/ansible.git --recursive
+   git clone git://github.com/mapmint/ansible-roles mapmint-setup
+
+Création d'une clé SSH
+......................
+
+Afin que votre utilisateur puisse se connecter au serveur via SSH sur
+lequel installer MapMint, vous devez tout d'abort créer une clé
+permettant une authentification automatique. Pour ce faire utiliser
+le commande suivante.
+
+.. code-block:: guess
+
+   mkdir ~/.ssh
+   ssh-keygen -t rsa
+   sudo mkdir /root/.ssh
+   sudo cp ~/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+
+.. warning::
+   La dernière commande supprime toutes lesclés autorisées du
+   serveur.
+
+.. note::
+   Utilisez une commande différente si vous souhaitez mettre à jour la
+   liste des clés autorisées.
+
+Installation
+-------------------------------------
+
+L'installation de MapMint est entièrement automatisée via les scripts
+Ansible téléchargés précédemment, il ne reste donc plus qu'à les
+lancer. Avant cela, il sera nécessaire de paramétrer Ansible et les
+scripts spécifiques d'installation de MapMint afin de définir le nom
+de la machine qui sera utilisé pour accéder à l'instance. 
+
+Dans un premier temps vous allez activer Ansible et définir sur
+quelles machines vous souhaitez installer MapMint. Dans l'exemple
+présenté ici, l'installations sera faite sur la machine local, donc
+``localhost``.
+
+.. code-block:: guess
+
+   source ~/mm-install/ansible/hacking/env-setup
+   echo "localhost" > ~/ansible_hosts
+   sed "s:myhost.net:localhost:g" -i \
+      ~/mm-install/mapmint-setup/debian/dependencies/vars/main.yml 
+   export ANSIBLE_INVENTORY=~/ansible_hosts
+
+.. note::
+  ``localhost`` devrait être remplacer par le nom de machine ou
+  l'adresse ip permettant l'accès publique à l'instance.
+
+Il ne reste plus qu'à invoquer l'installation de MapMint avec la
+commande ci-dessous.
+
+.. code-block:: guess
+
+   cd ~/mm-install/mapmint-setup
+   ansible-playbook -s server.yml -u root
+
+Pour accéder à votre instance MapMint, vous pouvez utiliser les liens
+suivants :
+
+  * :ref:`introduction-usemapmint-administration-access` : http://localhost/ui/Dashboad_bs
+  * :ref:`introduction-usemapmint-public-access` : http://localhost/ui/public/

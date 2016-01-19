@@ -219,7 +219,7 @@ Ajoutez un ou plusieur groupes avec le boutton "Ajouter", cela entraine l'ajout 
 Convertir une source de données
 ...............................
 
-La conversion de données est trait�e dans la partie : :ref:`data-processing`.
+La conversion de données est traitée dans la partie : :ref:`data-processing`.
 
 Téléchargement
 ..................................
@@ -276,7 +276,7 @@ Ouverture
 Pour ouvrir une source de données dans le :doc:`../maps/index`, veuillez cliquer sur l'icône correspondante dans la :ref:`datasource-table-label`. Cela entraine l'ouverture de la source de données dans le :doc:`../maps/index`. La source de données est ajouté à la racine de l'arbre de couches, dans un projet *Untitled_0* et représentée avec le style par défaut. 
 
 .. note::
-	Une fois la source de données chargée, il est conseill� d'enregistrer le projet *Untitled_0* sous un nom adéquat 
+	Une fois la source de données chargée, il est conseillé d'enregistrer le projet *Untitled_0* sous un nom adéquat 
 
 
 

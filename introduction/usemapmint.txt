@@ -11,6 +11,8 @@ L'application MapMint est constituée d'une **interface
 d'administration** comportant différents modules et d'une **interface
 publique**. 
 
+.. _introduction-usemapmint-administration-access:
+
 Accès aux modules d'administration
 -------------------------------------
 
@@ -46,6 +48,8 @@ Pour accèder aux modules de l'interface d'administration, entrez le **nom d'uti
 |login|
 
 Un message de succès s'affiche dans un cadre vert en haut à droite de votre écran et le module se charge. Si vous obtenez un bandeau rouge en haut de l'écran, veuillez vérifier vos paramètres de connexion et recommencer.
+
+.. _introduction-usemapmint-public-access:
 
 Accès à l'interface publique
 -------------------------------------

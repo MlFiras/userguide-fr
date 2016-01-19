@@ -1,6 +1,6 @@
 .. _home:
 
-Table des matiéres
+Table des matiÃ¨res
 =================
 
 Bienvenue dans le guide utilisateur de l'application `MapMint <http://mapmint.com>`__.

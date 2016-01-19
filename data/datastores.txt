@@ -326,7 +326,7 @@ Supprimer un espace de stockage
 --------------------------------------------------
 
 Si vous cliquez sur le boutton "Supprimer l’espace de stockage", une
-fenêtre apparait vous invitant à confirmer votre volont� de supprimer
+fenêtre apparait vous invitant à confirmer votre volonté de supprimer
 un espace de stockage. La suppression d'un espace de stockage peut
 entrainer des pertes de données graves et impliquer que l'application
 grand publique devienne instable du fait de l'indisponibilité de

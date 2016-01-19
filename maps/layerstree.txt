@@ -418,7 +418,7 @@ pouvez définir :
 
     Si vous affichez la table en même temps que le panneau de
     paramétrage de l'affichage de la table et la table d'attributs,
-    vous pourrez alors param�trer directement l'outil de redimessionnement de la
+    vous pourrez alors paramétrer directement l'outil de redimessionnement de la
     table afin de définir ses valeurs par rapport à l'affichage que
     vous souhaitez obtenir.
 

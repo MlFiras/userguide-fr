@@ -7,7 +7,7 @@ Panneau d'information
     :depth: 4
     :backlinks: top
     
-Le panneau d'information des thémes permet de visualiser et d'éditer les propriétés du théme séléctionné dans le :doc:`themeslist`. 
+Le panneau d'information des thÃ¨mes permet de visualiser et d'Ã©diter les propriÃ©tÃ©s du thÃ¨me sÃ©lÃ©ctionnÃ© dans le :doc:`themeslist`. 
 
 .. |infthw| image:: ../_static/images/theme-infopanel-window.png
 	:scale: 80%
@@ -18,13 +18,13 @@ Le panneau d'information des thémes permet de visualiser et d'éditer les proprié
 Nom du thÃ¨me
 -------------------------------------
 
-Le nom du théme renseigné doit étre synthétique. La valeur du champs texte est utilisée dans l'interface publique.
+Le nom du thÃ¨me renseignÃ© doit Ã©tre synthÃ©tique. La valeur du champs texte est utilisÃ©e dans l'interface publique.
 
 Droits des groupes
 ---------------------------------
 
-L'accés au théme peut étre restreint Ã  certain groupes d'utilisateurs. Cliquez sur le/les groupes ciblés dans la liste Ã  choix multiple prévue Ã  cet effet.
+L'accÃ©s au thÃ¨me peut Ã©tre restreint Ã  certain groupes d'utilisateurs. Cliquez sur le/les groupes ciblÃ©s dans la liste Ã  choix multiple prÃ©vue Ã  cet effet.
 
 .. note::
-	Cliquez en maintenant la touche CTRL enfoncée pour sélectionner plusieurs groupes.
+	Cliquez en maintenant la touche CTRL enfoncÃ©e pour sÃ©lectionner plusieurs groupes.
 
