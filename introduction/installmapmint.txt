@@ -99,7 +99,7 @@ commande ci-dessous.
 
 .. code-block:: guess
 
-   cd ~/mm-install/mapmint-setup
+   cd ~/mm-install/mapmint-setup/ubuntu
    ansible-playbook -s server.yml -u root
 
 Pour accéder à votre instance MapMint, vous pouvez utiliser les liens
