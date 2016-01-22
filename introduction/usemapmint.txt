@@ -124,7 +124,137 @@ Une fois connecté au serveur, le répertoire général de stockage des sources 
 .. warning::
 
 	Le nom d'un nouveau répertoire de données ne doit pas contenir d'accents ou de caractères spéciaux !
-	
+
+Accès aux données et traiments depuis des clients bureautiques
+--------------------------------------------------------------
+
+Comme indiqué dans la section :ref:`userguidegeneral`, MapMint fournis
+des services web permettant d'accéder aux données (WMS, WFS et WCS) et
+aux services de traitements de données (WPS) depuis des clients
+bureautiques, comme par exemple `QGIS <http://www.qgis.org>`__.
+
+Nous présentons dans cette section comment accéder depuis QGIS aux
+services de diffusion de données puis aux services traitements de
+données. Nous présenterons aussi successivement comment les utiliser.
+
+Accéder aux services de diffusion de données
+.............................................
+
+MapMint rend accessible l'ensemble des espaces de stockages ainsi que
+les sources de données qu'elles contiennent une fois ces dernières
+paramétrées depuis le :ref:`maps`. De même, l'ensemble des
+couches contenues dans les applications de cartographie dynamique
+configurées depuis le :ref:`maps` et publiées depuis le :ref:`apps`
+sont elles aussi accéssibles. 
+
+Depuis QGIS par exemple, vous pouvez donc accéder aux couches de
+données au format WMS, afin de conserver le style que vous avez défini
+au niveau du :ref:`maps`, ou au fomat WFS, afin d'utiliser les
+services de traitements de données vectorielles.
+
+Les URL à utiliser pour paramétrer les accès aux serveur WMS et WFS
+sont les suivantes :
+
+ * pour un espace de stockage <monRépertoire> :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/dirs/<monRépertoire>/ds_ows.map``
+
+ * pour un projet <monProjet> en cours de paramétrage :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/maps/project_<monProjet>.map``
+
+ * pour un projet <monProjet> publié :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/public_maps/project_<monProjet>.map``
+
+.. note::
+   il est nécessaire de remplacer ``<monProjet>`` par le nom d'un projet
+   et ``<monRépertoire>`` par le nom d'un espace de stockage
+   disponible dans :ref:`data`.
+
+Les deux captures d'écran ci-dessous présente l'ajout d'un serveur WMS
+et WFS.
+
+.. |qwms| image:: ../_static/images/qgis-wms.png
+   :width: 400
+   :alt: QGIS WMS Client
+   
+.. |qwfs| image:: ../_static/images/qgis-wfs.png
+   :width: 400
+   :alt: QGIS WFS Client
+
+====== ======
+|qwms| |qwfs|
+====== ======
+
+Une fois vos serveurs ajoutés, vous pouvez alors ajouter des couches
+qu'ils contiennent. Pour ce faire, sélectionnez vore serveur dans la
+liste des serveurs disponibles, puis cliquez sur le bouton
+**Connection** afin de lister les couches disponibles. Ensuite
+sélectionné l'ensemble des couches que vous souhaitez afficher dans
+votre client QGIS.
+
+
+Accéder aux services de traitements de données
+..............................................
+
+Depuis QGIS par exemple, vous pouvez accéder aux services de
+traitements de données vectorielles. Pour ce faire il est nécessaire
+d'ajouter le serveur suivant ``http://geolabs.fr/plugins.xml`` à vos
+dépos de plugins dans QGIS, puis d'installer le module
+**QgsWPSClient**. Une fois ceci fait vous devait alors activer cette
+nouvelle extension, puis ajouter un serveur WPS (comme cela a été
+présenté dans la section précédente pour les service WMS et
+WFS). L'ajout ce fait via l'interface présenté dans la capture d'écran
+ci-dessous.
+
+.. |qgis-wps| image:: ../_static/images/qgis-wps.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps|
+
+L'URL à utiliser pour accéder au services de traitements est le suivant :
+
+   ``http://votre-instance.com/cgi-bin/mm/zoo_loader.cgi``
+
+Une fois le serveur WPS ajouté, sélectionnez le dans la liste puis
+cliquez sur le bouton **Connect** afin de lister l'esemble des
+services de traitements disponibles comme présenté ci-dessous.
+
+.. |qgis-wps-gc| image:: ../_static/images/qgis-wps-gc.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-gc|
+
+Vous devez selectionner un services a exécuter en cliquant deux fois
+sur le service qui vous interresse afin d'accéder à l'interface de
+passage de paramètres au service WPS. Cette interface correspond à la
+capture d'écran suivante.
+
+.. |qgis-wps-buff| image:: ../_static/images/qgis-wps-buff.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-buff|
+
+.. warning::
+   Seules les couches WFS et WCS peuvent être utilisées avec les
+   services traitements WPS.
+
+Afin d'exécuter et d'afficher le résultat, vous devez cliquer sur le
+boutton **Run**. 
+
+Nous présentons ci-desous un exemple d'utilisation d'une couche
+vectorielle **LA_REGION_S** et de l'exécution des services
+**vector-tools.BufferPy** et **vector-tools.CentroidPy**.
+
+.. |qgis-wps-res| image:: ../_static/images/qgis-wps-result.png
+   :width: 800
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-res|
 .. 
 
  
