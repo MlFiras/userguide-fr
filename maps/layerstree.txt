@@ -13,6 +13,26 @@ Le menu couches de données contient les deux élements suivants:
  
 .. note::
 	Une carte MapMint correspond à un fichier de configuration de carte MapServer (mapfile)
+
+Fonds de carte
+--------------
+
+Un menu contextuel est disponible en haut à droite de la carte, à
+gauche du bouton d'authentification habituel. Il permet de choisir le
+fond de carte à utiliser. Par défaut, lorsque vous charger votre
+module de création de carte les fonds OpenStreetMap sont
+affichés. Vous avez la possibilité d'utiliser soit MapQuest Map et
+Satelite ou encore d'utiliser un fond coloré uniforme. Dans ce dernier
+cas, vous devrez cliquer sur le carré coloré dans le menu contextuel
+afin de faire apparaitre l'outil de sélection de couleurs,
+selectionnez ensuite une couleur afin d'afficher le fond de carte de
+cette couleur.
+
+.. |baselayers| image:: ../_static/images/admin-viewer-baselayer.png
+	:scale: 100%
+	:alt: Fonds de carte
+
+|baselayers|
    
 Ouvrir une carte
 ----------------

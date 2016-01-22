@@ -9,7 +9,6 @@ Cette section regroupe la documentation relative au module de créations de cart
    :maxdepth: 2
    
    layerstree
-   mapsviewer
 
 .. |mmodpr| image:: ../_static/images/maps-module-preview.png
    :height: 385

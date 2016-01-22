@@ -105,5 +105,5 @@ commande ci-dessous.
 Pour accéder à votre instance MapMint, vous pouvez utiliser les liens
 suivants :
 
-  * :ref:`introduction-usemapmint-administration-access` : http://localhost/ui/Dashboad_bs
+  * :ref:`introduction-usemapmint-administration-access` : http://localhost/ui/Dashboard_bs
   * :ref:`introduction-usemapmint-public-access` : http://localhost/ui/public/
