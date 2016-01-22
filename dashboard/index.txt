@@ -15,9 +15,15 @@ Le tableau de bord de MapMint est constitué de 3 sections spécifiques
 
  * **Paramétrage**  qui permet la gestion des paramètres de l'application.
 
+.. warning::
+   Il est important de noter ici que seul les utilisateurs des groupes
+   **super admin** sont autorisés à accéder aux modules
+   :ref:`dashboard-usersmanagement` et  :ref:`dashboard-configuration`
+
 .. toctree::
    :maxdepth: 2
 
    overview
+   usersmanagement
    configuration
    

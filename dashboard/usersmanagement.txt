@@ -139,6 +139,7 @@ ci-dessous.
 Nom		      		 Définit le nom du groupe
 Description       	 Définit le groupe par une courte phrase
 Accès admin       	 Définit si le groupe dispose d'un accès administrateur
+Super Admin       	 Définit si le groupe dispose d'un accès super administrateur
 ==================== ============================================
 
 Veuillez renseigner tous les champs listés dans le tableau ci-dessus,
@@ -146,6 +147,11 @@ puis cliquer sur le bouton "Ajouter". Celà entraine la disparission du formulai
 
 .. note::
 	L'ajout d'utilisateurs lors de la création du groupe est facultative
+
+.. note::
+   Les groupes ayant le paramètre **Super Admin** coché sont les super
+   administrateurs, ils ont donc un accès complet au paramétrage et à
+   la gestion des utilisateurs.
 
 Editer un groupe
 ---------------------------

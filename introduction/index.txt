@@ -9,4 +9,3 @@ Introduction
    introduction
    installmapmint
    usemapmint
-   usersmanagement
