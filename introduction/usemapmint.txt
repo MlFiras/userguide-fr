@@ -125,8 +125,8 @@ Une fois connecté au serveur, le répertoire général de stockage des sources 
 
 	Le nom d'un nouveau répertoire de données ne doit pas contenir d'accents ou de caractères spéciaux !
 
-Accès aux données et traiments depuis des clients bureautiques
---------------------------------------------------------------
+Accès aux données et traitements depuis des clients bureautiques
+----------------------------------------------------------------
 
 Comme indiqué dans la section :ref:`userguidegeneral`, MapMint fournis
 des services web permettant d'accéder aux données (WMS, WFS et WCS) et
