@@ -1,0 +1,112 @@
+.. _userguidegeneral:
+
+Généralités
+============
+
+Qu’est-ce que MapMint?
+---------------------
+
+MapMint est un logiciel de système d'information géographique (SIG) sur l'Internet  conçu pour faciliter le déploiement d'**infrastructures de données spatiales** (IDS). 
+
+MapMint s'adresse aux individus et aux organisations souhaitant maîtriser et optimiser la mise en place d'IDS et le déploiement d'applications de cartographie dynamique. L'application centralise et simplifie un certain nombre de fonctionnalités SIG et WebSIG. Les différents niveaux de droits utilisateur répartissent les tâches selon les publics (administrateurs système, géomaticiens, techniciens SIG, cartographes, webmasters...).  
+
+Que permet MapMint?
+--------------------
+
+MapMint permet d'effectuer plusieurs tâches relative à la mise en place d'une IDS, depuis une interface d'administration modulaire et conviviale. L'utilisateur MapMint peut, selon ses droits: 
+
+ * Importer et stocker des données SIG vecteur et raster
+ * Interroger des base de données et des serveur WMS/WFS externes 
+ * Publier des données géographiques sous la forme de services WMS, WFS et WMTS
+ * Traiter, éditer et styler des sources de données
+ * Composer et enregistrer des cartes, sous forme de projets (mapfiles)
+ * Paramétrer et générer des applications cartographiques
+ * Configurer et animer un portail cartographique
+ * Consulter et partager des cartes
+
+Comment fonctionne MapMint?
+---------------------------
+
+MapMint regroupe plusieurs `logiciels libres
+<http://mapmint.com/en/Components>`__ dans une plateforme de
+webmapping complète et cohérente, dont le fonctionnement repose sur
+l'utilisation des `standards ouverts
+<http://mapmint.com/en/Components>`__ de la géomatique et de
+l'internet.  
+
+Au coeur de MapMint, on retouve le `ZOO-Project <http://zoo-project.org>`__, une application
+permettant de déployer simplement et efficacement des services
+WPS (`Web Processing Service
+<http://www.opengeospatial.org/standards/wps>`__) de traitement de
+données. Un ensemble de services web est donc disponible dans MapMint,
+allant du simple affichage d'une page web de l'application aux
+traitements géographiques complexes. 
+
+D'autre types de services web sont mis en oeuvre, notamment ceux de
+visualisation et d'interrogation de données géographiques, WMS (`Web
+Map Service <http://www.opengeospatial.org/standards/wms>`__). L'accès
+aux données géographiques au format vectoriel se fait via le WFS (`Web Feature
+Service <http://www.opengeospatial.org/standards/wfs>`__) ou encore
+l'accès aux données images, via le WCS (`Web Coverage Service
+<http://www.opengeospatial.org/standards/wcs>`__). L'ensemble de ces
+services web sont founis par le logiciel `MapServer
+<http://mapserver.org>`__. Les différents fichiers nécessaires au bon
+fonctionnement de MapServer et des applications de cartographie
+dynamiques sont gérés par des services MapMint qui fournis une
+interface conviviale permettant d'interragir avec ces services web.
+
+Les applications ZOO-Project et MapServer reposent sur un serveur web
+Apache permettant d'accéder à l'application via les protocoles de
+communication HTTP et HTTPS.
+
+.. note:: 
+   Dans un environnement Windows, IIS peut être utilisé à la 
+   place d'Apache
+
+L'ensemble des documents produits par l'application, comme par exemple
+lors de l'utilisation du module client de production de document pdf,
+utilisent des modèles de documents au format odt (`OpenDocumentText
+<https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office>`__). La
+production de documents repose sur U.N.O. (`Universal Network Object
+<https://www.openoffice.org/udk/common/man/uno.html>`__) afin
+d'interragir avec un serveur `LibreOffice <http://www.libreoffice.org/>`__.
+
+Un serveur FTP (par exemple PureFTPd) est généralement associé à une
+instance de MapMint rendant accessible le répertoire ``dataPath/ftp``
+afin de pouvoir déposer sur le serveur des fichiers volumineux ou
+encore gérer les modèles de documents qui s'y trouvent.
+
+Certains services dédiés à la classification de données utilisent la
+librairie `R <http://r-project.org>`__, l'ensemble des données
+géographiques sont lues via l'utilisation de la librairie `GDAL
+<http://www.gdal.org>`__, les QRCodes sont généré à l'aide de la
+librairie `QREncode <https://fukuchi.org/works/qrencode/>`__. Certains
+modules Python spécifiques sont aussi nécessaires, cssmin et jsmin
+pour minimiser la taille des fichiers CSS et JavaScript générées par
+l'application.
+
+Une vue d'ensemble de l'architecture de MapMint est présentée
+ci-dessous.
+
+.. |archi| image:: ../_static/images/mapmint-arch.png
+   :width: 800
+   :alt: MapMint architecture preview image
+   
+|archi|
+
+L'interropérabilité de MapMint est assurée par les standards utilisés
+et mis en oeuvre. Il est ainsi possible d'interragir avec les données
+et services de MapMint, non seulement depuis l'application accessible
+depuis un navigateur internet mais aussi depuis un client bureautique
+de type QGIS par exemple.
+
+.. note::
+   Pour l'utilisation des services WPS, merci de télécharger le plugin
+   WPS disponible `ici <http://geolabs.fr/plugins.xml>`__.
+
+Retrouvez des informations d'ordre général sur le site internet de `MapMint <http://mapmint.com/en/>`__
+
+
+
+
+

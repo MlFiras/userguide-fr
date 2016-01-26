@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Module de gestion des données &mdash; MapMint 1.2 Guide utilisateur</title>
+    
+    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <script type="text/javascript" src="../static/translations.js"></script>
+    <link rel="shortcut icon" href="../static/favicon.ico"/>
+    <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
+    <link rel="next" title="Espaces de stockage" href="datastores.html" />
+    <link rel="prev" title="Panneau d’information" href="../territories/infopanel.html" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="datastores.html" title="Espaces de stockage"
+             accesskey="N">suivant</a> |</li>
+        <li class="right" >
+          <a href="../territories/infopanel.html" title="Panneau d’information"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-de-gestion-des-donnees">
+<span id="data"></span><h1>Module de gestion des données<a class="headerlink" href="#module-de-gestion-des-donnees" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Cette section regroupe la documentation relative au module de gestion des données de MapMint.</p>
+<p>MapMint utilise la librairie d&#8217;abstraction des accès aux données
+géographiques <a class="reference external" href="http://www.gdal.org">GDAL</a>, ainsi le système est en
+mesure d&#8217;accéder de manière similaire à une base de données, un
+répertoire ou des données diffusées via les services de l&#8217;<a class="reference external" href="http://www.opengeospatial.org">OGC</a> (WMS et WFS sont actuellement
+supportés). Ainsi, MapMint définit la notion d&#8217;<strong>espaces de stockage</strong>
+et de <strong>source de données</strong>, où un espace de stockage correspond à un
+répertoire, une base de données ou encore un serveur fournissant des
+services web OGC et, une source de données correspond à un fichier
+dans un répertoire, une table géographique de la base de données ou
+encore une couche disponible diffusée via un service web OGC.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="datastores.html">Espaces de stockage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datastores.html#ajouter-un-espace-de-stockage">Ajouter un espace de stockage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datastores.html#acceder-a-un-espace-de-stockage">Accéder à un espace de stockage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datasources.html">Sources de données</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datasources.html#donnees-vectorielles">Données vectorielles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datasources.html#donnees-matricielles">Données matricielles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datasources.html#barre-d-outils-des-sources-de-donnees">Barre d&#8217;outils des sources de données</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.html">Géotraitements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.html#convertisseur-de-sources-de-donnees-vectorielles">Convertisseur de sources de données vectorielles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing.html#utilitaire-de-traitements-des-sources-de-donnees-matricielles">Utilitaire de traitements des sources de données matricielles</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><a class="reference internal" href="../images/data-module-preview.png"><img alt="Dashboard module preview image" src="../images/data-module-preview.png" style="width: 100%;" /></a></p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Saisissez un mot clef ou un nom de module, classe ou fonction.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../index.html">Table des Matières</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/index.html">Tableau de bord</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../territories/index.html">Module de gestion des territoires</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Module de gestion des données</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datastores.html">Espaces de stockage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datasources.html">Sources de données</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing.html">Géotraitements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../indicators/index.html">Module de création d&#8217;indicateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maps/index.html">Module de création de cartes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../themes/index.html">Module de création de thèmes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documents/index.html">Module de création de documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/index.html">Module de publication d&#8217;applications</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>
