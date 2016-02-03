@@ -265,3 +265,5 @@ epub_identifier = 'http://mapmint.com'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
