@@ -2,157 +2,157 @@
 host = https://www.transifex.com
 type = PO
 
-[mapmint_userguide-1.index]
+[userguide-fr.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = build/locale/index.pot
 source_lang = en
 
-[mapmint_userguide-1.documents--index]
+[userguide-fr.documents--index]
 file_filter = locale/<lang>/LC_MESSAGES/documents/index.po
 source_file = build/locale/documents/index.pot
 source_lang = en
 
-[mapmint_userguide-1.documents--docslist]
+[userguide-fr.documents--docslist]
 file_filter = locale/<lang>/LC_MESSAGES/documents/docslist.po
 source_file = build/locale/documents/docslist.pot
 source_lang = en
 
-[mapmint_userguide-1.documents--infopanel]
+[userguide-fr.documents--infopanel]
 file_filter = locale/<lang>/LC_MESSAGES/documents/infopanel.po
 source_file = build/locale/documents/infopanel.pot
 source_lang = en
 
-[mapmint_userguide-1.introduction--installmapmint]
+[userguide-fr.introduction--installmapmint]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/installmapmint.po
 source_file = build/locale/introduction/installmapmint.pot
 source_lang = en
 
-[mapmint_userguide-1.introduction--usemapmint]
+[userguide-fr.introduction--usemapmint]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/usemapmint.po
 source_file = build/locale/introduction/usemapmint.pot
 source_lang = en
 
-[mapmint_userguide-1.introduction--index]
+[userguide-fr.introduction--index]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/index.po
 source_file = build/locale/introduction/index.pot
 source_lang = en
 
-[mapmint_userguide-1.introduction--introduction]
+[userguide-fr.introduction--introduction]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/introduction.po
 source_file = build/locale/introduction/introduction.pot
 source_lang = en
 
-[mapmint_userguide-1.data--index]
+[userguide-fr.data--index]
 file_filter = locale/<lang>/LC_MESSAGES/data/index.po
 source_file = build/locale/data/index.pot
 source_lang = en
 
-[mapmint_userguide-1.data--datasources]
+[userguide-fr.data--datasources]
 file_filter = locale/<lang>/LC_MESSAGES/data/datasources.po
 source_file = build/locale/data/datasources.pot
 source_lang = en
 
-[mapmint_userguide-1.data--processing]
+[userguide-fr.data--processing]
 file_filter = locale/<lang>/LC_MESSAGES/data/processing.po
 source_file = build/locale/data/processing.pot
 source_lang = en
 
-[mapmint_userguide-1.data--datastores]
+[userguide-fr.data--datastores]
 file_filter = locale/<lang>/LC_MESSAGES/data/datastores.po
 source_file = build/locale/data/datastores.pot
 source_lang = en
 
-[mapmint_userguide-1.territories--index]
+[userguide-fr.territories--index]
 file_filter = locale/<lang>/LC_MESSAGES/territories/index.po
 source_file = build/locale/territories/index.pot
 source_lang = en
 
-[mapmint_userguide-1.territories--territorieslist]
+[userguide-fr.territories--territorieslist]
 file_filter = locale/<lang>/LC_MESSAGES/territories/territorieslist.po
 source_file = build/locale/territories/territorieslist.pot
 source_lang = en
 
-[mapmint_userguide-1.territories--infopanel]
+[userguide-fr.territories--infopanel]
 file_filter = locale/<lang>/LC_MESSAGES/territories/infopanel.po
 source_file = build/locale/territories/infopanel.pot
 source_lang = en
 
-[mapmint_userguide-1.apps--appconfig]
+[userguide-fr.apps--appconfig]
 file_filter = locale/<lang>/LC_MESSAGES/apps/appconfig.po
 source_file = build/locale/apps/appconfig.pot
 source_lang = en
 
-[mapmint_userguide-1.apps--index]
+[userguide-fr.apps--index]
 file_filter = locale/<lang>/LC_MESSAGES/apps/index.po
 source_file = build/locale/apps/index.pot
 source_lang = en
 
-[mapmint_userguide-1.dashboard--usersmanagement]
+[userguide-fr.dashboard--usersmanagement]
 file_filter = locale/<lang>/LC_MESSAGES/dashboard/usersmanagement.po
 source_file = build/locale/dashboard/usersmanagement.pot
 source_lang = en
 
-[mapmint_userguide-1.dashboard--index]
+[userguide-fr.dashboard--index]
 file_filter = locale/<lang>/LC_MESSAGES/dashboard/index.po
 source_file = build/locale/dashboard/index.pot
 source_lang = en
 
-[mapmint_userguide-1.dashboard--configuration]
+[userguide-fr.dashboard--configuration]
 file_filter = locale/<lang>/LC_MESSAGES/dashboard/configuration.po
 source_file = build/locale/dashboard/configuration.pot
 source_lang = en
 
-[mapmint_userguide-1.dashboard--overview]
+[userguide-fr.dashboard--overview]
 file_filter = locale/<lang>/LC_MESSAGES/dashboard/overview.po
 source_file = build/locale/dashboard/overview.pot
 source_lang = en
 
-[mapmint_userguide-1.indicators--indicatorstree]
+[userguide-fr.indicators--indicatorstree]
 file_filter = locale/<lang>/LC_MESSAGES/indicators/indicatorstree.po
 source_file = build/locale/indicators/indicatorstree.pot
 source_lang = en
 
-[mapmint_userguide-1.indicators--indicatorspanel]
+[userguide-fr.indicators--indicatorspanel]
 file_filter = locale/<lang>/LC_MESSAGES/indicators/indicatorspanel.po
 source_file = build/locale/indicators/indicatorspanel.pot
 source_lang = en
 
-[mapmint_userguide-1.indicators--presentation]
+[userguide-fr.indicators--presentation]
 file_filter = locale/<lang>/LC_MESSAGES/indicators/presentation.po
 source_file = build/locale/indicators/presentation.pot
 source_lang = en
 
-[mapmint_userguide-1.indicators--index]
+[userguide-fr.indicators--index]
 file_filter = locale/<lang>/LC_MESSAGES/indicators/index.po
 source_file = build/locale/indicators/index.pot
 source_lang = en
 
-[mapmint_userguide-1.themes--themeslist]
+[userguide-fr.themes--themeslist]
 file_filter = locale/<lang>/LC_MESSAGES/themes/themeslist.po
 source_file = build/locale/themes/themeslist.pot
 source_lang = en
 
-[mapmint_userguide-1.themes--index]
+[userguide-fr.themes--index]
 file_filter = locale/<lang>/LC_MESSAGES/themes/index.po
 source_file = build/locale/themes/index.pot
 source_lang = en
 
-[mapmint_userguide-1.themes--infopanel]
+[userguide-fr.themes--infopanel]
 file_filter = locale/<lang>/LC_MESSAGES/themes/infopanel.po
 source_file = build/locale/themes/infopanel.pot
 source_lang = en
 
-[mapmint_userguide-1.maps--mapsviewer]
+[userguide-fr.maps--mapsviewer]
 file_filter = locale/<lang>/LC_MESSAGES/maps/mapsviewer.po
 source_file = build/locale/maps/mapsviewer.pot
 source_lang = en
 
-[mapmint_userguide-1.maps--index]
+[userguide-fr.maps--index]
 file_filter = locale/<lang>/LC_MESSAGES/maps/index.po
 source_file = build/locale/maps/index.pot
 source_lang = en
 
-[mapmint_userguide-1.maps--layerstree]
+[userguide-fr.maps--layerstree]
 file_filter = locale/<lang>/LC_MESSAGES/maps/layerstree.po
 source_file = build/locale/maps/layerstree.pot
 source_lang = en
