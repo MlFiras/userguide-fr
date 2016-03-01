@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Intsall MapMint &mdash; MapMint 1.2 Guide utilisateur</title>
+    
+    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <link rel="shortcut icon" href="../static/favicon.ico"/>
+    <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
+    <link rel="up" title="Introduction" href="index.html" />
+    <link rel="next" title="Use MapMint" href="usemapmint.html" />
+    <link rel="prev" title="Overview" href="introduction.html" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="usemapmint.html" title="Use MapMint"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Overview"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Introduction</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installer-mapmint">
+<span id="introduction-installmapmint"></span><h1><a class="toc-backref" href="#table-des-matieres">Intsall MapMint</a><a class="headerlink" href="#installer-mapmint" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#installer-mapmint" id="id1">Intsall MapMint</a><ul>
+<li><a class="reference internal" href="#prerequis" id="id2">Prerequisites</a><ul>
+<li><a class="reference internal" href="#paquets-et-modules-python" id="id3">Python packages and modules</a></li>
+<li><a class="reference internal" href="#telecharger-ansible-et-les-scripts-d-installation" id="id4">Ansible download and install scripts</a></li>
+<li><a class="reference internal" href="#creation-d-une-cle-ssh" id="id5">Generating an SSH key</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#installation" id="id6">Installation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>MapMint The application can be installed very simply using <cite>Ansible scripts &lt;http://ansible.com&gt;</cite> __. It is thus possible to deploy several instances of MapMint through the use of the `` Control ansible-playbook``. In this part of the installation will affect only a single instance, the local host that uses a GNU / Linux distribution: Ubuntu 14.03.3 LTS.</p>
+<div class="section" id="prerequis">
+<h2><a class="toc-backref" href="#table-des-matieres">Prerequisites</a><a class="headerlink" href="#prerequis" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="paquets-et-modules-python">
+<h3><a class="toc-backref" href="#table-des-matieres">Python packages and modules</a><a class="headerlink" href="#paquets-et-modules-python" title="Permalink to this headline">¶</a></h3>
+<p>Before you can install MapMint using Ansible scripts, it is necessary to ensure the presence of some Ubuntu packages and specific Python modules.</p>
+<div class="highlight-guess"><div class="highlight"><pre>sudo apt-get install git python-setuptools openssh-server
+sudo easy_install pip
+sudo pip install paramiko PyYAML Jinja2 httplib2 six
+</pre></div>
+</div>
+</div>
+<div class="section" id="telecharger-ansible-et-les-scripts-d-installation">
+<h3><a class="toc-backref" href="#table-des-matieres">Ansible download and install scripts</a><a class="headerlink" href="#telecharger-ansible-et-les-scripts-d-installation" title="Permalink to this headline">¶</a></h3>
+<p>It is necessary to download and Ansible specific scripts installation MapMint. To do this, use the following commands.</p>
+<div class="highlight-guess"><div class="highlight"><pre>cd
+mkdir mm-install
+cd mm-install
+git clone git://github.com/ansible/ansible.git --recursive
+git clone git://github.com/mapmint/ansible-roles mapmint-setup
+</pre></div>
+</div>
+</div>
+<div class="section" id="creation-d-une-cle-ssh">
+<h3><a class="toc-backref" href="#table-des-matieres">Generating an SSH key</a><a class="headerlink" href="#creation-d-une-cle-ssh" title="Permalink to this headline">¶</a></h3>
+<p>So your user can connect to the server via SSH MapMint on which to install, you must create a key to abort an automatic authentication. To do this use the following command.</p>
+<div class="highlight-guess"><div class="highlight"><pre>mkdir ~/.ssh
+ssh-keygen -t rsa
+sudo mkdir /root/.ssh
+sudo cp ~/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The last command remove all authorized key server.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Use a different order if you want to update the list of authorized keys.</p>
+</div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2><a class="toc-backref" href="#table-des-matieres">Installation</a><a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Installing MapMint is fully automated via the Ansible previously downloaded scripts, so it only remains to launch. Before that, it will be necessary to set Ansible and specific scripts installation MapMint to define the name of the machine that will be used to access the instance.</p>
+<p>Initially you will enable Ansible and define which machines you want to install MapMint. In the example presented here, the facilities will be made ​​on the local machine, so localhost .</p>
+<div class="highlight-guess"><div class="highlight"><pre>source ~/mm-install/ansible/hacking/env-setup
+echo &quot;localhost&quot; &gt; ~/ansible_hosts
+sed &quot;s:myhost.net:localhost:g&quot; -i \
+   ~/mm-install/mapmint-setup/debian/dependencies/vars/main.yml
+export ANSIBLE_INVENTORY=~/ansible_hosts
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">localhost should be replaced with the machine name or IP address allowing public access to the proceedings.</p>
+</div>
+<p>It remains only to invoke the installation of MapMint with the command below.</p>
+<div class="highlight-guess"><div class="highlight"><pre>cd ~/mm-install/mapmint-setup/ubuntu
+ansible-playbook -s server.yml -u root
+</pre></div>
+</div>
+<p>To access your MapMint instance, you can use the following links:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p class="first">:ref:Access to administrative modules : http://localhost/ui/Dashboard_bs</p>
+</li>
+<li><p class="first">:ref:Access to the public interface : http://localhost/ui/public/</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Introduction</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="introduction.html">Overview</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Intsall MapMint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usemapmint.html">Use MapMint</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/index.html">Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../territories/index.html">territory management module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data/index.html">Data Management Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../indicators/index.html">Module creation indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maps/index.html">Map creation module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../themes/index.html">Theme Creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documents/index.html">Module document creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/index.html">Application Publishing Module</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

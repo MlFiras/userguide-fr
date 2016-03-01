@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Panel territories &mdash; MapMint 1.2 Guide utilisateur</title>
+    
+    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <link rel="shortcut icon" href="../static/favicon.ico"/>
+    <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
+    <link rel="up" title="territory management module" href="index.html" />
+    <link rel="next" title="Information panel" href="infopanel.html" />
+    <link rel="prev" title="territory management module" href="index.html" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="infopanel.html" title="Information panel"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="territory management module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">territory management module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="panneau-des-territoires">
+<span id="territories-territorieslist"></span><h1><a class="toc-backref" href="#table-des-matieres">Panel territories</a><a class="headerlink" href="#panneau-des-territoires" title="Permalink to this headline">¶</a></h1>
+<p>A territory consists of a name and a source of geographical data present in the PostGIS database of your instance MapMint. The territories are used as input parameters of the: doc: <cite>../ indicators / index</cite>.</p>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#panneau-des-territoires" id="id1">Panel territories</a><ul>
+<li><a class="reference internal" href="#ajouter-un-nouveau-territoire" id="id2">Add a new territory</a></li>
+<li><a class="reference internal" href="#supprimer-un-territoire" id="id3">Delete territory</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="79%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/add3.png"><img alt="Add territory icon" src="../images/add3.png" style="height: 24px;" /></a></td>
+<td><p class="first last">Adds a new territory</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/delete4.png"><img alt="Delete indicator icon" src="../images/delete4.png" style="height: 24px;" /></a></td>
+<td><p class="first last">Removes territory</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="ajouter-un-nouveau-territoire">
+<h2><a class="toc-backref" href="#table-des-matieres">Add a new territory</a><a class="headerlink" href="#ajouter-un-nouveau-territoire" title="Permalink to this headline">¶</a></h2>
+<p>To add a new area, click on the corresponding icon in the toolbar on the left panel. This shows the addition of territory form as shown below.</p>
+<p><a class="reference internal" href="../images/add-territory-window.png"><img alt="Add new territory" src="../images/add-territory-window.png" style="width: 361.6px; height: 296.8px;" /></a></p>
+<p>Please specify a name in the text box provided at this end and click on the &#8220;Add&#8221; button. This causes the form are gone, adding land to tree and reloading of the panel of: doc: <cite>infopanel</cite>, to the right of the screen.</p>
+</div>
+<div class="section" id="supprimer-un-territoire">
+<h2><a class="toc-backref" href="#table-des-matieres">Delete territory</a><a class="headerlink" href="#supprimer-un-territoire" title="Permalink to this headline">¶</a></h2>
+<p>To remove an existing territory, please click on the name of the territory in the table, then on the icon to delete in the toolbar on the left panel. This displays the form of suppression of territory as shown below.</p>
+<p><a class="reference internal" href="../images/delete-territory-window.png"><img alt="Delete territory window" src="../images/delete-territory-window.png" style="width: 360.8px; height: 312.8px;" /></a></p>
+<p>Click the &#8220;Delete&#8221; button. This causes the form are gone and the removal of the tree area.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Deleting a territory is permanent and irreversible</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/index.html">Dashboard</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">territory management module</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Panel territories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infopanel.html">Information panel</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../data/index.html">Data Management Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../indicators/index.html">Module creation indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maps/index.html">Map creation module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../themes/index.html">Theme Creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documents/index.html">Module document creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/index.html">Application Publishing Module</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

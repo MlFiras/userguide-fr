@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Control Panel &mdash; MapMint 1.2 Guide utilisateur</title>
+    
+    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <link rel="shortcut icon" href="../static/favicon.ico"/>
+    <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
+    <link rel="up" title="Dashboard" href="index.html" />
+    <link rel="next" title="territory management module" href="../territories/index.html" />
+    <link rel="prev" title="User Management" href="usersmanagement.html" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../territories/index.html" title="territory management module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="usersmanagement.html" title="User Management"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Dashboard</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="panneau-de-configuration">
+<span id="dashboard-configuration"></span><h1>Control Panel<a class="headerlink" href="#panneau-de-configuration" title="Permalink to this headline">¶</a></h1>
+<p>The control panel allows you to view and edit the installation settings of MapMint . Forms are automatically filled with the content of the `` main.cfg`` settings file .</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">It is not advisable to change the configuration settings without knowing the consequences</p>
+</div>
+<p>The control panel is divided into 4 sections, listed below. Clicking on the icon causes the display of the tab.</p>
+<p><a class="reference internal" href="../images/dashboard-conf-form.png"><img alt="Présentation du panneau de configuration" src="../images/dashboard-conf-form.png" style="width: 100%;" /></a></p>
+<p>As presented in the previous screen, once you have edited the configuration settings, you to use the &#8220;Save&#8221; button at the top right of the panel to save your changes.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="79%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/monitor.png"><img alt="Main configuration icon" src="../images/monitor.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">General configuration</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/security.png"><img alt="Indentification configuration icon" src="../images/security.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">General configuration</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/user.png"><img alt="Provider configuration icon" src="../images/user.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Provider Configuration</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/db.png"><img alt="Provider configuration icon" src="../images/db.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Configuring the database</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="configuration-generale">
+<h2>General configuration<a class="headerlink" href="#configuration-generale" title="Permalink to this headline">¶</a></h2>
+<p>The general configuration form together the environment variables and installation parameters of the instance MapMint.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>Encoding</td>
+<td><p class="first last">Define the encoding of the default installation (utf-8)</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Mmadress</td>
+<td><p class="first last">Set access to the default instance URL (/ mm /)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Data path</p>
+</td>
+<td><p class="first last">Set path to the / data storage dedicated to data</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Jscache</td>
+<td><p class="first last">Defines if the javascript files are compressed or not (prod | dev)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Tmp path</p>
+</td>
+<td><p class="first last">Sets the path to the temporary file storage directory (/ tmp /)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Cache dir</p>
+</td>
+<td><p class="first last">Set path to the cache storage directory (/ cache /)</p>
+</td>
+</tr>
+<tr class="row-even"><td>3D</td>
+<td><p class="first last">Sets the 3D Activation (false | true)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Root url</p>
+</td>
+<td><p class="first last">Set the URL to access the public interface by default (/ public /)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">publication Url</p>
+</td>
+<td><p class="first last">Set publishing URL where files are stored (/ public_map /)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Db link</p>
+</td>
+<td><p class="first last">Set path to the database instance users MapMint</p>
+</td>
+</tr>
+<tr class="row-even"><td>Mmpath</td>
+<td><p class="first last">Set the full URL of the default installation directory (/ mm /)</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Version</td>
+<td><p class="first last">Sets version number MapMint</p>
+</td>
+</tr>
+<tr class="row-even"><td>Rpy2</td>
+<td><p class="first last">Sets the activation of the bookstore R (true | false)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Db user</p>
+</td>
+<td><p class="first last">Sets the name of the corresponding section in the parameters of the database</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Application adress</p>
+</td>
+<td><p class="first last">Sets the instance root address MapMint</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Lang</td>
+<td><p class="first last">Defines the languages supported by the instance</p>
+</td>
+</tr>
+<tr class="row-even"><td>Sesspath</td>
+<td><p class="first last">Set path to the session temporary files storage directory (/ tmp /)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Publication path</p>
+</td>
+<td><p class="first last">Set path to the instance publishing directory MapMint</p>
+</td>
+</tr>
+<tr class="row-even"><td>Csscache</td>
+<td><p class="first last">Defines whether the CSS files are compressed or not (prod | dev)</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Msogcversion</td>
+<td><p class="first last">Sets the version of the WMS and WFS services MapServer</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Server address</p>
+</td>
+<td><p class="first last">Set the URL to access the executable ZOO-Project (WPS kernel)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Db username</p>
+</td>
+<td><p class="first last">Sets the name of the storage space corresponding to the user database</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Address templates</p>
+</td>
+<td><p class="first last">Set the URL to access the files models generated by the application (for windows and tooltips)</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Language</td>
+<td><p class="first last">Sets the language of the proceedings</p>
+</td>
+</tr>
+<tr class="row-even"><td>Mapserveradress</td>
+<td><p class="first last">Set the URL to access the executable MapServer</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Tmpurl</td>
+<td><p class="first last">Set the access URL to the temporary directory (corresponding to the path tmp Path)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">templates Path</p>
+</td>
+<td><p class="first last">Defines the full path to the directory mapmint-ui / templates</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="configuration-de-l-identification">
+<h2>General configuration<a class="headerlink" href="#configuration-de-l-identification" title="Permalink to this headline">¶</a></h2>
+<p>configuration forms of ID and provider of services used to characterize the organization that publishes the data and the person responsible for the server and / or MapMint application.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Name position</p>
+</td>
+<td><p class="first last">Sets the position of the reference switch</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Individual Name</p>
+</td>
+<td><p class="first last">Sets the name of the individual reference contact</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Provide rname</p>
+</td>
+<td><p class="first last">Defines service provider name</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Administrative Area Address</p>
+</td>
+<td><p class="first last">Sets the administrative sector of the service provider</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Country address</p>
+</td>
+<td><p class="first last">Sets the service provider in the country</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Phone Voice</p>
+</td>
+<td><p class="first last">Sets the reference contact telephone number</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Address Postal Code</p>
+</td>
+<td><p class="first last">Sets the postal code of the service provider</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Role</td>
+<td><p class="first last">Sets the service provider role</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Providersite</p>
+</td>
+<td><p class="first last">Sets the address of the service provider&#8217;s website</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Phone Facsimile</p>
+</td>
+<td><p class="first last">Sets the fax number of the reference contract</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Address Electronic Mail Address</p>
+</td>
+<td><p class="first last">Sets the email address of the benchmark contract</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">address City</p>
+</td>
+<td><p class="first last">Defines the city the service provider</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Delivery Point Address</p>
+</td>
+<td><p class="first last">Sets the service provider&#8217;s address</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">These parameters are used to define metadata &#8220;open geospatial web services&#8221; (OWS) defined by the Open Geospatial Consortium (OGC).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The reference contact usually is the name of the person responsible for the server</p>
+</div>
+</div>
+<div class="section" id="configuration-du-fournisseur-des-services">
+<h2>Service Provider Configuration<a class="headerlink" href="#configuration-du-fournisseur-des-services" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>Keywords</td>
+<td><p class="first last">Sets keywords assigned to web services, separated by commas</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Title</td>
+<td><p class="first last">Sets the title of the map server</p>
+</td>
+</tr>
+<tr class="row-even"><td>Abstract</td>
+<td><p class="first last">Sets the map server with a short description</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Access Constraints</p>
+</td>
+<td><p class="first last">Defines if the map server requires authentication</p>
+</td>
+</tr>
+<tr class="row-even"><td>Fees</td>
+<td><p class="first last">Defines the terms of use and / or the copyright server</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">These parameters are used to define metadata &#8220;open geospatial web services&#8221; (OWS) defined by the Open Geospatial Consortium (OGC).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The service provider usually is the name of the organization that publishes data</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The title and description of the server are also used in the home page of the public interface</p>
+</div>
+</div>
+<div class="section" id="configuration-de-la-base-de-donnees">
+<h2>Configuring the database<a class="headerlink" href="#configuration-de-la-base-de-donnees" title="Permalink to this headline">¶</a></h2>
+<p>The Database Configuration page is only available when using a PostgreSQL type of database to store user information. In case you would use the SQLite database, this section should not appear.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>user</td>
+<td><p class="first last">Sets the user name to use to connect to the database server</p>
+</td>
+</tr>
+<tr class="row-odd"><td>host</td>
+<td><p class="first last">Sets the name of the machine or Unix domain socket used to connect to the database server</p>
+</td>
+</tr>
+<tr class="row-even"><td>port</td>
+<td><p class="first last">Sets the port to use to connect to the database server</p>
+</td>
+</tr>
+<tr class="row-odd"><td>dbname</td>
+<td><p class="first last">Sets the name of the database to use</p>
+</td>
+</tr>
+<tr class="row-even"><td>schema</td>
+<td><p class="first last">Sets the schema used for storing system tables</p>
+</td>
+</tr>
+<tr class="row-odd"><td>password</td>
+<td><p class="first last">Sets the password to use to connect to the database server</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Dashboard</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Section &#8220;Overview&#8221;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usersmanagement.html">User Management</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Control Panel</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../territories/index.html">territory management module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data/index.html">Data Management Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../indicators/index.html">Module creation indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maps/index.html">Map creation module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../themes/index.html">Theme Creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documents/index.html">Module document creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/index.html">Application Publishing Module</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

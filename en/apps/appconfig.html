@@ -1,0 +1,919 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Application Control Panel &mdash; MapMint 1.2 Guide utilisateur</title>
+    
+    <link rel="stylesheet" href="../static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/underscore.js"></script>
+    <script type="text/javascript" src="../static/doctools.js"></script>
+    <link rel="shortcut icon" href="../static/favicon.ico"/>
+    <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
+    <link rel="up" title="Application Publishing Module" href="index.html" />
+    <link rel="prev" title="Application Publishing Module" href="index.html" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Application Publishing Module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Application Publishing Module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="panneau-de-configuration-d-applications">
+<span id="apps-appconfig"></span><h1><a class="toc-backref" href="#table-des-matieres">Application Control Panel</a><a class="headerlink" href="#panneau-de-configuration-d-applications" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#panneau-de-configuration-d-applications" id="id1">Application Control Panel</a><ul>
+<li><a class="reference internal" href="#configuration-generale-de-l-application" id="id2">General Application Configuration</a></li>
+<li><a class="reference internal" href="#configuration-des-couches-de-l-application" id="id3">Configuring application layers</a><ul>
+<li><a class="reference internal" href="#couches-de-fond" id="id4">Data Sources</a></li>
+<li><a class="reference internal" href="#couches-du-projet" id="id5">Project layers</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#parametrage-de-la-carte" id="id6">Setting the map</a><ul>
+<li><a class="reference internal" href="#parametres-de-l-affichage-de-la-carte" id="id7">Parameters of the map display</a></li>
+<li><a class="reference internal" href="#parametres-de-presentation-de-l-application" id="id8">Parameters of presentation of the application</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configuration-des-fonctionnalites-de-l-application" id="id9">Configuring application features</a><ul>
+<li><a class="reference internal" href="#outils-de-base" id="id10">Basic tools</a></li>
+<li><a class="reference internal" href="#autres-outils" id="id11">other tools</a></li>
+<li><a class="reference internal" href="#outils-d-analyse-spatiale" id="id12">spatial analysis tools</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#publication-de-l-application" id="id13">Publication of the application</a></li>
+<li><a class="reference internal" href="#publication-de-la-vignette" id="id14">Publication of the thumbnail</a></li>
+<li><a class="reference internal" href="#previsualisation-de-l-application" id="id15">Preview application</a></li>
+<li><a class="reference internal" href="#supprimer-l-application" id="id16">Remove Application</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The publication of a map application is done using 4 different settings tabs, each corresponding parts must be properly informed.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can switch from one tab to another and make changes at any time. Your settings are saved only when you click on the button &#8220;Publish&#8221;</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Any change in one of the tabs requires the publication of the project (&#8220;Publish&#8221; button) to be taken into account by the published map</p>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="20%" />
+<col width="66%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><p class="first last"><strong>tab</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/info.png"><img alt="General configuration icon" src="../images/info.png" style="height: 24px;" /></a></td>
+<td><p class="first last">General</p>
+</td>
+<td><p class="first last">General Application Configuration</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last"><a href="#id1"><span class="problematic" id="id2">|</span></a>layers |</p>
+</td>
+<td><p class="first last">Layers</p>
+</td>
+<td><p class="first last">Configuring application layers</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/map.png"><img alt="Map settings icon" src="../images/map.png" style="height: 24px;" /></a></td>
+<td><p class="first last">Map</p>
+</td>
+<td><p class="first last">Setup Map application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/process.png"><img alt="Control settings icon" src="../images/process.png" style="height: 24px;" /></a></td>
+<td>Service</td>
+<td><p class="first last">Configuring application features</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="configuration-generale-de-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">General Application Configuration</a><a class="headerlink" href="#configuration-generale-de-l-application" title="Permalink to this headline">¶</a></h2>
+<p>The first setting tab is open by default to load the module. The parameters to enter are listed in the table below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Name of the project</p>
+</td>
+<td><p class="first last">Name of the registered project in the: doc: <cite>../ maps / index</cite>. (Name of the map file)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Title</p>
+</td>
+<td><p class="first last">Sets the title used in the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Access rights</p>
+</td>
+<td><p class="first last">Defined groups of users with access to published applications</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Theme</p>
+</td>
+<td><p class="first last">Defines the theme of the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">project  URL</p>
+</td>
+<td><p class="first last">Show the relative URL of the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">active card</p>
+</td>
+<td><p class="first last">Displays the name of the card used by the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td>Date</td>
+<td><p class="first last">Displays the date and time of publication of the application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Language</p>
+</td>
+<td><p class="first last">Sets the language used by the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Keywords</p>
+</td>
+<td><p class="first last">Sets keywords application with a list of words separated by commas</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Author</p>
+</td>
+<td><p class="first last">Sets the name of the author of the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td>Copyright</td>
+<td><p class="first last">Sets the value of the copyright of the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Description</td>
+<td><p class="first last">Sets the description of the published application</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Access rights can be assigned to multiple groups by clicking the &#8220;Add&#8221; button.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The use of the &#8220;public&#8221; group allows access to the application by any Internet user.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Access rights can be assigned to multiple groups by clicking the &#8220;Add&#8221; button.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Language settings, keywords, author, copyright and description metatags correspond to HTML tags the published application.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The description of the application is used in the public interface. You can edit it with rich-text editor. For more information about the features of the editor, please refer to the <cite>CKEditor documentation &lt;http://docs.cksource.com/Main_Page&gt;</cite> __.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Be sure to fill in all the editable fields.</p>
+</div>
+<p>A preview of the first setting tab is presented below.</p>
+<p><a class="reference internal" href="../images/publisher-main-conf.png"><img alt="General configuration icon" src="../images/publisher-main-conf.png" style="width: 100%;" /></a></p>
+</div>
+<div class="section" id="configuration-des-couches-de-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">Configuring application layers</a><a class="headerlink" href="#configuration-des-couches-de-l-application" title="Permalink to this headline">¶</a></h2>
+<p>The third step of the configuration of an application is to set the different layers used in the published map. The primers (or background) and the layers of the project are configurable as described in this section.</p>
+<div class="section" id="couches-de-fond">
+<h3><a class="toc-backref" href="#table-des-matieres">Data Sources</a><a class="headerlink" href="#couches-de-fond" title="Permalink to this headline">¶</a></h3>
+<p>The primers used to display tiles from third servers, but also to use a project created in the: doc: <cite>../ maps / index</cite>. The various parameters available are listed below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>Default</td>
+<td><p class="first last">Means the primer shown by default to load the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td>OpenStreetMap</td>
+<td><p class="first last">Adds OpenStreetMap tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td>MapQuest</td>
+<td><p class="first last">Adds MapQuest Open tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Google</td>
+<td><p class="first last">Adds the Google Maps tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td>Bing</td>
+<td><p class="first last">Adds Microsoft Bing tile as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td>IGN</td>
+<td><p class="first last">Adds the IGN Geoportal tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td>Created layers</td>
+<td><p class="first last">Add MapMint project as a primer available (WMS)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="../images/publisher-baselayers-conf.png"><img alt="App layers configuration" src="../images/publisher-baselayers-conf.png" style="width: 100%;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Click holding the Shift key on your keyboard to select multiple primers.</p>
+</div>
+<p class="rubric">free primer</p>
+<p>The bottom layer uses the OpenStreetMap project OpenStreetMap tiles <cite>&lt;http://www.openstreetmap.org&gt;</cite> __ with the default style. their use is subject to the terms and conditions <cite>&lt;http://www.openstreetmap.org/copyright&gt;</cite> __ OpenStreetMap.</p>
+<p>Basecoats MapQuest MapQuest Map and Aerial use the <cite>Open JavaScript Maps API &lt;https://developer.mapquest.com/web/products/open/map&gt;</cite> __. Their use is subject to the terms and conditions <cite>&lt;https://developer.mapquest.com/web/products/open/map#terms&gt;</cite> __ MapQuest.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="18%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/osm-layer-icon.png"><img alt="OSM base layer icon" src="../images/osm-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>OpenStreetMap</td>
+<td><p class="first last">Adds OpenStreetMap tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/mqstr-layer-icon.png"><img alt="MapQuest Street base layer icon" src="../images/mqstr-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>MapQuest Map</td>
+<td><p class="first last">Adds MapQuest Open tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/mqsat-layer-icon.png"><img alt="MapQuest Satelite layer icon" src="../images/mqsat-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>MapQuest Satelite</td>
+<td><p class="first last">Adds the Google Maps tiles as background layers available</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">basecoats owners</p>
+<p>The Google Maps basemap layers use the Google Maps API v3 <cite>&lt;https://developers.google.com/maps/documentation/javascript/&gt;</cite> __. Their use is subject to the terms and conditions <cite>&lt;https://developers.google.com/maps/terms/&gt;</cite> __ Google Maps.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="18%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/gmap-layer-icon.png"><img alt="Google street base layer icon" src="../images/gmap-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Google Maps</td>
+<td><p class="first last">Adds the Google Maps tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/gsat-layer-icon.png"><img alt="Google satelite base layer icon" src="../images/gsat-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Google Satelite</td>
+<td><p class="first last">Google Adds Satellite tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/ghyb-layer-icon.png"><img alt="Google hybrid base layer icon" src="../images/ghyb-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Google Hybrid</td>
+<td><p class="first last">Google Adds Hybrid tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/gter-layer-icon.png"><img alt="Google terrain base layer icon" src="../images/gter-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Google Terain</td>
+<td><p class="first last">Google Adds Terrain tiles as background layers available</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The Bing Maps basemap layers use the Bing Maps API <cite>&lt;http://www.microsoft.com/maps/&gt;</cite> __. Their uses are subject to the terms and conditions <cite>&lt;http://www.microsoft.com/maps/product/terms.html/&gt;</cite> __ Microsoft Bing.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="18%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/bstr-layer-icon.png"><img alt="Bing street base layer icon" src="../images/bstr-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Bing Maps</td>
+<td><p class="first last">Adds Bing Maps tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/bsat-layer-icon.png"><img alt="Bing satelite base layer icon" src="../images/bsat-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Bing Satelite</td>
+<td><p class="first last">Bing Adds Satellite tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/bhyb-layer-icon.png"><img alt="Bing hybrid base layer icon" src="../images/bhyb-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Bing Hybrid</td>
+<td><p class="first last">Bing Adds Hybrid tiles as background layers available</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Basecoats IGN uses <cite>IGN Geoportal API &lt;http://api.ign.fr/services#web&gt;</cite> __. Their uses are subject to the terms and conditions <cite>&lt;http://api.ign.fr/licences&gt;</cite> __ of the National Geographic Institute.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="17%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../images/ignm-layer-icon.png"><img alt="Geoportail Carte base layer icon" src="../images/ignm-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Maps</p>
+</td>
+<td><p class="first last">Adds IGN Maps tiles as background layers available</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../images/igns-layer-icon.png"><img alt="Geoportail Photo aerienne base layer icon" src="../images/igns-layer-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Aerial photos</p>
+</td>
+<td><p class="first last">Put the tiles IGN aerial photos as background layers available</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Basecoats MapMint</p>
+<p>Maps created in the: doc: <cite>../ maps / index</cite> are listed in the last drop of form funds layers.</p>
+<p>Choosing a card created as a primer entails the creation of a pyramid tile map (WMTS). The bottom layer will be added to the legend with an icon automatically generated.</p>
+</div>
+<div class="section" id="couches-du-projet">
+<h3><a class="toc-backref" href="#table-des-matieres">Project layers</a><a class="headerlink" href="#couches-du-projet" title="Permalink to this headline">¶</a></h3>
+<p>Layers used in the active map are listed in a table in the lower part of the window. Use the check boxes, radio buttons and drop-down lists to set them. The various parameters are listed in the table below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>Vector</td>
+<td><p class="first last">Set the layer Vector Mode (WMS)</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Raster</td>
+<td><p class="first last">Set the layer Raster Mode (WMS)</p>
+</td>
+</tr>
+<tr class="row-even"><td>Activated</td>
+<td><p class="first last">Sets whether the layer is enabled by default to load the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Access</p>
+</td>
+<td><p class="first last">Defined groups of users authorized to view the layer</p>
+</td>
+</tr>
+<tr class="row-even"><td>MinZoom</td>
+<td><p class="first last">Sets the minimum display scale of the layer</p>
+</td>
+</tr>
+<tr class="row-odd"><td>MaxZoom</td>
+<td><p class="first last">Sets the maximum display scale of the layer</p>
+</td>
+</tr>
+<tr class="row-even"><td>Popup</td>
+<td><p class="first last">Set opening a popup overview of the features in the layer</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Window</td>
+<td><p class="first last">Set opening a window to click on the features in the layer</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="../images/publisher-overlays-conf.png"><img alt="App layers configuration" src="../images/publisher-overlays-conf.png" style="width: 100%;" /></a></p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Every layer must be set in Vector or Raster mode.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The vector mode is to be used only for little bulky layers (max 2MB).</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Enabling Popups or Fenetres assumes that the layer has been set as queryable in the: doc: <cite>../ maps / index</cite>.</p>
+</div>
+<p>A preview of the second Settings tab is shown below.</p>
+<p><a class="reference internal" href="../images/publisher-map-conf.png"><img alt="General configuration icon" src="../images/publisher-map-conf.png" style="width: 100%;" /></a></p>
+</div>
+</div>
+<div class="section" id="parametrage-de-la-carte">
+<h2><a class="toc-backref" href="#table-des-matieres">Setting the map</a><a class="headerlink" href="#parametrage-de-la-carte" title="Permalink to this headline">¶</a></h2>
+<p>The third publication settings tab allows an application to set the map display properties to be published and the application of presentation options.</p>
+<div class="section" id="parametres-de-l-affichage-de-la-carte">
+<h3><a class="toc-backref" href="#table-des-matieres">Parameters of the map display</a><a class="headerlink" href="#parametres-de-l-affichage-de-la-carte" title="Permalink to this headline">¶</a></h3>
+<p>This specific part to define the map of properties to publish and display type of application. The different parameters to enter are listed in the table below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="77%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">projection system</p>
+</td>
+<td><p class="first last">Sets the projection system displayed by the cursor coordinates tool</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Rendering Method</p>
+</td>
+<td><p class="first last">Sets the given method used by the map (SVG or Canvas)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Unit of measure</p>
+</td>
+<td><p class="first last">Defines the unit of measurement displayed by the measurement tools (meter | foot | degree)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Scope default</p>
+</td>
+<td><p class="first last">Define the geographic extent of the map by default to load the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Minimum span</p>
+</td>
+<td><p class="first last">Set the minimum geographic extent of the map of the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Maximum Extent</p>
+</td>
+<td><p class="first last">Set the maximum geographic extent of the map of the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">limited Scope</p>
+</td>
+<td><p class="first last">Set the maximum geographic extent as card limit of the published application</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="../images/publisher-map-conf.png"><img alt="App map configuration" src="../images/publisher-map-conf.png" style="width: 100%;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The right combo to automatically fill in the boxes of the coordinates from the range of a layer of the project.</p>
+</div>
+</div>
+<div class="section" id="parametres-de-presentation-de-l-application">
+<h3><a class="toc-backref" href="#table-des-matieres">Parameters of presentation of the application</a><a class="headerlink" href="#parametres-de-presentation-de-l-application" title="Permalink to this headline">¶</a></h3>
+<p>This specific part is used to enter the fields that are listed in the table below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">character family</p>
+</td>
+<td><p class="first last">Defines the character of family used in the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Size</p>
+</td>
+<td><p class="first last">Sets the font size used in the published application</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Font color</p>
+</td>
+<td><p class="first last">Sets the character color used in the published application</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">GC position</p>
+</td>
+<td><p class="first last">Set the Layer Manager position</p>
+</td>
+</tr>
+<tr class="row-even"><td>GC</td>
+<td><p class="first last">Sets whether the Layer Manager must be open or not</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The three drop-down lists allow you to edit CSS properties based characters used by the application, such as the nature of family (font-family), the overall size of character (font-size) and the character color (color) .</p>
+<p>It is not necessary to change the default, and their use is intended for specific cases.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Keep in mind the final appearance of the application before using the dropdown lists and modify the properties of characters. It is recommended nes not change the appearance of characters by default.</p>
+</div>
+</div>
+</div>
+<div class="section" id="configuration-des-fonctionnalites-de-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">Configuring application features</a><a class="headerlink" href="#configuration-des-fonctionnalites-de-l-application" title="Permalink to this headline">¶</a></h2>
+<p>The fifth and final step of the configuration of an application is to set the features of the card to publish. The different functionalities available are listed in the sections below.</p>
+<p><a class="reference internal" href="../images/publisher-controls-conf.png"><img alt="App Controls configuration" src="../images/publisher-controls-conf.png" style="width: 100%;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Click holding the Shift key on your keyboard to select multiple features.</p>
+</div>
+<div class="section" id="outils-de-base">
+<h3><a class="toc-backref" href="#table-des-matieres">Basic tools</a><a class="headerlink" href="#outils-de-base" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="46%" />
+<col width="54%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Parameter</strong></p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>Authentification</td>
+<td><p class="first last">Displays the login form</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Share a link</p>
+</td>
+<td><p class="first last">Permalink View and license card code</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Share on Twitter</p>
+</td>
+<td><p class="first last">Permalink opens in a popup Twitter</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Share on Facebook</p>
+</td>
+<td><p class="first last">Permalink opens in a popup Facebook</p>
+</td>
+</tr>
+<tr class="row-even"><td>Scroll</td>
+<td><p class="first last">Zoom in / Zoom out the map with the mouse wheel</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Move the map</p>
+</td>
+<td><p class="first last">Move the center of the map by drag deposited</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">My position</p>
+</td>
+<td><p class="first last">Center the map on the browser location</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Track My position</p>
+</td>
+<td><p class="first last">Follows the browser location</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Zoom by rectangle selection</p>
+</td>
+<td><p class="first last">Zoom map as a rectangle defined by the user</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Zoom the maximum extent</p>
+</td>
+<td><p class="first last">Zooms to the maximum geographic extent</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">View an altitude profile</p>
+</td>
+<td><p class="first last">Shows the elevation profile of a raster layer in a window</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Query one or more layers by rectangle</p>
+</td>
+<td><p class="first last">Displays the attributes of one or more layers in a window</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Query one or more layers by circle</p>
+</td>
+<td><p class="first last">Displays the attributes of one or more layers in a window</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Measure distance</p>
+</td>
+<td><p class="first last">Displays the result of a distance measurement in a window</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">area measurement</p>
+</td>
+<td><p class="first last">Displays the result of a measurement area in a window</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Print the map</p>
+</td>
+<td><p class="first last">Print current map view in a PDF document</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The integration features by rectangle and circle by questioning imply that / the targeted vector layer have been declared as queryable in the: doc: <cite>../ maps / index</cite>.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Using the elevation profile feature requires that the target raster layer have been declared as queryable in the: doc: <cite>../ maps / index</cite>.</p>
+</div>
+</div>
+<div class="section" id="autres-outils">
+<h3><a class="toc-backref" href="#table-des-matieres">other tools</a><a class="headerlink" href="#autres-outils" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="32%" />
+<col width="68%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last">** Functionality **</p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Overview map</p>
+</td>
+<td><p class="first last">Show overview map</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Move and zoom</p>
+</td>
+<td><p class="first last">View a zoom slider with a joystick</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Ladder</p>
+</td>
+<td><p class="first last">View the map scale</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Search engine</p>
+</td>
+<td><p class="first last">Displays the entities search engine</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">cursor position</p>
+</td>
+<td><p class="first last">Displays the coordinates of the cursor when hovering over the map</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Add a layer</p>
+</td>
+<td><p class="first last">Displays a list of additional layers available</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Add WMS layer</p>
+</td>
+<td><p class="first last">Displays a list of additional WMS layers available</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The search engine functionality implies that / the targeted vector layer have been declared as queryable in the: doc: <cite>../ maps / index</cite>.</p>
+</div>
+</div>
+<div class="section" id="outils-d-analyse-spatiale">
+<h3><a class="toc-backref" href="#table-des-matieres">spatial analysis tools</a><a class="headerlink" href="#outils-d-analyse-spatiale" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="76%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last">** Functionality **</p>
+</td>
+<td><p class="first last"><strong>Definition</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Boundary</p>
+</td>
+<td><p class="first last">Shows the limits of the selected entity</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Buffer</p>
+</td>
+<td><p class="first last">Displays the buffer zone of the selected entity</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">buffer zone with mask</p>
+</td>
+<td><p class="first last">Displays the mask in the buffer zone of the selected entity</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">centroid</p>
+</td>
+<td><p class="first last">Displays the centroid of the selected entity</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">convex hull</p>
+</td>
+<td><p class="first last">Show the convex envelope of the selected entity</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">spatial query</p>
+</td>
+<td><p class="first last">Displays entities resulting from the parameterized query</p>
+</td>
+</tr>
+<tr class="row-even"><td>Simplification</td>
+<td><p class="first last">Simplify by removing nodes from the selected entity</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The features of spatial analysis imply that / the targeted vector layer have been declared queryable and the corresponding properties were indicated in the: doc: <cite>../ maps / index</cite>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="publication-de-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">Publication of the application</a><a class="headerlink" href="#publication-de-l-application" title="Permalink to this headline">¶</a></h2>
+<p>Once all the settings made, click the &#8220;Publish&#8221; button in the toolbar of the application control panel.</p>
+<p>If a green bar appears at the top of the screen, it means that the publication was successful. You can check your application in a new tab in your browser with the address <a class="reference external" href="http://votre-instance.com/public/votreapplication">http://votre-instance.com/public/votreapplication</a>.</p>
+<p>If a red banner appears, check all parameters of the card and the application and repeat.</p>
+</div>
+<div class="section" id="publication-de-la-vignette">
+<h2><a class="toc-backref" href="#table-des-matieres">Publication of the thumbnail</a><a class="headerlink" href="#publication-de-la-vignette" title="Permalink to this headline">¶</a></h2>
+<p>Click on the &#8220;Publish thumbnail&#8221; button causes the creation of a preview image of the card used in the public interface of the instance MapMint to present the project.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Overview If the card is not issued, the public interface uses a single GetMap request, implying a longer charging time.</p>
+</div>
+</div>
+<div class="section" id="previsualisation-de-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">Preview application</a><a class="headerlink" href="#previsualisation-de-l-application" title="Permalink to this headline">¶</a></h2>
+<p>You have the ability to preview the application to publish by clicking the &#8220;Preview&#8221; button. This causes the application opens in a new tab in your browser.</p>
+</div>
+<div class="section" id="supprimer-l-application">
+<h2><a class="toc-backref" href="#table-des-matieres">Remove Application</a><a class="headerlink" href="#supprimer-l-application" title="Permalink to this headline">¶</a></h2>
+<p>You can delete the published application by clicking the &#8220;Preview&#8221; button.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/index.html">Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../territories/index.html">territory management module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data/index.html">Data Management Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../indicators/index.html">Module creation indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maps/index.html">Map creation module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../themes/index.html">Theme Creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documents/index.html">Module document creation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Application Publishing Module</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Application Control Panel</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.. _home:
+
+Table des matières
+=================
+
+Bienvenue dans le guide utilisateur de l'application `MapMint <http://mapmint.com>`__.
+
+.. note::
+    Le guide utilisateur est aussi disponible aux formats 
+    `PDF <../latex/MapMint.pdf>`__ |image|  et `ePub <../epub/MapMintGuideutilisateur.epub>`__ |image2|
+    
+.. |image| image:: _static/images/pdf.png
+   :height: 16
+   :width: 16
+   :alt: PDF icon
+   :target: ../latex/MapMint.pdf
+   
+.. |image2| image:: _static/images/epub.png
+   :height: 16
+   :width: 16
+   :alt: ePub icon
+   :target: ../epub/MapMintGuideutilisateur.epub
+
+.. toctree::
+   :maxdepth: 2
+   
+   introduction/index
+   dashboard/index
+   territories/index   
+   data/index
+   indicators/index
+   maps/index
+   themes/index
+   documents/index
+   apps/index
+
