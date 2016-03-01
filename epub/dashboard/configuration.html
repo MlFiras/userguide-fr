@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Panneau de configuration</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../territories/index.html" title="Module de gestion des territoires"
+             accesskey="N">suivant</a> |</li>
+        <li class="right" >
+          <a href="usersmanagement.html" title="Gestion des utilisateurs"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Tableau de bord</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="panneau-de-configuration">
+<span id="dashboard-configuration"></span><h1>Panneau de configuration</h1>
+<p>Le panneau de configuration permet de visualiser et d&#8217;éditer les
+paramètres d&#8217;installation de MapMint. Les formulaires sont renseignés
+automatiquement par rapport au contenu du fichier de paramétrage
+<code class="docutils literal"><span class="pre">main.cfg</span></code>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Il n&#8217;est pas conseillé de modifier les paramètres de configuration sans en connaitre les conséquences</p>
+</div>
+<p>Le panneau de configuration est organisé en 4 sections, listés ci-dessous. Un clic sur l&#8217;icône entraine l&#8217;affichage de l&#8217;onglet correspondant.</p>
+<p><a class="reference internal" href="../_images/dashboard-conf-form.png"><img alt="Présentation du panneau de configuration" src="../_images/dashboard-conf-form.png" style="width: 100%;" /></a></p>
+<p>Comme présenté dans la capture d&#8217;écran précédente, une fois que vous
+avez édité les paramètres de configuration, vous pouver utiliser le
+bouton &#8220;Sauver&#8221; en haut à droite du panneau pour enregistrer vos
+modifications.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="79%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Icône</strong></td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/monitor.png"><img alt="Main configuration icon" src="../_images/monitor.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Configuration générale</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/security.png"><img alt="Indentification configuration icon" src="../_images/security.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Configuration de l&#8217;identification</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/user.png"><img alt="Provider configuration icon" src="../_images/user.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Configuration du fournisseur</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/db.png"><img alt="Provider configuration icon" src="../_images/db.png" style="width: 24px; height: 24px;" /></a></td>
+<td>Configuration de la base de données</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="configuration-generale">
+<h2>Configuration générale</h2>
+<p>Le formulaire de confuguration générale regroupe les variables d&#8217;environnement et les paramètres d&#8217;installation de l&#8217;instance MapMint.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Paramètre</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>Encoding</td>
+<td>Définit l&#8217;encodage de l&#8217;installation par défaut (utf-8)</td>
+</tr>
+<tr class="row-odd"><td>Mmadress</td>
+<td>Définit l&#8217;URL d&#8217;accès à l&#8217;instance par défaut (/mm/)</td>
+</tr>
+<tr class="row-even"><td>Datapath</td>
+<td>Définit le chemin vers le répertoire /data dédié aux stockage des données</td>
+</tr>
+<tr class="row-odd"><td>Jscache</td>
+<td>Définit si les fichiers javascripts sont compressés ou non (prod|dev)</td>
+</tr>
+<tr class="row-even"><td>Tmppath</td>
+<td>Définit le chemin vers le répertoire de stockage des fichiers temporaires (/tmp/)</td>
+</tr>
+<tr class="row-odd"><td>Cachedir</td>
+<td>Définit le chemin vers le répertoire de stockage du cache (/cache/)</td>
+</tr>
+<tr class="row-even"><td>3D</td>
+<td>Définit l&#8217;activation du mode 3D (false|true)</td>
+</tr>
+<tr class="row-odd"><td>Rooturl</td>
+<td>Définit l&#8217;URL d&#8217;accès à l&#8217;interface publique par défaut (/public/)</td>
+</tr>
+<tr class="row-even"><td>Publicationurl</td>
+<td>Définit l&#8217;URL de publication où sont stockés les fichiers (/public_map/)</td>
+</tr>
+<tr class="row-odd"><td>Dblink</td>
+<td>Définit le chemin vers la base de données des utilisateurs de l&#8217;instance MapMint</td>
+</tr>
+<tr class="row-even"><td>Mmpath</td>
+<td>Définit l&#8217;URL complète du répertoire d&#8217;installation par défaut (/mm/)</td>
+</tr>
+<tr class="row-odd"><td>Version</td>
+<td>Définit le numéro de version de MapMint</td>
+</tr>
+<tr class="row-even"><td>Rpy2</td>
+<td>Définit l&#8217;activation de la librairie R (true|false)</td>
+</tr>
+<tr class="row-odd"><td>Dbuser</td>
+<td>Définit le nom de la section correspondante aux paramétres de la base de données</td>
+</tr>
+<tr class="row-even"><td>Applicationadress</td>
+<td>Définit l&#8217;adresse racine de l&#8217;instance MapMint</td>
+</tr>
+<tr class="row-odd"><td>Lang</td>
+<td>Définit les langues supportées par l&#8217;instance</td>
+</tr>
+<tr class="row-even"><td>Sesspath</td>
+<td>Définit le chemin vers le répertoire de stockage des fichiers temporaires de session (/tmp/)</td>
+</tr>
+<tr class="row-odd"><td>Publicationpath</td>
+<td>Définit le chemin vers le répertoire de publication de l&#8217;instance MapMint</td>
+</tr>
+<tr class="row-even"><td>Csscache</td>
+<td>Définit si les fichiers CSS sont compressés ou non (prod|dev)</td>
+</tr>
+<tr class="row-odd"><td>Msogcversion</td>
+<td>Définit la version des services WMS et WFS de MapServer</td>
+</tr>
+<tr class="row-even"><td>Serveradress</td>
+<td>Définit l&#8217;URL permettant d&#8217;accéder à l&#8217;executable de ZOO-Project (WPS kernel)</td>
+</tr>
+<tr class="row-odd"><td>Dbusername</td>
+<td>Définit le nom de l&#8217;espace de stockage correspondant à la base de données des utilisateurs</td>
+</tr>
+<tr class="row-even"><td>Templatesadress</td>
+<td>Définit l&#8217;URL permettant d&#8217;accéder au fichiers models générés par l&#8217;application (pour les fenêtres et les info bulles)</td>
+</tr>
+<tr class="row-odd"><td>Language</td>
+<td>Définit la langue de l&#8217;instance</td>
+</tr>
+<tr class="row-even"><td>Mapserveradress</td>
+<td>Définit l&#8217;URL permettant d&#8217;accéder à l&#8217;éxécutable de MapServer</td>
+</tr>
+<tr class="row-odd"><td>Tmpurl</td>
+<td>Définit l&#8217;URL d&#8217;acccès au répertoire temporaire (correspondant au chemin tmpPath)</td>
+</tr>
+<tr class="row-even"><td>Templatespath</td>
+<td>Définit le chemin complet vers le répertoire mapmint-ui/templates</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="configuration-de-l-identification">
+<h2>Configuration de l&#8217;identification</h2>
+<p>Les formulaires de configuration de l&#8217;identification et du fournisseur des services permettent de caractériser l&#8217;organisation qui publie les données et la personne responsable du serveur et/ou de l&#8217;application MapMint.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Paramètre</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>Positionname</td>
+<td>Définit la position du contact de référence</td>
+</tr>
+<tr class="row-odd"><td>Individualname</td>
+<td>Définit le nom individuel du contact de référence</td>
+</tr>
+<tr class="row-even"><td>Providername</td>
+<td>Définit le nom du fournisseur des services</td>
+</tr>
+<tr class="row-odd"><td>Adressadministrativearea</td>
+<td>Définit le secteur administratif du fournisseur des services</td>
+</tr>
+<tr class="row-even"><td>Adresscountry</td>
+<td>Définit le pays du fournisseur des services</td>
+</tr>
+<tr class="row-odd"><td>Phonevoice</td>
+<td>Définit le numéro de téléphone du contact de référence</td>
+</tr>
+<tr class="row-even"><td>Adresspostalcode</td>
+<td>Définit le code postal du fournisseur des services</td>
+</tr>
+<tr class="row-odd"><td>Role</td>
+<td>Définit le role du fournisseur des services</td>
+</tr>
+<tr class="row-even"><td>Providersite</td>
+<td>Définit l&#8217;adresse du site Internet du fournisseur des services</td>
+</tr>
+<tr class="row-odd"><td>Phonefacsimile</td>
+<td>Définit le numéro de fax du contat de référence</td>
+</tr>
+<tr class="row-even"><td>Addresselectronicmailaddress</td>
+<td>Définit l&#8217;adresse de courier électronique du contat de référence</td>
+</tr>
+<tr class="row-odd"><td>Adresscity</td>
+<td>Définit la ville du fournisseur des services</td>
+</tr>
+<tr class="row-even"><td>Adressdeliverypoint</td>
+<td>Définit l&#8217;adresse du fournisseur des services</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces paramètres sont utilisés pour définir les métadonnées &#8220;opengeospatial web services&#8221; (OWS) définies par l&#8217;Open Geospatial Consortium  (OGC).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Le contact de référence correspond habituellement au nom de la personne responsable du serveur</p>
+</div>
+</div>
+<div class="section" id="configuration-du-fournisseur-des-services">
+<h2>Configuration du fournisseur des services</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Paramètre</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>Keywords</td>
+<td>Définit les mots clés attribués aux services web, séparés par des virgules</td>
+</tr>
+<tr class="row-odd"><td>Title</td>
+<td>Définit le titre du serveur cartographique</td>
+</tr>
+<tr class="row-even"><td>Abstract</td>
+<td>Définit le serveur cartographique par une courte description</td>
+</tr>
+<tr class="row-odd"><td>Accesscontraints</td>
+<td>Définit si le serveur cartographique nécessite une identification</td>
+</tr>
+<tr class="row-even"><td>Fees</td>
+<td>Définit les conditions d&#8217;utilisation et/ou le copyright du serveur</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces paramètres sont utilisés pour définir les métadonnées &#8220;opengeospatial web services&#8221; (OWS) définies par l&#8217;Open Geospatial Consortium  (OGC).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Le fournisseur des services correspond habituellement au nom de l&#8217;organisme qui publie les données</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le titre et la description du serveur sont également utilisés dans la page d&#8217;accueil de l&#8217;interface publique</p>
+</div>
+</div>
+<div class="section" id="configuration-de-la-base-de-donnees">
+<h2>Configuration de la base de données</h2>
+<p>La page de configuration de la base de données n&#8217;est disponible que
+lorsque vous utilisez une base de type PostgreSQL pour stocker les
+informations des utilisateurs. Dans le cas où vous n&#8217;utiliseriez que
+la base de données SQLite, cette section ne devrait pas apparaitre.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Paramètre</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>user</td>
+<td>Définit le nom d&#8217;utilisateur à utiliser pour se connecter au serveur de bases de données</td>
+</tr>
+<tr class="row-odd"><td>host</td>
+<td>Définit le nom de machine ou le scoket de domaine unix à utiliser pour se connecter au serveur de bases de données</td>
+</tr>
+<tr class="row-even"><td>port</td>
+<td>Définit le port à utiliser pour se connecter au serveur de bases de données</td>
+</tr>
+<tr class="row-odd"><td>dbname</td>
+<td>Définit le nom de la base de données à utiliser</td>
+</tr>
+<tr class="row-even"><td>schema</td>
+<td>Définit le schema de stockage utilisé pour les tables du système</td>
+</tr>
+<tr class="row-odd"><td>password</td>
+<td>Définit le mot de passe à utiliser pour se connecter au serveur de bases de données</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installer MapMint</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="usemapmint.html" title="Utiliser MapMint"
+             accesskey="N">suivant</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Généralités"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Introduction</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installer-mapmint">
+<span id="introduction-installmapmint"></span><h1><a class="toc-backref" href="#table-des-matieres">Installer MapMint</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table des matières</p>
+<ul class="simple">
+<li><a class="reference internal" href="#installer-mapmint" id="id1">Installer MapMint</a><ul>
+<li><a class="reference internal" href="#prerequis" id="id2">Prérequis</a><ul>
+<li><a class="reference internal" href="#paquets-et-modules-python" id="id3">Paquets et modules Python</a></li>
+<li><a class="reference internal" href="#telecharger-ansible-et-les-scripts-d-installation" id="id4">Télécharger Ansible et les scripts d&#8217;installation</a></li>
+<li><a class="reference internal" href="#creation-d-une-cle-ssh" id="id5">Création d&#8217;une clé SSH</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#installation" id="id6">Installation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>L&#8217;application MapMint peut être installée de manière très simple en
+utilisant des scripts <a class="reference external" href="http://ansible.com">Ansible</a><span class="link-target"> [http://ansible.com]</span> . Il est donc
+possible de déployer plusieures instances de MapMint via l&#8217;utilisation
+de la commande <code class="docutils literal"><span class="pre">ansible-playbook</span></code>. Dans cette partie l&#8217;installation
+ne concernera qu&#8217;une seule instance, l&#8217;hôte local qui utilise une
+distribution GNU/Linux : Ubuntu LTS 14.03.3.</p>
+<div class="section" id="prerequis">
+<h2><a class="toc-backref" href="#table-des-matieres">Prérequis</a></h2>
+<div class="section" id="paquets-et-modules-python">
+<h3><a class="toc-backref" href="#table-des-matieres">Paquets et modules Python</a></h3>
+<p>Avant de pouvoir installer MapMint en utilisant les scripts Ansible, il
+est nécessaire de s&#8217;assurer de la présence des certains paquets
+Ubuntu ainsi que des modules python spécifiques.</p>
+<div class="highlight-guess"><div class="highlight"><pre>sudo apt-get install git python-setuptools openssh-server
+sudo easy_install pip
+sudo pip install paramiko PyYAML Jinja2 httplib2 six
+</pre></div>
+</div>
+</div>
+<div class="section" id="telecharger-ansible-et-les-scripts-d-installation">
+<h3><a class="toc-backref" href="#table-des-matieres">Télécharger Ansible et les scripts d&#8217;installation</a></h3>
+<p>Il est nécessaire de télécharger Ansible et les scripts spécifiques
+d&#8217;installation de MapMint. Pour ce faire, utilisez les commandes
+suivantes.</p>
+<div class="highlight-guess"><div class="highlight"><pre>cd
+mkdir mm-install
+cd mm-install
+git clone git://github.com/ansible/ansible.git --recursive
+git clone git://github.com/mapmint/ansible-roles mapmint-setup
+</pre></div>
+</div>
+</div>
+<div class="section" id="creation-d-une-cle-ssh">
+<h3><a class="toc-backref" href="#table-des-matieres">Création d&#8217;une clé SSH</a></h3>
+<p>Afin que votre utilisateur puisse se connecter au serveur via SSH sur
+lequel installer MapMint, vous devez tout d&#8217;abort créer une clé
+permettant une authentification automatique. Pour ce faire utiliser
+le commande suivante.</p>
+<div class="highlight-guess"><div class="highlight"><pre>mkdir ~/.ssh
+ssh-keygen -t rsa
+sudo mkdir /root/.ssh
+sudo cp ~/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">La dernière commande supprime toutes lesclés autorisées du
+serveur.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Utilisez une commande différente si vous souhaitez mettre à jour la
+liste des clés autorisées.</p>
+</div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2><a class="toc-backref" href="#table-des-matieres">Installation</a></h2>
+<p>L&#8217;installation de MapMint est entièrement automatisée via les scripts
+Ansible téléchargés précédemment, il ne reste donc plus qu&#8217;à les
+lancer. Avant cela, il sera nécessaire de paramétrer Ansible et les
+scripts spécifiques d&#8217;installation de MapMint afin de définir le nom
+de la machine qui sera utilisé pour accéder à l&#8217;instance.</p>
+<p>Dans un premier temps vous allez activer Ansible et définir sur
+quelles machines vous souhaitez installer MapMint. Dans l&#8217;exemple
+présenté ici, l&#8217;installations sera faite sur la machine local, donc
+<code class="docutils literal"><span class="pre">localhost</span></code>.</p>
+<div class="highlight-guess"><div class="highlight"><pre>source ~/mm-install/ansible/hacking/env-setup
+echo &quot;localhost&quot; &gt; ~/ansible_hosts
+sed &quot;s:myhost.net:localhost:g&quot; -i \
+   ~/mm-install/mapmint-setup/debian/dependencies/vars/main.yml
+export ANSIBLE_INVENTORY=~/ansible_hosts
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><code class="docutils literal"><span class="pre">localhost</span></code> devrait être remplacer par le nom de machine ou
+l&#8217;adresse ip permettant l&#8217;accès publique à l&#8217;instance.</p>
+</div>
+<p>Il ne reste plus qu&#8217;à invoquer l&#8217;installation de MapMint avec la
+commande ci-dessous.</p>
+<div class="highlight-guess"><div class="highlight"><pre>cd ~/mm-install/mapmint-setup/ubuntu
+ansible-playbook -s server.yml -u root
+</pre></div>
+</div>
+<p>Pour accéder à votre instance MapMint, vous pouvez utiliser les liens
+suivants :</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="usemapmint.html#introduction-usemapmint-administration-access"><span>Accès aux modules d&#8217;administration</span></a> : <a class="reference external" href="http://localhost/ui/Dashboard_bs">http://localhost/ui/Dashboard_bs</a></li>
+<li><a class="reference internal" href="usemapmint.html#introduction-usemapmint-public-access"><span>Accès à l&#8217;interface publique</span></a> : <a class="reference external" href="http://localhost/ui/public/">http://localhost/ui/public/</a></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,212 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Qu\IeC {\textquoteright }est-ce que MapMint?}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Que permet MapMint?}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Comment fonctionne MapMint?}{3}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Installer MapMint}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Pr\IeC {\'e}requis}{5}{subsection.1.2.1}
+\contentsline {subsubsection}{Paquets et modules Python}{5}{subsubsection*.9}
+\contentsline {subsubsection}{T\IeC {\'e}l\IeC {\'e}charger Ansible et les scripts d'installation}{5}{subsubsection*.10}
+\contentsline {subsubsection}{Cr\IeC {\'e}ation d'une cl\IeC {\'e} SSH}{5}{subsubsection*.11}
+\contentsline {subsection}{\numberline {1.2.2}Installation}{6}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Utiliser MapMint}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Acc\IeC {\`e}s aux modules d'administration}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Formulaire d'identification}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Acc\IeC {\`e}s \IeC {\`a} l'interface publique}{8}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Premiers param\IeC {\'e}trages}{8}{subsection.1.3.4}
+\contentsline {subsubsection}{Titre de l'interface publique}{8}{subsubsection*.23}
+\contentsline {subsubsection}{Carte de l'interface publique}{8}{subsubsection*.24}
+\contentsline {subsection}{\numberline {1.3.5}Ajouter des donn\IeC {\'e}es}{8}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Acc\IeC {\`e}s aux donn\IeC {\'e}es et traitements depuis des clients bureautiques}{9}{subsection.1.3.6}
+\contentsline {subsubsection}{Acc\IeC {\'e}der aux services de diffusion de donn\IeC {\'e}es}{10}{subsubsection*.25}
+\contentsline {subsubsection}{Acc\IeC {\'e}der aux services de traitements de donn\IeC {\'e}es}{10}{subsubsection*.26}
+\contentsline {chapter}{\numberline {2}Tableau de bord}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Section ``Vue d'ensemble''}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Donn\IeC {\'e}es disponibles}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Nombres de cartes disponibles}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Versions des logiciels install\IeC {\'e}s}{17}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Gestion des symboles}{17}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Gestion des Syst\IeC {\`e}mes de R\IeC {\'e}f\IeC {\'e}rences Spatiales (SRS)}{18}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Gestion des utilisateurs}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Ajouter un utilisateur}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Editer un utilisateur}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Supprimer un utilisateur}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Ajouter un groupe}{21}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Editer un groupe}{21}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Supprimer un groupe}{21}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Panneau de configuration}{22}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Configuration g\IeC {\'e}n\IeC {\'e}rale}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Configuration de l'identification}{24}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Configuration du fournisseur des services}{24}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Configuration de la base de donn\IeC {\'e}es}{24}{subsection.2.3.4}
+\contentsline {chapter}{\numberline {3}Module de gestion des territoires}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Panneau des territoires}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Ajouter un nouveau territoire}{27}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Supprimer un territoire}{28}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Panneau d'information}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Nom du territoire}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Donn\IeC {\'e}e g\IeC {\'e}ographique}{30}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Territoire parent}{30}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Droits des groupes}{30}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Module de gestion des donn\IeC {\'e}es}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Espaces de stockage}{31}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ajouter un espace de stockage}{32}{subsection.4.1.1}
+\contentsline {subsubsection}{R\IeC {\'e}pertoires}{32}{subsubsection*.49}
+\contentsline {subsubsection}{Base de donn\IeC {\'e}es}{33}{subsubsection*.50}
+\contentsline {subsubsection}{Serveurs OGC}{33}{subsubsection*.51}
+\contentsline {subsection}{\numberline {4.1.2}Acc\IeC {\'e}der \IeC {\`a} un espace de stockage}{34}{subsection.4.1.2}
+\contentsline {subsubsection}{Barre d'outils d'un espace de stockage}{35}{subsubsection*.52}
+\contentsline {subsubsection}{Cr\IeC {\'e}er une mosa\IeC {\"\i }que d'images}{35}{subsubsection*.53}
+\contentsline {subsubsection}{Envoyer une source de donn\IeC {\'e}es dans un espace de stockage}{36}{subsubsection*.54}
+\contentsline {subsubsection}{Cr\IeC {\'e}er un index de tuiles dans un espace de stockage}{37}{subsubsection*.55}
+\contentsline {subsubsection}{Gestion des droits d'acc\IeC {\'e}s d'un espace de stockage}{37}{subsubsection*.56}
+\contentsline {subsubsection}{Param\IeC {\'e}trage d'un espace de stockage}{38}{subsubsection*.57}
+\contentsline {subsubsection}{Supprimer un espace de stockage}{38}{subsubsection*.58}
+\contentsline {subsubsection}{Rafraichir un espace de stockage}{38}{subsubsection*.59}
+\contentsline {section}{\numberline {4.2}Sources de donn\IeC {\'e}es}{38}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Donn\IeC {\'e}es vectorielles}{39}{subsection.4.2.1}
+\contentsline {subsubsection}{Formats support\IeC {\'e}s}{39}{subsubsection*.75}
+\contentsline {subsubsection}{Consulter la table}{39}{subsubsection*.76}
+\contentsline {subsubsection}{D\IeC {\'e}finir l'encodage des caract\IeC {\`e}res de la table}{40}{subsubsection*.77}
+\contentsline {subsection}{\numberline {4.2.2}Donn\IeC {\'e}es matricielles}{40}{subsection.4.2.2}
+\contentsline {subsubsection}{Formats support\IeC {\'e}s}{40}{subsubsection*.78}
+\contentsline {subsubsection}{Consulter l'histogramme}{41}{subsubsection*.79}
+\contentsline {subsection}{\numberline {4.2.3}Barre d'outils des sources de donn\IeC {\'e}es}{41}{subsection.4.2.3}
+\contentsline {subsubsection}{Droits d'acc\IeC {\`e}s}{42}{subsubsection*.80}
+\contentsline {subsubsection}{Convertir une source de donn\IeC {\'e}es}{42}{subsubsection*.81}
+\contentsline {subsubsection}{T\IeC {\'e}l\IeC {\'e}chargement}{42}{subsubsection*.82}
+\contentsline {subsubsection}{Pr\IeC {\'e}visualisation}{42}{subsubsection*.83}
+\contentsline {subsubsection}{Suppression}{43}{subsubsection*.84}
+\contentsline {subsubsection}{Ouverture}{43}{subsubsection*.85}
+\contentsline {section}{\numberline {4.3}G\IeC {\'e}otraitements}{43}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Convertisseur de sources de donn\IeC {\'e}es vectorielles}{43}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Utilitaire de traitements des sources de donn\IeC {\'e}es matricielles}{44}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Module de cr\IeC {\'e}ation d'indicateurs}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pr\IeC {\'e}sentation}{47}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Qu'est ce qu'un indicateur ?}{47}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Fonctionnement g\IeC {\'e}n\IeC {\'e}ral du module}{47}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Pr\IeC {\'e}requis techniques}{47}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Panneau des indicateurs}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Ajouter un indicateur}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Supprimer un indicateur}{48}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Configuration d'un indicateur}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Initialisation de l'indicateur}{50}{subsection.5.3.1}
+\contentsline {subsubsection}{M\IeC {\'e}tadonn\IeC {\'e}es}{50}{subsubsection*.112}
+\contentsline {paragraph}{Nom de l'indicateur}{51}{paragraph*.113}
+\contentsline {paragraph}{Description de l'indicateur}{51}{paragraph*.114}
+\contentsline {paragraph}{Fiche de l'indicateur}{51}{paragraph*.115}
+\contentsline {paragraph}{Sources de l'indicateur}{51}{paragraph*.116}
+\contentsline {paragraph}{Mots cl\IeC {\'e}s de l'indicateur}{51}{paragraph*.117}
+\contentsline {paragraph}{Groupe(s) d'utilisateurs}{51}{paragraph*.118}
+\contentsline {paragraph}{Th\IeC {\`e}me(s) de l'indicateur}{51}{paragraph*.119}
+\contentsline {subsubsection}{Donn\IeC {\'e}es}{52}{subsubsection*.120}
+\contentsline {paragraph}{Fichier}{52}{paragraph*.121}
+\contentsline {paragraph}{Table}{53}{paragraph*.122}
+\contentsline {paragraph}{Requ\IeC {\^e}te SQL}{53}{paragraph*.123}
+\contentsline {subsection}{\numberline {5.3.2}Style}{53}{subsection.5.3.2}
+\contentsline {paragraph}{Variable}{53}{paragraph*.124}
+\contentsline {paragraph}{Formule}{53}{paragraph*.125}
+\contentsline {paragraph}{Classification}{54}{paragraph*.126}
+\contentsline {paragraph}{Discr\IeC {\'e}tisation}{54}{paragraph*.127}
+\contentsline {paragraph}{Nombres de classes}{54}{paragraph*.128}
+\contentsline {paragraph}{Couleurs minimum et maximum}{54}{paragraph*.129}
+\contentsline {paragraph}{Table des classes}{55}{paragraph*.130}
+\contentsline {subsection}{\numberline {5.3.3}Table}{56}{subsection.5.3.3}
+\contentsline {paragraph}{Titre de la table}{56}{paragraph*.131}
+\contentsline {paragraph}{Configuration de la table}{56}{paragraph*.132}
+\contentsline {subsection}{\numberline {5.3.4}Graphique}{57}{subsection.5.3.4}
+\contentsline {paragraph}{Titre du graphique}{58}{paragraph*.133}
+\contentsline {paragraph}{Type de graphique}{58}{paragraph*.134}
+\contentsline {paragraph}{Etiquette de l'abscisse}{58}{paragraph*.135}
+\contentsline {paragraph}{Variable de l'abscisse}{58}{paragraph*.136}
+\contentsline {paragraph}{Etiquette de l'ordonn\IeC {\'e}e}{58}{paragraph*.137}
+\contentsline {paragraph}{Variable de l'ordonn\IeC {\'e}e}{59}{paragraph*.138}
+\contentsline {paragraph}{Formule de l'ordonn\IeC {\'e}e}{59}{paragraph*.139}
+\contentsline {paragraph}{Valeur au survol}{59}{paragraph*.140}
+\contentsline {paragraph}{Enregistrement et pr\IeC {\'e}visualisation}{59}{paragraph*.141}
+\contentsline {subsection}{\numberline {5.3.5}Rapport}{59}{subsection.5.3.5}
+\contentsline {paragraph}{Mod\IeC {\`e}le de document}{60}{paragraph*.142}
+\contentsline {paragraph}{Param\IeC {\'e}trage du rapport}{60}{paragraph*.143}
+\contentsline {subsection}{\numberline {5.3.6}Publier un indicateur}{61}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}D\IeC {\'e}publier un indicateur}{61}{subsection.5.3.7}
+\contentsline {chapter}{\numberline {6}Module de cr\IeC {\'e}ation de cartes}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}Menu couches de donn\IeC {\'e}es}{63}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Fonds de carte}{64}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Ouvrir une carte}{64}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Enregistrer une carte}{65}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Menu couches}{65}{subsection.6.1.4}
+\contentsline {subsubsection}{Ajouter une couche}{66}{subsubsection*.164}
+\contentsline {subsubsection}{Ajouter une grille}{67}{subsubsection*.165}
+\contentsline {subsubsection}{G\IeC {\'e}rer l'ordre des couches}{67}{subsubsection*.166}
+\contentsline {subsubsection}{Ajouter un groupe}{68}{subsubsection*.167}
+\contentsline {subsection}{\numberline {6.1.5}Menu contextuel d'une couche}{69}{subsection.6.1.5}
+\contentsline {subsubsection}{Zoomer sur l'\IeC {\'e}tendue d'une couche}{69}{subsubsection*.168}
+\contentsline {subsubsection}{Ouvrir la table d'attributs}{70}{subsubsection*.169}
+\contentsline {subsubsection}{Configuration d'une couche}{70}{subsubsection*.170}
+\contentsline {paragraph}{Propri\IeC {\'e}t\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales d'une couche}{70}{paragraph*.171}
+\contentsline {paragraph}{Nom de la couche}{71}{paragraph*.172}
+\contentsline {paragraph}{Titre de la couche}{71}{paragraph*.173}
+\contentsline {paragraph}{Description}{71}{paragraph*.174}
+\contentsline {paragraph}{Mots cl\IeC {\'e}s}{72}{paragraph*.175}
+\contentsline {paragraph}{Cr\IeC {\'e}dit}{72}{paragraph*.176}
+\contentsline {paragraph}{Requ\IeC {\^e}te}{72}{paragraph*.177}
+\contentsline {paragraph}{Exporter}{72}{paragraph*.178}
+\contentsline {paragraph}{Filtre}{72}{paragraph*.179}
+\contentsline {paragraph}{Chercher}{72}{paragraph*.180}
+\contentsline {paragraph}{Requ\IeC {\^e}te spatiale}{72}{paragraph*.181}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage de la table}{73}{paragraph*.182}
+\contentsline {paragraph}{Style d'une couche}{73}{paragraph*.183}
+\contentsline {paragraph}{Opacit\IeC {\'e}}{75}{paragraph*.184}
+\contentsline {paragraph}{Type de l\IeC {\'e}gende}{75}{paragraph*.185}
+\contentsline {paragraph}{Nom}{77}{paragraph*.186}
+\contentsline {paragraph}{Formule de filtre}{77}{paragraph*.187}
+\contentsline {paragraph}{Remplissage}{77}{paragraph*.188}
+\contentsline {paragraph}{Bordure}{77}{paragraph*.189}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des \IeC {\'e}tiquettes d'une couche}{78}{paragraph*.190}
+\contentsline {paragraph}{Champ d'\IeC {\'e}tiquettes}{79}{paragraph*.191}
+\contentsline {paragraph}{Orientation}{79}{paragraph*.192}
+\contentsline {paragraph}{Taille de nettoyage}{79}{paragraph*.193}
+\contentsline {paragraph}{Police}{79}{paragraph*.194}
+\contentsline {paragraph}{Buffer autour du texte}{79}{paragraph*.195}
+\contentsline {paragraph}{Position}{80}{paragraph*.196}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des informations d'une couche}{80}{paragraph*.197}
+\contentsline {paragraph}{Echelles d'affichage d'une couche}{81}{paragraph*.198}
+\contentsline {subsubsection}{Suppression d'une couche}{81}{subsubsection*.199}
+\contentsline {chapter}{\numberline {7}Module de cr\IeC {\'e}ation de th\IeC {\`e}mes}{83}{chapter.7}
+\contentsline {section}{\numberline {7.1}Panneau des th\IeC {\`e}mes}{83}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Ajouter un nouveau th\IeC {\`e}me}{83}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Supprimer un th\IeC {\`e}me}{84}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Panneau d'information}{84}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nom du th\IeC {\`e}me}{85}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Droits des groupes}{85}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Module de cr\IeC {\'e}ation de documents}{87}{chapter.8}
+\contentsline {section}{\numberline {8.1}Panneau des documents}{87}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Ajouter un nouveau document}{87}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Supprimer un document}{88}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Panneau d'information}{89}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Nom du document}{90}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Th\IeC {\`e}me du document}{90}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Fichier ou URL}{90}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Description du document}{90}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Droits des groupes}{90}{subsection.8.2.5}
+\contentsline {chapter}{\numberline {9}Module de publication d'applications}{93}{chapter.9}
+\contentsline {section}{\numberline {9.1}Panneau de configuration d'applications}{93}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Configuration g\IeC {\'e}n\IeC {\'e}rale de l'application}{94}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Configuration des couches de l'application}{95}{subsection.9.1.2}
+\contentsline {subsubsection}{Couches de fond}{95}{subsubsection*.231}
+\contentsline {paragraph}{Couches de fond libres}{96}{paragraph*.232}
+\contentsline {paragraph}{Couches de fond propri\IeC {\'e}taires}{96}{paragraph*.233}
+\contentsline {paragraph}{Couches de fond MapMint}{97}{paragraph*.234}
+\contentsline {subsubsection}{Couches du projet}{97}{subsubsection*.235}
+\contentsline {subsection}{\numberline {9.1.3}Param\IeC {\'e}trage de la carte}{99}{subsection.9.1.3}
+\contentsline {subsubsection}{Param\IeC {\'e}tres de l'affichage de la carte}{99}{subsubsection*.236}
+\contentsline {subsubsection}{Param\IeC {\'e}tres de pr\IeC {\'e}sentation de l'application}{99}{subsubsection*.237}
+\contentsline {subsection}{\numberline {9.1.4}Configuration des fonctionnalit\IeC {\'e}s de l'application}{100}{subsection.9.1.4}
+\contentsline {subsubsection}{Outils de base}{101}{subsubsection*.238}
+\contentsline {subsubsection}{Autres outils}{101}{subsubsection*.239}
+\contentsline {subsubsection}{Outils d'analyse spatiale}{102}{subsubsection*.240}
+\contentsline {subsection}{\numberline {9.1.5}Publication de l'application}{102}{subsection.9.1.5}
+\contentsline {subsection}{\numberline {9.1.6}Publication de la vignette}{102}{subsection.9.1.6}
+\contentsline {subsection}{\numberline {9.1.7}Pr\IeC {\'e}visualisation de l'application}{102}{subsection.9.1.7}
+\contentsline {subsection}{\numberline {9.1.8}Supprimer l'application}{102}{subsection.9.1.8}

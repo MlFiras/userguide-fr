@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>MapMint Guide utilisateur</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Table des matières</text>
+      </navLabel>
+      <content src="index.html" />
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="introduction/index.html" />
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>Introduction</text>
+        </navLabel>
+        <content src="introduction/index.html" />
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>Généralités</text>
+        </navLabel>
+        <content src="introduction/introduction.html" />
+        <navPoint id="navPoint5" playOrder="3">
+          <navLabel>
+            <text>Généralités</text>
+          </navLabel>
+          <content src="introduction/introduction.html" />
+        </navPoint>
+        <navPoint id="navPoint6" playOrder="4">
+          <navLabel>
+            <text>Qu’est-ce que MapMint?</text>
+          </navLabel>
+          <content src="introduction/introduction.html#quest-ce-que-mapmint" />
+        </navPoint>
+        <navPoint id="navPoint7" playOrder="5">
+          <navLabel>
+            <text>Que permet MapMint?</text>
+          </navLabel>
+          <content src="introduction/introduction.html#que-permet-mapmint" />
+        </navPoint>
+        <navPoint id="navPoint8" playOrder="6">
+          <navLabel>
+            <text>Comment fonctionne MapMint?</text>
+          </navLabel>
+          <content src="introduction/introduction.html#comment-fonctionne-mapmint" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint9" playOrder="7">
+        <navLabel>
+          <text>Installer MapMint</text>
+        </navLabel>
+        <content src="introduction/installmapmint.html" />
+        <navPoint id="navPoint10" playOrder="7">
+          <navLabel>
+            <text>Installer MapMint</text>
+          </navLabel>
+          <content src="introduction/installmapmint.html" />
+        </navPoint>
+        <navPoint id="navPoint11" playOrder="8">
+          <navLabel>
+            <text>Prérequis</text>
+          </navLabel>
+          <content src="introduction/installmapmint.html#prerequis" />
+        </navPoint>
+        <navPoint id="navPoint12" playOrder="9">
+          <navLabel>
+            <text>Installation</text>
+          </navLabel>
+          <content src="introduction/installmapmint.html#installation" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint13" playOrder="10">
+        <navLabel>
+          <text>Utiliser MapMint</text>
+        </navLabel>
+        <content src="introduction/usemapmint.html" />
+        <navPoint id="navPoint14" playOrder="10">
+          <navLabel>
+            <text>Utiliser MapMint</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html" />
+        </navPoint>
+        <navPoint id="navPoint15" playOrder="11">
+          <navLabel>
+            <text>Accès aux modules d&#39;administration</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#acces-aux-modules-d-administration" />
+        </navPoint>
+        <navPoint id="navPoint16" playOrder="12">
+          <navLabel>
+            <text>Formulaire d&#39;identification</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#formulaire-d-identification" />
+        </navPoint>
+        <navPoint id="navPoint17" playOrder="13">
+          <navLabel>
+            <text>Accès à l&#39;interface publique</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#acces-a-l-interface-publique" />
+        </navPoint>
+        <navPoint id="navPoint18" playOrder="14">
+          <navLabel>
+            <text>Premiers paramétrages</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#premiers-parametrages" />
+        </navPoint>
+        <navPoint id="navPoint19" playOrder="15">
+          <navLabel>
+            <text>Ajouter des données</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#ajouter-des-donnees" />
+        </navPoint>
+        <navPoint id="navPoint20" playOrder="16">
+          <navLabel>
+            <text>Accès aux données et traitements depuis des clients bureautiques</text>
+          </navLabel>
+          <content src="introduction/usemapmint.html#acces-aux-donnees-et-traitements-depuis-des-clients-bureautiques" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint21" playOrder="17">
+      <navLabel>
+        <text>Tableau de bord</text>
+      </navLabel>
+      <content src="dashboard/index.html" />
+      <navPoint id="navPoint22" playOrder="17">
+        <navLabel>
+          <text>Tableau de bord</text>
+        </navLabel>
+        <content src="dashboard/index.html" />
+      </navPoint>
+      <navPoint id="navPoint23" playOrder="18">
+        <navLabel>
+          <text>Section &#8220;Vue d&#39;ensemble&#8221;</text>
+        </navLabel>
+        <content src="dashboard/overview.html" />
+        <navPoint id="navPoint24" playOrder="18">
+          <navLabel>
+            <text>Section &#8220;Vue d&#39;ensemble&#8221;</text>
+          </navLabel>
+          <content src="dashboard/overview.html" />
+        </navPoint>
+        <navPoint id="navPoint25" playOrder="19">
+          <navLabel>
+            <text>Données disponibles</text>
+          </navLabel>
+          <content src="dashboard/overview.html#donnees-disponibles" />
+        </navPoint>
+        <navPoint id="navPoint26" playOrder="20">
+          <navLabel>
+            <text>Nombres de cartes disponibles</text>
+          </navLabel>
+          <content src="dashboard/overview.html#nombres-de-cartes-disponibles" />
+        </navPoint>
+        <navPoint id="navPoint27" playOrder="21">
+          <navLabel>
+            <text>Versions des logiciels installés</text>
+          </navLabel>
+          <content src="dashboard/overview.html#versions-des-logiciels-installes" />
+        </navPoint>
+        <navPoint id="navPoint28" playOrder="22">
+          <navLabel>
+            <text>Gestion des symboles</text>
+          </navLabel>
+          <content src="dashboard/overview.html#gestion-des-symboles" />
+        </navPoint>
+        <navPoint id="navPoint29" playOrder="23">
+          <navLabel>
+            <text>Gestion des Systèmes de Références Spatiales (SRS)</text>
+          </navLabel>
+          <content src="dashboard/overview.html#gestion-des-systemes-de-references-spatiales-srs" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint30" playOrder="24">
+        <navLabel>
+          <text>Gestion des utilisateurs</text>
+        </navLabel>
+        <content src="dashboard/usersmanagement.html" />
+        <navPoint id="navPoint31" playOrder="24">
+          <navLabel>
+            <text>Gestion des utilisateurs</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html" />
+        </navPoint>
+        <navPoint id="navPoint32" playOrder="25">
+          <navLabel>
+            <text>Ajouter un utilisateur</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#ajouter-un-utilisateur" />
+        </navPoint>
+        <navPoint id="navPoint33" playOrder="26">
+          <navLabel>
+            <text>Editer un utilisateur</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#editer-un-utilisateur" />
+        </navPoint>
+        <navPoint id="navPoint34" playOrder="27">
+          <navLabel>
+            <text>Supprimer un utilisateur</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#supprimer-un-utilisateur" />
+        </navPoint>
+        <navPoint id="navPoint35" playOrder="28">
+          <navLabel>
+            <text>Ajouter un groupe</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#ajouter-un-groupe" />
+        </navPoint>
+        <navPoint id="navPoint36" playOrder="29">
+          <navLabel>
+            <text>Editer un groupe</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#editer-un-groupe" />
+        </navPoint>
+        <navPoint id="navPoint37" playOrder="30">
+          <navLabel>
+            <text>Supprimer un groupe</text>
+          </navLabel>
+          <content src="dashboard/usersmanagement.html#supprimer-un-groupe" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint38" playOrder="31">
+        <navLabel>
+          <text>Panneau de configuration</text>
+        </navLabel>
+        <content src="dashboard/configuration.html" />
+        <navPoint id="navPoint39" playOrder="31">
+          <navLabel>
+            <text>Panneau de configuration</text>
+          </navLabel>
+          <content src="dashboard/configuration.html" />
+        </navPoint>
+        <navPoint id="navPoint40" playOrder="32">
+          <navLabel>
+            <text>Configuration générale</text>
+          </navLabel>
+          <content src="dashboard/configuration.html#configuration-generale" />
+        </navPoint>
+        <navPoint id="navPoint41" playOrder="33">
+          <navLabel>
+            <text>Configuration de l&#39;identification</text>
+          </navLabel>
+          <content src="dashboard/configuration.html#configuration-de-l-identification" />
+        </navPoint>
+        <navPoint id="navPoint42" playOrder="34">
+          <navLabel>
+            <text>Configuration du fournisseur des services</text>
+          </navLabel>
+          <content src="dashboard/configuration.html#configuration-du-fournisseur-des-services" />
+        </navPoint>
+        <navPoint id="navPoint43" playOrder="35">
+          <navLabel>
+            <text>Configuration de la base de données</text>
+          </navLabel>
+          <content src="dashboard/configuration.html#configuration-de-la-base-de-donnees" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint44" playOrder="36">
+      <navLabel>
+        <text>Module de gestion des territoires</text>
+      </navLabel>
+      <content src="territories/index.html" />
+      <navPoint id="navPoint45" playOrder="36">
+        <navLabel>
+          <text>Module de gestion des territoires</text>
+        </navLabel>
+        <content src="territories/index.html" />
+      </navPoint>
+      <navPoint id="navPoint46" playOrder="37">
+        <navLabel>
+          <text>Panneau des territoires</text>
+        </navLabel>
+        <content src="territories/territorieslist.html" />
+        <navPoint id="navPoint47" playOrder="37">
+          <navLabel>
+            <text>Panneau des territoires</text>
+          </navLabel>
+          <content src="territories/territorieslist.html" />
+        </navPoint>
+        <navPoint id="navPoint48" playOrder="38">
+          <navLabel>
+            <text>Ajouter un nouveau territoire</text>
+          </navLabel>
+          <content src="territories/territorieslist.html#ajouter-un-nouveau-territoire" />
+        </navPoint>
+        <navPoint id="navPoint49" playOrder="39">
+          <navLabel>
+            <text>Supprimer un territoire</text>
+          </navLabel>
+          <content src="territories/territorieslist.html#supprimer-un-territoire" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint50" playOrder="40">
+        <navLabel>
+          <text>Panneau d&#39;information</text>
+        </navLabel>
+        <content src="territories/infopanel.html" />
+        <navPoint id="navPoint51" playOrder="40">
+          <navLabel>
+            <text>Panneau d&#39;information</text>
+          </navLabel>
+          <content src="territories/infopanel.html" />
+        </navPoint>
+        <navPoint id="navPoint52" playOrder="41">
+          <navLabel>
+            <text>Nom du territoire</text>
+          </navLabel>
+          <content src="territories/infopanel.html#nom-du-territoire" />
+        </navPoint>
+        <navPoint id="navPoint53" playOrder="42">
+          <navLabel>
+            <text>Donnée géographique</text>
+          </navLabel>
+          <content src="territories/infopanel.html#donnee-geographique" />
+        </navPoint>
+        <navPoint id="navPoint54" playOrder="43">
+          <navLabel>
+            <text>Territoire parent</text>
+          </navLabel>
+          <content src="territories/infopanel.html#territoire-parent" />
+        </navPoint>
+        <navPoint id="navPoint55" playOrder="44">
+          <navLabel>
+            <text>Droits des groupes</text>
+          </navLabel>
+          <content src="territories/infopanel.html#droits-des-groupes" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint56" playOrder="45">
+      <navLabel>
+        <text>Module de gestion des données</text>
+      </navLabel>
+      <content src="data/index.html" />
+      <navPoint id="navPoint57" playOrder="45">
+        <navLabel>
+          <text>Module de gestion des données</text>
+        </navLabel>
+        <content src="data/index.html" />
+      </navPoint>
+      <navPoint id="navPoint58" playOrder="46">
+        <navLabel>
+          <text>Espaces de stockage</text>
+        </navLabel>
+        <content src="data/datastores.html" />
+        <navPoint id="navPoint59" playOrder="46">
+          <navLabel>
+            <text>Espaces de stockage</text>
+          </navLabel>
+          <content src="data/datastores.html" />
+        </navPoint>
+        <navPoint id="navPoint60" playOrder="47">
+          <navLabel>
+            <text>Ajouter un espace de stockage</text>
+          </navLabel>
+          <content src="data/datastores.html#ajouter-un-espace-de-stockage" />
+        </navPoint>
+        <navPoint id="navPoint61" playOrder="48">
+          <navLabel>
+            <text>Accéder à un espace de stockage</text>
+          </navLabel>
+          <content src="data/datastores.html#acceder-a-un-espace-de-stockage" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint62" playOrder="49">
+        <navLabel>
+          <text>Sources de données</text>
+        </navLabel>
+        <content src="data/datasources.html" />
+        <navPoint id="navPoint63" playOrder="49">
+          <navLabel>
+            <text>Sources de données</text>
+          </navLabel>
+          <content src="data/datasources.html" />
+        </navPoint>
+        <navPoint id="navPoint64" playOrder="50">
+          <navLabel>
+            <text>Données vectorielles</text>
+          </navLabel>
+          <content src="data/datasources.html#donnees-vectorielles" />
+        </navPoint>
+        <navPoint id="navPoint65" playOrder="51">
+          <navLabel>
+            <text>Données matricielles</text>
+          </navLabel>
+          <content src="data/datasources.html#donnees-matricielles" />
+        </navPoint>
+        <navPoint id="navPoint66" playOrder="52">
+          <navLabel>
+            <text>Barre d&#39;outils des sources de données</text>
+          </navLabel>
+          <content src="data/datasources.html#barre-d-outils-des-sources-de-donnees" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint67" playOrder="53">
+        <navLabel>
+          <text>Géotraitements</text>
+        </navLabel>
+        <content src="data/processing.html" />
+        <navPoint id="navPoint68" playOrder="53">
+          <navLabel>
+            <text>Géotraitements</text>
+          </navLabel>
+          <content src="data/processing.html" />
+        </navPoint>
+        <navPoint id="navPoint69" playOrder="54">
+          <navLabel>
+            <text>Convertisseur de sources de données vectorielles</text>
+          </navLabel>
+          <content src="data/processing.html#convertisseur-de-sources-de-donnees-vectorielles" />
+        </navPoint>
+        <navPoint id="navPoint70" playOrder="55">
+          <navLabel>
+            <text>Utilitaire de traitements des sources de données matricielles</text>
+          </navLabel>
+          <content src="data/processing.html#utilitaire-de-traitements-des-sources-de-donnees-matricielles" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint71" playOrder="56">
+      <navLabel>
+        <text>Module de création d&#39;indicateurs</text>
+      </navLabel>
+      <content src="indicators/index.html" />
+      <navPoint id="navPoint72" playOrder="56">
+        <navLabel>
+          <text>Module de création d&#39;indicateurs</text>
+        </navLabel>
+        <content src="indicators/index.html" />
+      </navPoint>
+      <navPoint id="navPoint73" playOrder="57">
+        <navLabel>
+          <text>Présentation</text>
+        </navLabel>
+        <content src="indicators/presentation.html" />
+        <navPoint id="navPoint74" playOrder="57">
+          <navLabel>
+            <text>Présentation</text>
+          </navLabel>
+          <content src="indicators/presentation.html" />
+        </navPoint>
+        <navPoint id="navPoint75" playOrder="58">
+          <navLabel>
+            <text>Qu&#39;est ce qu&#39;un indicateur ?</text>
+          </navLabel>
+          <content src="indicators/presentation.html#qu-est-ce-qu-un-indicateur" />
+        </navPoint>
+        <navPoint id="navPoint76" playOrder="59">
+          <navLabel>
+            <text>Fonctionnement général du module</text>
+          </navLabel>
+          <content src="indicators/presentation.html#fonctionnement-general-du-module" />
+        </navPoint>
+        <navPoint id="navPoint77" playOrder="60">
+          <navLabel>
+            <text>Prérequis techniques</text>
+          </navLabel>
+          <content src="indicators/presentation.html#prerequis-techniques" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint78" playOrder="61">
+        <navLabel>
+          <text>Panneau des indicateurs</text>
+        </navLabel>
+        <content src="indicators/indicatorstree.html" />
+        <navPoint id="navPoint79" playOrder="61">
+          <navLabel>
+            <text>Panneau des indicateurs</text>
+          </navLabel>
+          <content src="indicators/indicatorstree.html" />
+        </navPoint>
+        <navPoint id="navPoint80" playOrder="62">
+          <navLabel>
+            <text>Ajouter un indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorstree.html#ajouter-un-indicateur" />
+        </navPoint>
+        <navPoint id="navPoint81" playOrder="63">
+          <navLabel>
+            <text>Supprimer un indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorstree.html#supprimer-un-indicateur" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint82" playOrder="64">
+        <navLabel>
+          <text>Configuration d&#39;un indicateur</text>
+        </navLabel>
+        <content src="indicators/indicatorspanel.html" />
+        <navPoint id="navPoint83" playOrder="64">
+          <navLabel>
+            <text>Configuration d&#39;un indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html" />
+        </navPoint>
+        <navPoint id="navPoint84" playOrder="65">
+          <navLabel>
+            <text>Initialisation de l&#39;indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#initialisation-de-l-indicateur" />
+        </navPoint>
+        <navPoint id="navPoint85" playOrder="66">
+          <navLabel>
+            <text>Style</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#style" />
+        </navPoint>
+        <navPoint id="navPoint86" playOrder="67">
+          <navLabel>
+            <text>Table</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#id1" />
+        </navPoint>
+        <navPoint id="navPoint87" playOrder="68">
+          <navLabel>
+            <text>Graphique</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#graphique" />
+        </navPoint>
+        <navPoint id="navPoint88" playOrder="69">
+          <navLabel>
+            <text>Rapport</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#rapport" />
+        </navPoint>
+        <navPoint id="navPoint89" playOrder="70">
+          <navLabel>
+            <text>Publier un indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#publier-un-indicateur" />
+        </navPoint>
+        <navPoint id="navPoint90" playOrder="71">
+          <navLabel>
+            <text>Dépublier un indicateur</text>
+          </navLabel>
+          <content src="indicators/indicatorspanel.html#depublier-un-indicateur" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint91" playOrder="72">
+      <navLabel>
+        <text>Module de création de cartes</text>
+      </navLabel>
+      <content src="maps/index.html" />
+      <navPoint id="navPoint92" playOrder="72">
+        <navLabel>
+          <text>Module de création de cartes</text>
+        </navLabel>
+        <content src="maps/index.html" />
+      </navPoint>
+      <navPoint id="navPoint93" playOrder="73">
+        <navLabel>
+          <text>Menu couches de données</text>
+        </navLabel>
+        <content src="maps/layerstree.html" />
+        <navPoint id="navPoint94" playOrder="73">
+          <navLabel>
+            <text>Menu couches de données</text>
+          </navLabel>
+          <content src="maps/layerstree.html" />
+        </navPoint>
+        <navPoint id="navPoint95" playOrder="74">
+          <navLabel>
+            <text>Fonds de carte</text>
+          </navLabel>
+          <content src="maps/layerstree.html#fonds-de-carte" />
+        </navPoint>
+        <navPoint id="navPoint96" playOrder="75">
+          <navLabel>
+            <text>Ouvrir une carte</text>
+          </navLabel>
+          <content src="maps/layerstree.html#ouvrir-une-carte" />
+        </navPoint>
+        <navPoint id="navPoint97" playOrder="76">
+          <navLabel>
+            <text>Enregistrer une carte</text>
+          </navLabel>
+          <content src="maps/layerstree.html#enregistrer-une-carte" />
+        </navPoint>
+        <navPoint id="navPoint98" playOrder="77">
+          <navLabel>
+            <text>Menu couches</text>
+          </navLabel>
+          <content src="maps/layerstree.html#menu-couches" />
+        </navPoint>
+        <navPoint id="navPoint99" playOrder="78">
+          <navLabel>
+            <text>Menu contextuel d&#39;une couche</text>
+          </navLabel>
+          <content src="maps/layerstree.html#menu-contextuel-d-une-couche" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint100" playOrder="79">
+      <navLabel>
+        <text>Module de création de thèmes</text>
+      </navLabel>
+      <content src="themes/index.html" />
+      <navPoint id="navPoint101" playOrder="79">
+        <navLabel>
+          <text>Module de création de thèmes</text>
+        </navLabel>
+        <content src="themes/index.html" />
+      </navPoint>
+      <navPoint id="navPoint102" playOrder="80">
+        <navLabel>
+          <text>Panneau des thèmes</text>
+        </navLabel>
+        <content src="themes/themeslist.html" />
+        <navPoint id="navPoint103" playOrder="80">
+          <navLabel>
+            <text>Panneau des thèmes</text>
+          </navLabel>
+          <content src="themes/themeslist.html" />
+        </navPoint>
+        <navPoint id="navPoint104" playOrder="81">
+          <navLabel>
+            <text>Ajouter un nouveau thème</text>
+          </navLabel>
+          <content src="themes/themeslist.html#ajouter-un-nouveau-theme" />
+        </navPoint>
+        <navPoint id="navPoint105" playOrder="82">
+          <navLabel>
+            <text>Supprimer un thème</text>
+          </navLabel>
+          <content src="themes/themeslist.html#supprimer-un-theme" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint106" playOrder="83">
+        <navLabel>
+          <text>Panneau d&#39;information</text>
+        </navLabel>
+        <content src="themes/infopanel.html" />
+        <navPoint id="navPoint107" playOrder="83">
+          <navLabel>
+            <text>Panneau d&#39;information</text>
+          </navLabel>
+          <content src="themes/infopanel.html" />
+        </navPoint>
+        <navPoint id="navPoint108" playOrder="84">
+          <navLabel>
+            <text>Nom du thème</text>
+          </navLabel>
+          <content src="themes/infopanel.html#nom-du-theme" />
+        </navPoint>
+        <navPoint id="navPoint109" playOrder="85">
+          <navLabel>
+            <text>Droits des groupes</text>
+          </navLabel>
+          <content src="themes/infopanel.html#droits-des-groupes" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint110" playOrder="86">
+      <navLabel>
+        <text>Module de création de documents</text>
+      </navLabel>
+      <content src="documents/index.html" />
+      <navPoint id="navPoint111" playOrder="86">
+        <navLabel>
+          <text>Module de création de documents</text>
+        </navLabel>
+        <content src="documents/index.html" />
+      </navPoint>
+      <navPoint id="navPoint112" playOrder="87">
+        <navLabel>
+          <text>Panneau des documents</text>
+        </navLabel>
+        <content src="documents/docslist.html" />
+        <navPoint id="navPoint113" playOrder="87">
+          <navLabel>
+            <text>Panneau des documents</text>
+          </navLabel>
+          <content src="documents/docslist.html" />
+        </navPoint>
+        <navPoint id="navPoint114" playOrder="88">
+          <navLabel>
+            <text>Ajouter un nouveau document</text>
+          </navLabel>
+          <content src="documents/docslist.html#ajouter-un-nouveau-document" />
+        </navPoint>
+        <navPoint id="navPoint115" playOrder="89">
+          <navLabel>
+            <text>Supprimer un document</text>
+          </navLabel>
+          <content src="documents/docslist.html#supprimer-un-document" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint116" playOrder="90">
+        <navLabel>
+          <text>Panneau d&#39;information</text>
+        </navLabel>
+        <content src="documents/infopanel.html" />
+        <navPoint id="navPoint117" playOrder="90">
+          <navLabel>
+            <text>Panneau d&#39;information</text>
+          </navLabel>
+          <content src="documents/infopanel.html" />
+        </navPoint>
+        <navPoint id="navPoint118" playOrder="91">
+          <navLabel>
+            <text>Nom du document</text>
+          </navLabel>
+          <content src="documents/infopanel.html#nom-du-document" />
+        </navPoint>
+        <navPoint id="navPoint119" playOrder="92">
+          <navLabel>
+            <text>Thème du document</text>
+          </navLabel>
+          <content src="documents/infopanel.html#theme-du-document" />
+        </navPoint>
+        <navPoint id="navPoint120" playOrder="93">
+          <navLabel>
+            <text>Fichier ou URL</text>
+          </navLabel>
+          <content src="documents/infopanel.html#fichier-ou-url" />
+        </navPoint>
+        <navPoint id="navPoint121" playOrder="94">
+          <navLabel>
+            <text>Description du document</text>
+          </navLabel>
+          <content src="documents/infopanel.html#description-du-document" />
+        </navPoint>
+        <navPoint id="navPoint122" playOrder="95">
+          <navLabel>
+            <text>Droits des groupes</text>
+          </navLabel>
+          <content src="documents/infopanel.html#droits-des-groupes" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint123" playOrder="96">
+      <navLabel>
+        <text>Module de publication d&#39;applications</text>
+      </navLabel>
+      <content src="apps/index.html" />
+      <navPoint id="navPoint124" playOrder="96">
+        <navLabel>
+          <text>Module de publication d&#39;applications</text>
+        </navLabel>
+        <content src="apps/index.html" />
+      </navPoint>
+      <navPoint id="navPoint125" playOrder="97">
+        <navLabel>
+          <text>Panneau de configuration d&#39;applications</text>
+        </navLabel>
+        <content src="apps/appconfig.html" />
+        <navPoint id="navPoint126" playOrder="97">
+          <navLabel>
+            <text>Panneau de configuration d&#39;applications</text>
+          </navLabel>
+          <content src="apps/appconfig.html" />
+        </navPoint>
+        <navPoint id="navPoint127" playOrder="98">
+          <navLabel>
+            <text>Configuration générale de l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#configuration-generale-de-l-application" />
+        </navPoint>
+        <navPoint id="navPoint128" playOrder="99">
+          <navLabel>
+            <text>Configuration des couches de l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#configuration-des-couches-de-l-application" />
+        </navPoint>
+        <navPoint id="navPoint129" playOrder="100">
+          <navLabel>
+            <text>Paramétrage de la carte</text>
+          </navLabel>
+          <content src="apps/appconfig.html#parametrage-de-la-carte" />
+        </navPoint>
+        <navPoint id="navPoint130" playOrder="101">
+          <navLabel>
+            <text>Configuration des fonctionnalités de l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#configuration-des-fonctionnalites-de-l-application" />
+        </navPoint>
+        <navPoint id="navPoint131" playOrder="102">
+          <navLabel>
+            <text>Publication de l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#publication-de-l-application" />
+        </navPoint>
+        <navPoint id="navPoint132" playOrder="103">
+          <navLabel>
+            <text>Publication de la vignette</text>
+          </navLabel>
+          <content src="apps/appconfig.html#publication-de-la-vignette" />
+        </navPoint>
+        <navPoint id="navPoint133" playOrder="104">
+          <navLabel>
+            <text>Prévisualisation de l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#previsualisation-de-l-application" />
+        </navPoint>
+        <navPoint id="navPoint134" playOrder="105">
+          <navLabel>
+            <text>Supprimer l&#39;application</text>
+          </navLabel>
+          <content src="apps/appconfig.html#supprimer-l-application" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

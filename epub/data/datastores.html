@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Espaces de stockage</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="datasources.html" title="Sources de données"
+             accesskey="N">suivant</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Module de gestion des données"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Module de gestion des données</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="espaces-de-stockage">
+<span id="datadatastores"></span><h1><a class="toc-backref" href="#table-des-matieres">Espaces de stockage</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table des matières</p>
+<ul class="simple">
+<li><a class="reference internal" href="#espaces-de-stockage" id="id1">Espaces de stockage</a><ul>
+<li><a class="reference internal" href="#ajouter-un-espace-de-stockage" id="id2">Ajouter un espace de stockage</a><ul>
+<li><a class="reference internal" href="#repertoires" id="id3">Répertoires</a></li>
+<li><a class="reference internal" href="#base-de-donnees" id="id4">Base de données</a></li>
+<li><a class="reference internal" href="#serveurs-ogc" id="id5">Serveurs OGC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#acceder-a-un-espace-de-stockage" id="id6">Accéder à un espace de stockage</a><ul>
+<li><a class="reference internal" href="#barre-d-outils-d-un-espace-de-stockage" id="id7">Barre d&#8217;outils d&#8217;un espace de stockage</a></li>
+<li><a class="reference internal" href="#creer-une-mosaique-d-images" id="id8">Créer une mosaïque d&#8217;images</a></li>
+<li><a class="reference internal" href="#envoyer-une-source-de-donnees-dans-un-espace-de-stockage" id="id9">Envoyer une source de données dans un espace de stockage</a></li>
+<li><a class="reference internal" href="#creer-un-index-de-tuiles-dans-un-espace-de-stockage" id="id10">Créer un index de tuiles dans un espace de stockage</a></li>
+<li><a class="reference internal" href="#gestion-des-droits-d-acces-d-un-espace-de-stockage" id="id11">Gestion des droits d&#8217;accés d&#8217;un espace de stockage</a></li>
+<li><a class="reference internal" href="#parametrage-d-un-espace-de-stockage" id="id12">Paramétrage d&#8217;un espace de stockage</a></li>
+<li><a class="reference internal" href="#supprimer-un-espace-de-stockage" id="id13">Supprimer un espace de stockage</a></li>
+<li><a class="reference internal" href="#rafraichir-un-espace-de-stockage" id="id14">Rafraichir un espace de stockage</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Un espace de stockage contient des sources de données, locales ou
+distantes. Il est définit par un nom (sans accents, espace ou
+caractères spéciaux), ainsi que par différents paramètres selon son
+type. Il existe quatre types d&#8217;espaces de stockage dans MapMint:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="24%" />
+<col width="59%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Icône</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/database.png"><img alt="PDF icon" src="../_images/database.png" style="height: 24px;" /></a></td>
+<td>Base de données</td>
+<td>Ajout d&#8217;une connexion à une base de données</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/directory.png"><img alt="PDF icon" src="../_images/directory.png" style="height: 24px;" /></a></td>
+<td>Répertoire</td>
+<td>Ajout d&#8217;un répertoire de données</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/ogcserver.png"><img alt="PDF icon" src="../_images/ogcserver.png" style="height: 24px;" /></a></td>
+<td>Serveur OGC</td>
+<td>Ajout d&#8217;un serveur OGC externe</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le nom d&#8217;un espace de stockage ne doit contenir ni <em>espace</em>, <em>accent</em> ou <em>caractères spéciaux</em></p>
+</div>
+<div class="section" id="ajouter-un-espace-de-stockage">
+<span id="datadatastores-add"></span><h2><a class="toc-backref" href="#table-des-matieres">Ajouter un espace de stockage</a></h2>
+<div class="section" id="repertoires">
+<h3><a class="toc-backref" href="#table-des-matieres">Répertoires</a></h3>
+<p>Un espace de stockage de type répertoire permet d&#8217;établir un lien
+symbolique vers un répertoire de données du serveur FTP. Cliquez sur
+l&#8217;icône &#8220;Ajouter un répertoire&#8221; se trouvant dans la barre
+d&#8217;outils. Cela entraine l&#8217;affichage du formulaire d&#8217;ajout d&#8217;un
+répertoire.</p>
+<p><a class="reference internal" href="../_images/add-directory-window.png"><img alt="add directory window" src="../_images/add-directory-window.png" style="width: 100%;" /></a></p>
+<p>Renseignez le nom de l&#8217;espace de stockage puis sélectionnez un
+répertoire du serveur dans l&#8217;arbre des répertoires (arborescence du
+repértoire /data de l&#8217;instance MapMint). Vous avez la possibilité de
+créer un répertoire vide sur le serveur FTP, en choisissant l&#8217;option
+&#8220;nouveau&#8221;, vous devez alors aussi donner un nom au répertoire à
+créer.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le répertoire ciblé ne doit pas contenir de sous-répertoires.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le repertoire ciblé doit contenir uniquement des formats de données supportés par MapMint.</p>
+</div>
+<p>Cela entraîne la fermeture de la fenêtre et l&#8217;ajout du nouvel espace de stockage dans l&#8217;abre de gauche, dans la section Répertoires.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Une fois l&#8217;espace de stockage crée, procéder à un clic droit sur ce dernier et cliquer sur &#8220;Rafraichir&#8221;.</p>
+</div>
+<p>Le clic sur l&#8217;espace de stockage entraine l&#8217;affichage des sources de données qu&#8217;il contient dans le panneau des <a class="reference internal" href="datasources.html"><em>Sources de données</em></a>.</p>
+</div>
+<div class="section" id="base-de-donnees">
+<h3><a class="toc-backref" href="#table-des-matieres">Base de données</a></h3>
+<p>Un espace de stockage de type base de données permet d&#8217;établir une
+connexion avec une base de données PostgreSQL ou MySQL. Cliquez sur
+l&#8217;icône &#8220;Ajouter une base de données&#8221; se trouvant dans la barre
+d&#8217;outils en haut du panneau des espaces de stockages. Cela entraine
+l&#8217;affichage du formulaire d&#8217;ajout d&#8217;une connexion à une base de données
+comme illustré ci-dessous.</p>
+<p><a class="reference internal" href="../_images/add-database-window.png"><img alt="add database window" src="../_images/add-database-window.png" style="width: 100%;" /></a></p>
+<p>Renseignez tous les champs puis cliquez sur le bouton &#8220;Tester&#8221;.</p>
+<p>Si le test renvoie un message de succès, vous pouvez alors cliquer sur le bouton &#8220;Ajouter&#8221;. Cela entraîne la fermeture de la fenêtre et l&#8217;ajout du nouvel espace de stockage dans l&#8217;abre de gauche, dans la section PostGIS ou MySQL.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Une fois l&#8217;espace de stockage crée, cliquez sur ce dernier dans le
+menu de gauche pour le voir se charger dans la partie de droite
+comme présenté sur la capture d&#8217;écran précédente.</p>
+</div>
+<p>Le clic sur l&#8217;espace de stockage entraine son affichage dans la
+partie de droite.</p>
+</div>
+<div class="section" id="serveurs-ogc">
+<h3><a class="toc-backref" href="#table-des-matieres">Serveurs OGC</a></h3>
+<p>Un espace de stockage de type serveur OGC permet d&#8217;établir une
+connexion à un serveur WMS ou WFS externe. Cliquez sur l&#8217;icône
+&#8220;Ajouter un serveur OGC&#8221; se trouvant dans la barre d&#8217;outils, cela
+entraine l&#8217;affichage du formulaire d&#8217;ajout d&#8217;un serveur OGC.</p>
+<p><a class="reference internal" href="../_images/add-ogcserver-window.png"><img alt="add database window" src="../_images/add-ogcserver-window.png" style="width: 100%;" /></a></p>
+<p>Renseignez le nom de l&#8217;espace de stockage, l&#8217;URL du serveur OGC ciblé
+ainsi que le protocole à utiliser (WMS ou WFS), puis cliquez sur le
+bouton &#8220;Tester&#8221;.</p>
+<p>Si le test renvoie un message de succès, vous pouvez alors cliquer sur le bouton &#8220;Ajouter&#8221;. Cela entraîne la fermeture de la fenêtre et l&#8217;ajout du nouvel espace de stockage dans l&#8217;arbre de gauche, dans la section Serveur WFS.</p>
+<p>Le clic sur l&#8217;espace de stockage entraine l&#8217;affichage des couches OGC du serveur externe.</p>
+</div>
+</div>
+<div class="section" id="acceder-a-un-espace-de-stockage">
+<h2><a class="toc-backref" href="#table-des-matieres">Accéder à un espace de stockage</a></h2>
+<p>Lorsque vous cliquez sur l&#8217;espace de stockage cela entraine son
+affichage comme illstré ci-dessous.</p>
+<p><a class="reference internal" href="../_images/data-store-preview.png"><img alt="add database window" src="../_images/data-store-preview.png" style="width: 100%;" /></a></p>
+<p>Les espaces de stockage offrent des fonctions spécifiques suivant leur
+type, l&#8217;ensemble des boutons de la barre d&#8217;outils correspondante à un
+espace de stockagre est présenté ci-dessous. Pour chaque bouton, le
+type d&#8217;espace de stockage depuis lequel la fonctionnalité est
+accessible est aussi mise en évidence.</p>
+<div class="section" id="barre-d-outils-d-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Barre d&#8217;outils d&#8217;un espace de stockage</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="9%" />
+<col width="14%" />
+<col width="77%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Icône</strong></td>
+<td><strong>Accessible</strong></td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/select.png"><img alt="select" src="../_images/select.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Selectionnez toutes les sources de données contenues</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/tile.png"><img alt="moz" src="../_images/tile.png" style="height: 24px;" /></a></td>
+<td>Répertoire</td>
+<td>Créer une mosaïc d&#8217;images (requiert une source de données image sélectionnée)</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/download.png"><img alt="download" src="../_images/download.png" style="height: 24px;" /></a></td>
+<td>Répertoire</td>
+<td>Télécharge les sources de données sélectionnées (requiert une source de données image sélectionnée)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/share.png"><img alt="share" src="../_images/share.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Ouvrir les sources de données selectionnées dans le <a class="reference internal" href="../maps/index.html#maps"><span>Module de création de cartes</span></a> (requiert une source de données sélectionnée)</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/database.png"><img alt="db" src="../_images/database.png" style="height: 24px;" /></a></td>
+<td>Base de données</td>
+<td>Accéder à la base de données</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/upload.png"><img alt="upload" src="../_images/upload.png" style="height: 24px;" /></a></td>
+<td>Répertoire</td>
+<td>Envoyez une source de données dans l&#8217;espace de stockage du serveur</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/tile.png"><img alt="tile" src="../_images/tile.png" style="height: 24px;" /></a></td>
+<td>Répertoire</td>
+<td>Créer un index de tuiles dans l&#8217;espace de stockage</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/privileges.png"><img alt="privileges" src="../_images/privileges.png" style="height: 24px;" /></a></td>
+<td>Toute</td>
+<td>Gestion des droits d&#8217;accés d&#8217;un espace de stockage</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/configuration.png"><img alt="conf" src="../_images/configuration.png" style="height: 24px;" /></a></td>
+<td>Tout</td>
+<td>Paramétrage de l&#8217;espace de stockage</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/delete.png"><img alt="delete" src="../_images/delete.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Supprimer l&#8217;espace de stockage</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/refresh.png"><img alt="refresh" src="../_images/refresh.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Rafraichir l&#8217;espace de stockage</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/toggle1.png"><img alt="toggle" src="../_images/toggle1.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Afficher / masquer l&#8217;espace de stockage</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/close.png"><img alt="close" src="../_images/close.png" style="height: 24px;" /></a></td>
+<td>Tous</td>
+<td>Fermer l&#8217;espace de stockage</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="creer-une-mosaique-d-images">
+<h3><a class="toc-backref" href="#table-des-matieres">Créer une mosaïque d&#8217;images</a></h3>
+<p>La création d&#8217;une mosaïque d&#8217;images permet
+de fusionner plusieurs sources de données images en une seule.</p>
+<p>Lorsque vous cliquez sur le boutton &#8220;Créer une mozaïc d&#8217;images&#8221; le
+formulaire présenté ci-desous s&#8217;affiche. Une fois que vous avez
+renseigné le nom de la mosaïque à créer, cliquez sur le bouton
+&#8220;Mosaïque&#8221; pour le générer.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Cette opération peut prendre du temps suivant les sources de
+données images sélectionnées.</p>
+</div>
+<p><a class="reference internal" href="../_images/data-store-mozaic.png"><img alt="Créer une mozaïque une image" src="../_images/data-store-mozaic.png" style="width: 100%;" /></a></p>
+</div>
+<div class="section" id="envoyer-une-source-de-donnees-dans-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Envoyer une source de données dans un espace de stockage</a></h3>
+<p>Vous pouvez utiliser le panneau d&#8217;un espace de stockage pour y envoyer
+un fichier de données géographique que vous avez sur votre machine
+locale. Ceci se fait à l&#8217;aide du formulaire présenté ci-dessous.</p>
+<p>Vous pouvez alors cliquer sur le boutton &#8220;Parcourir&#8221; afin d&#8217;ajouter
+vos fichiers à la liste des fichiers à envoyer.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Bien que la fonctionnalité d&#8217;envoi de sources de données soit
+disponible sur la plateforme MapMint, elle ne devrait être
+utilisée que pour des sources de données ne dépassant pas 10Mo.</p>
+</div>
+<p><a class="reference internal" href="../_images/data-store-upload.png"><img alt="Envoyer une source de données sur le serveur" src="../_images/data-store-upload.png" style="width: 100%;" /></a></p>
+</div>
+<div class="section" id="creer-un-index-de-tuiles-dans-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Créer un index de tuiles dans un espace de stockage</a></h3>
+<p>Lorsque que l&#8217;on souhaite publier des sources de données images de
+type photo aériennes par exemple, il est nécessaire d&#8217;utiliser un
+index de tuiles. Un index de tuiles est une source de données vecteurs
+(de type polygone) où chaque polygon représente la zone géographique
+couverte par une source de données images (une photos aérienne par
+exemple) et a une seule propriété qui est le chemin complet vers le
+fichier image.</p>
+<p>Pour créer un index de tuiles, vous devez placer un répertoire
+contenant l&#8217;ensemble des photos à partir desquelles vous souhaitez
+créer un index de tuiles. Une fois ceci fait, vous pouvez cliquer sur
+le boutton &#8220;Créer un index de tuiles&#8221; de l&#8217;espace de stockage dans
+lequel vous souhaitez le stocker, le formulaire présenté ci-dessous
+apparait. Sélectionnez le SRS de l&#8217;index à créer, saisissez
+l&#8217;extension des fichiers à utiliser (tif par exemple) puis cochez le
+répertoire stockant vos photos, cliquez ensuite sur le boutton &#8220;Index
+de tuiles&#8221; pour générer l&#8217;index de tuiles.</p>
+<p><a class="reference internal" href="../_images/data-tileindex.png"><img alt="View datasource histogram" src="../_images/data-tileindex.png" style="width: 100%;" /></a></p>
+</div>
+<div class="section" id="gestion-des-droits-d-acces-d-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Gestion des droits d&#8217;accés d&#8217;un espace de stockage</a></h3>
+<p>Une source de données est accessible à tous les groupes d&#8217;utilisateurs
+par défaut. Pour modifier les permissions l&#8217;accès à une couche,
+veuillez cliquer sur l&#8217;icone correspondante dans la
+<a class="reference internal" href="datasources.html#datasource-table-label"><span>Barre d&#8217;outils des sources de données</span></a>. Celà entraîne l&#8217;affichage du formulaire
+de gestion de droits d&#8217;accès, illustré ci-dessous.</p>
+<p><a class="reference internal" href="../_images/data-privileges.png"><img alt="View datasource histogram" src="../_images/data-privileges.png" style="width: 100%;" /></a></p>
+<p>Les droits que vous pouvez affecter à un groupe d&#8217;utilisateurs sont
+listés dans la table suivante.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Valeur</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>r</td>
+<td>Le groupe d&#8217;utilisateurs à accès à l&#8217;espace de stockage en lecture</td>
+</tr>
+<tr class="row-odd"><td>w</td>
+<td>Le groupe d&#8217;utilisateurs à accès à l&#8217;espace de stockage en écriture</td>
+</tr>
+<tr class="row-even"><td>x</td>
+<td>Le groupe d&#8217;utilisateurs à le droit d&#8217;exécuter des services dans l&#8217;espace de stockage</td>
+</tr>
+</tbody>
+</table>
+<p>Ajoutez un ou plusieur groupes avec le bouton &#8220;Ajouter&#8221;, cela entraine
+l&#8217;ajout de listes déroulantes dans la fenêtre. Ajustez les valeurs
+<strong>r</strong>, <strong>w</strong> et <strong>x</strong> puis cliquer sur le bouton &#8220;Valider&#8221;. Le
+formulaire disparait et l&#8217;enregistrement des modifications est réalisé.</p>
+<p>Si vous cliquez sur le boutton &#8220;Supprimer&#8221; vous pouvez supprimer la
+dernière ligne de définition de privilèges d&#8217;accès.</p>
+<p>Pour voir le droit de lister le contenu d&#8217;un espace de stockage un
+groupe d&#8217;utilisateurs doit avoir les droits <strong>r</strong> et <strong>x</strong>. Pour
+pouvoir créer de nouvelles sources de données dans l&#8217;espace de
+stockage, un groupe doit avoir le droit <strong>w</strong>.</p>
+</div>
+<div class="section" id="parametrage-d-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Paramétrage d&#8217;un espace de stockage</a></h3>
+<p>Le formulaire de paramétrage d&#8217;un espace de stockage et équivalent au
+formulaire d&#8217;ajout spécifique au type d&#8217;espace de stockage vu
+<a class="reference internal" href="#datadatastores-add"><span>précédemment</span></a>.</p>
+</div>
+<div class="section" id="supprimer-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Supprimer un espace de stockage</a></h3>
+<p>Si vous cliquez sur le boutton &#8220;Supprimer l’espace de stockage&#8221;, une
+fenêtre apparait vous invitant à confirmer votre volonté de supprimer
+un espace de stockage. La suppression d&#8217;un espace de stockage peut
+entrainer des pertes de données graves et impliquer que l&#8217;application
+grand publique devienne instable du fait de l&#8217;indisponibilité de
+certaines sources de données nécessaires. Il est donc impératif de
+s&#8217;assurer qu&#8217;aucun projet ne dépend de données présentes dans l&#8217;espace
+de stockage que vous souhaitez supprimer avant de le faire. Si vous
+souhaitez vraiment supprimer un espace de stockage, cliquez alors sur
+le bouton &#8220;Oui&#8221; de la fenêtre vous informant des implications
+de la suppression.</p>
+</div>
+<div class="section" id="rafraichir-un-espace-de-stockage">
+<h3><a class="toc-backref" href="#table-des-matieres">Rafraichir un espace de stockage</a></h3>
+<p>Lors du premier accès à un espace de stockage, MapMint crée un fichier
+Mapfile spécifique à MapServer qui permet la diffusion des sources de
+données contenues. Une fois ce fichier créé, il n&#8217;est plus
+modifié. Cela implique que si vous avez ajouté, supprimé ou créée une
+nouvelle source de données dans un espace de stockage, vous devrez
+utilisez le boutton de rafraichissement permettant d&#8217;obtenir une liste
+exhaustive des sources de données contenues dans un espace de
+stockage. Lorsque vous cliquez sur le boutton de rafraichissement, le
+contenu de l&#8217;espace de stockage est mis à jour.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

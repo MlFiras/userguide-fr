@@ -1,0 +1,622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Configuration d’un indicateur</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../maps/index.html" title="Module de création de cartes"
+             accesskey="N">suivant</a> |</li>
+        <li class="right" >
+          <a href="indicatorstree.html" title="Panneau des indicateurs"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Module de création d&#8217;indicateurs</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="configuration-d-un-indicateur">
+<span id="data-datastores"></span><h1><a class="toc-backref" href="#table-des-matieres">Configuration d&#8217;un indicateur</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table des matières</p>
+<ul class="simple">
+<li><a class="reference internal" href="#configuration-d-un-indicateur" id="id2">Configuration d&#8217;un indicateur</a><ul>
+<li><a class="reference internal" href="#initialisation-de-l-indicateur" id="id3">Initialisation de l&#8217;indicateur</a><ul>
+<li><a class="reference internal" href="#metadonnees" id="id4">Métadonnées</a><ul>
+<li><a class="reference internal" href="#nom-de-l-indicateur" id="id5">Nom de l&#8217;indicateur</a></li>
+<li><a class="reference internal" href="#description-de-l-indicateur" id="id6">Description de l&#8217;indicateur</a></li>
+<li><a class="reference internal" href="#fiche-de-l-indicateur" id="id7">Fiche de l&#8217;indicateur</a></li>
+<li><a class="reference internal" href="#sources-de-l-indicateur" id="id8">Sources de l&#8217;indicateur</a></li>
+<li><a class="reference internal" href="#mots-cles-de-l-indicateur" id="id9">Mots clés de l&#8217;indicateur</a></li>
+<li><a class="reference internal" href="#groupe-s-d-utilisateurs" id="id10">Groupe(s) d&#8217;utilisateurs</a></li>
+<li><a class="reference internal" href="#theme-s-de-l-indicateur" id="id11">Thème(s) de l&#8217;indicateur</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#donnees" id="id12">Données</a><ul>
+<li><a class="reference internal" href="#fichier" id="id13">Fichier</a></li>
+<li><a class="reference internal" href="#table" id="id14">Table</a></li>
+<li><a class="reference internal" href="#requete-sql" id="id15">Requête SQL</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#style" id="id16">Style</a></li>
+<li><a class="reference internal" href="#id1" id="id17">Table</a></li>
+<li><a class="reference internal" href="#graphique" id="id18">Graphique</a></li>
+<li><a class="reference internal" href="#rapport" id="id19">Rapport</a></li>
+<li><a class="reference internal" href="#publier-un-indicateur" id="id20">Publier un indicateur</a></li>
+<li><a class="reference internal" href="#depublier-un-indicateur" id="id21">Dépublier un indicateur</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>La configuration d&#8217;un indicateur se fait à l&#8217;aide d&#8217;un formulaire
+contenant 6 onglets.  Les deux premiers onglets sont automatiquement
+chargés pour vous permettre l&#8217;initialisation de l&#8217;indicateur, c&#8217;est à
+dire la création de la source de données définie comme la jointure
+d&#8217;un territoire et d&#8217;une source de données tierce (fichier, table ou
+requête SQL). Il n&#8217;est pas possible de passer aux onglets suivants
+avant que l&#8217;étape d&#8217;initialisation de l&#8217;indicateur soit passée.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Les onglets sont chargés un à un au cours de la configuration et/ou
+du chargement des informations. Veuillez attendre que l&#8217;ensemble
+des onglets actifs soient chargés avant de continuer.</p>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="20%" />
+<col width="65%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Icône</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/info1.png"><img alt="Indicator metadata icon" src="../_images/info1.png" style="height: 24px;" /></a></td>
+<td>Métadonnées</td>
+<td>Configuration des métadonnées de l&#8217;indicateur</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/link.png"><img alt="Indicator data icon" src="../_images/link.png" style="height: 24px;" /></a></td>
+<td>Données</td>
+<td>Configuration des données de l&#8217;indicateur</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/data-raster-icon1.png"><img alt="Indicator symbology icon" src="../_images/data-raster-icon1.png" style="height: 24px;" /></a></td>
+<td>Symbologie</td>
+<td>Configuration de la symbologie de l&#8217;indicateur</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/table.png"><img alt="Indicator table icon" src="../_images/table.png" style="height: 24px;" /></a></td>
+<td>Table</td>
+<td>Configuration de la table de l&#8217;indicateur</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/chart.png"><img alt="Indicator chart icon" src="../_images/chart.png" style="height: 24px;" /></a></td>
+<td>Graphique</td>
+<td>Configuration du graphique de l&#8217;indicateur</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/report.png"><img alt="Indicator report icon" src="../_images/report.png" style="height: 24px;" /></a></td>
+<td>Rapport</td>
+<td>Configuration du rapport de l&#8217;indicateur</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="initialisation-de-l-indicateur">
+<h2><a class="toc-backref" href="#table-des-matieres">Initialisation de l&#8217;indicateur</a></h2>
+<p>Comme indiqué dans l&#8217;introduction de cette section, il est impératif
+d&#8217;intialiser l&#8217;indicateur correctement via les deux premiers onglets de
+paramétrage d&#8217;un indicateur. Nous présentons donc dans cette section
+spécifique ces deux onglets en particuliers. Les onglets suivants ne
+peuvent être utilisés qu&#8217;une fois l&#8217;initialisation réalisée avec succès.</p>
+<div class="section" id="metadonnees">
+<h3><a class="toc-backref" href="#table-des-matieres">Métadonnées</a></h3>
+<p>La première étape de la configuration d&#8217;un indicateur consiste en la
+saisie de ses métadonnées. L&#8217;onglet Métadonnées est chargé par défaut
+à l&#8217;initialisation du module de création d&#8217;indicateurs, son apparence
+est illustré dans la capture d&#8217;écran ci-dessous. Veuillez
+renseigner l&#8217;ensemble des informations listées ci-après.</p>
+<p><a class="reference internal" href="../_images/indicator-metadata.png"><img alt="Métadonnées de l'indicateur" src="../_images/indicator-metadata.png" style="width: 100%;" /></a></p>
+<div class="section" id="nom-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Nom de l&#8217;indicateur</a></h4>
+<p>Le nom de l&#8217;indicateur est une chaîne de caractères nommant l&#8217;indicateur. Cette valeur est utilisée dans l&#8217;interface publique et il est conseillé d&#8217;utiliser un nom court et significatif.</p>
+</div>
+<div class="section" id="description-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Description de l&#8217;indicateur</a></h4>
+<p>La description de l&#8217;indicateur est une chaîne de caractères décrivant l&#8217;indicateur. L&#8217;apparence de ce texte peut être paramétrée à l&#8217;aide de l&#8217;éditeur &#8220;richtext&#8221; proposé. Il est utilisé dans l&#8217;interface publique.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Pour plus d&#8217;informations concernant l&#8217;utilisation de l&#8217;éditeur, veuillez vous référez à son <a class="reference external" href="http://docs.cksource.com/CKEditor_3.x/Users_Guide">guide utilisateur</a><span class="link-target"> [http://docs.cksource.com/CKEditor_3.x/Users_Guide]</span>.</p>
+</div>
+</div>
+<div class="section" id="fiche-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Fiche de l&#8217;indicateur</a></h4>
+<dl class="docutils">
+<dt>La fiche de l&#8217;indicateur est un parmètre optionel. Elle peut être de types:</dt>
+<dd><ul class="first last simple">
+<li>Une URL vers un document (html, .pdf...) en ligne</li>
+<li>Un document .pdf, .doc, .odt ou autre, importé grâce à l&#8217;utilitaire d&#8217;ajout de fichier proposé.</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Si la fiche de l&#8217;indicateur n&#8217;est pas renseignée, celle-ci ne sera pas accessible depuis l&#8217;interface publique.</p>
+</div>
+</div>
+<div class="section" id="sources-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Sources de l&#8217;indicateur</a></h4>
+<p>Les sources de l&#8217;indicateur renseignent les droits et/ou la licence des données utilisées pour la création de l&#8217;indicateur. Il s&#8217;agit en général de spécifier le copyright ou les conditions d&#8217;utilisation liées au fournisseur de la donnée.</p>
+</div>
+<div class="section" id="mots-cles-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Mots clés de l&#8217;indicateur</a></h4>
+<p>Les mots clés de l&#8217;indicateurs sont une suite de mots décrivant l&#8217;indicateur, séparés par des virgules, comme indiqué dans l&#8217;exemple ci-dessous.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">monindicateur</span><span class="p">,</span><span class="n">xls</span><span class="p">,</span><span class="n">wps</span><span class="p">,</span><span class="n">mapmint</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="groupe-s-d-utilisateurs">
+<h4><a class="toc-backref" href="#table-des-matieres">Groupe(s) d&#8217;utilisateurs</a></h4>
+<p>Le ou les groupes d&#8217;utilisateurs sélectionnés dans la liste des
+groupes seront autorisés à consulter l&#8217;indicateur publié, après
+connexion. Maintenez la touche &#8220;CTRL&#8221; de votre clavier enfoncée pour
+effectuer une sélection multiple.</p>
+</div>
+<div class="section" id="theme-s-de-l-indicateur">
+<h4><a class="toc-backref" href="#table-des-matieres">Thème(s) de l&#8217;indicateur</a></h4>
+<p>L&#8217;indicateur sera affecté au(x) thème(s) sélectionnés dans la liste correspondante.</p>
+<p><strong>Une fois que l&#8217;ensemble des métadonnées est renseigné, cliquez sur le bouton &#8220;Sauver&#8221;.</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">La configuration des métadonnées peut être modifiée à tout moment,
+avant ou après la publication de l&#8217;indicateur. Utiliser le bouton
+&#8220;Sauver&#8221; pour sauvegarder vos modifications.</p>
+</div>
+</div>
+</div>
+<div class="section" id="donnees">
+<h3><a class="toc-backref" href="#table-des-matieres">Données</a></h3>
+<p>La deuxième étape de l&#8217;initialisation d&#8217;un indicateur est la plus
+importante, elle consiste à sélectionner des données statistiques pour
+le calcul de l&#8217;indicateur.  Accédez à l&#8217;onglet &#8220;Données&#8221; puis
+sélectionnez un des trois types de données proposés (fichier, table ou
+requête SQL) à l&#8217;aide des boutons radio prévus à cet effet.</p>
+<div class="section" id="fichier">
+<h4><a class="toc-backref" href="#table-des-matieres">Fichier</a></h4>
+<p>Dans le cas d&#8217;un fichier, veuillez cliquer sur l&#8217;utilitaire d&#8217;ajout de fichiers et sélectionnez un fichier de données sur votre ordinateur. Cliquez ensuite sur le bouton &#8220;Importer&#8221;.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le fichier selectionné sur votre ordinateur doit être au format
+.csv, .xls ou .xslx, et contenir au moins une colonne avec une
+information permettant de réaliser une jointure avec un territoire
+(codes postaux, codes insee, identifiants, nom ...).</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Dans le cas de l&#8217;utilisation fichiers .xlsx ou .xsl, ils est
+possible que le tableur contienne plusieurs pages. L&#8217;ensemble de
+ces pages sera alors affichée dans une liste déroulante vous
+permettant de sélectionner la page que vous souhaitez utiliser pour
+initialiser votre indicateur.</p>
+</div>
+<p>Si l&#8217;import de votre fichier s&#8217;est correctement déroulé, une table
+s&#8217;affiche en dessous du formulaire d&#8217;ajout. Dans le cas contraire, un
+message d&#8217;erreur de couleur rouge apparait en haut de votre écran
+(vérifiez votre fichier et recomencez).</p>
+<p>Assurez-vous que la colonne permettant de réaliser la jointure soit en
+première position dans la table, comme illustré dans l&#8217;exemple
+ci-dessous. Vous pouvez re-ordonné les colonnes de la table de données
+du fichier importé en cliquant sur le titre d&#8217;une colonne de la table
+puis, tout en gardant le bouton de votre souris enfoncé, vous déplacez
+le curseur de votre souris de gauche à droite, les colonnes devraient
+alors se re-ordonnées.</p>
+<p><a class="reference internal" href="../_images/indicator-data-table.png"><img alt="Indicator data table" src="../_images/indicator-data-table.png" style="width: 100%;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Il est possible de déplacer une colonne en maintenant votre curseur sur le titre de la colonne et en la déplacant par glisser-déposer à la position désirée.</p>
+</div>
+<p><strong>Une fois le fichier chargé et la colonne géographique en première position, cliquez sur le bouton &#8220;Confirmer&#8221;.</strong></p>
+<p>Un message de couleur verte confirme la création de l&#8217;indicateur. Sinon un message de couleur rouge indique une erreur lors de la création de l&#8217;indicateur (vérifiez votre fichier et recommencez).</p>
+</div>
+<div class="section" id="table">
+<h4><a class="toc-backref" href="#table-des-matieres">Table</a></h4>
+<p>Dans le cas d&#8217;une table, veuillez premièrement selectionner un territoire ainsi qu&#8217;un champs attributaire (la seconde liste déroulante est mise à jour automatiquement en fonction du choix effectué dans la première liste).</p>
+<p>Sélectionnez ensuite un des schemas disponibles dans la base de données indicateurs, puis la table que vous souhaitez utiliser pour le calcul de l&#8217;indicateur.</p>
+<p>Cliquez sur le bouton &#8220;Confirmer&#8221;. Cela entraine l&#8217;affichage du résulat de la requête sous la forme d&#8217;une table, en dessous du formulaire.</p>
+</div>
+<div class="section" id="requete-sql">
+<h4><a class="toc-backref" href="#table-des-matieres">Requête SQL</a></h4>
+<p>Dans le cas d&#8217;une requête SQL, veuillez premièrement selectionner un territoire ainsi qu&#8217;un champs attributaire (la seconde liste déroulante est mise à jour automatiquement en fonction du choix effectué dans la première liste).</p>
+<p>Sélectionnez ensuite une connexion vers une base de données. La liste déroulante correpondante liste les connexions actives crées dans le <a class="reference internal" href="../data/index.html"><em>Module de gestion des données</em></a>.</p>
+<p>Rédigez ensuite votre requête SQL dans la zone de texte prévu à cet effet puis cliquez sur le bouton &#8220;Tester&#8221;. Si votre requête est correcte, un message de succès de couleur verte s&#8217;affiche temporairement en haut de votré écran et vous  pouvez cliquer sur le bouton &#8220;Confirmer&#8221;. Si votre requête est incorrecte, un message d&#8217;erreur de couleur rouge s&#8217;affiche en haut de votre écran. Veuillez vérifier la requête et cliquer sur &#8220;Tester&#8221; à nouveau.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">De nombreux tutoriaux sur le language SQL sont disponibles sur Internet, notamment <a class="reference external" href="http://sql.developpez.com/">ici</a><span class="link-target"> [http://sql.developpez.com/]</span>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="style">
+<h2><a class="toc-backref" href="#table-des-matieres">Style</a></h2>
+<p>Le troisième onglet de paramétrage d&#8217;un indicateur consiste à
+définir son style, c&#8217;est à dire son mode de représentation
+cartographique. Cliquez sur l&#8217;icon &#8220;Style&#8221; de la barre d&#8217;onglet et
+renseignez les paramètres décrits ci-après.</p>
+<p class="rubric">Variable</p>
+<p>La variable de l&#8217;indicateur correspond au <strong>champ attributaire</strong> qui sera utilisé pour le calcul de l&#8217;indicateur. Veuillez sélectionner la variable désirée dans la première liste déroulante de l&#8217;onglet symbologie.</p>
+<p class="rubric">Formule</p>
+<p>La formule de l&#8217;indicateur définit la manière dont la variable est utilisée dans le calcul de l&#8217;indicateur.</p>
+<p><strong>[_X_]</strong> permet d&#8217;utiliser la variable de manière brute.</p>
+<p>La valeur <strong>[_X_]</strong> peut également être utilisée dans une requête
+SQL. Par exemple il est possible de changer le type de la données, qui
+est toujours une chaine de caractères par défaut en une valeur entière
+en utilisant la valeur : <code class="docutils literal"><span class="pre">[_X_]::int</span></code></p>
+<p class="rubric">Classification</p>
+<p>Sélectionnez ensuite une méthode de classification statistique pour la
+symbologie de l&#8217;indicateur. Comme dans le <a class="reference internal" href="../maps/index.html"><em>Module de création de cartes</em></a>, quatre
+types de classifications sont proposés:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Type</strong></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Valeur unique</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Symbole gradué</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Couleur continue</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>Dans le cas d&#8217;une classification de type <strong>valeur unique</strong>, chaque valeur quantitative de la variable (un champ attributaire) est définit par une classe. A l&#8217;issue de la classification, l&#8217;utilisateur obtient autant de classes qu&#8217;il y&#8217;a de valeurs différentes dans le champ attributaire.</p>
+<p>Dans le cas d&#8217;une classification de type <strong>symboles gradués</strong>, les valeurs quantitatives de la variable sont regroupées selon un nombre de classes ordonnées. A l&#8217;intérieur d&#8217;une classe, toutes les entités sont dessinées avec le même symbole ou la même couleur.</p>
+<p>Dans le cas d&#8217;une classification de type <strong>couleur continue</strong>, les valeurs quantitatives de la variable sont regroupées selon un nombre de classes et un dégradé de couleurs. A l&#8217;intérieur d&#8217;une classe, toutes les entités sont dessinées avec le même symbole ou la même couleur.</p>
+<p class="rubric">Discrétisation</p>
+<p>Dans le cas d&#8217;une classification de type symboles gradués, vous avez également la possibilité de choisir une méthode de discrétisation de la variable dans la liste suivante:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Type</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>equal</td>
+<td>Intervalles égaux</td>
+</tr>
+<tr class="row-odd"><td>jenks</td>
+<td>Seuils naturels</td>
+</tr>
+<tr class="row-even"><td>quantiles</td>
+<td>Quantiles</td>
+</tr>
+<tr class="row-odd"><td>kmeans</td>
+<td>K-moyennes</td>
+</tr>
+<tr class="row-even"><td>fisher</td>
+<td>Noyau de Fisher</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">L&#8217;utilisation d&#8217;une méthode de discrétisation agit sur la classification et donc sur la représentation de l&#8217;indicateur sur la carte et dans la légende.</p>
+</div>
+<p class="rubric">Nombres de classes</p>
+<p>Dans tout les cas sauf celui d&#8217;une classification de type <strong>valeur unique</strong>, veuillez ensuite spécifier un nombre de classes pour la classification dans la zone texte prévue à cet effet.</p>
+<p class="rubric">Couleurs minimum et maximum</p>
+<p>Sélectionnez ensuite une <strong>couleur minimum</strong> et une <strong>couleur maximum</strong> à l&#8217;aide des selecteurs de couleurs, dont un exemple est donné ci-après.</p>
+<p><a class="reference internal" href="../_images/select-color.png"><img alt="color picker window" src="../_images/select-color.png" style="width: 372.0px; height: 132.75px;" /></a></p>
+<p>Vous pouvez soit utiliser votre souris dans la partie de gauche soit entrer directement un code couleur RGB ou héxadécimal dans la partie de droite. Une fois votre choix effectué, veuillez cliquez sur l&#8217;icône en bas à droite de la fenêtre pour le valider.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Il est conseillé d&#8217;utiliser une couleur claire pour la valeur <strong>min</strong> et une couleur foncée pour la valeur <strong>max</strong></p>
+</div>
+<p class="rubric">Table des classes</p>
+<p>Une fois l&#8217;ensemble des paramètres renseignés, cliquez sur le bouton &#8220;Classifier&#8221;. Cela entraine le calcul de la symbologie de l&#8217;indicateur et affiche le résulat de la classification dans la table des classes en dessous du formulaire.</p>
+<p><a class="reference internal" href="../_images/indicator-classes-table.png"><img alt="color picker window" src="../_images/indicator-classes-table.png" style="width: 100%;" /></a></p>
+<p>Chaque classe peut ensuite être modifiée manuellement en cliquant sur
+la ligne correspondante dans la table des classes. Cela entraine
+l&#8217;apparution du formulaire d&#8217;édition d&#8217;une classe, comme illustré
+ci-dessous.</p>
+<p><a class="reference internal" href="../_images/indicator-classes.png"><img alt="Edit indicator class window" src="../_images/indicator-classes.png" style="width: 100%;" /></a></p>
+<p>Le <strong>nom</strong>, les <strong>valeurs limites</strong> et les différentes <strong>options de remplissage et de bordure</strong> peuvent être modifiés. Cliquez sur le bouton &#8220;Appliquer&#8221; en bas de la fenêtre pour enregistrer les modifications apportées. Celà entraine la modification de la classe dans la table des classes.</p>
+<p>A tout moment suite à la classification, vous avez la possibilité de
+prévisualiser la carte de l&#8217;indicateur en accédant à m&#8217;onglet
+&#8220;Prévisualiser&#8221;. Cela ouvre une carte localisée sur votre indicateur
+présentant votre indicateur afin de vous permettre d&#8217;apprécier la
+qualité du style que vous avez définit de l&#8217;indicateur.</p>
+</div>
+<div class="section" id="id1">
+<h2><a class="toc-backref" href="#table-des-matieres">Table</a></h2>
+<p>Le quatrième onglet de paramétrage de l&#8217;indicateur consiste à définir
+la manière dont la table sera présentée à l&#8217;utilisateur final depuis
+l&#8217;application publiée. Vous devez renseigner les paramètres décrits
+ci-après.</p>
+<p class="rubric">Titre de la table</p>
+<p>Entrez premièrement un titre pour la table de l&#8217;indicateur dans la zone de texte prévue à cet effet, en haut du formulaire.</p>
+<p class="rubric">Configuration de la table</p>
+<p>Cliquez ensuite sur l&#8217;icone de paramétrage de la table en haut à droite de la table. Cela entraine l&#8217;ouverture de la fenêtre de paramétrage, illustrée ci-dessous.</p>
+<p><a class="reference internal" href="../_images/set-table-parameters-window.png"><img alt="Edit indicator class window" src="../_images/set-table-parameters-window.png" style="width: 100%;" /></a></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Champ</strong></td>
+<td><strong>Définition</strong></td>
+</tr>
+<tr class="row-even"><td>A</td>
+<td>Affichage de la colonne</td>
+</tr>
+<tr class="row-odd"><td>R</td>
+<td>Permettre la recherche en utilisant cette colonne</td>
+</tr>
+<tr class="row-even"><td>Pos</td>
+<td>Position de la colonne dans la table</td>
+</tr>
+<tr class="row-odd"><td>Column</td>
+<td>Titre de la colonne par défaut</td>
+</tr>
+<tr class="row-even"><td>Libellé</td>
+<td>Titre de la colone</td>
+</tr>
+<tr class="row-odd"><td>Valeur</td>
+<td>Valeur de la colonne</td>
+</tr>
+<tr class="row-even"><td>Largeur</td>
+<td>Largeur de la colonne en pixels</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Dans le cas ou ve ne souhaiteriez pas afficher une colonne, veuillez supprimer toutes les informations dans la ligne de paramétrage correspondante.</p>
+</div>
+<p>Une fois le paramétrage de la table éffectué, cliquez sur le bouton &#8220;Valider&#8221; en bas de la fenêtre. La sauvegarde du paramétrage est stipulé par un bandeau vert en haut de l&#8217;écran.</p>
+<p>Cliquez enfin sur le bouton &#8220;Enregister&#8221; pour enregistrer l&#8217;ensemble des informations de l&#8217;onglet Table.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Il est nécessaire de spécifier un titre et le paramétrere la table pour s&#8217;assurer du affichage de la table dans l&#8217;interface publique.</p>
+</div>
+</div>
+<div class="section" id="graphique">
+<h2><a class="toc-backref" href="#table-des-matieres">Graphique</a></h2>
+<p>Le cinquième onglet de paramétrag de l&#8217;indicateur consiste à
+définir les propriété du graphique. Vous devez renseigner les
+paramètres décrits dans les  sous-sections ci-après. Une illustration
+de l&#8217;affichage du formulaire est fournie ci-dessous.</p>
+<p><a class="reference internal" href="../_images/indicator-graph.png"><img alt="Edit indicator class window" src="../_images/indicator-graph.png" style="width: 100%;" /></a></p>
+<p class="rubric">Titre du graphique</p>
+<p>Spécifiez premièrement un titre pour le graphique de l&#8217;indicateur dans la zone de texte prévue à cet effet, en haut du formulaire.</p>
+<p class="rubric">Type de graphique</p>
+<dl class="docutils">
+<dt>Sélectionnez ensuite le type de graphique désiré:</dt>
+<dd><ul class="first last simple">
+<li>Histogramme (ou &#8220;diagramme en bâtons&#8221;)</li>
+<li>Diagramme circulaire (ou &#8220;camembert&#8221;)</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Un histogramme ou un diagramme circulaire sera affiché dans l&#8217;interface publique en fonction de votre choix</p>
+</div>
+<p class="rubric">Etiquette de l&#8217;abscisse</p>
+<p>L&#8217;étiquette de l&#8217;abscisse correspond au titre de l&#8217;abscisse du graphique qui sera utilisé dans l&#8217;interface publique. Entrez un ou plusieurs mots dans la zone de texte prévue à cet effet.</p>
+<p class="rubric">Variable de l&#8217;abscisse</p>
+<p>Sélectionnez ensuite la variable à représenter sur l&#8217;axe des abscisses, c&#8217;est à dire l&#8217;un des champs attributaires disponibles dans la liste déroulante correspondante. Il s&#8217;agit la plupart du temps d&#8217;un champ décrivant le territoire (communes ou départements par exemple).</p>
+<p class="rubric">Etiquette de l&#8217;ordonnée</p>
+<p>L&#8217;étiquette de l&#8217;ordonnée correspond au titre de l&#8217;ordonnée du graphique qui sera utilisé dans l&#8217;interface publique. Entrez un ou plusieurs mots dans la zone de texte prévue à cet effet.</p>
+<p class="rubric">Variable de l&#8217;ordonnée</p>
+<p>Séléctionnez ensuite la variable à utiliser pour l&#8217;axe des ordonnées, c&#8217;est à dire l&#8217;un des champs attributaires disponibles dans la liste déroulante correspondante. Il s&#8217;agit en général de la variable de l&#8217;indicateur.</p>
+<p class="rubric">Formule de l&#8217;ordonnée</p>
+<p>Comme pour la configuration de la symbologie de l&#8217;indicateur, il est possible de rédiger une requête SQL pour paramétrer l&#8217;axe des ordonnées du graphique. La valeur par défaut de la formule est <strong>[_X_]</strong>, également utilisable au sein d&#8217;une requête plus complexe.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">De nombreux tutoriaux sur le langage SQL sont disponibles sur Internet, notamment <a class="reference external" href="http://sql.developpez.com/">ici</a><span class="link-target"> [http://sql.developpez.com/]</span>.</p>
+</div>
+<p class="rubric">Valeur au survol</p>
+<p>Enfin, il est également possible de paramétrer la valeur au survol des colonnes de l&#8217;histogramme ou des parts du diagramme circulaire. Cette valeur est affichée lorsque l&#8217;utilisateur les survole avec son curseur.</p>
+<p>Si ce champ n&#8217;est pas renseigné, le système affichera la valeur de l&#8217;abscisse et la valeur [_X_] par défaut pour chacun des objets du graphique.</p>
+<p class="rubric">Enregistrement et prévisualisation</p>
+<p>Une fois l&#8217;ensemble des paramètres du graphique renseignés, cliquer
+sur le bouton &#8220;Sauver&#8221;. La sauvegarde de la configuration est stipulée
+dans un bandeau vert en haut de l&#8217;écran.</p>
+<p>Vous avez également la possibilité de prévisualiser le graphique en
+accédant à l&#8217;onglet&#8221;Prévisualiser&#8221;. Cela affiche le graphique en
+tel qu&#8217;il sera présenté dans l&#8217;interface publique.</p>
+</div>
+<div class="section" id="rapport">
+<h2><a class="toc-backref" href="#table-des-matieres">Rapport</a></h2>
+<p>Le dernier onglet obligatoire avant la publication d&#8217;un indicateur
+correspond au paramétrage de son rapport, il est illustré
+ci-dessou. Ce dernier est un document qui sera utilisé comme modèle
+pour générer un fichier PDF que l&#8217;utilisateur peut paramétrer via des
+sélections d&#8217;entités géographique puis générer depuis le visualiseur
+des indicateurs de l&#8217;interface publique.</p>
+<p><a class="reference internal" href="../_images/indicator-graph.png"><img alt="Edit indicator class window" src="../_images/indicator-graph.png" style="width: 100%;" /></a></p>
+<p class="rubric">Modèle de document</p>
+<p>Un rapport est basé sur un modèle de document générique au <strong>format
+LibreOffice (.odt)</strong>. Ce dernier peut contenir les éléments listés
+dans la sous-section suivante (et/ou d&#8217;autres) lesquels seront mis à
+jour en fonction de l&#8217;indicateur et des sélection de l&#8217;utilisateur
+final.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Le document .odt peut contenir autant de champs désirés. Sa présentation peut également être modifié en utilisant les options de style de LibreOffice.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Pour plus d&#8217;informations sur l&#8217;utilisation de LibreOffice, veuillez consulter sa <a class="reference external" href="http://www.libreoffice.org/get-help/documentation/">documentation</a><span class="link-target"> [http://www.libreoffice.org/get-help/documentation/]</span></p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">Le nom des éléments du document .odt doivent correspondrent à la valeur stipulée dans la colonne &#8220;Nom du champ&#8221; du tableau de paramétrage présenté ci-après.</p>
+</div>
+<p>Une fois votre modèle de document LibreOffice préparé, veuillez l&#8217;envoyer sur le serveur en utilisant le formulaire d&#8217;upload prévu à cet effet.</p>
+<p class="rubric">Paramétrage du rapport</p>
+<p>Une fois le modèle de document ajouté, un lien hypertexte s&#8217;affiche en dessous du formulaire, vous permettant de le télécharger ultérieurement.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Le tableau de paramétrage affiche autant de lignes que d&#8217;objets présents dans le document .odt</p>
+</div>
+<p>Procédez ensuite au paramétrage de chacun des objets de base du rapport, listés ci-dessous:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="39%" />
+<col width="14%" />
+<col width="37%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Champ</strong></td>
+<td><strong>Définition</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Valeur à spécifier</strong></td>
+</tr>
+<tr class="row-even"><td>Table</td>
+<td>Affiche la table de l&#8217;indicateur</td>
+<td>Table display</td>
+<td>Aucune</td>
+</tr>
+<tr class="row-odd"><td>Compare</td>
+<td>Affiche la table des territoires de comparaison</td>
+<td>Table display</td>
+<td>Requête SQL</td>
+</tr>
+<tr class="row-even"><td>Titte</td>
+<td>Affiche le titre du rapport</td>
+<td>Default display</td>
+<td>Chaine de caractères ou requête SQL</td>
+</tr>
+<tr class="row-odd"><td>Description</td>
+<td>Affiche la description de l&#8217;indicateu</td>
+<td>Default display</td>
+<td>Chaine de caractères ou description par défaut</td>
+</tr>
+<tr class="row-even"><td>Location</td>
+<td>Affiche la carte de localisation (aperçu)</td>
+<td>Location Map</td>
+<td>Aucune</td>
+</tr>
+<tr class="row-odd"><td>Map</td>
+<td>Affiche la carte de l&#8217;indicateur</td>
+<td>Main map image</td>
+<td>Aucune</td>
+</tr>
+<tr class="row-even"><td>Diag</td>
+<td>Affiche le graphique de l&#8217;indicateur</td>
+<td>Graph display</td>
+<td>Aucune</td>
+</tr>
+<tr class="row-odd"><td>Classes</td>
+<td>Affiche la légende des classes de l&#8217;indicateur</td>
+<td>Graph display</td>
+<td>Aucune</td>
+</tr>
+<tr class="row-even"><td>Sources</td>
+<td>Affiche les sources de données de l&#8217;indicateur</td>
+<td>Index sources</td>
+<td>Chaine de caractère ou sources par défaut</td>
+</tr>
+</tbody>
+</table>
+<p>Une fois que l&#8217;ensemble des champs sont renseignés, cliquez sur le bouton &#8220;Enregistrer&#8221; pour sauvegarder le paramétrage.</p>
+</div>
+<div class="section" id="publier-un-indicateur">
+<h2><a class="toc-backref" href="#table-des-matieres">Publier un indicateur</a></h2>
+<p>De la même manière que pour les cartes, pour qu&#8217;un indicateur soit
+accessible depuis l&#8217;interface publique, il est nécessaire qu&#8217;il soit
+publié. Pour ce faire, utilisez le boutton &#8220;Publier&#8221; en haut à droite du
+formulaire de paramétrage pour publier l&#8217;indicateur, il sera alors
+automatiquement disponible lors de votre prochain chargement de la
+page d&#8217;accueil de votre instance MapMint.</p>
+</div>
+<div class="section" id="depublier-un-indicateur">
+<h2><a class="toc-backref" href="#table-des-matieres">Dépublier un indicateur</a></h2>
+<p>Dans le cas où vous voudriez qu&#8217;un indicateur ne soit plus accessible,
+vous aves la possibilité de dépublier. En faisant cela, aucune donnée
+relatives à l&#8217;indicateur ne sera supprimée, vous pourrez donc
+toujorus les utiliser comme des couches comme vous le faites avec
+n&#8217;inporte qu&#8217;elle autre source de données.</p>
+<p>Pour dépublier un indicateur, cliquez sur le boutton &#8220;Dépublier&#8221; en
+haut à driote du formulaire de paramétrage d&#8217;un indicateur.</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2013 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>
