@@ -1,0 +1,377 @@
+.. _tables-infopanel:
+
+Panneau de configuration d'une table
+====================================
+
+.. contents:: Table des matières
+    :depth: 4
+    :backlinks: top
+    
+Le panneau d'information des tables permet de visualiser et d'éditer
+les propriétés d'une table séléctionnée dans le :doc:`tbllist`. Ce
+panneau est composé de 5 onglets.
+
+.. |indmet| image:: ../_static/images/info.png
+   :height: 24
+   :alt: Indicator metadata icon
+
+.. |indcds| image:: ../_static/images/process.png
+   :height: 24
+   :alt: Convert datasource icon
+
+.. |inddiu| image:: ../_static/images/pencil.png
+   :width: 24
+   :alt: Édition d'un utilisateur
+
+.. |indpds| image:: ../_static/images/preview.png
+   :height: 24
+   :alt: Preview datasource icon
+     
+.. |indrep| image:: ../_static/images/report1.png
+   :height: 24
+   :alt: Preview datasource icon
+     
+   
+============ ================ =============
+**Icône**    **Description**   **Action**                  
+------------ ---------------- ------------- 
+|indcds|     Paramètres		  Configuration des paramètres de base
+|indmet|     Informations		  Visualisation des informations sur les colonnes d'une table
+|indpds|     Voir		  Configuration des vues associées à une table
+|inddiu|     Editer			  Configuration des interfaces de saisie pour la table
+|indrep|     Rapport		  Configuration des rapports
+============ ================ =============							
+
+.. |infthw| image:: ../_static/images/tables-infopanel-window.png
+	:scale: 80%
+	:alt: Tables information window
+
+.. _tables-param:
+
+Paramètres
+----------
+
+Le panneau paramètres permet de définir :
+
+ * Nom : le groupe d'utilisateur à accès à la couche en lecture
+ * Description: la description qui sera affichée au dessus des tables, formulaires de saisie et interface de création de rapports 
+ * Table: la table concernée
+
+|infthw|
+
+Informations
+------------
+
+Le panneau d'informations permet de visualiser les informations
+relatives aux différentes colonnes d'une table. On peut y voir les
+noms, types et potentielles références en cas de clés étrangères
+(notez FOR comme dans la capture présentée ci-dessous).
+
+.. |infthw1| image:: ../_static/images/table-info-view.png
+	:scale: 80%
+	:alt: Tables information window
+
+|infthw1|
+
+Voir
+----
+
+Le panneau voir permet de paramétrer la manière dont la table sera
+affichée lorsqu'elle sera consultée par les utlisateurs du groupe
+autorisé à la consulter.
+
+
+
+.. |infthw2| image:: ../_static/images/table-view-settings.png
+	:scale: 80%
+	:alt: Tables information window
+
+|infthw2|
+
+
+Les paramètres d'une vue sont les suivants :
+
+============ ================ 
+**Param**    **Définition**          
+------------ ---------------- 
+Nom            Nom de la vue
+Clause            Clause permettant de filtrer les élément à afficher de la table
+Visible            La vue doit-elle être apparaitre dans le menu ?
+Groupes            Le(s) groupe(s) autorisé(s) à visualiser la table via cette vue
+Thème            Le(s) thème(s) dans lequel la vue doit être affiché
+============ ================	
+
+La section **Configuration de la table** correspond à  la liste des
+colonnes à afficher et la manière dont les afficher :
+
+
+============ ================ 
+**Champ**    **Définition**          
+------------ ---------------- 
+O            Ordonencement des valeurs
+A            Affichage de la colonne
+R            Permettre la recherche en utilisant cette colonne (non utilisé)
+Titre            Nom de la colonne (non modifiable)
+Étiquette      Titre de la colone
+Valeur       Valeur à afficher pour la colonne (toute requête SQL valide peut être utilisée)
+Largeur      Largeur de la colonne affichée
+============ ================	
+
+Le bouton **Ajouter une colonne** permet d'ajouter une nouvelle
+colonne dans la vue qui ne serait pas disponible dans la table
+d'origine.
+
+Éditer
+------
+
+Le panneau **Éditer** permet de configurer les interfaces de saisie
+qui seront accessibles aux utilisateurs autorisés.
+
+.. |infthw3| image:: ../_static/images/table-edition-settings.png
+	:scale: 80%
+	:alt: Tables information window
+
+|infthw3|
+
+
+Les paramètres d'une interface de saisie sont les suivants :
+
+============ ================ 
+**Param**    **Définition**          
+------------ ---------------- 
+Nom            Nom de l'interface de saisie
+Étape            L'étape de saisie
+Groupes            Le(s) groupe(s) autorisé(s) à éditer la table via cette interface
+Thème            Le(s) thème(s) dans lequel l'interface de saisie doit être affichée (non utilisé)
+============ ================	
+
+La section **Configuration de la table** correspond à la liste des
+colonnes à éditer et la manière dont les éditer :
+
+============ ================ 
+**Champ**    **Définition**          
+------------ ---------------- 
+E            Le champ de saisie doit-il être affiché dans l'interface de saisie ?
+Titre            Nom de la colonne (non éditable sauf en cas d'ajout d'une ligne afin de pouvoir utiliser le nom d'une colonne existante)
+Type            Type du champ à saisir
+Étiquette            Titre du champ à saisir
+Valeur            Valeur par défaut dans le formulaire de saisie pour la colonne
+============ ================	
+
+Les types de champ à saisir
+***************************
+
+Les types de base
+.................
+
+Nous définissons ici les types de base comme étant les types ne
+nécessitant pas de paramétrages particuliers. La liste des type de
+base sont les suivants :
+
+ * ``Binary file`` : un fichier binaire
+ * ``Boolean`` : valeur booléenne (c'est-à-dire pouvant prendre la
+   valeur vrai ou faux)
+ * ``Character varying (255)`` : chaîne de caractères d'au plus 255
+   caractères
+ * ``Character varying (50)`` : chaîne de caractères d'au plus 50
+   caractères
+ * ``Character varying (25)`` : chaîne de caractères d'au plus 25
+   caractères
+ * ``Date`` : date
+ * ``Date and time`` : date et heure
+ * ``Geometry`` : un objet géographique
+ * ``HTML Text`` : contenu HTML
+ * ``Mot de passe`` : mot de passe
+ * ``Text`` : chaîne de caractères (sans limite)
+
+Les types particuliers
+......................
+
+Nous définissons les types particuliers comme l'ensemble des types non
+listé précédemment et qui nécessitent un paramétrage particulier et
+spécifique.
+
+Table Link
+__________
+
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'éditer un champs pouvant prendre
+plusieurs valeurs extraites d'une table tierce et devant être stockées
+dans une table tierce.
+
+La syntaxe pour la valeur est la suivante : ``XX;YY;TBL;SQL`` où :
+ * ``XX`` : représente le nom de la colonne permettant de stocker la
+   référence à la table en cours d'édition,
+
+ * ``YY`` : le nom de la colonne pour stocker les valeurs sélectionnées
+
+ * ``TBL`` : le nom de la table permettant de stocker les informations
+   reliant un élément de la table en cours d'édition et la table 
+   d'entités existantes
+
+ * ``SQL`` : la requête SQL permettant d'obtenir la liste des éléments
+   de la table de référence
+
+
+Link Table
+__________
+
+Non utilisé actuellement ce type devrait permettre de donner la
+possibilité aux utilisateurs autorisés de saisir des éléments d'une
+table tierce ou d'en ajouter dans cette table puis d'y ajouter cette
+référence.
+
+Linked Table
+____________
+
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'ajouter des éléments dans une table
+tierce faisant référence à la table actuellement en cours d'édition.
+
+La syntaxe pour la valeur est la suivante : ``XX;TBL`` où :
+
+ * ``XX`` : le nom de la colonne utilisée pour faire le lien avec la
+   table en cours d'édition
+ * ``TBL`` : le nom de la table dans laquelle les informations doivent
+   être visualisées et éditées.
+
+Il est important de noter ici qu'il est nécessaire d'avoir paramétré
+la table correspondante afin qu'une vue et les formulaires d'édition
+associés soient accessibles depuis l'interface de saisie de la table
+de base.
+
+
+
+Reference
+_________
+
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'ajouter des éléments issues d'une table
+tierce dans la table en cours d'édition.
+
+La syntaxe est très simple et ne contient qu'une requête SQL devant
+renvoyer deux champs, le premier étant la valeur à insérer dans la
+table en cours d'édition et le second la valeur qui sera affichée dans
+la liste déroulante.
+
+.. note::
+    Ce type peut aussi être utilisé sans table de référence, en
+    utilisant une requête renvoyant deux champs correspondants aux
+    champs explicités précédemment. Par exemple : 
+    ::
+        SELECT * from (
+            SELECT 'N' as id, 'Nord' as name
+            UNION 
+            SELECT 'E' as id, 'Est' as name
+            UNION 
+            SELECT 'W' as id,'Ouest' as name 
+            UNION 
+            SELECT 'S' as id,'Sud' as name 
+        ) as f 
+    Cela permettra donc d'insérer les valeurs ``N``, ``E``, ``W`` ou
+    ``S``  dans la table en cours d'édition et d'afficher dans la
+    liste déroulante  les valeurs ``Nord``, ``Est``, ``Ouest`` et ``Sud``.
+
+Pour les champs éditables de type référence, vous avez la possibilité
+de définir des relations avec d'autres champs du même type. Pour ce
+faire, vous utilisez le champs texte apparaissant dans la colonne
+type pour y définir ces dépendences. Cela permet de faire en sorte de
+modifier le contenu d'une liste déroulante par rapport au contenu
+d'une autre. Cela permet par exemple lors de sélection d'une région de
+définir que la liste des départements ne devra contenir que les
+départements reliés à la région sélectionnée.
+
+La syntaxe de la partie permettant de définir une dépendance est la
+suivante :
+
+``[{"XX":{"tfield":"YY","init":"true","display": "always","operator":"=","options":[]}}]``
+
+
+Avec :
+ * ``XX`` : le nom d'un champ disponible dans le formulaire de saisie
+ * ``YY`` : le nom de la colonne permettant de lier la valeur
+   actuellement sélectionnée pour ce champs.
+
+
+Rapport
+-------
+
+Le panneau **Rapport** permet de configurer les rapports qui seront
+accessibles aux utilisateurs autorisés.
+
+.. |infthw4| image:: ../_static/images/table-report-settings.png
+	:scale: 80%
+	:alt: Tables information window
+
+|infthw4|
+
+
+Les paramètres d'un rapport sont les suivants :
+
+============ ================ 
+**Param**    **Définition**          
+------------ ---------------- 
+Titre            Nom de l'interface de saisie
+Sélection            Le rapport doit-il être attaché à un élément de la table ?
+Clause            Clause permettant de filtrer les éléments à afficher de la table
+Groupes            Le(s) groupe(s) autorisé(s) à générer / visualiser le rapport
+Modèle            Le modèle de document LibreOffice à utiliser
+============ ================	
+
+La section **Configuration de la table** correspond à la liste des
+colonnes à éditer et la manière dont les éditer :
+
+============ ================ 
+**Champ**    **Définition**          
+------------ ---------------- 
+Nom            Nom du champ défini dans le modèle
+Type            Type du champ à remplacer
+Valeur            Valeur à utiliser pour remplacer le champ
+============ ================	
+
+Type de restitution
+*******************
+
+Les types disponibles pour la configuration de rapport sont
+sont listés dans cette section.
+
+default
+.......
+
+Requête SQL ou simple champ
+
+
+Diagrams
+........
+
+Requête SQL retournant un tableau de valeurs et les titres de colonnes
+pour générer un graphique.
+
+HTML content
+............
+
+Requête SQL (ou simple champ) retournant une valeur HTML.
+
+Linked document
+...............
+
+Référence vers le document lié, syntaxe:
+``clé_lien;table;nom_rapport;ordre``.
+
+Où ``clé_lien`` représente le nom de la colonne permettant de
+faire le lien avec l'élément sélectionné de la table en cours, ``table``
+est le nom de la table où récupérer les valeurs, ``nom_rapport``
+représente le nom du rapport existant permettant d'intégrer son
+contenu pour ce champ, ``ordre`` défini dans quel ordre vous souhaitez
+accéder aux valeurs de la table.
+
+Paragraphs
+..........
+
+Requêtes SQL (ou simple champ) retournant un tableau (array) des
+paragraphes à restituer.
+
+SQL Table
+.........
+
+Requêtes SQL (ou simple champ) retournant un tableau à restituer.

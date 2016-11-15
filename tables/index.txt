@@ -1,0 +1,28 @@
+.. _tables:
+
+Module de gestion de tables
+================================
+
+Cette section regroupe la documentation relative au module de gestion
+des tables dans MapMint.
+
+Le module de gestion des tables permet la publication de divers tables
+qu'il sera possible de visualiser, éditer et créer des rapport basé
+sur une entité ou l'ensemble des données de la table.
+
+La page du module est divisée en deux parties : 
+
+ * la partie de gauche appelée le :doc:`tbllist`, il liste l'ensemble des tables créées et permet l'ajout et la suppression de tables
+ * la partie de droite appelée le :doc:`infopanel`, il permet de saisir les informations relatives à une table
+
+.. toctree::
+   :maxdepth: 2
+   
+   tbllist
+   infopanel
+
+.. |mmtblpr| image:: ../_static/images/table-module-preview.png
+   :width: 100%
+   :alt: Tables module preview image
+   
+|mmtblpr|
