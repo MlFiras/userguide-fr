@@ -78,37 +78,43 @@
 \BOOKMARK [2][-]{subsection.6.2.3}{Voir}{section.6.2}% 78
 \BOOKMARK [2][-]{subsection.6.2.4}{\311diter}{section.6.2}% 79
 \BOOKMARK [2][-]{subsection.6.2.5}{Rapport}{section.6.2}% 80
-\BOOKMARK [0][-]{chapter.7}{Module de cr\351ation de cartes}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Menu couches de donn\351es}{chapter.7}% 82
-\BOOKMARK [2][-]{subsection.7.1.1}{Fonds de carte}{section.7.1}% 83
-\BOOKMARK [2][-]{subsection.7.1.2}{Ouvrir une carte}{section.7.1}% 84
-\BOOKMARK [2][-]{subsection.7.1.3}{Enregistrer une carte}{section.7.1}% 85
-\BOOKMARK [2][-]{subsection.7.1.4}{Menu couches}{section.7.1}% 86
-\BOOKMARK [2][-]{subsection.7.1.5}{Menu contextuel d'une couche}{section.7.1}% 87
-\BOOKMARK [0][-]{chapter.8}{Module de cr\351ation de th\350mes}{}% 88
-\BOOKMARK [1][-]{section.8.1}{Panneau des th\350mes}{chapter.8}% 89
-\BOOKMARK [2][-]{subsection.8.1.1}{Ajouter un nouveau th\350me}{section.8.1}% 90
-\BOOKMARK [2][-]{subsection.8.1.2}{Supprimer un th\350me}{section.8.1}% 91
-\BOOKMARK [1][-]{section.8.2}{Panneau d'information}{chapter.8}% 92
-\BOOKMARK [2][-]{subsection.8.2.1}{Nom du th\350me}{section.8.2}% 93
-\BOOKMARK [2][-]{subsection.8.2.2}{Droits des groupes}{section.8.2}% 94
-\BOOKMARK [0][-]{chapter.9}{Module de cr\351ation de documents}{}% 95
-\BOOKMARK [1][-]{section.9.1}{Panneau des documents}{chapter.9}% 96
-\BOOKMARK [2][-]{subsection.9.1.1}{Ajouter un nouveau document}{section.9.1}% 97
-\BOOKMARK [2][-]{subsection.9.1.2}{Supprimer un document}{section.9.1}% 98
-\BOOKMARK [1][-]{section.9.2}{Panneau d'information}{chapter.9}% 99
-\BOOKMARK [2][-]{subsection.9.2.1}{Nom du document}{section.9.2}% 100
-\BOOKMARK [2][-]{subsection.9.2.2}{Th\350me du document}{section.9.2}% 101
-\BOOKMARK [2][-]{subsection.9.2.3}{Fichier ou URL}{section.9.2}% 102
-\BOOKMARK [2][-]{subsection.9.2.4}{Description du document}{section.9.2}% 103
-\BOOKMARK [2][-]{subsection.9.2.5}{Droits des groupes}{section.9.2}% 104
-\BOOKMARK [0][-]{chapter.10}{Module de publication d'applications}{}% 105
-\BOOKMARK [1][-]{section.10.1}{Panneau de configuration d'applications}{chapter.10}% 106
-\BOOKMARK [2][-]{subsection.10.1.1}{Configuration g\351n\351rale de l'application}{section.10.1}% 107
-\BOOKMARK [2][-]{subsection.10.1.2}{Configuration des couches de l'application}{section.10.1}% 108
-\BOOKMARK [2][-]{subsection.10.1.3}{Param\351trage de la carte}{section.10.1}% 109
-\BOOKMARK [2][-]{subsection.10.1.4}{Configuration des fonctionnalit\351s de l'application}{section.10.1}% 110
-\BOOKMARK [2][-]{subsection.10.1.5}{Publication de l'application}{section.10.1}% 111
-\BOOKMARK [2][-]{subsection.10.1.6}{Publication de la vignette}{section.10.1}% 112
-\BOOKMARK [2][-]{subsection.10.1.7}{Pr\351visualisation de l'application}{section.10.1}% 113
-\BOOKMARK [2][-]{subsection.10.1.8}{Supprimer l'application}{section.10.1}% 114
+\BOOKMARK [1][-]{section.6.3}{Utilisation de MapMint4ME}{chapter.6}% 81
+\BOOKMARK [2][-]{subsection.6.3.1}{Installation}{section.6.3}% 82
+\BOOKMARK [2][-]{subsection.6.3.2}{Les diff\351rentes \351tapes}{section.6.3}% 83
+\BOOKMARK [2][-]{subsection.6.3.3}{Importer}{section.6.3}% 84
+\BOOKMARK [2][-]{subsection.6.3.4}{Voir / \311diter}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.5}{Exporter}{section.6.3}% 86
+\BOOKMARK [0][-]{chapter.7}{Module de cr\351ation de cartes}{}% 87
+\BOOKMARK [1][-]{section.7.1}{Menu couches de donn\351es}{chapter.7}% 88
+\BOOKMARK [2][-]{subsection.7.1.1}{Fonds de carte}{section.7.1}% 89
+\BOOKMARK [2][-]{subsection.7.1.2}{Ouvrir une carte}{section.7.1}% 90
+\BOOKMARK [2][-]{subsection.7.1.3}{Enregistrer une carte}{section.7.1}% 91
+\BOOKMARK [2][-]{subsection.7.1.4}{Menu couches}{section.7.1}% 92
+\BOOKMARK [2][-]{subsection.7.1.5}{Menu contextuel d'une couche}{section.7.1}% 93
+\BOOKMARK [0][-]{chapter.8}{Module de cr\351ation de th\350mes}{}% 94
+\BOOKMARK [1][-]{section.8.1}{Panneau des th\350mes}{chapter.8}% 95
+\BOOKMARK [2][-]{subsection.8.1.1}{Ajouter un nouveau th\350me}{section.8.1}% 96
+\BOOKMARK [2][-]{subsection.8.1.2}{Supprimer un th\350me}{section.8.1}% 97
+\BOOKMARK [1][-]{section.8.2}{Panneau d'information}{chapter.8}% 98
+\BOOKMARK [2][-]{subsection.8.2.1}{Nom du th\350me}{section.8.2}% 99
+\BOOKMARK [2][-]{subsection.8.2.2}{Droits des groupes}{section.8.2}% 100
+\BOOKMARK [0][-]{chapter.9}{Module de cr\351ation de documents}{}% 101
+\BOOKMARK [1][-]{section.9.1}{Panneau des documents}{chapter.9}% 102
+\BOOKMARK [2][-]{subsection.9.1.1}{Ajouter un nouveau document}{section.9.1}% 103
+\BOOKMARK [2][-]{subsection.9.1.2}{Supprimer un document}{section.9.1}% 104
+\BOOKMARK [1][-]{section.9.2}{Panneau d'information}{chapter.9}% 105
+\BOOKMARK [2][-]{subsection.9.2.1}{Nom du document}{section.9.2}% 106
+\BOOKMARK [2][-]{subsection.9.2.2}{Th\350me du document}{section.9.2}% 107
+\BOOKMARK [2][-]{subsection.9.2.3}{Fichier ou URL}{section.9.2}% 108
+\BOOKMARK [2][-]{subsection.9.2.4}{Description du document}{section.9.2}% 109
+\BOOKMARK [2][-]{subsection.9.2.5}{Droits des groupes}{section.9.2}% 110
+\BOOKMARK [0][-]{chapter.10}{Module de publication d'applications}{}% 111
+\BOOKMARK [1][-]{section.10.1}{Panneau de configuration d'applications}{chapter.10}% 112
+\BOOKMARK [2][-]{subsection.10.1.1}{Configuration g\351n\351rale de l'application}{section.10.1}% 113
+\BOOKMARK [2][-]{subsection.10.1.2}{Configuration des couches de l'application}{section.10.1}% 114
+\BOOKMARK [2][-]{subsection.10.1.3}{Param\351trage de la carte}{section.10.1}% 115
+\BOOKMARK [2][-]{subsection.10.1.4}{Configuration des fonctionnalit\351s de l'application}{section.10.1}% 116
+\BOOKMARK [2][-]{subsection.10.1.5}{Publication de l'application}{section.10.1}% 117
+\BOOKMARK [2][-]{subsection.10.1.6}{Publication de la vignette}{section.10.1}% 118
+\BOOKMARK [2][-]{subsection.10.1.7}{Pr\351visualisation de l'application}{section.10.1}% 119
+\BOOKMARK [2][-]{subsection.10.1.8}{Supprimer l'application}{section.10.1}% 120

@@ -20,6 +20,7 @@ La page du module est divisée en deux parties :
    
    tbllist
    infopanel
+   mapmint4me
 
 .. |mmtblpr| image:: ../_static/images/table-module-preview.png
    :width: 100%

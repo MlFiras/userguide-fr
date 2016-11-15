@@ -627,54 +627,96 @@
           <content src="tables/infopanel.html#rapport" />
         </navPoint>
       </navPoint>
+      <navPoint id="navPoint104" playOrder="82">
+        <navLabel>
+          <text>Utilisation de MapMint4ME</text>
+        </navLabel>
+        <content src="tables/mapmint4me.html" />
+        <navPoint id="navPoint105" playOrder="82">
+          <navLabel>
+            <text>Utilisation de MapMint4ME</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html" />
+        </navPoint>
+        <navPoint id="navPoint106" playOrder="83">
+          <navLabel>
+            <text>Installation</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html#installation" />
+        </navPoint>
+        <navPoint id="navPoint107" playOrder="84">
+          <navLabel>
+            <text>Les différentes étapes</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html#les-differentes-etapes" />
+        </navPoint>
+        <navPoint id="navPoint108" playOrder="85">
+          <navLabel>
+            <text>Importer</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html#importer" />
+        </navPoint>
+        <navPoint id="navPoint109" playOrder="86">
+          <navLabel>
+            <text>Voir / Éditer</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html#voir-editer" />
+        </navPoint>
+        <navPoint id="navPoint110" playOrder="87">
+          <navLabel>
+            <text>Exporter</text>
+          </navLabel>
+          <content src="tables/mapmint4me.html#exporter" />
+        </navPoint>
+      </navPoint>
     </navPoint>
-    <navPoint id="navPoint104" playOrder="82">
+    <navPoint id="navPoint111" playOrder="88">
       <navLabel>
         <text>Module de création de cartes</text>
       </navLabel>
       <content src="maps/index.html" />
-      <navPoint id="navPoint105" playOrder="82">
+      <navPoint id="navPoint112" playOrder="88">
         <navLabel>
           <text>Module de création de cartes</text>
         </navLabel>
         <content src="maps/index.html" />
       </navPoint>
-      <navPoint id="navPoint106" playOrder="83">
+      <navPoint id="navPoint113" playOrder="89">
         <navLabel>
           <text>Menu couches de données</text>
         </navLabel>
         <content src="maps/layerstree.html" />
-        <navPoint id="navPoint107" playOrder="83">
+        <navPoint id="navPoint114" playOrder="89">
           <navLabel>
             <text>Menu couches de données</text>
           </navLabel>
           <content src="maps/layerstree.html" />
         </navPoint>
-        <navPoint id="navPoint108" playOrder="84">
+        <navPoint id="navPoint115" playOrder="90">
           <navLabel>
             <text>Fonds de carte</text>
           </navLabel>
           <content src="maps/layerstree.html#fonds-de-carte" />
         </navPoint>
-        <navPoint id="navPoint109" playOrder="85">
+        <navPoint id="navPoint116" playOrder="91">
           <navLabel>
             <text>Ouvrir une carte</text>
           </navLabel>
           <content src="maps/layerstree.html#ouvrir-une-carte" />
         </navPoint>
-        <navPoint id="navPoint110" playOrder="86">
+        <navPoint id="navPoint117" playOrder="92">
           <navLabel>
             <text>Enregistrer une carte</text>
           </navLabel>
           <content src="maps/layerstree.html#enregistrer-une-carte" />
         </navPoint>
-        <navPoint id="navPoint111" playOrder="87">
+        <navPoint id="navPoint118" playOrder="93">
           <navLabel>
             <text>Menu couches</text>
           </navLabel>
           <content src="maps/layerstree.html#menu-couches" />
         </navPoint>
-        <navPoint id="navPoint112" playOrder="88">
+        <navPoint id="navPoint119" playOrder="94">
           <navLabel>
             <text>Menu contextuel d&#39;une couche</text>
           </navLabel>
@@ -682,59 +724,59 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint113" playOrder="89">
+    <navPoint id="navPoint120" playOrder="95">
       <navLabel>
         <text>Module de création de thèmes</text>
       </navLabel>
       <content src="themes/index.html" />
-      <navPoint id="navPoint114" playOrder="89">
+      <navPoint id="navPoint121" playOrder="95">
         <navLabel>
           <text>Module de création de thèmes</text>
         </navLabel>
         <content src="themes/index.html" />
       </navPoint>
-      <navPoint id="navPoint115" playOrder="90">
+      <navPoint id="navPoint122" playOrder="96">
         <navLabel>
           <text>Panneau des thèmes</text>
         </navLabel>
         <content src="themes/themeslist.html" />
-        <navPoint id="navPoint116" playOrder="90">
+        <navPoint id="navPoint123" playOrder="96">
           <navLabel>
             <text>Panneau des thèmes</text>
           </navLabel>
           <content src="themes/themeslist.html" />
         </navPoint>
-        <navPoint id="navPoint117" playOrder="91">
+        <navPoint id="navPoint124" playOrder="97">
           <navLabel>
             <text>Ajouter un nouveau thème</text>
           </navLabel>
           <content src="themes/themeslist.html#ajouter-un-nouveau-theme" />
         </navPoint>
-        <navPoint id="navPoint118" playOrder="92">
+        <navPoint id="navPoint125" playOrder="98">
           <navLabel>
             <text>Supprimer un thème</text>
           </navLabel>
           <content src="themes/themeslist.html#supprimer-un-theme" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint119" playOrder="93">
+      <navPoint id="navPoint126" playOrder="99">
         <navLabel>
           <text>Panneau d&#39;information</text>
         </navLabel>
         <content src="themes/infopanel.html" />
-        <navPoint id="navPoint120" playOrder="93">
+        <navPoint id="navPoint127" playOrder="99">
           <navLabel>
             <text>Panneau d&#39;information</text>
           </navLabel>
           <content src="themes/infopanel.html" />
         </navPoint>
-        <navPoint id="navPoint121" playOrder="94">
+        <navPoint id="navPoint128" playOrder="100">
           <navLabel>
             <text>Nom du thème</text>
           </navLabel>
           <content src="themes/infopanel.html#nom-du-theme" />
         </navPoint>
-        <navPoint id="navPoint122" playOrder="95">
+        <navPoint id="navPoint129" playOrder="101">
           <navLabel>
             <text>Droits des groupes</text>
           </navLabel>
@@ -742,77 +784,77 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint123" playOrder="96">
+    <navPoint id="navPoint130" playOrder="102">
       <navLabel>
         <text>Module de création de documents</text>
       </navLabel>
       <content src="documents/index.html" />
-      <navPoint id="navPoint124" playOrder="96">
+      <navPoint id="navPoint131" playOrder="102">
         <navLabel>
           <text>Module de création de documents</text>
         </navLabel>
         <content src="documents/index.html" />
       </navPoint>
-      <navPoint id="navPoint125" playOrder="97">
+      <navPoint id="navPoint132" playOrder="103">
         <navLabel>
           <text>Panneau des documents</text>
         </navLabel>
         <content src="documents/docslist.html" />
-        <navPoint id="navPoint126" playOrder="97">
+        <navPoint id="navPoint133" playOrder="103">
           <navLabel>
             <text>Panneau des documents</text>
           </navLabel>
           <content src="documents/docslist.html" />
         </navPoint>
-        <navPoint id="navPoint127" playOrder="98">
+        <navPoint id="navPoint134" playOrder="104">
           <navLabel>
             <text>Ajouter un nouveau document</text>
           </navLabel>
           <content src="documents/docslist.html#ajouter-un-nouveau-document" />
         </navPoint>
-        <navPoint id="navPoint128" playOrder="99">
+        <navPoint id="navPoint135" playOrder="105">
           <navLabel>
             <text>Supprimer un document</text>
           </navLabel>
           <content src="documents/docslist.html#supprimer-un-document" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint129" playOrder="100">
+      <navPoint id="navPoint136" playOrder="106">
         <navLabel>
           <text>Panneau d&#39;information</text>
         </navLabel>
         <content src="documents/infopanel.html" />
-        <navPoint id="navPoint130" playOrder="100">
+        <navPoint id="navPoint137" playOrder="106">
           <navLabel>
             <text>Panneau d&#39;information</text>
           </navLabel>
           <content src="documents/infopanel.html" />
         </navPoint>
-        <navPoint id="navPoint131" playOrder="101">
+        <navPoint id="navPoint138" playOrder="107">
           <navLabel>
             <text>Nom du document</text>
           </navLabel>
           <content src="documents/infopanel.html#nom-du-document" />
         </navPoint>
-        <navPoint id="navPoint132" playOrder="102">
+        <navPoint id="navPoint139" playOrder="108">
           <navLabel>
             <text>Thème du document</text>
           </navLabel>
           <content src="documents/infopanel.html#theme-du-document" />
         </navPoint>
-        <navPoint id="navPoint133" playOrder="103">
+        <navPoint id="navPoint140" playOrder="109">
           <navLabel>
             <text>Fichier ou URL</text>
           </navLabel>
           <content src="documents/infopanel.html#fichier-ou-url" />
         </navPoint>
-        <navPoint id="navPoint134" playOrder="104">
+        <navPoint id="navPoint141" playOrder="110">
           <navLabel>
             <text>Description du document</text>
           </navLabel>
           <content src="documents/infopanel.html#description-du-document" />
         </navPoint>
-        <navPoint id="navPoint135" playOrder="105">
+        <navPoint id="navPoint142" playOrder="111">
           <navLabel>
             <text>Droits des groupes</text>
           </navLabel>
@@ -820,71 +862,71 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint136" playOrder="106">
+    <navPoint id="navPoint143" playOrder="112">
       <navLabel>
         <text>Module de publication d&#39;applications</text>
       </navLabel>
       <content src="apps/index.html" />
-      <navPoint id="navPoint137" playOrder="106">
+      <navPoint id="navPoint144" playOrder="112">
         <navLabel>
           <text>Module de publication d&#39;applications</text>
         </navLabel>
         <content src="apps/index.html" />
       </navPoint>
-      <navPoint id="navPoint138" playOrder="107">
+      <navPoint id="navPoint145" playOrder="113">
         <navLabel>
           <text>Panneau de configuration d&#39;applications</text>
         </navLabel>
         <content src="apps/appconfig.html" />
-        <navPoint id="navPoint139" playOrder="107">
+        <navPoint id="navPoint146" playOrder="113">
           <navLabel>
             <text>Panneau de configuration d&#39;applications</text>
           </navLabel>
           <content src="apps/appconfig.html" />
         </navPoint>
-        <navPoint id="navPoint140" playOrder="108">
+        <navPoint id="navPoint147" playOrder="114">
           <navLabel>
             <text>Configuration générale de l&#39;application</text>
           </navLabel>
           <content src="apps/appconfig.html#configuration-generale-de-l-application" />
         </navPoint>
-        <navPoint id="navPoint141" playOrder="109">
+        <navPoint id="navPoint148" playOrder="115">
           <navLabel>
             <text>Configuration des couches de l&#39;application</text>
           </navLabel>
           <content src="apps/appconfig.html#configuration-des-couches-de-l-application" />
         </navPoint>
-        <navPoint id="navPoint142" playOrder="110">
+        <navPoint id="navPoint149" playOrder="116">
           <navLabel>
             <text>Paramétrage de la carte</text>
           </navLabel>
           <content src="apps/appconfig.html#parametrage-de-la-carte" />
         </navPoint>
-        <navPoint id="navPoint143" playOrder="111">
+        <navPoint id="navPoint150" playOrder="117">
           <navLabel>
             <text>Configuration des fonctionnalités de l&#39;application</text>
           </navLabel>
           <content src="apps/appconfig.html#configuration-des-fonctionnalites-de-l-application" />
         </navPoint>
-        <navPoint id="navPoint144" playOrder="112">
+        <navPoint id="navPoint151" playOrder="118">
           <navLabel>
             <text>Publication de l&#39;application</text>
           </navLabel>
           <content src="apps/appconfig.html#publication-de-l-application" />
         </navPoint>
-        <navPoint id="navPoint145" playOrder="113">
+        <navPoint id="navPoint152" playOrder="119">
           <navLabel>
             <text>Publication de la vignette</text>
           </navLabel>
           <content src="apps/appconfig.html#publication-de-la-vignette" />
         </navPoint>
-        <navPoint id="navPoint146" playOrder="114">
+        <navPoint id="navPoint153" playOrder="120">
           <navLabel>
             <text>Prévisualisation de l&#39;application</text>
           </navLabel>
           <content src="apps/appconfig.html#previsualisation-de-l-application" />
         </navPoint>
-        <navPoint id="navPoint147" playOrder="115">
+        <navPoint id="navPoint154" playOrder="121">
           <navLabel>
             <text>Supprimer l&#39;application</text>
           </navLabel>
