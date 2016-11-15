@@ -1,0 +1,104 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{What is MapMint?}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{What allows MapMint?}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{How MapMint works?}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Intsall MapMint}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Prerequisites}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Installation}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Use MapMint}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Access to administrative modules}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{Identification Form}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Access to the public interface}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.4}{First settings}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.5}{Add data}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.6}{Access to data and processes from the desktop clients}{section.1.3}% 15
+\BOOKMARK [0][-]{chapter.2}{Dashboard}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Section ``Overview''}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.1.1}{available data}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.2}{Cartes names available}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.3}{Versions of installed software}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.4}{Symbol management}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.5}{Management of Spatial Reference System \(SRS\)}{section.2.1}% 22
+\BOOKMARK [1][-]{section.2.2}{User Management}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.1}{Add User}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.2}{Edit user}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.3}{Delete User}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.4}{Add Group}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.5}{Edit a group}{section.2.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.6}{Remove Group}{section.2.2}% 29
+\BOOKMARK [1][-]{section.2.3}{Control Panel}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{General configuration}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{General configuration}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.3}{Service Provider Configuration}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.4}{Configuring the database}{section.2.3}% 34
+\BOOKMARK [0][-]{chapter.3}{territory management module}{}% 35
+\BOOKMARK [1][-]{section.3.1}{Panel territories}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.1.1}{Add a new territory}{section.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.1.2}{Delete territory}{section.3.1}% 38
+\BOOKMARK [1][-]{section.3.2}{Information panel}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.2.1}{Territory Name}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.2}{Geographic Data}{section.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.2.3}{Parent territory}{section.3.2}% 42
+\BOOKMARK [2][-]{subsection.3.2.4}{Rights groups}{section.3.2}% 43
+\BOOKMARK [0][-]{chapter.4}{Data Management Module}{}% 44
+\BOOKMARK [1][-]{section.4.1}{storage spaces}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{Add storage space}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.2}{Access to storage space}{section.4.1}% 47
+\BOOKMARK [1][-]{section.4.2}{Data Sources}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.2.1}{vector data}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.2}{raster data}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.3}{Bar Data source tools}{section.4.2}% 51
+\BOOKMARK [1][-]{section.4.3}{Geoprocessing}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.3.1}{Converter vector data sources}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.2}{treatment utility raster data sources}{section.4.3}% 54
+\BOOKMARK [0][-]{chapter.5}{Module creation indicators}{}% 55
+\BOOKMARK [1][-]{section.5.1}{Presentation}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.1.1}{What is an indicator ?}{section.5.1}% 57
+\BOOKMARK [2][-]{subsection.5.1.2}{General operation of the module}{section.5.1}% 58
+\BOOKMARK [2][-]{subsection.5.1.3}{Technical requirements}{section.5.1}% 59
+\BOOKMARK [1][-]{section.5.2}{Panel indicators}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.2.1}{Add an indicator}{section.5.2}% 61
+\BOOKMARK [2][-]{subsection.5.2.2}{Delete an indicator}{section.5.2}% 62
+\BOOKMARK [1][-]{section.5.3}{Configuring an indicator}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.3.1}{Initialization of the indicator}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.2}{Style}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.3}{Table}{section.5.3}% 66
+\BOOKMARK [2][-]{subsection.5.3.4}{Graph}{section.5.3}% 67
+\BOOKMARK [2][-]{subsection.5.3.5}{Report}{section.5.3}% 68
+\BOOKMARK [2][-]{subsection.5.3.6}{Publish an indicator}{section.5.3}% 69
+\BOOKMARK [2][-]{subsection.5.3.7}{Unpublish an indicator}{section.5.3}% 70
+\BOOKMARK [0][-]{chapter.6}{Map creation module}{}% 71
+\BOOKMARK [1][-]{section.6.1}{Menu data layers}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.1.1}{Base Maps}{section.6.1}% 73
+\BOOKMARK [2][-]{subsection.6.1.2}{Open a map}{section.6.1}% 74
+\BOOKMARK [2][-]{subsection.6.1.3}{Save a map}{section.6.1}% 75
+\BOOKMARK [2][-]{subsection.6.1.4}{Menu layers}{section.6.1}% 76
+\BOOKMARK [2][-]{subsection.6.1.5}{Context menu for a layer}{section.6.1}% 77
+\BOOKMARK [0][-]{chapter.7}{Theme Creation Module}{}% 78
+\BOOKMARK [1][-]{section.7.1}{Panel topics}{chapter.7}% 79
+\BOOKMARK [2][-]{subsection.7.1.1}{Add a new topic}{section.7.1}% 80
+\BOOKMARK [2][-]{subsection.7.1.2}{Delete a theme}{section.7.1}% 81
+\BOOKMARK [1][-]{section.7.2}{Information panel}{chapter.7}% 82
+\BOOKMARK [2][-]{subsection.7.2.1}{Theme Name}{section.7.2}% 83
+\BOOKMARK [2][-]{subsection.7.2.2}{Rights groups}{section.7.2}% 84
+\BOOKMARK [0][-]{chapter.8}{Module document creation}{}% 85
+\BOOKMARK [1][-]{section.8.1}{Document panel}{chapter.8}% 86
+\BOOKMARK [2][-]{subsection.8.1.1}{Add a new document}{section.8.1}% 87
+\BOOKMARK [2][-]{subsection.8.1.2}{Deleting a document}{section.8.1}% 88
+\BOOKMARK [1][-]{section.8.2}{Information panel}{chapter.8}% 89
+\BOOKMARK [2][-]{subsection.8.2.1}{Document Name}{section.8.2}% 90
+\BOOKMARK [2][-]{subsection.8.2.2}{Theme of the document}{section.8.2}% 91
+\BOOKMARK [2][-]{subsection.8.2.3}{File or URL}{section.8.2}% 92
+\BOOKMARK [2][-]{subsection.8.2.4}{Description of Document}{section.8.2}% 93
+\BOOKMARK [2][-]{subsection.8.2.5}{Rights groups}{section.8.2}% 94
+\BOOKMARK [0][-]{chapter.9}{Application Publishing Module}{}% 95
+\BOOKMARK [1][-]{section.9.1}{Application Control Panel}{chapter.9}% 96
+\BOOKMARK [2][-]{subsection.9.1.1}{General Application Configuration}{section.9.1}% 97
+\BOOKMARK [2][-]{subsection.9.1.2}{Configuring application layers}{section.9.1}% 98
+\BOOKMARK [2][-]{subsection.9.1.3}{Setting the map}{section.9.1}% 99
+\BOOKMARK [2][-]{subsection.9.1.4}{Configuring application features}{section.9.1}% 100
+\BOOKMARK [2][-]{subsection.9.1.5}{Publication of the application}{section.9.1}% 101
+\BOOKMARK [2][-]{subsection.9.1.6}{Publication of the thumbnail}{section.9.1}% 102
+\BOOKMARK [2][-]{subsection.9.1.7}{Preview application}{section.9.1}% 103
+\BOOKMARK [2][-]{subsection.9.1.8}{Remove Application}{section.9.1}% 104

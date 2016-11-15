@@ -20,7 +20,7 @@
 \setcounter{tocdepth}{2}
 
 \title{MapMint, Guide utilisateur}
-\date{01 March 2016}
+\date{15 November 2016}
 \release{1.2}
 \author{Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, \\Abdoulaye Samb}
 \newcommand{\sphinxlogo}{\includegraphics{mm-logo.png}\par}
@@ -3613,6 +3613,729 @@ n'inporte qu'elle autre source de données.
 
 Pour dépublier un indicateur, cliquez sur le boutton ``Dépublier'' en
 haut à driote du formulaire de paramétrage d'un indicateur.
+
+
+\chapter{Module de gestion de tables}
+\label{tables/index:tables}\label{tables/index::doc}\label{tables/index:module-de-gestion-de-tables}
+Cette section regroupe la documentation relative au module de gestion
+des tables dans MapMint.
+
+Le module de gestion des tables permet la publication de divers tables
+qu'il sera possible de visualiser, éditer et créer des rapport basé
+sur une entité ou l'ensemble des données de la table.
+
+La page du module est divisée en deux parties :
+\begin{itemize}
+\item {} 
+la partie de gauche appelée le {\hyperref[tables/tbllist::doc]{\emph{\emph{Panneau de tables}}}}, il liste l'ensemble des tables créées et permet l'ajout et la suppression de tables
+
+\item {} 
+la partie de droite appelée le {\hyperref[tables/infopanel::doc]{\emph{\emph{Panneau de configuration d'une table}}}}, il permet de saisir les informations relatives à une table
+
+\end{itemize}
+
+
+\section{Panneau de tables}
+\label{tables/tbllist:tables-tbllist}\label{tables/tbllist:panneau-de-tables}\label{tables/tbllist::doc}
+Les tables crées et rendues accessible sont disponibles pour les
+utilisateurs autorisés sur la page d'accueil de l'interface publique.
+\setbox0\vbox{
+\begin{minipage}{0.95\linewidth}
+\textbf{Table des matières}
+
+\medskip
+
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/tbllist:id3}{\hyperref[tables/tbllist:panneau-de-tables]{\emph{Panneau de tables}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/tbllist:id4}{\hyperref[tables/tbllist:ajouter-une-nouvelle-table]{\emph{Ajouter une nouvelle table}}}
+
+\item {} 
+\phantomsection\label{tables/tbllist:id5}{\hyperref[tables/tbllist:supprimer-une-table]{\emph{Supprimer une table}}}
+
+\end{itemize}
+
+\end{itemize}
+\end{minipage}}
+\begin{center}\setlength{\fboxsep}{5pt}\shadowbox{\box0}\end{center}
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Icône}
+ & 
+\textbf{Action}
+\\
+\hline
+\includegraphics{add5.png}
+ & 
+Ajoute une nouvelle table
+\\
+\hline
+\includegraphics{delete6.png}
+ & 
+Supprime une table
+\\
+\hline\end{tabulary}
+
+
+
+\subsection{Ajouter une nouvelle table}
+\label{tables/tbllist:ajouter-une-nouvelle-table}
+Pour ajouter une nouvelle table, veuillez cliquer sur l'icone
+correspodante dans la barre d'outils du panneau de gauche. Cela affiche
+le formulaire d'ajout de table comme illustré ci-dessous.
+
+\scalebox{0.800000}{\includegraphics{add-table-window.png}}
+
+Veuillez spécifier : la table concernée, en sélectionnant un schéma puis une table du
+schéma choisi, un nom dans la zone de texte prévue à cet effet puis
+cliquer sur le bouton ``Ajouter''. Cela entraine la disparution du
+formulaire, l'ajout de la table à la liste et le rechargement du
+panneau de la {\color{red}\bfseries{}:tables:{}`infopanel{}`}, à droite de l'écran.
+
+
+\subsection{Supprimer une table}
+\label{tables/tbllist:supprimer-une-table}
+Pour supprimer une table existante, veuillez cliquer sur le nom de
+la table dans la liste, puis sur l'icône de suppression dans la barre
+d'outils du panneau de gauche. Cela affiche le formulaire de
+suppression de table illustré ci-dessous.
+
+\scalebox{0.800000}{\includegraphics{delete-table-window.png}}
+
+Cliquez ensuite sur le bouton ``Supprimer''. Cela entraine la
+disparution du formulaire et la suppression de la table de la liste.
+
+\begin{notice}{warning}{Avertissement:}
+La suppression d'une table est permanente et irréversible
+\end{notice}
+
+
+\section{Panneau de configuration d'une table}
+\label{tables/infopanel:panneau-de-configuration-d-une-table}\label{tables/infopanel::doc}\label{tables/infopanel:tables-infopanel}\setbox0\vbox{
+\begin{minipage}{0.95\linewidth}
+\textbf{Table des matières}
+
+\medskip
+
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id1}{\hyperref[tables/infopanel:panneau-de-configuration-d-une-table]{\emph{Panneau de configuration d'une table}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id2}{\hyperref[tables/infopanel:parametres]{\emph{Paramètres}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id3}{\hyperref[tables/infopanel:informations]{\emph{Informations}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id4}{\hyperref[tables/infopanel:voir]{\emph{Voir}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id5}{\hyperref[tables/infopanel:editer]{\emph{Éditer}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id6}{\hyperref[tables/infopanel:les-types-de-champ-a-saisir]{\emph{Les types de champ à saisir}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id7}{\hyperref[tables/infopanel:les-types-de-base]{\emph{Les types de base}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id8}{\hyperref[tables/infopanel:les-types-particuliers]{\emph{Les types particuliers}}}
+
+\end{itemize}
+
+\end{itemize}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id9}{\hyperref[tables/infopanel:rapport]{\emph{Rapport}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id10}{\hyperref[tables/infopanel:type-de-restitution]{\emph{Type de restitution}}}
+\begin{itemize}
+\item {} 
+\phantomsection\label{tables/infopanel:id11}{\hyperref[tables/infopanel:default]{\emph{default}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id12}{\hyperref[tables/infopanel:diagrams]{\emph{Diagrams}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id13}{\hyperref[tables/infopanel:html-content]{\emph{HTML content}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id14}{\hyperref[tables/infopanel:linked-document]{\emph{Linked document}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id15}{\hyperref[tables/infopanel:paragraphs]{\emph{Paragraphs}}}
+
+\item {} 
+\phantomsection\label{tables/infopanel:id16}{\hyperref[tables/infopanel:sql-table]{\emph{SQL Table}}}
+
+\end{itemize}
+
+\end{itemize}
+
+\end{itemize}
+
+\end{itemize}
+\end{minipage}}
+\begin{center}\setlength{\fboxsep}{5pt}\shadowbox{\box0}\end{center}
+
+Le panneau d'information des tables permet de visualiser et d'éditer
+les propriétés d'une table séléctionnée dans le {\hyperref[tables/tbllist::doc]{\emph{\emph{Panneau de tables}}}}. Ce
+panneau est composé de 5 onglets.
+
+\begin{tabulary}{\linewidth}{|L|L|L|}
+\hline
+
+\textbf{Icône}
+ & 
+\textbf{Description}
+ & 
+\textbf{Action}
+\\
+\hline
+\includegraphics{process2.png}
+ & 
+Paramètres
+ & 
+Configuration des paramètres de base
+\\
+\hline
+\includegraphics{info2.png}
+ & 
+Informations
+ & 
+Visualisation des informations sur les colonnes d'une table
+\\
+\hline
+\includegraphics{preview1.png}
+ & 
+Voir
+ & 
+Configuration des vues associées à une table
+\\
+\hline
+\includegraphics{pencil1.png}
+ & 
+Editer
+ & 
+Configuration des interfaces de saisie pour la table
+\\
+\hline
+\includegraphics{report1.png}
+ & 
+Rapport
+ & 
+Configuration des rapports
+\\
+\hline\end{tabulary}
+
+
+
+\subsection{Paramètres}
+\label{tables/infopanel:parametres}\label{tables/infopanel:tables-param}
+Le panneau paramètres permet de définir :
+\begin{itemize}
+\item {} 
+Nom : le groupe d'utilisateur à accès à la couche en lecture
+
+\item {} 
+Description: la description qui sera affichée au dessus des tables, formulaires de saisie et interface de création de rapports
+
+\item {} 
+Table: la table concernée
+
+\end{itemize}
+
+\scalebox{0.800000}{\includegraphics{tables-infopanel-window.png}}
+
+
+\subsection{Informations}
+\label{tables/infopanel:informations}
+Le panneau d'informations permet de visualiser les informations
+relatives aux différentes colonnes d'une table. On peut y voir les
+noms, types et potentielles références en cas de clés étrangères
+(notez FOR comme dans la capture présentée ci-dessous).
+
+\scalebox{0.800000}{\includegraphics{table-info-view.png}}
+
+
+\subsection{Voir}
+\label{tables/infopanel:voir}
+Le panneau voir permet de paramétrer la manière dont la table sera
+affichée lorsqu'elle sera consultée par les utlisateurs du groupe
+autorisé à la consulter.
+
+\scalebox{0.800000}{\includegraphics{table-view-settings.png}}
+
+Les paramètres d'une vue sont les suivants :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Param}
+ & 
+\textbf{Définition}
+\\
+\hline
+Nom
+ & 
+Nom de la vue
+\\
+\hline
+Clause
+ & 
+Clause permettant de filtrer les élément à afficher de la table
+\\
+\hline
+Visible
+ & 
+La vue doit-elle être apparaitre dans le menu ?
+\\
+\hline
+Groupes
+ & 
+Le(s) groupe(s) autorisé(s) à visualiser la table via cette vue
+\\
+\hline
+Thème
+ & 
+Le(s) thème(s) dans lequel la vue doit être affiché
+\\
+\hline\end{tabulary}
+
+
+La section \textbf{Configuration de la table} correspond à  la liste des
+colonnes à afficher et la manière dont les afficher :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Champ}
+ & 
+\textbf{Définition}
+\\
+\hline
+O
+ & 
+Ordonencement des valeurs
+\\
+\hline
+A
+ & 
+Affichage de la colonne
+\\
+\hline
+R
+ & 
+Permettre la recherche en utilisant cette colonne (non utilisé)
+\\
+\hline
+Titre
+ & 
+Nom de la colonne (non modifiable)
+\\
+\hline
+Étiquette
+ & 
+Titre de la colone
+\\
+\hline
+Valeur
+ & 
+Valeur à afficher pour la colonne (toute requête SQL valide peut être utilisée)
+\\
+\hline
+Largeur
+ & 
+Largeur de la colonne affichée
+\\
+\hline\end{tabulary}
+
+
+Le bouton \textbf{Ajouter une colonne} permet d'ajouter une nouvelle
+colonne dans la vue qui ne serait pas disponible dans la table
+d'origine.
+
+
+\subsection{Éditer}
+\label{tables/infopanel:editer}
+Le panneau \textbf{Éditer} permet de configurer les interfaces de saisie
+qui seront accessibles aux utilisateurs autorisés.
+
+\scalebox{0.800000}{\includegraphics{table-edition-settings.png}}
+
+Les paramètres d'une interface de saisie sont les suivants :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Param}
+ & 
+\textbf{Définition}
+\\
+\hline
+Nom
+ & 
+Nom de l'interface de saisie
+\\
+\hline
+Étape
+ & 
+L'étape de saisie
+\\
+\hline
+Groupes
+ & 
+Le(s) groupe(s) autorisé(s) à éditer la table via cette interface
+\\
+\hline
+Thème
+ & 
+Le(s) thème(s) dans lequel l'interface de saisie doit être affichée (non utilisé)
+\\
+\hline\end{tabulary}
+
+
+La section \textbf{Configuration de la table} correspond à la liste des
+colonnes à éditer et la manière dont les éditer :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Champ}
+ & 
+\textbf{Définition}
+\\
+\hline
+E
+ & 
+Le champ de saisie doit-il être affiché dans l'interface de saisie ?
+\\
+\hline
+Titre
+ & 
+Nom de la colonne (non éditable sauf en cas d'ajout d'une ligne afin de pouvoir utiliser le nom d'une colonne existante)
+\\
+\hline
+Type
+ & 
+Type du champ à saisir
+\\
+\hline
+Étiquette
+ & 
+Titre du champ à saisir
+\\
+\hline
+Valeur
+ & 
+Valeur par défaut dans le formulaire de saisie pour la colonne
+\\
+\hline\end{tabulary}
+
+
+
+\subsubsection{Les types de champ à saisir}
+\label{tables/infopanel:les-types-de-champ-a-saisir}
+
+\paragraph{Les types de base}
+\label{tables/infopanel:les-types-de-base}
+Nous définissons ici les types de base comme étant les types ne
+nécessitant pas de paramétrages particuliers. La liste des type de
+base sont les suivants :
+\begin{itemize}
+\item {} 
+\code{Binary file} : un fichier binaire
+
+\item {} 
+\code{Boolean} : valeur booléenne (c'est-à-dire pouvant prendre la
+valeur vrai ou faux)
+
+\item {} 
+\code{Character varying (255)} : chaîne de caractères d'au plus 255
+caractères
+
+\item {} 
+\code{Character varying (50)} : chaîne de caractères d'au plus 50
+caractères
+
+\item {} 
+\code{Character varying (25)} : chaîne de caractères d'au plus 25
+caractères
+
+\item {} 
+\code{Date} : date
+
+\item {} 
+\code{Date and time} : date et heure
+
+\item {} 
+\code{Geometry} : un objet géographique
+
+\item {} 
+\code{HTML Text} : contenu HTML
+
+\item {} 
+\code{Mot de passe} : mot de passe
+
+\item {} 
+\code{Text} : chaîne de caractères (sans limite)
+
+\end{itemize}
+
+
+\paragraph{Les types particuliers}
+\label{tables/infopanel:les-types-particuliers}
+Nous définissons les types particuliers comme l'ensemble des types non
+listé précédemment et qui nécessitent un paramétrage particulier et
+spécifique.
+
+
+\subparagraph{Table Link}
+\label{tables/infopanel:table-link}
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'éditer un champs pouvant prendre
+plusieurs valeurs extraites d'une table tierce et devant être stockées
+dans une table tierce.
+\begin{description}
+\item[{La syntaxe pour la valeur est la suivante}] \leavevmode{[}\code{XX;YY;TBL;SQL} où :{]}\begin{itemize}
+\item {} 
+\code{XX} : représente le nom de la colonne permettant de stocker la
+référence à la table en cours d'édition,
+
+\item {} 
+\code{YY} : le nom de la colonne pour stocker les valeurs sélectionnées
+
+\item {} 
+\code{TBL} : le nom de la table permettant de stocker les informations
+reliant un élément de la table en cours d'édition et la table
+d'entités existantes
+
+\item {} 
+\code{SQL} : la requête SQL permettant d'obtenir la liste des éléments
+de la table de référence
+
+\end{itemize}
+
+\end{description}
+
+
+\subparagraph{Link Table}
+\label{tables/infopanel:link-table}
+Non utilisé actuellement ce type devrait permettre de donner la
+possibilité aux utilisateurs autorisés de saisir des éléments d'une
+table tierce ou d'en ajouter dans cette table puis d'y ajouter cette
+référence.
+
+
+\subparagraph{Linked Table}
+\label{tables/infopanel:linked-table}
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'ajouter des éléments dans une table
+tierce faisant référence à la table actuellement en cours d'édition.
+
+La syntaxe pour la valeur est la suivante : \code{XX;TBL} où :
+\begin{itemize}
+\item {} 
+\code{XX} : le nom de la colonne utilisée pour faire le lien avec la
+table en cours d'édition
+
+\item {} 
+\code{TBL} : le nom de la table dans laquelle les informations doivent
+être visualisées et éditées.
+
+\end{itemize}
+
+Il est important de noter ici qu'il est nécessaire d'avoir paramétré
+la table correspondante afin qu'une vue et les formulaires d'édition
+associés soient accessibles depuis l'interface de saisie de la table
+de base.
+
+
+\subparagraph{Reference}
+\label{tables/infopanel:reference}
+Ce type est utilisé dans le cas où vous souhaitez pouvoir permettre
+aux utilisaterus autorisés d'ajouter des éléments issues d'une table
+tierce dans la table en cours d'édition.
+
+La syntaxe est très simple et ne contient qu'une requête SQL devant
+renvoyer deux champs, le premier étant la valeur à insérer dans la
+table en cours d'édition et le second la valeur qui sera affichée dans
+la liste déroulante.
+
+\begin{notice}{note}{Note:}
+Ce type peut aussi être utilisé sans table de référence, en
+utilisant une requête renvoyant deux champs correspondants aux
+champs explicités précédemment. Par exemple :
+
+\begin{Verbatim}[commandchars=\\\{\}]
+SELECT * from (
+    SELECT \PYGZsq{}N\PYGZsq{} as id, \PYGZsq{}Nord\PYGZsq{} as name
+    UNION
+    SELECT \PYGZsq{}E\PYGZsq{} as id, \PYGZsq{}Est\PYGZsq{} as name
+    UNION
+    SELECT \PYGZsq{}W\PYGZsq{} as id,\PYGZsq{}Ouest\PYGZsq{} as name
+    UNION
+    SELECT \PYGZsq{}S\PYGZsq{} as id,\PYGZsq{}Sud\PYGZsq{} as name
+) as f
+\end{Verbatim}
+
+Cela permettra donc d'insérer les valeurs \code{N}, \code{E}, \code{W} ou
+\code{S}  dans la table en cours d'édition et d'afficher dans la
+liste déroulante  les valeurs \code{Nord}, \code{Est}, \code{Ouest} et \code{Sud}.
+\end{notice}
+
+Pour les champs éditables de type référence, vous avez la possibilité
+de définir des relations avec d'autres champs du même type. Pour ce
+faire, vous utilisez le champs texte apparaissant dans la colonne
+type pour y définir ces dépendences. Cela permet de faire en sorte de
+modifier le contenu d'une liste déroulante par rapport au contenu
+d'une autre. Cela permet par exemple lors de sélection d'une région de
+définir que la liste des départements ne devra contenir que les
+départements reliés à la région sélectionnée.
+
+La syntaxe de la partie permettant de définir une dépendance est la
+suivante :
+
+\code{{[}\{"XX":\{"tfield":"YY","init":"true","display": "always","operator":"=","options":{[}{]}\}\}{]}}
+\begin{description}
+\item[{Avec :}] \leavevmode\begin{itemize}
+\item {} 
+\code{XX} : le nom d'un champ disponible dans le formulaire de saisie
+
+\item {} 
+\code{YY} : le nom de la colonne permettant de lier la valeur
+actuellement sélectionnée pour ce champs.
+
+\end{itemize}
+
+\end{description}
+
+
+\subsection{Rapport}
+\label{tables/infopanel:rapport}
+Le panneau \textbf{Rapport} permet de configurer les rapports qui seront
+accessibles aux utilisateurs autorisés.
+
+\scalebox{0.800000}{\includegraphics{table-report-settings.png}}
+
+Les paramètres d'un rapport sont les suivants :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Param}
+ & 
+\textbf{Définition}
+\\
+\hline
+Titre
+ & 
+Nom de l'interface de saisie
+\\
+\hline
+Sélection
+ & 
+Le rapport doit-il être attaché à un élément de la table ?
+\\
+\hline
+Clause
+ & 
+Clause permettant de filtrer les éléments à afficher de la table
+\\
+\hline
+Groupes
+ & 
+Le(s) groupe(s) autorisé(s) à générer / visualiser le rapport
+\\
+\hline
+Modèle
+ & 
+Le modèle de document LibreOffice à utiliser
+\\
+\hline\end{tabulary}
+
+
+La section \textbf{Configuration de la table} correspond à la liste des
+colonnes à éditer et la manière dont les éditer :
+
+\begin{tabulary}{\linewidth}{|L|L|}
+\hline
+
+\textbf{Champ}
+ & 
+\textbf{Définition}
+\\
+\hline
+Nom
+ & 
+Nom du champ défini dans le modèle
+\\
+\hline
+Type
+ & 
+Type du champ à remplacer
+\\
+\hline
+Valeur
+ & 
+Valeur à utiliser pour remplacer le champ
+\\
+\hline\end{tabulary}
+
+
+
+\subsubsection{Type de restitution}
+\label{tables/infopanel:type-de-restitution}
+Les types disponibles pour la configuration de rapport sont
+sont listés dans cette section.
+
+
+\paragraph{default}
+\label{tables/infopanel:default}
+Requête SQL ou simple champ
+
+
+\paragraph{Diagrams}
+\label{tables/infopanel:diagrams}
+Requête SQL retournant un tableau de valeurs et les titres de colonnes
+pour générer un graphique.
+
+
+\paragraph{HTML content}
+\label{tables/infopanel:html-content}
+Requête SQL (ou simple champ) retournant une valeur HTML.
+
+
+\paragraph{Linked document}
+\label{tables/infopanel:linked-document}
+Référence vers le document lié, syntaxe:
+\code{clé\_lien;table;nom\_rapport;ordre}.
+
+Où \code{clé\_lien} représente le nom de la colonne permettant de
+faire le lien avec l'élément sélectionné de la table en cours, \code{table}
+est le nom de la table où récupérer les valeurs, \code{nom\_rapport}
+représente le nom du rapport existant permettant d'intégrer son
+contenu pour ce champ, \code{ordre} défini dans quel ordre vous souhaitez
+accéder aux valeurs de la table.
+
+
+\paragraph{Paragraphs}
+\label{tables/infopanel:paragraphs}
+Requêtes SQL (ou simple champ) retournant un tableau (array) des
+paragraphes à restituer.
+
+
+\paragraph{SQL Table}
+\label{tables/infopanel:sql-table}
+Requêtes SQL (ou simple champ) retournant un tableau à restituer.
+
+\includegraphics[width=1.000\linewidth]{table-module-preview.png}
 
 
 \chapter{Module de création de cartes}

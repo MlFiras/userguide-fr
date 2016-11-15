@@ -29,6 +29,7 @@ Bienvenue dans le guide utilisateur de l'application `MapMint <http://mapmint.co
    territories/index   
    data/index
    indicators/index
+   tables/index
    maps/index
    themes/index
    documents/index

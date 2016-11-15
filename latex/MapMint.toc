@@ -34,12 +34,12 @@
 \contentsline {subsection}{\numberline {2.2.3}Supprimer un utilisateur}{20}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Ajouter un groupe}{21}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Editer un groupe}{21}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Supprimer un groupe}{21}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.6}Supprimer un groupe}{22}{subsection.2.2.6}
 \contentsline {section}{\numberline {2.3}Panneau de configuration}{22}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Configuration g\IeC {\'e}n\IeC {\'e}rale}{23}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Configuration de l'identification}{24}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Configuration du fournisseur des services}{24}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Configuration de la base de donn\IeC {\'e}es}{24}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.3}Configuration du fournisseur des services}{25}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Configuration de la base de donn\IeC {\'e}es}{25}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Module de gestion des territoires}{27}{chapter.3}
 \contentsline {section}{\numberline {3.1}Panneau des territoires}{27}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Ajouter un nouveau territoire}{27}{subsection.3.1.1}
@@ -130,83 +130,107 @@
 \contentsline {paragraph}{Param\IeC {\'e}trage du rapport}{60}{paragraph*.143}
 \contentsline {subsection}{\numberline {5.3.6}Publier un indicateur}{61}{subsection.5.3.6}
 \contentsline {subsection}{\numberline {5.3.7}D\IeC {\'e}publier un indicateur}{61}{subsection.5.3.7}
-\contentsline {chapter}{\numberline {6}Module de cr\IeC {\'e}ation de cartes}{63}{chapter.6}
-\contentsline {section}{\numberline {6.1}Menu couches de donn\IeC {\'e}es}{63}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Fonds de carte}{64}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Ouvrir une carte}{64}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Enregistrer une carte}{65}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Menu couches}{65}{subsection.6.1.4}
-\contentsline {subsubsection}{Ajouter une couche}{66}{subsubsection*.164}
-\contentsline {subsubsection}{Ajouter une grille}{67}{subsubsection*.165}
-\contentsline {subsubsection}{G\IeC {\'e}rer l'ordre des couches}{67}{subsubsection*.166}
-\contentsline {subsubsection}{Ajouter un groupe}{68}{subsubsection*.167}
-\contentsline {subsection}{\numberline {6.1.5}Menu contextuel d'une couche}{69}{subsection.6.1.5}
-\contentsline {subsubsection}{Zoomer sur l'\IeC {\'e}tendue d'une couche}{69}{subsubsection*.168}
-\contentsline {subsubsection}{Ouvrir la table d'attributs}{70}{subsubsection*.169}
-\contentsline {subsubsection}{Configuration d'une couche}{70}{subsubsection*.170}
-\contentsline {paragraph}{Propri\IeC {\'e}t\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales d'une couche}{70}{paragraph*.171}
-\contentsline {paragraph}{Nom de la couche}{71}{paragraph*.172}
-\contentsline {paragraph}{Titre de la couche}{71}{paragraph*.173}
-\contentsline {paragraph}{Description}{71}{paragraph*.174}
-\contentsline {paragraph}{Mots cl\IeC {\'e}s}{72}{paragraph*.175}
-\contentsline {paragraph}{Cr\IeC {\'e}dit}{72}{paragraph*.176}
-\contentsline {paragraph}{Requ\IeC {\^e}te}{72}{paragraph*.177}
-\contentsline {paragraph}{Exporter}{72}{paragraph*.178}
-\contentsline {paragraph}{Filtre}{72}{paragraph*.179}
-\contentsline {paragraph}{Chercher}{72}{paragraph*.180}
-\contentsline {paragraph}{Requ\IeC {\^e}te spatiale}{72}{paragraph*.181}
-\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage de la table}{73}{paragraph*.182}
-\contentsline {paragraph}{Style d'une couche}{73}{paragraph*.183}
-\contentsline {paragraph}{Opacit\IeC {\'e}}{75}{paragraph*.184}
-\contentsline {paragraph}{Type de l\IeC {\'e}gende}{75}{paragraph*.185}
-\contentsline {paragraph}{Nom}{77}{paragraph*.186}
-\contentsline {paragraph}{Formule de filtre}{77}{paragraph*.187}
-\contentsline {paragraph}{Remplissage}{77}{paragraph*.188}
-\contentsline {paragraph}{Bordure}{77}{paragraph*.189}
-\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des \IeC {\'e}tiquettes d'une couche}{78}{paragraph*.190}
-\contentsline {paragraph}{Champ d'\IeC {\'e}tiquettes}{79}{paragraph*.191}
-\contentsline {paragraph}{Orientation}{79}{paragraph*.192}
-\contentsline {paragraph}{Taille de nettoyage}{79}{paragraph*.193}
-\contentsline {paragraph}{Police}{79}{paragraph*.194}
-\contentsline {paragraph}{Buffer autour du texte}{79}{paragraph*.195}
-\contentsline {paragraph}{Position}{80}{paragraph*.196}
-\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des informations d'une couche}{80}{paragraph*.197}
-\contentsline {paragraph}{Echelles d'affichage d'une couche}{81}{paragraph*.198}
-\contentsline {subsubsection}{Suppression d'une couche}{81}{subsubsection*.199}
-\contentsline {chapter}{\numberline {7}Module de cr\IeC {\'e}ation de th\IeC {\`e}mes}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Panneau des th\IeC {\`e}mes}{83}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Ajouter un nouveau th\IeC {\`e}me}{83}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Supprimer un th\IeC {\`e}me}{84}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Panneau d'information}{84}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nom du th\IeC {\`e}me}{85}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Droits des groupes}{85}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Module de cr\IeC {\'e}ation de documents}{87}{chapter.8}
-\contentsline {section}{\numberline {8.1}Panneau des documents}{87}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Ajouter un nouveau document}{87}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Supprimer un document}{88}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Panneau d'information}{89}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Nom du document}{90}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Th\IeC {\`e}me du document}{90}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Fichier ou URL}{90}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Description du document}{90}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}Droits des groupes}{90}{subsection.8.2.5}
-\contentsline {chapter}{\numberline {9}Module de publication d'applications}{93}{chapter.9}
-\contentsline {section}{\numberline {9.1}Panneau de configuration d'applications}{93}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Configuration g\IeC {\'e}n\IeC {\'e}rale de l'application}{94}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Configuration des couches de l'application}{95}{subsection.9.1.2}
-\contentsline {subsubsection}{Couches de fond}{95}{subsubsection*.231}
-\contentsline {paragraph}{Couches de fond libres}{96}{paragraph*.232}
-\contentsline {paragraph}{Couches de fond propri\IeC {\'e}taires}{96}{paragraph*.233}
-\contentsline {paragraph}{Couches de fond MapMint}{97}{paragraph*.234}
-\contentsline {subsubsection}{Couches du projet}{97}{subsubsection*.235}
-\contentsline {subsection}{\numberline {9.1.3}Param\IeC {\'e}trage de la carte}{99}{subsection.9.1.3}
-\contentsline {subsubsection}{Param\IeC {\'e}tres de l'affichage de la carte}{99}{subsubsection*.236}
-\contentsline {subsubsection}{Param\IeC {\'e}tres de pr\IeC {\'e}sentation de l'application}{99}{subsubsection*.237}
-\contentsline {subsection}{\numberline {9.1.4}Configuration des fonctionnalit\IeC {\'e}s de l'application}{100}{subsection.9.1.4}
-\contentsline {subsubsection}{Outils de base}{101}{subsubsection*.238}
-\contentsline {subsubsection}{Autres outils}{101}{subsubsection*.239}
-\contentsline {subsubsection}{Outils d'analyse spatiale}{102}{subsubsection*.240}
-\contentsline {subsection}{\numberline {9.1.5}Publication de l'application}{102}{subsection.9.1.5}
-\contentsline {subsection}{\numberline {9.1.6}Publication de la vignette}{102}{subsection.9.1.6}
-\contentsline {subsection}{\numberline {9.1.7}Pr\IeC {\'e}visualisation de l'application}{102}{subsection.9.1.7}
-\contentsline {subsection}{\numberline {9.1.8}Supprimer l'application}{102}{subsection.9.1.8}
+\contentsline {chapter}{\numberline {6}Module de gestion de tables}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}Panneau de tables}{63}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Ajouter une nouvelle table}{63}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Supprimer une table}{64}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Panneau de configuration d'une table}{65}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Param\IeC {\`e}tres}{65}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Informations}{66}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Voir}{66}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}\IeC {\'E}diter}{67}{subsection.6.2.4}
+\contentsline {subsubsection}{Les types de champ \IeC {\`a} saisir}{68}{subsubsection*.163}
+\contentsline {paragraph}{Les types de base}{68}{paragraph*.164}
+\contentsline {paragraph}{Les types particuliers}{69}{paragraph*.165}
+\contentsline {subparagraph}{Table Link}{69}{subparagraph*.166}
+\contentsline {subparagraph}{Link Table}{69}{subparagraph*.167}
+\contentsline {subparagraph}{Linked Table}{69}{subparagraph*.168}
+\contentsline {subparagraph}{Reference}{69}{subparagraph*.169}
+\contentsline {subsection}{\numberline {6.2.5}Rapport}{70}{subsection.6.2.5}
+\contentsline {subsubsection}{Type de restitution}{71}{subsubsection*.170}
+\contentsline {paragraph}{default}{71}{paragraph*.171}
+\contentsline {paragraph}{Diagrams}{71}{paragraph*.172}
+\contentsline {paragraph}{HTML content}{71}{paragraph*.173}
+\contentsline {paragraph}{Linked document}{71}{paragraph*.174}
+\contentsline {paragraph}{Paragraphs}{71}{paragraph*.175}
+\contentsline {paragraph}{SQL Table}{71}{paragraph*.176}
+\contentsline {chapter}{\numberline {7}Module de cr\IeC {\'e}ation de cartes}{73}{chapter.7}
+\contentsline {section}{\numberline {7.1}Menu couches de donn\IeC {\'e}es}{73}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Fonds de carte}{74}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Ouvrir une carte}{74}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Enregistrer une carte}{75}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Menu couches}{75}{subsection.7.1.4}
+\contentsline {subsubsection}{Ajouter une couche}{76}{subsubsection*.197}
+\contentsline {subsubsection}{Ajouter une grille}{77}{subsubsection*.198}
+\contentsline {subsubsection}{G\IeC {\'e}rer l'ordre des couches}{77}{subsubsection*.199}
+\contentsline {subsubsection}{Ajouter un groupe}{78}{subsubsection*.200}
+\contentsline {subsection}{\numberline {7.1.5}Menu contextuel d'une couche}{79}{subsection.7.1.5}
+\contentsline {subsubsection}{Zoomer sur l'\IeC {\'e}tendue d'une couche}{79}{subsubsection*.201}
+\contentsline {subsubsection}{Ouvrir la table d'attributs}{80}{subsubsection*.202}
+\contentsline {subsubsection}{Configuration d'une couche}{80}{subsubsection*.203}
+\contentsline {paragraph}{Propri\IeC {\'e}t\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales d'une couche}{80}{paragraph*.204}
+\contentsline {paragraph}{Nom de la couche}{81}{paragraph*.205}
+\contentsline {paragraph}{Titre de la couche}{81}{paragraph*.206}
+\contentsline {paragraph}{Description}{81}{paragraph*.207}
+\contentsline {paragraph}{Mots cl\IeC {\'e}s}{82}{paragraph*.208}
+\contentsline {paragraph}{Cr\IeC {\'e}dit}{82}{paragraph*.209}
+\contentsline {paragraph}{Requ\IeC {\^e}te}{82}{paragraph*.210}
+\contentsline {paragraph}{Exporter}{82}{paragraph*.211}
+\contentsline {paragraph}{Filtre}{82}{paragraph*.212}
+\contentsline {paragraph}{Chercher}{82}{paragraph*.213}
+\contentsline {paragraph}{Requ\IeC {\^e}te spatiale}{82}{paragraph*.214}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage de la table}{83}{paragraph*.215}
+\contentsline {paragraph}{Style d'une couche}{83}{paragraph*.216}
+\contentsline {paragraph}{Opacit\IeC {\'e}}{85}{paragraph*.217}
+\contentsline {paragraph}{Type de l\IeC {\'e}gende}{85}{paragraph*.218}
+\contentsline {paragraph}{Nom}{87}{paragraph*.219}
+\contentsline {paragraph}{Formule de filtre}{87}{paragraph*.220}
+\contentsline {paragraph}{Remplissage}{87}{paragraph*.221}
+\contentsline {paragraph}{Bordure}{87}{paragraph*.222}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des \IeC {\'e}tiquettes d'une couche}{88}{paragraph*.223}
+\contentsline {paragraph}{Champ d'\IeC {\'e}tiquettes}{89}{paragraph*.224}
+\contentsline {paragraph}{Orientation}{89}{paragraph*.225}
+\contentsline {paragraph}{Taille de nettoyage}{89}{paragraph*.226}
+\contentsline {paragraph}{Police}{89}{paragraph*.227}
+\contentsline {paragraph}{Buffer autour du texte}{89}{paragraph*.228}
+\contentsline {paragraph}{Position}{90}{paragraph*.229}
+\contentsline {paragraph}{Param\IeC {\'e}trage de l'affichage des informations d'une couche}{90}{paragraph*.230}
+\contentsline {paragraph}{Echelles d'affichage d'une couche}{91}{paragraph*.231}
+\contentsline {subsubsection}{Suppression d'une couche}{91}{subsubsection*.232}
+\contentsline {chapter}{\numberline {8}Module de cr\IeC {\'e}ation de th\IeC {\`e}mes}{93}{chapter.8}
+\contentsline {section}{\numberline {8.1}Panneau des th\IeC {\`e}mes}{93}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Ajouter un nouveau th\IeC {\`e}me}{93}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Supprimer un th\IeC {\`e}me}{94}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Panneau d'information}{94}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Nom du th\IeC {\`e}me}{95}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Droits des groupes}{95}{subsection.8.2.2}
+\contentsline {chapter}{\numberline {9}Module de cr\IeC {\'e}ation de documents}{97}{chapter.9}
+\contentsline {section}{\numberline {9.1}Panneau des documents}{97}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Ajouter un nouveau document}{97}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Supprimer un document}{98}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Panneau d'information}{99}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Nom du document}{100}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Th\IeC {\`e}me du document}{100}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Fichier ou URL}{100}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.4}Description du document}{100}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.5}Droits des groupes}{100}{subsection.9.2.5}
+\contentsline {chapter}{\numberline {10}Module de publication d'applications}{103}{chapter.10}
+\contentsline {section}{\numberline {10.1}Panneau de configuration d'applications}{103}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Configuration g\IeC {\'e}n\IeC {\'e}rale de l'application}{104}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Configuration des couches de l'application}{105}{subsection.10.1.2}
+\contentsline {subsubsection}{Couches de fond}{105}{subsubsection*.264}
+\contentsline {paragraph}{Couches de fond libres}{106}{paragraph*.265}
+\contentsline {paragraph}{Couches de fond propri\IeC {\'e}taires}{106}{paragraph*.266}
+\contentsline {paragraph}{Couches de fond MapMint}{107}{paragraph*.267}
+\contentsline {subsubsection}{Couches du projet}{107}{subsubsection*.268}
+\contentsline {subsection}{\numberline {10.1.3}Param\IeC {\'e}trage de la carte}{109}{subsection.10.1.3}
+\contentsline {subsubsection}{Param\IeC {\'e}tres de l'affichage de la carte}{109}{subsubsection*.269}
+\contentsline {subsubsection}{Param\IeC {\'e}tres de pr\IeC {\'e}sentation de l'application}{109}{subsubsection*.270}
+\contentsline {subsection}{\numberline {10.1.4}Configuration des fonctionnalit\IeC {\'e}s de l'application}{110}{subsection.10.1.4}
+\contentsline {subsubsection}{Outils de base}{111}{subsubsection*.271}
+\contentsline {subsubsection}{Autres outils}{111}{subsubsection*.272}
+\contentsline {subsubsection}{Outils d'analyse spatiale}{112}{subsubsection*.273}
+\contentsline {subsection}{\numberline {10.1.5}Publication de l'application}{112}{subsection.10.1.5}
+\contentsline {subsection}{\numberline {10.1.6}Publication de la vignette}{112}{subsection.10.1.6}
+\contentsline {subsection}{\numberline {10.1.7}Pr\IeC {\'e}visualisation de l'application}{112}{subsection.10.1.7}
+\contentsline {subsection}{\numberline {10.1.8}Supprimer l'application}{112}{subsection.10.1.8}

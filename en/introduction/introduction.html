@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="../static/favicon.ico"/>
     <link rel="top" title="MapMint 1.2 Guide utilisateur" href="../index.html" />
     <link rel="up" title="Introduction" href="index.html" />
-    <link rel="next" title="Intsall MapMint" href="installmapmint.html" />
+    <link rel="next" title="Install MapMint" href="installmapmint.html" />
     <link rel="prev" title="Introduction" href="index.html" />
 
 
@@ -56,7 +56,7 @@
           <a href="../genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="installmapmint.html" title="Intsall MapMint"
+          <a href="installmapmint.html" title="Install MapMint"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="index.html" title="Introduction"
@@ -75,7 +75,7 @@
 <span id="userguidegeneral"></span><h1>Overview<a class="headerlink" href="#generalites" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="quest-ce-que-mapmint">
 <h2>What is MapMint?<a class="headerlink" href="#quest-ce-que-mapmint" title="Permalink to this headline">¶</a></h2>
-<p>MapMint is a geographic information system (GIS) software on the Internet designed to facilitate the deployment of spatial data infrastructures ** ** (SDI).</p>
+<p>MapMint is a geographic information system (GIS) software on the Internet designed to facilitate the deployment of  <strong>spatial data infrastructures</strong> (SDI).</p>
 <p>MapMint is for individuals and organizations wishing to manage and optimize SDI establishment and deployment of dynamic mapping applications. The application centralizes and simplifies a number of GIS and WebGIS functionality. The different levels of user rights divide tasks according to public (system administrators, GIS specialists, GIS technicians, cartographers, webmasters ...).</p>
 </div>
 <div class="section" id="que-permet-mapmint">
@@ -106,23 +106,23 @@
 <h2>How MapMint works?<a class="headerlink" href="#comment-fonctionne-mapmint" title="Permalink to this headline">¶</a></h2>
 <p>MapMint includes several <cite>free software &lt;http://mapmint.com/en/Components&gt;</cite> __ in a complete and coherent web mapping platform, whose operation is based on the use of open standards <a href="#id1"><span class="problematic" id="id2">`</span></a>&lt;<a class="reference external" href="http://mapmint.com">http://mapmint.com</a> / en / Components&gt; <a href="#id3"><span class="problematic" id="id4">`</span></a>__ geomatics and internet.</p>
 <p>At the heart of MapMint we have the <cite>ZOO-Project &lt;http://zoo-project.org&gt;</cite> __, an application to simply and efficiently deploy WPS (Web Processing Service <a href="#id1"><span class="problematic" id="id2">`</span></a>&lt;<a class="reference external" href="http://www.opengeospatial.org/standards/wps">http://www.opengeospatial.org/standards/wps</a>&gt; <a href="#id3"><span class="problematic" id="id4">`</span></a>__) data processing. A set of web services is available MapMint, from simple display of a web page in the application to complex geographical treatments.</p>
-<p>On the other types of web services are implemented, including visualization and querying spatial data, WMS (Web Map Service <cite>&lt;http://www.opengeospatial.org/standards/wms&gt;</cite> __). Access to geographic data in vector format is via the WFS (Web Feature Service <cite>&lt;http://www.opengeospatial.org/standards/wfs&gt;</cite> __) or access to image data via WCS ( <cite>Web Coverage Service &lt;http://www.opengeospatial.org/standards/wcs&gt;</cite> __). All these web services are founis by <cite>MapServer software &lt;http://mapserver.org&gt;</cite> __. The various files necessary for the functioning of MapServer and dynamic mapping applications are managed by MapMint services which provided a friendly interface for interact with these web services.</p>
+<p>On the other types of web services are implemented, including visualization and querying spatial data, WMS (<a class="reference external" href="http://www.opengeospatial.org/standards/wms">Web Map Service</a>). Access to geographic data in vector format is via the WFS (<a class="reference external" href="http://www.opengeospatial.org/standards/wfs">Web Feature Service</a>) or access to image data via WCS (<a class="reference external" href="http://www.opengeospatial.org/standards/wcs">Web Coverage Service</a>). All these web services are provided by <a class="reference external" href="http://mapserver.org">MapServer</a>. The various files necessary for the functioning of MapServer and dynamic mapping applications are managed by MapMint services which provided a friendly interface for interact with these web services.</p>
 <p>ZOO-Project and MapServer applications based on an Apache web server to access the application via HTTP and HTTPS communication protocols.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">In a Windows environment, IIS can be used instead of Apache</p>
 </div>
-<p>All the documents produced by the application, such as when using the pdf document production client module, use templates to odt file (<cite>OpenDocumentText &lt;https://www.oasis-open. org/committees/tc_home.php?wg_abbrev office =&gt; `__). Document production is based on UNO (Universal Network Object `&lt;https://www.openoffice.org/udk/common/man/uno.html&gt;</cite> __) to interract of LibreOffice with a <a class="reference external" href="http://www.libreoffice.org/">server</a>.</p>
+<p>All the documents produced by the application, such as when using the pdf document production client module, use templates to odt file (<a class="reference external" href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office">OpenDocumentText</a>). Document production is based on UNO (<a class="reference external" href="https://www.openoffice.org/udk/common/man/uno.html">Universal Network Object</a>) to interact with a <a class="reference external" href="http://www.libreoffice.org/">LibreOffice</a> server.</p>
 <p>An FTP server (eg ProFTPd) is generally associated with an instance of MapMint making available the directory <code class="docutils literal"><span class="pre">dataPath/ftp</span></code> order to file on the server large files or manage the templates in it.</p>
-<p>Some services dedicated to data classification using the <cite>R &lt;http://r-project.org&gt;</cite> __ bookstore, all geographic data is read via the use of <cite>GDAL &lt;http: // www .gdal.org&gt; `__, the QRCodes are generated using the</cite> qrencode bookstore &lt;<a class="reference external" href="https://fukuchi.org/works/qrencode/">https://fukuchi.org/works/qrencode/</a>&gt; <a href="#id1"><span class="problematic" id="id2">`</span></a>__. Some specific Python modules are also needed, and cssmin JSMin to minimize the size of JavaScript and CSS files generated by the application.</p>
+<p>Some services dedicated to data classification using the <a class="reference external" href="http://r-project.org">R</a> library, all geographic data is read via the use of  <a class="reference external" href="http://www.gdal.org">GDAL</a>, the QRCodes are generated using the <a class="reference external" href="https://fukuchi.org/works/qrencode/">QREncode</a> library. Some specific Python modules are also needed, and cssmin JSMin to minimize the size of JavaScript and CSS files generated by the application.</p>
 <p>An overview of the architecture of MapMint is presented below.</p>
 <p><a class="reference internal" href="../images/mapmint-arch.png"><img alt="MapMint architecture preview image" src="../images/mapmint-arch.png" style="width: 800px;" /></a></p>
 <p>The interoperability of MapMint is provided by the standards used and implemented . It is thus possible to interact with data and services MapMint not only from the application accessible from a web browser but also from a desktop client type QGIS for example.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">To use WPS, WPS, download the plugin available here <cite>&lt;http://geolabs.fr/plugins.xml&gt;</cite> __.</p>
+<p class="last">To use WPS, WPS, download the plugin available <a class="reference external" href="http://geolabs.fr/plugins.xml">here</a>.</p>
 </div>
-<p>You can find more general information on the website of ` MapMint &lt; <a class="reference external" href="http://mapmint.com/en/">http://mapmint.com/en/</a> &gt; `</p>
+<p>You can find more general information on the website of <a class="reference external" href="http://mapmint.com/en/">MapMint</a></p>
 </div>
 </div>
 
@@ -149,7 +149,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Introduction</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="installmapmint.html">Intsall MapMint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installmapmint.html">Install MapMint</a></li>
 <li class="toctree-l2"><a class="reference internal" href="usemapmint.html">Use MapMint</a></li>
 </ul>
 </li>

@@ -1,0 +1,212 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Overview}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}What is MapMint?}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}What allows MapMint?}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}How MapMint works?}{3}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Intsall MapMint}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Prerequisites}{5}{subsection.1.2.1}
+\contentsline {subsubsection}{Python packages and modules}{5}{subsubsection*.9}
+\contentsline {subsubsection}{Ansible download and install scripts}{5}{subsubsection*.10}
+\contentsline {subsubsection}{Generating an SSH key}{5}{subsubsection*.11}
+\contentsline {subsection}{\numberline {1.2.2}Installation}{6}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Use MapMint}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Access to administrative modules}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Identification Form}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Access to the public interface}{8}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}First settings}{8}{subsection.1.3.4}
+\contentsline {subsubsection}{Title of the public interface}{8}{subsubsection*.23}
+\contentsline {subsubsection}{Map of the public interface}{9}{subsubsection*.24}
+\contentsline {subsection}{\numberline {1.3.5}Add data}{9}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Access to data and processes from the desktop clients}{10}{subsection.1.3.6}
+\contentsline {subsubsection}{Accessing data broadcasting services}{10}{subsubsection*.25}
+\contentsline {subsubsection}{Access to data processing services}{11}{subsubsection*.26}
+\contentsline {chapter}{\numberline {2}Dashboard}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Section ``Overview''}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}available data}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Cartes names available}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Versions of installed software}{17}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Symbol management}{17}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Management of Spatial Reference System (SRS)}{18}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}User Management}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Add User}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Edit user}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Delete User}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Add Group}{21}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Edit a group}{21}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Remove Group}{21}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Control Panel}{22}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}General configuration}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}General configuration}{23}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Service Provider Configuration}{24}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Configuring the database}{24}{subsection.2.3.4}
+\contentsline {chapter}{\numberline {3}territory management module}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Panel territories}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Add a new territory}{25}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Delete territory}{26}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Information panel}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Territory Name}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Geographic Data}{28}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Parent territory}{28}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Rights groups}{28}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Data Management Module}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}storage spaces}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Add storage space}{30}{subsection.4.1.1}
+\contentsline {subsubsection}{Directories}{30}{subsubsection*.49}
+\contentsline {subsubsection}{Database}{31}{subsubsection*.50}
+\contentsline {subsubsection}{servers OGC}{31}{subsubsection*.51}
+\contentsline {subsection}{\numberline {4.1.2}Access to storage space}{32}{subsection.4.1.2}
+\contentsline {subsubsection}{Toolbar of storage space}{33}{subsubsection*.52}
+\contentsline {subsubsection}{Create a mosaic of images}{33}{subsubsection*.53}
+\contentsline {subsubsection}{Send a data source in a storage space}{34}{subsubsection*.54}
+\contentsline {subsubsection}{Create a tile index in a storage space}{35}{subsubsection*.55}
+\contentsline {subsubsection}{Management of access rights to storage space}{35}{subsubsection*.56}
+\contentsline {subsubsection}{Setting up storage space}{36}{subsubsection*.57}
+\contentsline {subsubsection}{Remove storage space}{36}{subsubsection*.58}
+\contentsline {subsubsection}{Refresh storage space}{36}{subsubsection*.59}
+\contentsline {section}{\numberline {4.2}Data Sources}{36}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}vector data}{37}{subsection.4.2.1}
+\contentsline {subsubsection}{supported formats}{37}{subsubsection*.75}
+\contentsline {subsubsection}{Refer to the table}{38}{subsubsection*.76}
+\contentsline {subsubsection}{Define the encoding of the character table}{38}{subsubsection*.77}
+\contentsline {subsection}{\numberline {4.2.2}raster data}{38}{subsection.4.2.2}
+\contentsline {subsubsection}{supported formats}{38}{subsubsection*.78}
+\contentsline {subsubsection}{Look at the histogram}{39}{subsubsection*.79}
+\contentsline {subsection}{\numberline {4.2.3}Bar Data source tools}{39}{subsection.4.2.3}
+\contentsline {subsubsection}{Access rights}{39}{subsubsection*.80}
+\contentsline {subsubsection}{Convert a data source}{39}{subsubsection*.81}
+\contentsline {subsubsection}{downloading}{40}{subsubsection*.82}
+\contentsline {subsubsection}{preview}{40}{subsubsection*.83}
+\contentsline {subsubsection}{suppression}{40}{subsubsection*.84}
+\contentsline {subsubsection}{Opening}{40}{subsubsection*.85}
+\contentsline {section}{\numberline {4.3}Geoprocessing}{40}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Converter vector data sources}{41}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}treatment utility raster data sources}{42}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Module creation indicators}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Presentation}{45}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}What is an indicator ?}{45}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}General operation of the module}{45}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Technical requirements}{45}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Panel indicators}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Add an indicator}{46}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Delete an indicator}{46}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Configuring an indicator}{47}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Initialization of the indicator}{48}{subsection.5.3.1}
+\contentsline {subsubsection}{Metadata}{48}{subsubsection*.112}
+\contentsline {paragraph}{Indicator name}{48}{paragraph*.113}
+\contentsline {paragraph}{Description of the indicator}{49}{paragraph*.114}
+\contentsline {paragraph}{Record indicator}{49}{paragraph*.115}
+\contentsline {paragraph}{Sources indicator}{49}{paragraph*.116}
+\contentsline {paragraph}{Keywords Indicator}{49}{paragraph*.117}
+\contentsline {paragraph}{Group(s) of users}{49}{paragraph*.118}
+\contentsline {paragraph}{Theme(s) of the indicator}{49}{paragraph*.119}
+\contentsline {subsubsection}{Data}{50}{subsubsection*.120}
+\contentsline {paragraph}{File}{50}{paragraph*.121}
+\contentsline {paragraph}{Table}{51}{paragraph*.122}
+\contentsline {paragraph}{SQL query}{51}{paragraph*.123}
+\contentsline {subsection}{\numberline {5.3.2}Style}{51}{subsection.5.3.2}
+\contentsline {paragraph}{Variable}{51}{paragraph*.124}
+\contentsline {paragraph}{Formula}{51}{paragraph*.125}
+\contentsline {paragraph}{Classification}{52}{paragraph*.126}
+\contentsline {paragraph}{Discretization}{52}{paragraph*.127}
+\contentsline {paragraph}{Number of classes}{52}{paragraph*.128}
+\contentsline {paragraph}{Minimum and maximum color}{52}{paragraph*.129}
+\contentsline {paragraph}{Table of classes}{53}{paragraph*.130}
+\contentsline {subsection}{\numberline {5.3.3}Table}{54}{subsection.5.3.3}
+\contentsline {paragraph}{Title of the table}{54}{paragraph*.131}
+\contentsline {paragraph}{Configuration of the table}{54}{paragraph*.132}
+\contentsline {subsection}{\numberline {5.3.4}Graph}{55}{subsection.5.3.4}
+\contentsline {paragraph}{Chart Title}{56}{paragraph*.133}
+\contentsline {paragraph}{Chart Type}{56}{paragraph*.134}
+\contentsline {paragraph}{Label the x-axis}{56}{paragraph*.135}
+\contentsline {paragraph}{Variable Easting}{56}{paragraph*.136}
+\contentsline {paragraph}{Label of ordinate}{56}{paragraph*.137}
+\contentsline {paragraph}{Variable of ordinate}{57}{paragraph*.138}
+\contentsline {paragraph}{Formula of ordinate}{57}{paragraph*.139}
+\contentsline {paragraph}{Hovering value}{57}{paragraph*.140}
+\contentsline {paragraph}{Save and preview}{57}{paragraph*.141}
+\contentsline {subsection}{\numberline {5.3.5}Report}{57}{subsection.5.3.5}
+\contentsline {paragraph}{Document Template}{58}{paragraph*.142}
+\contentsline {paragraph}{Setting the report}{58}{paragraph*.143}
+\contentsline {subsection}{\numberline {5.3.6}Publish an indicator}{59}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Unpublish an indicator}{59}{subsection.5.3.7}
+\contentsline {chapter}{\numberline {6}Map creation module}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Menu data layers}{61}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Base Maps}{62}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Open a map}{62}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Save a map}{63}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Menu layers}{63}{subsection.6.1.4}
+\contentsline {subsubsection}{Add a layer}{64}{subsubsection*.164}
+\contentsline {subsubsection}{Add a grid}{65}{subsubsection*.165}
+\contentsline {subsubsection}{Manage the order of layers}{65}{subsubsection*.166}
+\contentsline {subsubsection}{Add Group}{66}{subsubsection*.167}
+\contentsline {subsection}{\numberline {6.1.5}Context menu for a layer}{66}{subsection.6.1.5}
+\contentsline {subsubsection}{Zoom to layer extent}{67}{subsubsection*.168}
+\contentsline {subsubsection}{Open the attribute table}{67}{subsubsection*.169}
+\contentsline {subsubsection}{Configuring a layer}{68}{subsubsection*.170}
+\contentsline {paragraph}{General properties of a layer}{68}{paragraph*.171}
+\contentsline {paragraph}{Layer Name}{68}{paragraph*.172}
+\contentsline {paragraph}{Title of the layer}{68}{paragraph*.173}
+\contentsline {paragraph}{Description}{69}{paragraph*.174}
+\contentsline {paragraph}{Keywords}{69}{paragraph*.175}
+\contentsline {paragraph}{Credit}{69}{paragraph*.176}
+\contentsline {paragraph}{Request}{69}{paragraph*.177}
+\contentsline {paragraph}{Export}{69}{paragraph*.178}
+\contentsline {paragraph}{Filtered}{69}{paragraph*.179}
+\contentsline {paragraph}{Look up}{69}{paragraph*.180}
+\contentsline {paragraph}{Spatial query}{70}{paragraph*.181}
+\contentsline {paragraph}{Setting the table display}{70}{paragraph*.182}
+\contentsline {paragraph}{Layer style}{71}{paragraph*.183}
+\contentsline {paragraph}{Opacity}{72}{paragraph*.184}
+\contentsline {paragraph}{Type of legend}{72}{paragraph*.185}
+\contentsline {paragraph}{Name}{74}{paragraph*.186}
+\contentsline {paragraph}{Filler expression}{74}{paragraph*.187}
+\contentsline {paragraph}{Filling}{74}{paragraph*.188}
+\contentsline {paragraph}{border}{74}{paragraph*.189}
+\contentsline {paragraph}{Setting the display of labels with a layer}{75}{paragraph*.190}
+\contentsline {paragraph}{Field labels}{76}{paragraph*.191}
+\contentsline {paragraph}{Orientation}{76}{paragraph*.192}
+\contentsline {paragraph}{cleaning size}{76}{paragraph*.193}
+\contentsline {paragraph}{Police}{76}{paragraph*.194}
+\contentsline {paragraph}{Buffer around the text}{76}{paragraph*.195}
+\contentsline {paragraph}{Position}{77}{paragraph*.196}
+\contentsline {paragraph}{Setting the display of information of a layer}{77}{paragraph*.197}
+\contentsline {paragraph}{display scales with a layer}{78}{paragraph*.198}
+\contentsline {subsubsection}{Removing a layer}{78}{subsubsection*.199}
+\contentsline {chapter}{\numberline {7}Theme Creation Module}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}Panel topics}{81}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Add a new topic}{81}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Delete a theme}{82}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Information panel}{82}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Theme Name}{83}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Rights groups}{83}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Module document creation}{85}{chapter.8}
+\contentsline {section}{\numberline {8.1}Document panel}{85}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Add a new document}{85}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Deleting a document}{86}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Information panel}{87}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Document Name}{88}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Theme of the document}{88}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}File or URL}{88}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Description of Document}{88}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Rights groups}{88}{subsection.8.2.5}
+\contentsline {chapter}{\numberline {9}Application Publishing Module}{91}{chapter.9}
+\contentsline {section}{\numberline {9.1}Application Control Panel}{91}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}General Application Configuration}{92}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Configuring application layers}{93}{subsection.9.1.2}
+\contentsline {subsubsection}{Data Sources}{93}{subsubsection*.231}
+\contentsline {paragraph}{free primer}{94}{paragraph*.232}
+\contentsline {paragraph}{basecoats owners}{94}{paragraph*.233}
+\contentsline {paragraph}{Basecoats MapMint}{95}{paragraph*.234}
+\contentsline {subsubsection}{Project layers}{95}{subsubsection*.235}
+\contentsline {subsection}{\numberline {9.1.3}Setting the map}{97}{subsection.9.1.3}
+\contentsline {subsubsection}{Parameters of the map display}{97}{subsubsection*.236}
+\contentsline {subsubsection}{Parameters of presentation of the application}{97}{subsubsection*.237}
+\contentsline {subsection}{\numberline {9.1.4}Configuring application features}{98}{subsection.9.1.4}
+\contentsline {subsubsection}{Basic tools}{98}{subsubsection*.238}
+\contentsline {subsubsection}{other tools}{99}{subsubsection*.239}
+\contentsline {subsubsection}{spatial analysis tools}{99}{subsubsection*.240}
+\contentsline {subsection}{\numberline {9.1.5}Publication of the application}{99}{subsection.9.1.5}
+\contentsline {subsection}{\numberline {9.1.6}Publication of the thumbnail}{99}{subsection.9.1.6}
+\contentsline {subsection}{\numberline {9.1.7}Preview application}{100}{subsection.9.1.7}
+\contentsline {subsection}{\numberline {9.1.8}Remove Application}{100}{subsection.9.1.8}
