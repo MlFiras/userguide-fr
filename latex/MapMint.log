@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.1)  15 NOV 2016 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.1)  15 NOV 2016 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2808,21 +2808,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 4442--4445
 <mm4me-export.png, id=1598, 803.0pt x 1284.8pt>
 File: mm4me-export.png Graphic file (type png)
  <use mm4me-export.png>
-Package pdftex.def Info: mm4me-export.png used on input line 4446.
+Package pdftex.def Info: mm4me-export.png used on input line 4448.
 (pdftex.def)             Requested size: 211.3883pt x 338.21587pt.
  [78 <./mm4me-view-edit.png>]
 <table-module-preview.png, id=1603, 1526.70375pt x 777.90625pt>
 File: table-module-preview.png Graphic file (type png)
 
 <use table-module-preview.png>
-Package pdftex.def Info: table-module-preview.png used on input line 4452.
+Package pdftex.def Info: table-module-preview.png used on input line 4454.
 (pdftex.def)             Requested size: 469.755pt x 239.3561pt.
  [79 <./mm4me-export.png> <./table-module-preview.png>] [80
 
 ]
 Chapitre 7.
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 4538--4538
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 4540--4540
  [] 
  []
 
@@ -2830,112 +2830,112 @@ Overfull \hbox (14.79999pt too wide) in paragraph at lines 4538--4538
 File: admin-viewer-baselayer.png Graphic file (type png)
 
 <use admin-viewer-baselayer.png>
-Package pdftex.def Info: admin-viewer-baselayer.png used on input line 4569.
+Package pdftex.def Info: admin-viewer-baselayer.png used on input line 4571.
 (pdftex.def)             Requested size: 288.07553pt x 326.21794pt.
 File: admin-viewer-baselayer.png Graphic file (type png)
  <use admin-viewer-baselayer.png>
-Package pdftex.def Info: admin-viewer-baselayer.png used on input line 4569.
+Package pdftex.def Info: admin-viewer-baselayer.png used on input line 4571.
 (pdftex.def)             Requested size: 288.07553pt x 326.21794pt.
 
 <open-map.png, id=1674, 24.09pt x 20.075pt>
 File: open-map.png Graphic file (type png)
  <use open-map.png>
-Package pdftex.def Info: open-map.png used on input line 4586.
+Package pdftex.def Info: open-map.png used on input line 4588.
 (pdftex.def)             Requested size: 24.08992pt x 20.07494pt.
 File: open-map.png Graphic file (type png)
 
 <use open-map.png>
-Package pdftex.def Info: open-map.png used on input line 4586.
+Package pdftex.def Info: open-map.png used on input line 4588.
 (pdftex.def)             Requested size: 24.08992pt x 20.07494pt.
 File: open-map.png Graphic file (type png)
  <use open-map.png>
-Package pdftex.def Info: open-map.png used on input line 4586.
+Package pdftex.def Info: open-map.png used on input line 4588.
 (pdftex.def)             Requested size: 24.08992pt x 20.07494pt.
 File: open-map.png Graphic file (type png)
  <use open-map.png>
-Package pdftex.def Info: open-map.png used on input line 4586.
+Package pdftex.def Info: open-map.png used on input line 4588.
 (pdftex.def)             Requested size: 24.08992pt x 20.07494pt.
 
 <open-map-window.png, id=1675, 248.93pt x 288.07625pt>
 File: open-map-window.png Graphic file (type png)
 
 <use open-map-window.png>
-Package pdftex.def Info: open-map-window.png used on input line 4596.
+Package pdftex.def Info: open-map-window.png used on input line 4598.
 (pdftex.def)             Requested size: 248.92938pt x 288.07553pt.
 File: open-map-window.png Graphic file (type png)
  <use open-map-window.png>
-Package pdftex.def Info: open-map-window.png used on input line 4596.
+Package pdftex.def Info: open-map-window.png used on input line 4598.
 (pdftex.def)             Requested size: 248.92938pt x 288.07553pt.
  [82 <./admin-viewer-baselayer.png> <./open-map.png>]
 <saveasmap-window.png, id=1682, 249.93375pt x 84.315pt>
 File: saveasmap-window.png Graphic file (type png)
 
 <use saveasmap-window.png>
-Package pdftex.def Info: saveasmap-window.png used on input line 4608.
+Package pdftex.def Info: saveasmap-window.png used on input line 4610.
 (pdftex.def)             Requested size: 249.93314pt x 84.31477pt.
 File: saveasmap-window.png Graphic file (type png)
  <use saveasmap-window.png>
-Package pdftex.def Info: saveasmap-window.png used on input line 4608.
+Package pdftex.def Info: saveasmap-window.png used on input line 4610.
 (pdftex.def)             Requested size: 249.93314pt x 84.31477pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4610--4613
+Underfull \hbox (badness 10000) in paragraph at lines 4612--4615
 
  []
 
 <add-layer-m.png, id=1683, 20.075pt x 19.07124pt>
 File: add-layer-m.png Graphic file (type png)
  <use add-layer-m.png>
-Package pdftex.def Info: add-layer-m.png used on input line 4641.
+Package pdftex.def Info: add-layer-m.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: add-layer-m.png Graphic file (type png)
 
 <use add-layer-m.png>
-Package pdftex.def Info: add-layer-m.png used on input line 4641.
+Package pdftex.def Info: add-layer-m.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
  <add2.png, id=1684, 29.10875pt x 20.075pt>
 File: add2.png Graphic file (type png)
 
 <use add2.png>
-Package pdftex.def Info: add2.png used on input line 4641.
+Package pdftex.def Info: add2.png used on input line 4643.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add2.png Graphic file (type png)
  <use add2.png>
-Package pdftex.def Info: add2.png used on input line 4641.
+Package pdftex.def Info: add2.png used on input line 4643.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
  <move.png, id=1685, 20.075pt x 19.07124pt>
 File: move.png Graphic file (type png)
 
 <use move.png>
-Package pdftex.def Info: move.png used on input line 4641.
+Package pdftex.def Info: move.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: move.png Graphic file (type png)
  <use move.png>
-Package pdftex.def Info: move.png used on input line 4641.
+Package pdftex.def Info: move.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: add-layer-m.png Graphic file (type png)
  <use add-layer-m.png>
-Package pdftex.def Info: add-layer-m.png used on input line 4641.
+Package pdftex.def Info: add-layer-m.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: add-layer-m.png Graphic file (type png)
  <use add-layer-m.png>
-Package pdftex.def Info: add-layer-m.png used on input line 4641.
+Package pdftex.def Info: add-layer-m.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: add2.png Graphic file (type png)
 
 <use add2.png>
-Package pdftex.def Info: add2.png used on input line 4641.
+Package pdftex.def Info: add2.png used on input line 4643.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add2.png Graphic file (type png)
  <use add2.png>
-Package pdftex.def Info: add2.png used on input line 4641.
+Package pdftex.def Info: add2.png used on input line 4643.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: move.png Graphic file (type png)
  <use move.png>
-Package pdftex.def Info: move.png used on input line 4641.
+Package pdftex.def Info: move.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
 File: move.png Graphic file (type png)
  <use move.png>
-Package pdftex.def Info: move.png used on input line 4641.
+Package pdftex.def Info: move.png used on input line 4643.
 (pdftex.def)             Requested size: 20.07494pt x 19.07118pt.
  [83 <./open-map-window.png> <./saveasmap-window.png> <./add-layer-m.png> <./ad
 d2.png> <./move.png>] <add-layer-window.png, id=1695, 247.92625pt x 474.77374pt
@@ -2943,14 +2943,14 @@ d2.png> <./move.png>] <add-layer-window.png, id=1695, 247.92625pt x 474.77374pt
 File: add-layer-window.png Graphic file (type png)
 
 <use add-layer-window.png>
-Package pdftex.def Info: add-layer-window.png used on input line 4661.
+Package pdftex.def Info: add-layer-window.png used on input line 4663.
 (pdftex.def)             Requested size: 247.92564pt x 474.77258pt.
 File: add-layer-window.png Graphic file (type png)
  <use add-layer-window.png>
-Package pdftex.def Info: add-layer-window.png used on input line 4661.
+Package pdftex.def Info: add-layer-window.png used on input line 4663.
 (pdftex.def)             Requested size: 247.92564pt x 474.77258pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4668--4682
+Underfull \hbox (badness 10000) in paragraph at lines 4670--4684
 
  []
 
@@ -2959,21 +2959,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 4668--4682
 File: add-grid-window.png Graphic file (type png)
 
 <use add-grid-window.png>
-Package pdftex.def Info: add-grid-window.png used on input line 4690.
+Package pdftex.def Info: add-grid-window.png used on input line 4692.
 (pdftex.def)             Requested size: 247.92564pt x 208.77946pt.
 File: add-grid-window.png Graphic file (type png)
  <use add-grid-window.png>
-Package pdftex.def Info: add-grid-window.png used on input line 4690.
+Package pdftex.def Info: add-grid-window.png used on input line 4692.
 (pdftex.def)             Requested size: 247.92564pt x 208.77946pt.
 
 <set-layer-order-window.png, id=1702, 1466.47874pt x 869.2475pt>
 File: set-layer-order-window.png Graphic file (type png)
 
 <use set-layer-order-window.png>
-Package pdftex.def Info: set-layer-order-window.png used on input line 4709.
+Package pdftex.def Info: set-layer-order-window.png used on input line 4711.
 (pdftex.def)             Requested size: 469.755pt x 278.44342pt.
  [85 <./add-grid-window.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4731--4737
+Underfull \hbox (badness 10000) in paragraph at lines 4733--4739
 
  []
 
@@ -2981,83 +2981,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 4731--4737
 File: add-group-window.png Graphic file (type png)
 
 <use add-group-window.png>
-Package pdftex.def Info: add-group-window.png used on input line 4745.
+Package pdftex.def Info: add-group-window.png used on input line 4747.
 (pdftex.def)             Requested size: 469.755pt x 278.56577pt.
  [86 <./set-layer-order-window.png>]
 <search.png, id=1716, 18.0675pt x 19.07124pt>
 File: search.png Graphic file (type png)
  <use search.png>
-Package pdftex.def Info: search.png used on input line 4784.
+Package pdftex.def Info: search.png used on input line 4786.
 (pdftex.def)             Requested size: 18.06744pt x 19.07118pt.
 File: search.png Graphic file (type png)
 
 <use search.png>
-Package pdftex.def Info: search.png used on input line 4784.
+Package pdftex.def Info: search.png used on input line 4786.
 (pdftex.def)             Requested size: 18.06744pt x 19.07118pt.
  <table1.png, id=1717, 21.07875pt x 20.075pt>
 File: table1.png Graphic file (type png)
  <use table1.png>
-Package pdftex.def Info: table1.png used on input line 4784.
+Package pdftex.def Info: table1.png used on input line 4786.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: table1.png Graphic file (type png)
 
 <use table1.png>
-Package pdftex.def Info: table1.png used on input line 4784.
+Package pdftex.def Info: table1.png used on input line 4786.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
  <configuration1.png, id=1718, 23.08624pt x 18.0675pt>
 File: configuration1.png Graphic file (type png)
 
 <use configuration1.png>
-Package pdftex.def Info: configuration1.png used on input line 4784.
+Package pdftex.def Info: configuration1.png used on input line 4786.
 (pdftex.def)             Requested size: 23.08617pt x 18.06744pt.
 File: configuration1.png Graphic file (type png)
  <use configuration1.png>
-Package pdftex.def Info: configuration1.png used on input line 4784.
+Package pdftex.def Info: configuration1.png used on input line 4786.
 (pdftex.def)             Requested size: 23.08617pt x 18.06744pt.
 
 <delete3.png, id=1719, 30.1125pt x 22.0825pt>
 File: delete3.png Graphic file (type png)
  <use delete3.png>
-Package pdftex.def Info: delete3.png used on input line 4784.
+Package pdftex.def Info: delete3.png used on input line 4786.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete3.png Graphic file (type png)
 
 <use delete3.png>
-Package pdftex.def Info: delete3.png used on input line 4784.
+Package pdftex.def Info: delete3.png used on input line 4786.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: search.png Graphic file (type png)
  <use search.png>
-Package pdftex.def Info: search.png used on input line 4784.
+Package pdftex.def Info: search.png used on input line 4786.
 (pdftex.def)             Requested size: 18.06744pt x 19.07118pt.
 File: search.png Graphic file (type png)
  <use search.png>
-Package pdftex.def Info: search.png used on input line 4784.
+Package pdftex.def Info: search.png used on input line 4786.
 (pdftex.def)             Requested size: 18.06744pt x 19.07118pt.
 File: table1.png Graphic file (type png)
  <use table1.png>
-Package pdftex.def Info: table1.png used on input line 4784.
+Package pdftex.def Info: table1.png used on input line 4786.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: table1.png Graphic file (type png)
 
 <use table1.png>
-Package pdftex.def Info: table1.png used on input line 4784.
+Package pdftex.def Info: table1.png used on input line 4786.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: configuration1.png Graphic file (type png)
  <use configuration1.png>
-Package pdftex.def Info: configuration1.png used on input line 4784.
+Package pdftex.def Info: configuration1.png used on input line 4786.
 (pdftex.def)             Requested size: 23.08617pt x 18.06744pt.
 File: configuration1.png Graphic file (type png)
  <use configuration1.png>
-Package pdftex.def Info: configuration1.png used on input line 4784.
+Package pdftex.def Info: configuration1.png used on input line 4786.
 (pdftex.def)             Requested size: 23.08617pt x 18.06744pt.
 File: delete3.png Graphic file (type png)
 
 <use delete3.png>
-Package pdftex.def Info: delete3.png used on input line 4784.
+Package pdftex.def Info: delete3.png used on input line 4786.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete3.png Graphic file (type png)
  <use delete3.png>
-Package pdftex.def Info: delete3.png used on input line 4784.
+Package pdftex.def Info: delete3.png used on input line 4786.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  [87 <./add-group-window.png> <./search.png> <./table1.png> <./configuration1.p
 ng> <./delete3.png>]
@@ -3065,7 +3065,7 @@ ng> <./delete3.png>]
 File: view-table-window.png Graphic file (type png)
 
 <use view-table-window.png>
-Package pdftex.def Info: view-table-window.png used on input line 4803.
+Package pdftex.def Info: view-table-window.png used on input line 4805.
 (pdftex.def)             Requested size: 469.755pt x 247.25517pt.
 
 <set-layer-properties-window.png, id=1730, 1463.4675pt x 766.865pt>
@@ -3073,25 +3073,25 @@ File: set-layer-properties-window.png Graphic file (type png)
 
 <use set-layer-properties-window.png>
 Package pdftex.def Info: set-layer-properties-window.png used on input line 482
-4.
+6.
 (pdftex.def)             Requested size: 469.755pt x 246.15071pt.
  [88 <./view-table-window.png>] [89 <./set-layer-properties-window.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4916--4921
+Underfull \hbox (badness 10000) in paragraph at lines 4918--4923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4926--4931
+Underfull \hbox (badness 10000) in paragraph at lines 4928--4933
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4936--4941
+Underfull \hbox (badness 10000) in paragraph at lines 4938--4943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4946--4951
+Underfull \hbox (badness 10000) in paragraph at lines 4948--4953
 
  []
 
@@ -3099,15 +3099,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 4946--4951
 File: set-layer-table.png Graphic file (type png)
 
 <use set-layer-table.png>
-Package pdftex.def Info: set-layer-table.png used on input line 4975.
+Package pdftex.def Info: set-layer-table.png used on input line 4977.
 (pdftex.def)             Requested size: 469.755pt x 247.2347pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5007--5014
+Underfull \hbox (badness 10000) in paragraph at lines 5009--5016
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5021--5024
+Underfull \hbox (badness 10000) in paragraph at lines 5023--5026
 
  []
 
@@ -3116,10 +3116,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5021--5024
 File: set-style-window.png Graphic file (type png)
 
 <use set-style-window.png>
-Package pdftex.def Info: set-style-window.png used on input line 5029.
+Package pdftex.def Info: set-style-window.png used on input line 5031.
 (pdftex.def)             Requested size: 469.755pt x 294.71623pt.
  [92 <./set-style-window.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5131--5137
+Underfull \hbox (badness 10000) in paragraph at lines 5133--5139
 
  []
 
@@ -3127,61 +3127,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 5131--5137
 File: layer-classes-table.png Graphic file (type png)
 
 <use layer-classes-table.png>
-Package pdftex.def Info: layer-classes-table.png used on input line 5166.
+Package pdftex.def Info: layer-classes-table.png used on input line 5168.
 (pdftex.def)             Requested size: 469.755pt x 247.25517pt.
  [93]
 <edit-indicator-class.png, id=1777, 1466.47874pt x 919.435pt>
 File: edit-indicator-class.png Graphic file (type png)
 
 <use edit-indicator-class.png>
-Package pdftex.def Info: edit-indicator-class.png used on input line 5172.
+Package pdftex.def Info: edit-indicator-class.png used on input line 5174.
 (pdftex.def)             Requested size: 469.755pt x 294.51982pt.
  [94 <./layer-classes-table.png> <./edit-indicator-class.png>] <set-symbol-wind
 ow.png, id=1784, 1467.4825pt x 829.0975pt>
 File: set-symbol-window.png Graphic file (type png)
 
 <use set-symbol-window.png>
-Package pdftex.def Info: set-symbol-window.png used on input line 5229.
+Package pdftex.def Info: set-symbol-window.png used on input line 5231.
 (pdftex.def)             Requested size: 469.755pt x 265.39253pt.
  [95]
 <set-layer-labels.png, id=1793, 1467.4825pt x 810.02625pt>
 File: set-layer-labels.png Graphic file (type png)
 
 <use set-layer-labels.png>
-Package pdftex.def Info: set-layer-labels.png used on input line 5245.
+Package pdftex.def Info: set-layer-labels.png used on input line 5247.
 (pdftex.def)             Requested size: 469.755pt x 259.28784pt.
  [96 <./set-symbol-window.png>] [97 <./set-layer-labels.png>] <set-template-win
 dow.png, id=1810, 587.19376pt x 551.05875pt>
 File: set-template-window.png Graphic file (type png)
 
 <use set-template-window.png>
-Package pdftex.def Info: set-template-window.png used on input line 5309.
+Package pdftex.def Info: set-template-window.png used on input line 5311.
 (pdftex.def)             Requested size: 469.755pt x 440.84758pt.
 
 <set-template-html-window.png, id=1811, 585.18625pt x 555.07375pt>
 File: set-template-html-window.png Graphic file (type png)
 
 <use set-template-html-window.png>
-Package pdftex.def Info: set-template-html-window.png used on input line 5309.
+Package pdftex.def Info: set-template-html-window.png used on input line 5311.
 (pdftex.def)             Requested size: 469.755pt x 445.60107pt.
 File: set-template-window.png Graphic file (type png)
  <use set-template-window.png>
-Package pdftex.def Info: set-template-window.png used on input line 5309.
+Package pdftex.def Info: set-template-window.png used on input line 5311.
 (pdftex.def)             Requested size: 222.37234pt x 208.68137pt.
 File: set-template-html-window.png Graphic file (type png)
 
 <use set-template-html-window.png>
-Package pdftex.def Info: set-template-html-window.png used on input line 5309.
+Package pdftex.def Info: set-template-html-window.png used on input line 5311.
 (pdftex.def)             Requested size: 222.18315pt x 210.75233pt.
  [98 <./set-template-window.png> <./set-template-html-window.png>] <layer-displ
 ay-def.png, id=1821, 1467.4825pt x 754.82pt>
 File: layer-display-def.png Graphic file (type png)
 
 <use layer-display-def.png>
-Package pdftex.def Info: layer-display-def.png used on input line 5346.
+Package pdftex.def Info: layer-display-def.png used on input line 5348.
 (pdftex.def)             Requested size: 469.755pt x 241.61644pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5380--5383
+Underfull \hbox (badness 10000) in paragraph at lines 5382--5385
 
  []
 
@@ -3189,73 +3189,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 5380--5383
 File: maps-module-preview.png Graphic file (type png)
 
 <use maps-module-preview.png>
-Package pdftex.def Info: maps-module-preview.png used on input line 5384.
+Package pdftex.def Info: maps-module-preview.png used on input line 5386.
 (pdftex.def)             Requested size: 1467.47893pt x 870.24913pt.
 File: maps-module-preview.png Graphic file (type png)
  <use maps-module-preview.png>
-Package pdftex.def Info: maps-module-preview.png used on input line 5384.
+Package pdftex.def Info: maps-module-preview.png used on input line 5386.
 (pdftex.def)             Requested size: 469.755pt x 278.56577pt.
  [99 <./layer-display-def.png>] [100 <./maps-module-preview.png>]
 Chapitre 8.
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 5415--5415
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 5417--5417
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 5434
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 5436
 .
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `TS1/ptm/b/n' tried instead on input line 5434.
+(Font)              Font shape `TS1/ptm/b/n' tried instead on input line 5436.
 
 <add4.png, id=1838, 29.10875pt x 20.075pt>
 File: add4.png Graphic file (type png)
  <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5434.
+Package pdftex.def Info: add4.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add4.png Graphic file (type png)
  <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5434.
+Package pdftex.def Info: add4.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 
 <delete5.png, id=1839, 30.1125pt x 22.0825pt>
 File: delete5.png Graphic file (type png)
  <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5434.
+Package pdftex.def Info: delete5.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete5.png Graphic file (type png)
 
 <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5434.
+Package pdftex.def Info: delete5.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: add4.png Graphic file (type png)
  <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5434.
+Package pdftex.def Info: add4.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add4.png Graphic file (type png)
  <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5434.
+Package pdftex.def Info: add4.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: delete5.png Graphic file (type png)
  <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5434.
+Package pdftex.def Info: delete5.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete5.png Graphic file (type png)
 
 <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5434.
+Package pdftex.def Info: delete5.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  <add-theme-window.png, id=1840, 250.9375pt x 131.49126pt>
 File: add-theme-window.png Graphic file (type png)
 
 <use add-theme-window.png>
-Package pdftex.def Info: add-theme-window.png used on input line 5444.
+Package pdftex.def Info: add-theme-window.png used on input line 5446.
 (pdftex.def)             Requested size: 250.93687pt x 131.49092pt.
 File: add-theme-window.png Graphic file (type png)
  <use add-theme-window.png>
-Package pdftex.def Info: add-theme-window.png used on input line 5444.
+Package pdftex.def Info: add-theme-window.png used on input line 5446.
 (pdftex.def)             Requested size: 250.93687pt x 131.49092pt.
  [101
 
@@ -3264,19 +3264,19 @@ Package pdftex.def Info: add-theme-window.png used on input line 5444.
 File: delete-theme-window.png Graphic file (type png)
 
 <use delete-theme-window.png>
-Package pdftex.def Info: delete-theme-window.png used on input line 5459.
+Package pdftex.def Info: delete-theme-window.png used on input line 5461.
 (pdftex.def)             Requested size: 248.92938pt x 163.61084pt.
 File: delete-theme-window.png Graphic file (type png)
  <use delete-theme-window.png>
-Package pdftex.def Info: delete-theme-window.png used on input line 5459.
+Package pdftex.def Info: delete-theme-window.png used on input line 5461.
 (pdftex.def)             Requested size: 248.92938pt x 163.61084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5464--5467
+Underfull \hbox (badness 10000) in paragraph at lines 5466--5469
 
  []
 
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 5490--5490
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 5492--5492
  [] 
  []
 
@@ -3284,93 +3284,93 @@ Overfull \hbox (14.79999pt too wide) in paragraph at lines 5490--5490
 File: theme-infopanel-window.png Graphic file (type png)
 
 <use theme-infopanel-window.png>
-Package pdftex.def Info: theme-infopanel-window.png used on input line 5494.
+Package pdftex.def Info: theme-infopanel-window.png used on input line 5496.
 (pdftex.def)             Requested size: 622.32347pt x 348.3004pt.
 File: theme-infopanel-window.png Graphic file (type png)
  <use theme-infopanel-window.png>
-Package pdftex.def Info: theme-infopanel-window.png used on input line 5494.
+Package pdftex.def Info: theme-infopanel-window.png used on input line 5496.
 (pdftex.def)             Requested size: 469.755pt x 262.91534pt.
  [102 <./delete-theme-window.png> <./theme-infopanel-window.png>]
 <theme-module-preview.png, id=1867, 1052.93375pt x 480.79625pt>
 File: theme-module-preview.png Graphic file (type png)
 
 <use theme-module-preview.png>
-Package pdftex.def Info: theme-module-preview.png used on input line 5510.
+Package pdftex.def Info: theme-module-preview.png used on input line 5512.
 (pdftex.def)             Requested size: 469.755pt x 214.5002pt.
  [103 <./theme-module-preview.png>] [104
 
 ]
 Chapitre 9.
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 5555--5555
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 5557--5557
  [] 
  []
 
 <add.png, id=1883, 29.10875pt x 20.075pt>
 File: add.png Graphic file (type png)
  <use add.png>
-Package pdftex.def Info: add.png used on input line 5574.
+Package pdftex.def Info: add.png used on input line 5576.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add.png Graphic file (type png)
  <use add.png>
-Package pdftex.def Info: add.png used on input line 5574.
+Package pdftex.def Info: add.png used on input line 5576.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 
 <delete1.png, id=1884, 30.1125pt x 22.0825pt>
 File: delete1.png Graphic file (type png)
  <use delete1.png>
-Package pdftex.def Info: delete1.png used on input line 5574.
+Package pdftex.def Info: delete1.png used on input line 5576.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete1.png Graphic file (type png)
 
 <use delete1.png>
-Package pdftex.def Info: delete1.png used on input line 5574.
+Package pdftex.def Info: delete1.png used on input line 5576.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: add.png Graphic file (type png)
  <use add.png>
-Package pdftex.def Info: add.png used on input line 5574.
+Package pdftex.def Info: add.png used on input line 5576.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: add.png Graphic file (type png)
  <use add.png>
-Package pdftex.def Info: add.png used on input line 5574.
+Package pdftex.def Info: add.png used on input line 5576.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 File: delete1.png Graphic file (type png)
  <use delete1.png>
-Package pdftex.def Info: delete1.png used on input line 5574.
+Package pdftex.def Info: delete1.png used on input line 5576.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
 File: delete1.png Graphic file (type png)
 
 <use delete1.png>
-Package pdftex.def Info: delete1.png used on input line 5574.
+Package pdftex.def Info: delete1.png used on input line 5576.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  <add-document-window.png, id=1885, 455.7025pt x 407.5225pt>
 File: add-document-window.png Graphic file (type png)
 
 <use add-document-window.png>
-Package pdftex.def Info: add-document-window.png used on input line 5584.
+Package pdftex.def Info: add-document-window.png used on input line 5586.
 (pdftex.def)             Requested size: 455.70137pt x 407.5215pt.
 File: add-document-window.png Graphic file (type png)
  <use add-document-window.png>
-Package pdftex.def Info: add-document-window.png used on input line 5584.
+Package pdftex.def Info: add-document-window.png used on input line 5586.
 (pdftex.def)             Requested size: 455.70137pt x 407.5215pt.
  [105 <./add.png> <./delete1.png>]
 <delete-document-window.png, id=1896, 452.69125pt x 432.61626pt>
 File: delete-document-window.png Graphic file (type png)
 
 <use delete-document-window.png>
-Package pdftex.def Info: delete-document-window.png used on input line 5599.
+Package pdftex.def Info: delete-document-window.png used on input line 5601.
 (pdftex.def)             Requested size: 452.69014pt x 432.6152pt.
 File: delete-document-window.png Graphic file (type png)
  <use delete-document-window.png>
-Package pdftex.def Info: delete-document-window.png used on input line 5599.
+Package pdftex.def Info: delete-document-window.png used on input line 5601.
 (pdftex.def)             Requested size: 452.69014pt x 432.6152pt.
  [106 <./add-document-window.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5604--5607
+Underfull \hbox (badness 10000) in paragraph at lines 5606--5609
 
  []
 
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 5639--5639
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 5641--5641
  [] 
  []
 
@@ -3378,12 +3378,12 @@ Overfull \hbox (14.79999pt too wide) in paragraph at lines 5639--5639
 File: documents-infopanel-window.png Graphic file (type png)
 
 <use documents-infopanel-window.png>
-Package pdftex.def Info: documents-infopanel-window.png used on input line 5643
+Package pdftex.def Info: documents-infopanel-window.png used on input line 5645
 .
 (pdftex.def)             Requested size: 894.33907pt x 549.04991pt.
 File: documents-infopanel-window.png Graphic file (type png)
  <use documents-infopanel-window.png>
-Package pdftex.def Info: documents-infopanel-window.png used on input line 5643
+Package pdftex.def Info: documents-infopanel-window.png used on input line 5645
 .
 (pdftex.def)             Requested size: 469.755pt x 288.39865pt.
 
@@ -3392,7 +3392,7 @@ Package pdftex.def Info: documents-infopanel-window.png used on input line 5643
 File: document-module-preview.png Graphic file (type png)
 
 <use document-module-preview.png>
-Package pdftex.def Info: document-module-preview.png used on input line 5678.
+Package pdftex.def Info: document-module-preview.png used on input line 5680.
 (pdftex.def)             Requested size: 469.755pt x 189.05449pt.
  [109 <./document-module-preview.png>]
 [110
@@ -3400,96 +3400,96 @@ Package pdftex.def Info: document-module-preview.png used on input line 5678.
 ]
 Chapitre 10.
 
-Overfull \hbox (14.79999pt too wide) in paragraph at lines 5752--5752
+Overfull \hbox (14.79999pt too wide) in paragraph at lines 5754--5754
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5764--5767
+Underfull \hbox (badness 10000) in paragraph at lines 5766--5769
 
  []
 
 <info.png, id=1955, 17.06375pt x 18.0675pt>
 File: info.png Graphic file (type png)
  <use info.png>
-Package pdftex.def Info: info.png used on input line 5805.
+Package pdftex.def Info: info.png used on input line 5807.
 (pdftex.def)             Requested size: 17.06369pt x 18.06744pt.
 File: info.png Graphic file (type png)
  <use info.png>
-Package pdftex.def Info: info.png used on input line 5805.
+Package pdftex.def Info: info.png used on input line 5807.
 (pdftex.def)             Requested size: 17.06369pt x 18.06744pt.
 
 <layers.png, id=1956, 21.07875pt x 20.075pt>
 File: layers.png Graphic file (type png)
  <use layers.png>
-Package pdftex.def Info: layers.png used on input line 5805.
+Package pdftex.def Info: layers.png used on input line 5807.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: layers.png Graphic file (type png)
  <use layers.png>
-Package pdftex.def Info: layers.png used on input line 5805.
+Package pdftex.def Info: layers.png used on input line 5807.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 
 <map.png, id=1957, 28.105pt x 24.09pt>
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 5805.
+Package pdftex.def Info: map.png used on input line 5807.
 (pdftex.def)             Requested size: 28.10492pt x 24.08992pt.
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 5805.
+Package pdftex.def Info: map.png used on input line 5807.
 (pdftex.def)             Requested size: 28.10492pt x 24.08992pt.
 
 <process.png, id=1958, 22.0825pt x 17.06375pt>
 File: process.png Graphic file (type png)
  <use process.png>
-Package pdftex.def Info: process.png used on input line 5805.
+Package pdftex.def Info: process.png used on input line 5807.
 (pdftex.def)             Requested size: 22.08243pt x 17.06369pt.
 File: process.png Graphic file (type png)
 
 <use process.png>
-Package pdftex.def Info: process.png used on input line 5805.
+Package pdftex.def Info: process.png used on input line 5807.
 (pdftex.def)             Requested size: 22.08243pt x 17.06369pt.
 File: info.png Graphic file (type png)
  <use info.png>
-Package pdftex.def Info: info.png used on input line 5805.
+Package pdftex.def Info: info.png used on input line 5807.
 (pdftex.def)             Requested size: 17.06369pt x 18.06744pt.
 File: info.png Graphic file (type png)
  <use info.png>
-Package pdftex.def Info: info.png used on input line 5805.
+Package pdftex.def Info: info.png used on input line 5807.
 (pdftex.def)             Requested size: 17.06369pt x 18.06744pt.
 File: layers.png Graphic file (type png)
  <use layers.png>
-Package pdftex.def Info: layers.png used on input line 5805.
+Package pdftex.def Info: layers.png used on input line 5807.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: layers.png Graphic file (type png)
 
 <use layers.png>
-Package pdftex.def Info: layers.png used on input line 5805.
+Package pdftex.def Info: layers.png used on input line 5807.
 (pdftex.def)             Requested size: 21.07867pt x 20.07494pt.
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 5805.
+Package pdftex.def Info: map.png used on input line 5807.
 (pdftex.def)             Requested size: 28.10492pt x 24.08992pt.
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 5805.
+Package pdftex.def Info: map.png used on input line 5807.
 (pdftex.def)             Requested size: 28.10492pt x 24.08992pt.
 File: process.png Graphic file (type png)
  <use process.png>
-Package pdftex.def Info: process.png used on input line 5805.
+Package pdftex.def Info: process.png used on input line 5807.
 (pdftex.def)             Requested size: 22.08243pt x 17.06369pt.
 File: process.png Graphic file (type png)
 
 <use process.png>
-Package pdftex.def Info: process.png used on input line 5805.
+Package pdftex.def Info: process.png used on input line 5807.
 (pdftex.def)             Requested size: 22.08243pt x 17.06369pt.
  [111]
-Underfull \hbox (badness 10000) in paragraph at lines 5889--5892
+Underfull \hbox (badness 10000) in paragraph at lines 5891--5894
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5905--5908
+Underfull \hbox (badness 10000) in paragraph at lines 5907--5910
 
  []
 
@@ -3497,153 +3497,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 5905--5908
 File: publisher-main-conf.png Graphic file (type png)
 
 <use publisher-main-conf.png>
-Package pdftex.def Info: publisher-main-conf.png used on input line 5911.
+Package pdftex.def Info: publisher-main-conf.png used on input line 5913.
 (pdftex.def)             Requested size: 469.755pt x 263.87097pt.
  [112 <./info.png> <./layers.png> <./map.png> <./process.png>] <publisher-basel
 ayers-conf.png, id=1999, 1189.44376pt x 489.83pt>
 File: publisher-baselayers-conf.png Graphic file (type png)
 
 <use publisher-baselayers-conf.png>
-Package pdftex.def Info: publisher-baselayers-conf.png used on input line 5969.
+Package pdftex.def Info: publisher-baselayers-conf.png used on input line 5971.
 
 (pdftex.def)             Requested size: 469.755pt x 193.44708pt.
  [113 <./publisher-main-conf.png>]
 <osm-layer-icon.png, id=2009, 30.1125pt x 30.1125pt>
 File: osm-layer-icon.png Graphic file (type png)
  <use osm-layer-icon.png>
-Package pdftex.def Info: osm-layer-icon.png used on input line 6010.
+Package pdftex.def Info: osm-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: osm-layer-icon.png Graphic file (type png)
 
 <use osm-layer-icon.png>
-Package pdftex.def Info: osm-layer-icon.png used on input line 6010.
+Package pdftex.def Info: osm-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <mqstr-layer-icon.png, id=2010, 30.1125pt x 30.1125pt>
 File: mqstr-layer-icon.png Graphic file (type png)
 
 <use mqstr-layer-icon.png>
-Package pdftex.def Info: mqstr-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqstr-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqstr-layer-icon.png Graphic file (type png)
  <use mqstr-layer-icon.png>
-Package pdftex.def Info: mqstr-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqstr-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <mqsat-layer-icon.png, id=2011, 30.1125pt x 30.1125pt>
 File: mqsat-layer-icon.png Graphic file (type png)
 
 <use mqsat-layer-icon.png>
-Package pdftex.def Info: mqsat-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqsat-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqsat-layer-icon.png Graphic file (type png)
  <use mqsat-layer-icon.png>
-Package pdftex.def Info: mqsat-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqsat-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: osm-layer-icon.png Graphic file (type png)
  <use osm-layer-icon.png>
-Package pdftex.def Info: osm-layer-icon.png used on input line 6010.
+Package pdftex.def Info: osm-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: osm-layer-icon.png Graphic file (type png)
 
 <use osm-layer-icon.png>
-Package pdftex.def Info: osm-layer-icon.png used on input line 6010.
+Package pdftex.def Info: osm-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqstr-layer-icon.png Graphic file (type png)
  <use mqstr-layer-icon.png>
-Package pdftex.def Info: mqstr-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqstr-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqstr-layer-icon.png Graphic file (type png)
  <use mqstr-layer-icon.png>
-Package pdftex.def Info: mqstr-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqstr-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqsat-layer-icon.png Graphic file (type png)
 
 <use mqsat-layer-icon.png>
-Package pdftex.def Info: mqsat-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqsat-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: mqsat-layer-icon.png Graphic file (type png)
  <use mqsat-layer-icon.png>
-Package pdftex.def Info: mqsat-layer-icon.png used on input line 6010.
+Package pdftex.def Info: mqsat-layer-icon.png used on input line 6012.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <gmap-layer-icon.png, id=2014, 30.1125pt x 30.1125pt>
 File: gmap-layer-icon.png Graphic file (type png)
 
 <use gmap-layer-icon.png>
-Package pdftex.def Info: gmap-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gmap-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gmap-layer-icon.png Graphic file (type png)
  <use gmap-layer-icon.png>
-Package pdftex.def Info: gmap-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gmap-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <gsat-layer-icon.png, id=2015, 30.1125pt x 30.1125pt>
 File: gsat-layer-icon.png Graphic file (type png)
 
 <use gsat-layer-icon.png>
-Package pdftex.def Info: gsat-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gsat-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gsat-layer-icon.png Graphic file (type png)
  <use gsat-layer-icon.png>
-Package pdftex.def Info: gsat-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gsat-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <ghyb-layer-icon.png, id=2016, 30.1125pt x 30.1125pt>
 File: ghyb-layer-icon.png Graphic file (type png)
 
 <use ghyb-layer-icon.png>
-Package pdftex.def Info: ghyb-layer-icon.png used on input line 6053.
+Package pdftex.def Info: ghyb-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ghyb-layer-icon.png Graphic file (type png)
  <use ghyb-layer-icon.png>
-Package pdftex.def Info: ghyb-layer-icon.png used on input line 6053.
+Package pdftex.def Info: ghyb-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <gter-layer-icon.png, id=2017, 30.1125pt x 30.1125pt>
 File: gter-layer-icon.png Graphic file (type png)
 
 <use gter-layer-icon.png>
-Package pdftex.def Info: gter-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gter-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gter-layer-icon.png Graphic file (type png)
  <use gter-layer-icon.png>
-Package pdftex.def Info: gter-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gter-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gmap-layer-icon.png Graphic file (type png)
  <use gmap-layer-icon.png>
-Package pdftex.def Info: gmap-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gmap-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gmap-layer-icon.png Graphic file (type png)
 
 <use gmap-layer-icon.png>
-Package pdftex.def Info: gmap-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gmap-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gsat-layer-icon.png Graphic file (type png)
  <use gsat-layer-icon.png>
-Package pdftex.def Info: gsat-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gsat-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gsat-layer-icon.png Graphic file (type png)
  <use gsat-layer-icon.png>
-Package pdftex.def Info: gsat-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gsat-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ghyb-layer-icon.png Graphic file (type png)
 
 <use ghyb-layer-icon.png>
-Package pdftex.def Info: ghyb-layer-icon.png used on input line 6053.
+Package pdftex.def Info: ghyb-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ghyb-layer-icon.png Graphic file (type png)
  <use ghyb-layer-icon.png>
-Package pdftex.def Info: ghyb-layer-icon.png used on input line 6053.
+Package pdftex.def Info: ghyb-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gter-layer-icon.png Graphic file (type png)
  <use gter-layer-icon.png>
-Package pdftex.def Info: gter-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gter-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: gter-layer-icon.png Graphic file (type png)
 
 <use gter-layer-icon.png>
-Package pdftex.def Info: gter-layer-icon.png used on input line 6053.
+Package pdftex.def Info: gter-layer-icon.png used on input line 6055.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
  [114 <./publisher-baselayers-conf.png> <./osm-layer-icon.png> <./mqstr-layer-i
 con.png> <./mqsat-layer-icon.png>]
@@ -3651,98 +3651,98 @@ con.png> <./mqsat-layer-icon.png>]
 File: bstr-layer-icon.png Graphic file (type png)
 
 <use bstr-layer-icon.png>
-Package pdftex.def Info: bstr-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bstr-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bstr-layer-icon.png Graphic file (type png)
  <use bstr-layer-icon.png>
-Package pdftex.def Info: bstr-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bstr-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <bsat-layer-icon.png, id=2032, 30.1125pt x 30.1125pt>
 File: bsat-layer-icon.png Graphic file (type png)
 
 <use bsat-layer-icon.png>
-Package pdftex.def Info: bsat-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bsat-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bsat-layer-icon.png Graphic file (type png)
  <use bsat-layer-icon.png>
-Package pdftex.def Info: bsat-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bsat-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <bhyb-layer-icon.png, id=2033, 30.1125pt x 30.1125pt>
 File: bhyb-layer-icon.png Graphic file (type png)
 
 <use bhyb-layer-icon.png>
-Package pdftex.def Info: bhyb-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bhyb-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bhyb-layer-icon.png Graphic file (type png)
  <use bhyb-layer-icon.png>
-Package pdftex.def Info: bhyb-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bhyb-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bstr-layer-icon.png Graphic file (type png)
  <use bstr-layer-icon.png>
-Package pdftex.def Info: bstr-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bstr-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bstr-layer-icon.png Graphic file (type png)
 
 <use bstr-layer-icon.png>
-Package pdftex.def Info: bstr-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bstr-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bsat-layer-icon.png Graphic file (type png)
  <use bsat-layer-icon.png>
-Package pdftex.def Info: bsat-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bsat-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bsat-layer-icon.png Graphic file (type png)
  <use bsat-layer-icon.png>
-Package pdftex.def Info: bsat-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bsat-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bhyb-layer-icon.png Graphic file (type png)
 
 <use bhyb-layer-icon.png>
-Package pdftex.def Info: bhyb-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bhyb-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: bhyb-layer-icon.png Graphic file (type png)
  <use bhyb-layer-icon.png>
-Package pdftex.def Info: bhyb-layer-icon.png used on input line 6088.
+Package pdftex.def Info: bhyb-layer-icon.png used on input line 6090.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <ignm-layer-icon.png, id=2036, 30.1125pt x 30.1125pt>
 File: ignm-layer-icon.png Graphic file (type png)
 
 <use ignm-layer-icon.png>
-Package pdftex.def Info: ignm-layer-icon.png used on input line 6116.
+Package pdftex.def Info: ignm-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ignm-layer-icon.png Graphic file (type png)
  <use ignm-layer-icon.png>
-Package pdftex.def Info: ignm-layer-icon.png used on input line 6116.
+Package pdftex.def Info: ignm-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <igns-layer-icon.png, id=2037, 30.1125pt x 30.1125pt>
 File: igns-layer-icon.png Graphic file (type png)
 
 <use igns-layer-icon.png>
-Package pdftex.def Info: igns-layer-icon.png used on input line 6116.
+Package pdftex.def Info: igns-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: igns-layer-icon.png Graphic file (type png)
  <use igns-layer-icon.png>
-Package pdftex.def Info: igns-layer-icon.png used on input line 6116.
+Package pdftex.def Info: igns-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ignm-layer-icon.png Graphic file (type png)
  <use ignm-layer-icon.png>
-Package pdftex.def Info: ignm-layer-icon.png used on input line 6116.
+Package pdftex.def Info: ignm-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: ignm-layer-icon.png Graphic file (type png)
 
 <use ignm-layer-icon.png>
-Package pdftex.def Info: ignm-layer-icon.png used on input line 6116.
+Package pdftex.def Info: ignm-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: igns-layer-icon.png Graphic file (type png)
  <use igns-layer-icon.png>
-Package pdftex.def Info: igns-layer-icon.png used on input line 6116.
+Package pdftex.def Info: igns-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 File: igns-layer-icon.png Graphic file (type png)
  <use igns-layer-icon.png>
-Package pdftex.def Info: igns-layer-icon.png used on input line 6116.
+Package pdftex.def Info: igns-layer-icon.png used on input line 6118.
 (pdftex.def)             Requested size: 30.11241pt x 30.11241pt.
 
 <publisher-overlays-conf.png, id=2039, 1191.45125pt x 397.485pt> [115 <./gmap-l
@@ -3752,20 +3752,20 @@ on.png> <./bstr-layer-icon.png> <./bsat-layer-icon.png> <./bhyb-layer-icon.png>
 File: publisher-overlays-conf.png Graphic file (type png)
 
 <use publisher-overlays-conf.png>
-Package pdftex.def Info: publisher-overlays-conf.png used on input line 6179.
+Package pdftex.def Info: publisher-overlays-conf.png used on input line 6181.
 (pdftex.def)             Requested size: 469.755pt x 156.71675pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6181--6184
+Underfull \hbox (badness 10000) in paragraph at lines 6183--6186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6185--6188
+Underfull \hbox (badness 10000) in paragraph at lines 6187--6190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6189--6192
+Underfull \hbox (badness 10000) in paragraph at lines 6191--6194
 
  []
 
@@ -3773,15 +3773,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 6189--6192
 File: publisher-map-conf.png Graphic file (type png)
 
 <use publisher-map-conf.png>
-Package pdftex.def Info: publisher-map-conf.png used on input line 6195.
+Package pdftex.def Info: publisher-map-conf.png used on input line 6197.
 (pdftex.def)             Requested size: 469.755pt x 221.82637pt.
  [116 <./publisher-overlays-conf.png> <./publisher-map-conf.png>]
 File: publisher-map-conf.png Graphic file (type png)
  <use publisher-map-conf.png>
-Package pdftex.def Info: publisher-map-conf.png used on input line 6256.
+Package pdftex.def Info: publisher-map-conf.png used on input line 6258.
 (pdftex.def)             Requested size: 469.755pt x 221.82637pt.
  [117]
-Underfull \hbox (badness 10000) in paragraph at lines 6307--6313
+Underfull \hbox (badness 10000) in paragraph at lines 6309--6315
 
  []
 
@@ -3789,39 +3789,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 6307--6313
 File: publisher-controls-conf.png Graphic file (type png)
 
 <use publisher-controls-conf.png>
-Package pdftex.def Info: publisher-controls-conf.png used on input line 6319.
+Package pdftex.def Info: publisher-controls-conf.png used on input line 6321.
 (pdftex.def)             Requested size: 469.755pt x 169.41663pt.
  [118 <./publisher-controls-conf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 6418--6421
+Underfull \hbox (badness 10000) in paragraph at lines 6420--6423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6422--6425
+Underfull \hbox (badness 10000) in paragraph at lines 6424--6427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6474--6477
+Underfull \hbox (badness 10000) in paragraph at lines 6476--6479
 
  []
 
 [119]
-Underfull \hbox (badness 10000) in paragraph at lines 6526--6529
+Underfull \hbox (badness 10000) in paragraph at lines 6528--6531
 
  []
 
 (./MapMint.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6569.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6571.
  [120]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 6569.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6571.
  (./MapMint.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 6569.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6569.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 6571.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6571.
 
 Package rerunfilecheck Info: File `MapMint.out' has not changed.
 (rerunfilecheck)             Checksum: CF48AE9630977A85EB42142BA79E5A5E;9099.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6569.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6571.
  ) 
 Here is how much of TeX's memory you used:
  11778 strings out of 494429
@@ -3830,14 +3830,14 @@ Here is how much of TeX's memory you used:
  14070 multiletter control sequences out of 15000+600000
  65972 words of font info for 69 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 38i,14n,51p,828b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,51p,803b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MapMint.pdf (126 pages, 6099644 bytes).
+Output written on MapMint.pdf (126 pages, 6099907 bytes).
 PDF statistics:
  2229 PDF objects out of 2487 (max. 8388607)
  1717 compressed objects within 18 object streams
