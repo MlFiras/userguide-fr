@@ -7,7 +7,7 @@ Panneau de configuration d'une table
     :depth: 4
     :backlinks: top
     
-Le panneau d'information des tables permet de visualiser et d'éditer
+Le panneau de configuration d'une table permet de visualiser et d'éditer
 les propriétés d'une table séléctionnée dans le :doc:`tbllist`. Ce
 panneau est composé de 5 onglets.
 
@@ -53,7 +53,7 @@ Paramètres
 
 Le panneau paramètres permet de définir :
 
- * Nom : le groupe d'utilisateur à accès à la couche en lecture
+ * Nom : le nom pour la table à afficher comme titre de la page
  * Description: la description qui sera affichée au dessus des tables, formulaires de saisie et interface de création de rapports 
  * Table: la table concernée
 
@@ -111,7 +111,7 @@ colonnes à afficher et la manière dont les afficher :
 O            Ordonencement des valeurs
 A            Affichage de la colonne
 R            Permettre la recherche en utilisant cette colonne (non utilisé)
-Titre            Nom de la colonne (non modifiable)
+Nom            Nom de la colonne (non modifiable)
 Étiquette      Titre de la colone
 Valeur       Valeur à afficher pour la colonne (toute requête SQL valide peut être utilisée)
 Largeur      Largeur de la colonne affichée
