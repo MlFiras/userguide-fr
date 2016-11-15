@@ -7,7 +7,7 @@ Bienvenue dans le guide utilisateur de l'application `MapMint <http://mapmint.co
 
 .. note::
     Le guide utilisateur est aussi disponible aux formats 
-    `PDF <../latex/MapMint.pdf>`__ |image|  et `ePub <../epub/MapMintGuideutilisateur.epub>`__ |image2|
+    `PDF <./latex/MapMint.pdf>`__ |image|  et `ePub <./epub/MapMintGuideutilisateur.epub>`__ |image2|
     
 .. |image| image:: _static/images/pdf.png
    :height: 16
