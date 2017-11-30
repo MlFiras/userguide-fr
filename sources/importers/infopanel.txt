@@ -1,0 +1,95 @@
+.. _importations-infopanel:
+
+Panneau de configuration d'une importation
+====================================
+
+.. contents:: importation des matières
+    :depth: 4
+    :backlinks: top
+    
+Le panneau de configuration d'une importation permet de visualiser et d'éditer
+les propriétés d'une importation séléctionnée dans le :doc:`implist`. Ce
+panneau est composé de trois (3) onglets.
+
+.. |indmet| image:: ../_static/images/info.png
+   :height: 24
+   :alt: Indicator metadata icon
+
+.. |indcds| image:: ../_static/images/link.png
+   :height: 24
+   :alt: Convert datasource icon
+
+.. |inddiu| image:: ../_static/images/table.png
+   :width: 24
+   :alt: Tables
+
+     
+   
+============ ================ =============
+**Icône**    **Description**   **Action**                  
+------------ ---------------- ------------- 
+|indcds|     Metadonnées		  Configuration des paramètres de base
+|indmet|     Données		      Visualisation des informations sur les colonnes d'une importation
+|indpds|     Table		        Configuration des vues associées à une importation
+============ ================ =============							
+
+.. |infthw| image:: ../_static/images/importations-infopanel-window.png
+	:scale: 80%
+	:alt: importations information window
+
+.. _importations-param:
+
+Métadonnées
+----------
+
+Le panneau metadonnées permet de définir :
+
+ * Nom : le nom pour l'importation à afficher comme lien vers l'importation
+ * Description: la description de l'imortation qui sera créée, formulaires de saisie et interface d'importation des données.
+ * Groupes permet de gérer les groupes d’utilisateurs qui auront accès
+ * Thèmes permet de configurer le thème ou module correspondant à l'importation créée
+ * Table permet de lier l’importation créée à la Table concernée
+
+|infthw|
+
+Données
+------------
+
+L’onglet Donnée affiche un formulaire qui permet de définir les données à importer, notamment
+* le nom du fichier,
+* le chemin du fichier,
+* page ou feuille s’il s’agit d’un tableur Excel,
+* la référence (booléenne),
+* le type (complexe ou linéaire)
+* le nom de la table de liaison
+
+
+.. |infthw1| image:: ../_static/images/importation-data-view.png
+	:scale: 80%
+	:alt: importations information window
+
+|infthw1|
+
+Table
+----
+
+Cet onglet affiche u formulaire qui permet de configurer les données à importer. Il est composé de cinq (5) colonnes :
+
+Étiquette Nom de la colonne de la feuille Excel ou de la page à importer
+Nom Nom correspondante avec la table (modifiable)
+Type Type du champ à importer
+Clause Clause permettant de filtrer les informations à importer
+Value Valeur à importer pour la colonne
+
+
+
+.. |infthw2| image:: ../_static/images/importation-tab-settings.png
+	:scale: 80%
+	:alt: importations table window
+
+
+
+
+
+
+ 

@@ -1,0 +1,65 @@
+.. _importations-tbllist:
+
+Panneau de importations
+=====================
+
+Les importations crées et rendues accessible via des liens sont disponibles pour les
+utilisateurs autorisés sur l'interface de visualisation des table.
+
+.. contents:: importation des matières
+    :depth: 4
+    :backlinks: top
+    
+.. |adddc| image:: ../_static/images/add.png
+   :height: 24
+   :alt: Ajouter une importation
+
+.. |remdc| image:: ../_static/images/delete.png
+   :height: 24
+   :alt: Supprimer une importation
+   
+============ ============================================
+**Icône**    **Action**       
+------------ --------------------------------------------
+|adddc|      Ajoute une nouvelle importation 	           
+|remdc|      Supprime une importation			  	           
+============ ============================================	 
+
+Ajouter une nouvelle importation
+-------------------------------------
+
+Pour ajouter une nouvelle importation, veuillez cliquer sur l'icone
+correspodante dans la barre d'outils du panneau de gauche. Cela affiche
+le formulaire d'ajout de l'importation comme illustré ci-dessous.
+
+.. |addtcw| image:: ../_static/images/add-importation-window.png
+	:scale: 80%
+	:alt: Add new importation
+
+|addtcw|
+
+Veuillez spécifier : l'importation concernée, en sélectionnant un schéma puis une importation du
+schéma choisi, un nom dans la zone de texte prévue à cet effet puis
+cliquer sur le bouton "Ajouter". Cela entraine la disparution du
+formulaire, l'ajout de l'importation à la liste et le rechargement du
+panneau de l' :importations:`infopanel`, à droite de l'écran. 
+
+Supprimer une importation
+---------------------------------
+
+Pour supprimer une importation existante, veuillez cliquer sur le nom de
+l'importation dans la liste, puis sur l'icône de suppression dans la barre
+d'outils du panneau de gauche. Cela affiche le formulaire de
+suppression de l'importation illustré ci-dessous.
+
+.. |deltcw| image:: ../_static/images/delete-importation-window.png
+	:scale: 80%
+	:alt: Delete document
+
+|deltcw|
+
+Cliquez ensuite sur le bouton "Supprimer". Cela entraine la
+disparution du formulaire et la suppression de l'importation de la liste.
+
+.. warning::
+	La suppression d'une importation est permanente et irréversible

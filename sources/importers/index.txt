@@ -1,0 +1,30 @@
+.. _importers:
+
+Module de gestion des importers
+================================
+
+Cette section regroupe la documentation relative au module de gestion
+des importations dans MapMint.
+
+Le module de gestion des importations permet la publication de divers importations
+qu'il sera possible de visualiser, éditer et créer des rapport basé
+sur une entité ou l'ensemble des données de la table.
+
+L'interface de ce module est divisée en deux parties : 
+
+ * la partie de gauche appelée le :doc:`implist`, elle liste l'ensemble des importations crées et permet l'ajout et la suppression d'autres importations
+ * la partie de droite appelée le :doc:`infopanel`, elle permet de saisir les informations relatives à une importation
+
+.. toctree::
+   :maxdepth: 2
+   
+   implist
+   infopanel
+
+
+.. |mmtblpr| image:: ../_static/images/importer-module-preview.png
+   :width: 100%
+   :alt: Impoerters module preview image
+   
+|mmtblpr|
+
