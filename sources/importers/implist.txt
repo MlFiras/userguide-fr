@@ -42,7 +42,7 @@ Veuillez spécifier : l'importation concernée, en sélectionnant un schéma pui
 schéma choisi, un nom dans la zone de texte prévue à cet effet puis
 cliquer sur le bouton "Ajouter". Cela entraine la disparution du
 formulaire, l'ajout de l'importation à la liste et le rechargement du
-panneau de l' :importations:`infopanel`, à droite de l'écran. 
+panneau de l':_importations:`infopanel`, à droite de l'écran. 
 
 Supprimer une importation
 ---------------------------------

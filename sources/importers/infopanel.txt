@@ -30,7 +30,7 @@ panneau est composé de trois (3) onglets.
 ------------ ---------------- ------------- 
 |indcds|     Metadonnées		  Configuration des paramètres de base
 |indmet|     Données		      Visualisation des informations sur les colonnes d'une importation
-|indpds|     Table		        Configuration des vues associées à une importation
+|inddiu|     Table		        Configuration des vues associées à une importation
 ============ ================ =============							
 
 .. |infthw| image:: ../_static/images/importations-infopanel-window.png
