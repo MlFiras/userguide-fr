@@ -1327,10 +1327,10 @@ The territory management module manages a hierarchy of territories that will be 
 The page of the module is divided into two parts:
 \begin{itemize}
 \item {} 
-the left side called the: doc: \emph{territorieslist} it all territories created list and allows the addition and removal of territories
+the left side called the {\hyperref[territories/territorieslist::doc]{\emph{\emph{Panel territories}}}} it all territories created list and allows the addition and removal of territories
 
 \item {} 
-the right part called the: doc: \emph{infopanel} he used to enter the information at a document
+the right part called the {\hyperref[territories/infopanel::doc]{\emph{\emph{Information panel}}}} he used to enter the information at a document
 
 \end{itemize}
 
@@ -1566,7 +1566,7 @@ Adding an external server OGC
 
 
 \begin{notice}{warning}{Warning:}
-The name of a storage space must not contain any  * space* * emphasis*  * or special characters *
+The name of a storage space must not contain any  \emph{space} \emph{emphasis}  \emph{or special characters}
 \end{notice}
 
 
@@ -1595,7 +1595,7 @@ This will close the window and the addition of new storage space in the left abr
 Once the storage space created, make a right click on it and click ``Refresh''.
 \end{notice}
 
-Click on the storage space causes the display of data sources contained in the panel: doc: \emph{datasources}.
+Click on the storage space causes the display of data sources contained in the panel {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}}.
 
 
 \subsubsection{Database}
@@ -1898,7 +1898,7 @@ On first access to storage space, creates a specific MapMint Mapfile MapServer a
 \end{minipage}}
 \begin{center}\setlength{\fboxsep}{5pt}\shadowbox{\box0}\end{center}
 
-A data source consists of one or more spatially referenced information contained by one of the: doc: \emph{datastores} available. MapMint supports several types of data sources in this section.
+A data source consists of one or more spatially referenced information contained by one of the {\hyperref[data/datastores::doc]{\emph{\emph{Data Store}}}} available. MapMint supports several types of data sources in this section.
 
 The pictograms used to illustrate the type of data source are shown in the following table.
 
@@ -2261,10 +2261,10 @@ The use of this feature remove the source of data storage space and removes the 
 
 \subsubsection{Opening}
 \label{data/datasources:ouverture}
-To open a data source in the: doc: \emph{../ maps / index}, please click on the corresponding icon in the: ref:{}` datasource-table-label{}`. This causes the opening of the data source in the: doc: \emph{../ maps / index}. The data source is added to the root of the tree layers in a project * and * Untitled\_0 shown with the default style.
+To open a data source in the \code{../maps /index}, please click on the corresponding icon in the {\hyperref[data/datasources:datasource-table-label]{\emph{Bar Data source tools}}}. This causes the opening of the data source in the \code{../ maps/index}. The data source is added to the root of the tree layers in a project \emph{and} Untitled\_0 shown with the default style.
 
 \begin{notice}{note}{Note:}
-After loading the data source, it is recommended to save the project * * Untitled\_0 under an appropriate name
+After loading the data source, it is recommended to save the project \emph{Untitled\_0} under an appropriate name
 \end{notice}
 
 
@@ -2291,14 +2291,14 @@ After loading the data source, it is recommended to save the project * * Untitle
 \end{minipage}}
 \begin{center}\setlength{\fboxsep}{5pt}\shadowbox{\box0}\end{center}
 
-The geoprocessing functionality of MapMint allowing the user to create new doc: \emph{datasources} using those already available in the: doc:{}` ../ data / index{}`.
+The geoprocessing functionality of MapMint allowing the user to create new {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}} using those already available in the {\hyperref[data/index::doc]{\emph{\emph{Data Management Module}}}}.
 
 
 \subsection{Converter vector data sources}
 \label{data/processing:convertisseur-de-sources-de-donnees-vectorielles}
-The vector data converter provides a user interface to the line tool command \emph{ogr2ogr \textless{}http://www.gdal.org/ogr2ogr.html\textgreater{} \_\_} {\color{red}\bfseries{}{}`}the OGR library \textless{}\href{http://www.gdal.org/ogr/}{http://www.gdal.org/ogr/}\textgreater{}  {\color{red}\bfseries{}{}`}\_\_. It allows to convert and re-project the vector data source.
+The vector data converter provides a user interface to the command line tool  \href{http://www.gdal.org/ogr2ogr.html}{ogr2ogr} from  {\color{red}\bfseries{}{}`}the OGR library \textless{}\href{http://www.gdal.org/ogr/}{http://www.gdal.org/ogr/}\textgreater{} {\color{red}\bfseries{}{}`}\_\_. It allows to convert and re-project the vector data source.
 
-To access, click on the corresponding icon in the toolbar of the: doc: \emph{datasources}. This causes the display of the converter form with the selected data source input and displayed in the ``Source''.
+To access, click on the corresponding icon in the toolbar of the {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}}. This causes the display of the converter form with the selected data source input and displayed in the ``Source''.
 
 \begin{notice}{note}{Note:}
 You can assign a projection to the selected data source
@@ -2306,7 +2306,7 @@ You can assign a projection to the selected data source
 
 \includegraphics[width=1.000\linewidth]{vector-converter-window.png}
 
-First select one of the: doc: \emph{data stores} available, listed in the dropdown list'' Storage ''. The new data source will be created in this storage.
+First select one of the \code{data stores} available, listed in the dropdown list'' Storage ''. The new data source will be created in this storage.
 
 Then complete the full name of the new data source in the text field provided for this purpose.
 
@@ -2320,7 +2320,7 @@ The name of the target data source must contain the extension of the format (i.e
 
 Select then the desired vector format for the new data source using the drop down list for this purpose.
 
-You can also use the controls -sql * * and * * to simplify \emph{ogr2ogr \textless{}http://www.gdal.org/ogr2ogr.html\textgreater{}} \_\_ of optional way. Click the check boxes, which displays a text box where you can enter the parameters for creating the new data source.
+You can also use the controls \emph{-sql} and \emph{simplify} from \emph{ogr2ogr \textless{}http://www.gdal.org/ogr2ogr.html\textgreater{}} \_\_ of optional way. Click the check boxes, which displays a text box where you can enter the parameters for creating the new data source.
 
 \begin{notice}{note}{Note:}
 Please refer to the \emph{documentation \textless{}http://www.gdal.org/ogr2ogr.html\textgreater{}} \_\_ of ogr2ogr to use these features
@@ -2331,9 +2331,9 @@ Finally, click the ``Run'' button at the bottom of the window. Ela will convert 
 
 \subsection{treatment utility raster data sources}
 \label{data/processing:utilitaire-de-traitements-des-sources-de-donnees-matricielles}
-The raster processing utility provides a user interface to the command \emph{gdaldem \textless{}http://www.gdal.org/gdaldem.html\textgreater{} \_\_} \emph{the GDAL \textless{}http://www.gdal.org\textgreater{}} \_\_. It allows for new sources of raster data type.
+The raster processing utility provides a user interface to the command \href{http://www.gdal.org/gdaldem.html}{gdaldem} from  the \emph{GDAL \textless{}http://www.gdal.org\textgreater{}} \_\_ library. It allows for new sources of raster data type.
 
-To access, click on the corresponding icon in the toolbar of the: doc: \emph{datasources}. This causes the opening of the window treatment utility with the selected data source entry.
+To access, click on the corresponding icon in the toolbar of the {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}}. This causes the opening of the window treatment utility with the selected data source entry.
 
 \includegraphics[width=1.000\linewidth]{process-raster-window.png}
 
@@ -2371,22 +2371,22 @@ Generates a data source containing cost values
 \begin{description}
 \item[{Dans le cas de la méthode \emph{hillshade}, veuillez renseigner les informations suivantes dans les chmaps prévus à cet effet:}] \leavevmode\begin{itemize}
 \item {} 
-\emph{Z-Factor} (Facteur ``Z'', soit la valeur d'éxagération verticale utilisée pour le calcul)
+\emph{Z-Factor}  (Factor ``Z'' or the vertical exaggeration value used for the calculation)
 
 \item {} 
 \emph{Azimut} (La valeur d'orientation de la source lumineuse utilisée pour le calcul)
 
 \item {} 
-\emph{Altitude} (La valeur d'altitude de la source lumineuse utilisée pour le calcul)
+\emph{Altitude}  (Altitude value of the light source used for the calculation)
 
 \item {} 
-\emph{Scale} (Le rapport entre les unités horizontales et verticales de la source de données)
+{\color{red}\bfseries{}*}Scale * (The ratio of the horizontal and vertical units of the data source)
 
 \end{itemize}
 
 \item[{Dans le cas de la méthode \emph{slope}, veuillez renseigner les informations suivantes dans les chmaps prévus à cet effet:}] \leavevmode\begin{itemize}
 \item {} 
-\emph{Scale} (Le rapport entre les unités horizontales et verticales de la source de données)
+{\color{red}\bfseries{}*}Scale * (The ratio of the horizontal and vertical units of the data source)
 
 \end{itemize}
 
