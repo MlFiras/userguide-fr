@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Presentation</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="indicatorstree.html" title="Panel indicators"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Module creation indicators"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Module creation indicators</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="presentation">
+<span id="indicators-presentation"></span><h1>Presentation</h1>
+<div class="section" id="qu-est-ce-qu-un-indicateur">
+<h2>What is an indicator ?</h2>
+<p>A MapMint indicator is a map (map file) gathering statistical and geometric information from the joining of two different data sources. It is created by the user through the steps of :doc: the configuration of an indicator .</p>
+<p>An indicator is defined by the following, all accessible from the public interface after publishing the indicator:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Elements</strong></p>
+</td>
+<td><strong>Description</strong></td>
+</tr>
+<tr class="row-even"><td><p class="first last">Title</p>
+</td>
+<td><p class="first last">String briefly describing the indicator</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Map</p>
+</td>
+<td><p class="first last">Mapping of the indicator (map file)</p>
+</td>
+</tr>
+<tr class="row-even"><td>Table</td>
+<td><p class="first last">Tables of the attributes indicator</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="first last">Graph</p>
+</td>
+<td><p class="first last">Graphic (histogram or pie chart) of the indicator</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last">Report</p>
+</td>
+<td><p class="first last">Document containing information on the indicator (maps, tables, graphs ...)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fonctionnement-general-du-module">
+<h2>General operation of the module</h2>
+<p>The creation module of indicators allows the user to configure and publish indicators.</p>
+<p>It records the parameters entered by the user, performs join between sources of spatial and statistical data, the indicator calculates and records the resulting data source in a specific project MapMint (mapfile).</p>
+<p>The indicator is finally released automatically in WMS and WFS in a specific map viewer named <strong>indicators</strong> that must exist in the publication of indicators.</p>
+</div>
+<div class="section" id="prerequis-techniques">
+<h2>Technical requirements</h2>
+<p>To use the indicator module, it is necessary to follow the module&#8217;s activation process described below.</p>
+<div class="highlight-guess"><div class="highlight"><pre>mkdir /var/data/indexes_maps
+chown www-data:www-data -R /var/data/indexes_maps
+mkdir /chemin/vers/mapmint/public_map/idx_templates
+chown www-data:www-data -R /chemin/vers/mapmint/public_map/idx_templates
+psql mmdb -f  /chemin/vers/mapmint/template/sql/indicators.sql
+</pre></div>
+</div>
+<p>Then you must assign the value <code class="docutils literal"><span class="pre">true</span></code> to the key <code class="docutils literal"><span class="pre">indicators</span></code> of the section <code class="docutils literal"><span class="pre">[main]</span></code> in order to use the module from the administration interface.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In version 1 of MapMint it was necessary to have a key <code class="docutils literal"><span class="pre">indexes</span></code> having the value <code class="docutils literal"><span class="pre">true</span></code> to enable this module. It is preferable that also set this value.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2016 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>

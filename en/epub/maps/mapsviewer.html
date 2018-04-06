@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Map Viewer</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+
+     
+
+  </head>
+  <body role="document">
+<!-- Begin Header -->
+<div id="wrapper">
+  	<div id="myheader">
+    	<div class="hleft">
+    	  <h1 class="title"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+    	</div>
+		<div class="hright"></div>
+  	</div>
+  	<div id="mysubheader">
+  	<h1 class="msg">Guide <span>utilisateur</span></h1>
+  	</div>
+</div>
+<!-- End Header -->
+    
+
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapMint</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="visualiseur-de-cartes">
+<span id="maps-mapsviewer"></span><h1><a class="toc-backref" href="#table-des-matieres">Map Viewer</a></h1>
+<div class="contents topic" id="table-des-matieres">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#visualiseur-de-cartes" id="id1">Map Viewer</a><ul>
+<li><a class="reference internal" href="#outils-de-navigation" id="id2">navigation tools</a><ul>
+<li><a class="reference internal" href="#deplacer-la-carte" id="id3">Move the map</a></li>
+<li><a class="reference internal" href="#zoomer-par-selection-rectangulaire" id="id4">Zoom by rectangle selection</a></li>
+<li><a class="reference internal" href="#zoomer-sur-l-etendue-maximale" id="id5">Zoom to the maximum extent</a></li>
+<li><a class="reference internal" href="#zoomer-a-une-echelle-predefinies" id="id6">Zoom to a predefined scale</a></li>
+<li><a class="reference internal" href="#slider-de-zoom" id="id7">Zoom Slider</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#importateur-openstreetmap" id="id8">OpenStreetMap importer</a></li>
+<li><a class="reference internal" href="#couches-de-fonds" id="id9">funds layers</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The map viewer is the cartographic interface: doc: <cite>../ maps / index</cite>.</p>
+<div class="section" id="outils-de-navigation">
+<h2><a class="toc-backref" href="#table-des-matieres">navigation tools</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/pan-icon.png"><img alt="Pan map icon" src="../_images/pan-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Move the map by holding the mouse cursor</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/zoomin-icon.png"><img alt="ZoomBox icon" src="../_images/zoomin-icon.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Zoom on a rectangular range defined by the user</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first last"><a class="reference internal" href="../_images/zoomtomaxextent-icon.png"><img alt="Zoom to Max Extent icon" src="../_images/zoomtomaxextent-icon.png" style="width: 24px; height: 24px;" /></a></p>
+</td>
+<td><p class="first last">Zoom to the maximum extent map (global scope)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="deplacer-la-carte">
+<h3><a class="toc-backref" href="#table-des-matieres">Move the map</a></h3>
+<p>This feature is enabled by default. In case you used any other navigation tool, click on the corresponding icon in the toolbar to return to move mode, then move the map by holding your cursor support.</p>
+</div>
+<div class="section" id="zoomer-par-selection-rectangulaire">
+<h3><a class="toc-backref" href="#table-des-matieres">Zoom by rectangle selection</a></h3>
+<p>To zoom by rectangular selection, click on the corresponding icon in the tool bar and then click on the map and draw a rectangle by dragging your cursor. This causes the zoom of the map on the geographical scope defined by the rectangle.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can also zoom by rectangular selection by pressing the Shift key on your keyboard and then drawing a rectangle on the map</p>
+</div>
+</div>
+<div class="section" id="zoomer-sur-l-etendue-maximale">
+<h3><a class="toc-backref" href="#table-des-matieres">Zoom to the maximum extent</a></h3>
+<p>To zoom to the maximum extent of the map, click on the corresponding icon in the toolbar. This causes the zoom of the map on the global scope (ie -180, _90, 180, 90).</p>
+</div>
+<div class="section" id="zoomer-a-une-echelle-predefinies">
+<h3><a class="toc-backref" href="#table-des-matieres">Zoom to a predefined scale</a></h3>
+<p>The dropdown list at the top right of the viewer allows you to zoom to predefined scales. Clicking on a scale drives the zoom of the map corresponding to the level of zoom.</p>
+</div>
+<div class="section" id="slider-de-zoom">
+<h3><a class="toc-backref" href="#table-des-matieres">Zoom Slider</a></h3>
+<p>The zoom slider at the top left of the viewer allows you to zoom and move the map. Click on one of the directional arrows in the top of the map moves in the corresponding direction.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can also move the map by holding your cursor pressing on the &#8220;joystick&#8221; in the center of the top of the slider and moving the</p>
+</div>
+<p>Click on the toolbar zoom levels set in the bottom of the slider causes the zoom of the map to the corresponding level.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can also click on a predefined zoom level (continent, country, city, house) to the right of the slider bar</p>
+</div>
+<p><a class="reference internal" href="../_images/zoom-slider.png"><img alt="Zoom slider preview" src="../_images/zoom-slider.png" style="width: 115.2px; height: 196.0px;" /></a></p>
+</div>
+</div>
+<div class="section" id="importateur-openstreetmap">
+<h2><a class="toc-backref" href="#table-des-matieres">OpenStreetMap importer</a></h2>
+<p>The OpenStreetMap data importer to import items ( &#8220;nodes&#8221;) and lines ( &#8220;ways&#8221;) from the OpenStreetMap database.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/import-osm.png"><img alt="OSM Importer icon" src="../_images/import-osm.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Opens the Import window OpenStreetMap data</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>To open it, click on the corresponding icon in the Viewer toolbar.</p>
+<p><a class="reference internal" href="../_images/osm-importer-window.png"><img alt="OSM Importer window" src="../_images/osm-importer-window.png" style="width: 289.6px; height: 176.8px;" /></a></p>
+<p>Then follow the steps to start the import:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p class="first">Draw a rectangular area on the map</p>
+</li>
+<li><p class="first">Select then the online mode or bitmap for import</p>
+</li>
+<li><p class="first">Select one of the: doc: <cite>../ data / datastores</cite>. available from the dropdown list in which the imported data will be stored</p>
+</li>
+<li><p class="first">Specify a name for the new layer</p>
+</li>
+<li><p class="first">Click the &#8220;Import&#8221; button</p>
+</li>
+</ul>
+</div></blockquote>
+<p>After a few seconds, the line item or type of data is displayed on the map and the new layer is added to the tree layers. You can use this layer like any other.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The more you select a large geographical area, the longer the waiting time is long when importing. It is advisable to use the importer to an adequate zoom level manner as not to cause too long queries.</p>
+</div>
+</div>
+<div class="section" id="couches-de-fonds">
+<h2><a class="toc-backref" href="#table-des-matieres">funds layers</a></h2>
+<p>You have the option to change the viewer base coat using the icons at the top right. MapQuest Streets layer is displayed by default.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first last"><strong>Icon</strong></p>
+</td>
+<td><strong>Action</strong></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/mapquest-str.png"><img alt="MapQuest street baselayer icon" src="../_images/mapquest-str.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">MapQuest displays the layer Street</p>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="../_images/mapquest-sat.png"><img alt="MapQuest satellite baselayer icon" src="../_images/mapquest-sat.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">MapQuest displays the Satellite layer</p>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="../_images/osm.png"><img alt="OpenStreetMap baselayer icon" src="../_images/osm.png" style="width: 24px; height: 24px;" /></a></td>
+<td><p class="first last">Displays the OpenStreetMap layer</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<!-- Begin Footer -->
+<div id="footer">
+<div class="container">
+<div class="lft">
+ <h1 class="titleb"><span class="logo"></span><a href="http://mapmint.com" target="_blank">Map<span>Mint</span></a></h1>
+<hr/>
+</div>
+<div class="rgt">
+<img src="http://www.zoo-project.org/cgi-bin/zoo_loader.cgi?service=WPS&version=1.0.0&request=Execute&Identifier=QREncode&DataInputs=size=3;bgcolor=3A3A3A;fgcolor=83C849;Text=http://mapmint.com&RawDataOutput=QR" />
+</div>
+</div>
+</div>
+<!-- End Footer -->
+<div class="bottom-block">
+<div class="btm-cnt">
+<p>&copy; Copyright 2011-2016 
+<a href="http://mapmint.com" class="ftr" target="_blank">
+<span class="mmw">Map</span><span class="mmg">Mint</span>
+</a>
+</p>
+</div>
+</div>
+
+  </body>
+</html>
