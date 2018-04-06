@@ -1,0 +1,263 @@
+.. _introduction-usemapmint:
+
+Utiliser MapMint
+================
+
+.. contents:: Table des matières
+    :depth: 4
+    :backlinks: top
+    
+L'application MapMint est constituée d'une **interface
+d'administration** comportant différents modules et d'une **interface
+publique**. 
+
+.. _introduction-usemapmint-administration-access:
+
+Accès aux modules d'administration
+-------------------------------------
+
+En fonction des paramètres du :doc:`../dashboard/configuration` et de
+votre installation de MapMint, les modules listés ci-dessous sont
+disponibles dans l'interface d'administration.
+ 
+============================== ============================================
+**Module**                     **URL d'accès**       
+------------------------------ --------------------------------------------
+Tableau de bord                http://votre-instance.com/Dashboard_bs
+Gestion des données            http://votre-instance.com/Distiller_bs
+Création de territoires        http://votre-instance.com/Territories_bs
+Création d'indicateurs         http://votre-instance.com/Indexes_bs
+Création de thèmes             http://votre-instance.com/Themes_bs
+Importation de documents             http://votre-instance.com/Documents_bs
+Création de cartes             http://votre-instance.com/Manager_bs
+Publication d'applications     http://votre-instance.com/Publisher_bs
+============================== ============================================
+
+Formulaire d'identification
+---------------------------------
+
+Pour accèder aux modules de l'interface d'administration, entrez le **nom d'utilisateur** et le **mot de passe** qui vous ont été communiqués par email dans le formulaire de connexion illustré ci-après, et cliquez sur le bouton "Identification".
+
+.. note::
+	Vous pouvez également presser le bouton "Entrer" de votre clavier au lieu de cliquer sur le bouton "Identifier"
+	
+.. |login| image:: ../_static/images/login-screen.png
+   :width: 700
+   :alt: MapMint login screen
+   
+|login|
+
+Un message de succès s'affiche dans un cadre vert en haut à droite de votre écran et le module se charge. Si vous obtenez un bandeau rouge en haut de l'écran, veuillez vérifier vos paramètres de connexion et recommencer.
+
+.. _introduction-usemapmint-public-access:
+
+Accès à l'interface publique
+-------------------------------------
+
+L'interface publique de MapMint est accessible via l'URL
+http://votre-instance.com/public/ qui constitue la page d'accueil de
+l'application. Les cartes publiéees sont accessibles depuis la
+cartothèque (deuxième onglet du menu). On peut accèder directement à
+une carte spécifique en utilisant sont URL spécifique ( du type
+http://votre-instance.com/public/le-nom-de-votre-carte).
+
+============================== ============================================
+**Module**                     **URL d'accès**       
+------------------------------ --------------------------------------------
+Interface publique             http://votre-instance.com/public/
+Interface publique indicateurs http://votre-instance.com/public/indicateurs
+Carte publiée                  http://votre-instance.com/public/le-nom-de-votre-carte
+============================== ============================================
+
+Premiers paramétrages
+----------------------
+
+Lors d'une première connexion, les étapes suivantes sont recommandées pour  assurer le bon fonctionnement de l'interface publique.
+
+Titre de l'interface publique
+.................................
+
+Le titre de l'interface publique apparait dans le bandeau du haut de la page d'accueil. Pour le configurer, rendez vous dans le :doc:`../dashboard/configuration` puis modifiez la valeur **Title** dans l'onglet *Configuration du fournisseur*. Cliquez sur le bouton "Enregister" du panneau de configuration et recharger votre page d'accueil pour que les modifications soient effectives.
+
+.. note::
+	Le titre est également utilisé dans la balise <title> du code source de la page
+	 
+Carte de l'interface publique
+.................................
+
+La carte de l'interface publique apparait dans le corps de la page d'accueil. Pour la créer et la configurer, rendez vous dans le :doc:`../maps/index` puis créer un projet nommé **Default**. Une fois enregistrée, veuillez recharger cette la page d'accueil pour voir la carte s'afficher.
+
+.. note::
+	La carte d'accueil peut être utilisée pour cartographier un projet en particulier que l'utilisateur souhaiterait voir affichée sur la page d'accueil. Elle peut aussi servir d'entrée cartographique vers les différents projets publiés. Celà nécessite l'utilisation d'une source de données répertoriant les URL des projets.
+
+
+Ajouter des données
+---------------------------------
+
+Deux solutions sont proposées pour charger des données SIG sur le serveur d'installation de votre instance MapMint.
+
+Si vous souhaitez ajouter des données vectorielles légères (**< 2Mo**), rendez vous dans le :doc:`../data/index` et utiliser l'utilitaire de chargement de données (upload), dont le fonctionnement est décrit dans la section relative aux :doc:`../data/index`.
+
+Si vous désirez charger des données vecteur ou rester plus volumineuses, il vous faudra utiliser l'accès FTP qui vous a été fournit avec les informations de connexion à votre instance MapMint. Pour ce faire, veuillez installer et lancer un client FTP depuis votre ordinateur (comme `FileZilla <https://filezilla-project.org/>`__ par exemple) et renseigner les informations suivantes dans le formulaire prévu à cet effet (en haut de la fenêtre du logiciel dans le cas de FileZilla), puis cliquer sur le bouton "Connexion".
+
+============================== ============================================
+**Paramètre**                  **Définition**       
+------------------------------ --------------------------------------------
+Hôte                           URL ou adresse IP du serveur sur lequel votre instance est installée
+Nom d'utilisateur              Nom d'utilisateur fourni par email
+Mot de passe                   Mot de passe fourni par email
+============================== ============================================
+
+.. |upftp| image:: ../_static/images/upload-ftp.png
+   :height: 505
+   :width: 800
+   :alt: FTP client exemple screenshot
+   
+|upftp|
+
+Une fois connecté au serveur, le répertoire général de stockage des sources de données (il s'agit générallement du répertoire /var/www/data/ftp) est listé et affiché dans la fenêtre de droite du client FTP. Vous pouvez alors créer un nouveau répertoire ou bien utiliser un répertoire existant.
+
+* Dans le cas ou vous souhaiteriez ajouter des données à un répertoire existant, veuillez procéder à un glissé-déposé de vos données de la partie gauche de la fenêtre (où l'arborescence de votre ordinateur est listée) à la partie droite, en direction du répeetoire visé. Cela entraîne le chargement des données dans le répertoire concerné sur le serveur. La progression du chargement des fichiers est indiquée par des barres de progression en bas de la fenêtre. La durée du transfert varie en fonction du poids des données à charger.
+
+* Dans le cas ou vous souhaiteriez créer un nouveau répertoire, procédez à un clic droit dans la partie de droite et cliquez sur le sous menu "Créer un nouveau dossier" du menu contextuel qui apparait. Entrez ensuite un nom pour le nouveau répertoire dans la fenêtre prévue à cet effet, puis cliquer sur le bouton "OK". Cela entraîne la fermeture de la fenêtre et l'ajou du nouveau répertoire à la liste. Vous pouvez ensuite procéder à un glissé-déposé des vos données, comme décrit dans le paragraphe précédent.
+
+.. warning::
+
+	Le nom d'un nouveau répertoire de données ne doit pas contenir d'accents ou de caractères spéciaux !
+
+Accès aux données et traitements depuis des clients bureautiques
+----------------------------------------------------------------
+
+Comme indiqué dans la section :ref:`userguidegeneral`, MapMint fournis
+des services web permettant d'accéder aux données (WMS, WFS et WCS) et
+aux services de traitements de données (WPS) depuis des clients
+bureautiques, comme par exemple `QGIS <http://www.qgis.org>`__.
+
+Nous présentons dans cette section comment accéder depuis QGIS aux
+services de diffusion de données puis aux services traitements de
+données. Nous présenterons aussi successivement comment les utiliser.
+
+Accéder aux services de diffusion de données
+.............................................
+
+MapMint rend accessible l'ensemble des espaces de stockages ainsi que
+les sources de données qu'elles contiennent une fois ces dernières
+paramétrées depuis le :ref:`maps`. De même, l'ensemble des
+couches contenues dans les applications de cartographie dynamique
+configurées depuis le :ref:`maps` et publiées depuis le :ref:`apps`
+sont elles aussi accéssibles. 
+
+Depuis QGIS par exemple, vous pouvez donc accéder aux couches de
+données au format WMS, afin de conserver le style que vous avez défini
+au niveau du :ref:`maps`, ou au fomat WFS, afin d'utiliser les
+services de traitements de données vectorielles.
+
+Les URL à utiliser pour paramétrer les accès aux serveur WMS et WFS
+sont les suivantes :
+
+ * pour un espace de stockage <monRépertoire> :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/dirs/<monRépertoire>/ds_ows.map``
+
+ * pour un projet <monProjet> en cours de paramétrage :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/maps/project_<monProjet>.map``
+
+ * pour un projet <monProjet> publié :
+
+   ``http://votre-instance.com/cgi-bin/mm/mapserver.cgi?map=/var/data/public_maps/project_<monProjet>.map``
+
+.. note::
+   il est nécessaire de remplacer ``<monProjet>`` par le nom d'un projet
+   et ``<monRépertoire>`` par le nom d'un espace de stockage
+   disponible dans :ref:`data`.
+
+Les deux captures d'écran ci-dessous présente l'ajout d'un serveur WMS
+et WFS.
+
+.. |qwms| image:: ../_static/images/qgis-wms.png
+   :width: 400
+   :alt: QGIS WMS Client
+   
+.. |qwfs| image:: ../_static/images/qgis-wfs.png
+   :width: 400
+   :alt: QGIS WFS Client
+
+====== ======
+|qwms| |qwfs|
+====== ======
+
+Une fois vos serveurs ajoutés, vous pouvez alors ajouter des couches
+qu'ils contiennent. Pour ce faire, sélectionnez vore serveur dans la
+liste des serveurs disponibles, puis cliquez sur le bouton
+**Connection** afin de lister les couches disponibles. Ensuite
+sélectionné l'ensemble des couches que vous souhaitez afficher dans
+votre client QGIS.
+
+
+Accéder aux services de traitements de données
+..............................................
+
+Depuis QGIS par exemple, vous pouvez accéder aux services de
+traitements de données vectorielles. Pour ce faire il est nécessaire
+d'ajouter le serveur suivant ``http://geolabs.fr/plugins.xml`` à vos
+dépos de plugins dans QGIS, puis d'installer le module
+**QgsWPSClient**. Une fois ceci fait vous devait alors activer cette
+nouvelle extension, puis ajouter un serveur WPS (comme cela a été
+présenté dans la section précédente pour les service WMS et
+WFS). L'ajout ce fait via l'interface présenté dans la capture d'écran
+ci-dessous.
+
+.. |qgis-wps| image:: ../_static/images/qgis-wps.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps|
+
+L'URL à utiliser pour accéder au services de traitements est le suivant :
+
+   ``http://votre-instance.com/cgi-bin/mm/zoo_loader.cgi``
+
+Une fois le serveur WPS ajouté, sélectionnez le dans la liste puis
+cliquez sur le bouton **Connect** afin de lister l'esemble des
+services de traitements disponibles comme présenté ci-dessous.
+
+.. |qgis-wps-gc| image:: ../_static/images/qgis-wps-gc.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-gc|
+
+Vous devez selectionner un services a exécuter en cliquant deux fois
+sur le service qui vous interresse afin d'accéder à l'interface de
+passage de paramètres au service WPS. Cette interface correspond à la
+capture d'écran suivante.
+
+.. |qgis-wps-buff| image:: ../_static/images/qgis-wps-buff.png
+   :width: 600
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-buff|
+
+.. warning::
+   Seules les couches WFS et WCS peuvent être utilisées avec les
+   services traitements WPS.
+
+Afin d'exécuter et d'afficher le résultat, vous devez cliquer sur le
+boutton **Run**. 
+
+Nous présentons ci-desous un exemple d'utilisation d'une couche
+vectorielle **LA_REGION_S** et de l'exécution des services
+**vector-tools.BufferPy** et **vector-tools.CentroidPy**.
+
+.. |qgis-wps-res| image:: ../_static/images/qgis-wps-result.png
+   :width: 800
+   :alt: QGIS WPS Client 1
+
+|qgis-wps-res|
+.. 
+
+ 
+
+
+

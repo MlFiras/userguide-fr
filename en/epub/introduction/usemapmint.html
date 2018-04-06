@@ -9,7 +9,7 @@
     <title>Use MapMint</title>
     
     <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
 
 
      
@@ -133,7 +133,7 @@
 <p class="first admonition-title">Note</p>
 <p class="last">You can also press the &#8220;Enter&#8221; on your keyboard instead of clicking on the button &#8220;Identify&#8221;</p>
 </div>
-<p><a class="reference internal" href="../_images/login-screen.png"><img alt="MapMint login screen" src="../_images/login-screen.png" style="width: 700px;" /></a></p>
+<p><a class="reference internal" href="../images/login-screen.png"><img alt="MapMint login screen" src="../images/login-screen.png" style="width: 700px;" /></a></p>
 <p>A success message is displayed in a green frame on the top right of your screen and the module is charging. If you get a red banner at the top of the screen, please check your connection settings and try again.</p>
 </div>
 <div class="section" id="acces-a-l-interface-publique">
@@ -217,7 +217,7 @@
 </tr>
 </tbody>
 </table>
-<p><a class="reference internal" href="../_images/upload-ftp.png"><img alt="FTP client exemple screenshot" src="../_images/upload-ftp.png" style="width: 800px; height: 505px;" /></a></p>
+<p><a class="reference internal" href="../images/upload-ftp.png"><img alt="FTP client exemple screenshot" src="../images/upload-ftp.png" style="width: 800px; height: 505px;" /></a></p>
 <p>Once connected to the server, the general repository for storing data sources (this is usually live in the /var/www/data/ftp) is listed and displayed in the FTP client the right window. You can then create a new folder or use an existing directory.</p>
 <ul class="simple">
 <li><p class="first">In case you wish to add data to an existing directory, please perform drag and drop your data from the left side of the window (where the tree of your computer is listed) to the right, towards the directory referred. This causes the loading of data into the appropriate directory on the server. The progress of the file download is indicated by the progress bar at the bottom of the window. The transfer time varies depending on the weight of the data to be loaded.</p>
@@ -263,8 +263,8 @@
 <col width="50%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="../_images/qgis-wms.png"><img alt="QGIS WMS Client" src="../_images/qgis-wms.png" style="width: 400px;" /></a></td>
-<td><a class="reference internal" href="../_images/qgis-wfs.png"><img alt="QGIS WFS Client" src="../_images/qgis-wfs.png" style="width: 400px;" /></a></td>
+<tr class="row-odd"><td><a class="reference internal" href="../images/qgis-wms.png"><img alt="QGIS WMS Client" src="../images/qgis-wms.png" style="width: 400px;" /></a></td>
+<td><a class="reference internal" href="../images/qgis-wfs.png"><img alt="QGIS WFS Client" src="../images/qgis-wfs.png" style="width: 400px;" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -273,21 +273,21 @@
 <div class="section" id="acceder-aux-services-de-traitements-de-donnees">
 <h3><a class="toc-backref" href="#table-des-matieres">Access to data processing services</a></h3>
 <p>Since QGIS for example, you can access the vector data processing services. To do this it is necessary to add the following server <a class="reference external" href="http://geolabs.fr/plugins.xml">http://geolabs.fr/plugins.xml</a> your plugins DEPOS in QGIS, then install the module <strong>QgsWPSClient</strong>. Once this is done then you should enable this new extension, then add a WPS server (as was presented in the previous section for WMS and WFS service). Adding this fact via the interface shown in the screenshot below.</p>
-<p><a class="reference internal" href="../_images/qgis-wps.png"><img alt="QGIS WPS Client 1" src="../_images/qgis-wps.png" style="width: 600px;" /></a></p>
+<p><a class="reference internal" href="../images/qgis-wps.png"><img alt="QGIS WPS Client 1" src="../images/qgis-wps.png" style="width: 600px;" /></a></p>
 <p>The URL to access treatment services is:</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">http://votre-instance.com/cgi-bin/mm/zoo_loader.cgi</span></code></div></blockquote>
 <p>Once added the WPS server, select it in the list and click <strong>Connect</strong> to list the esemble of available treatment services as shown below.</p>
-<p><a class="reference internal" href="../_images/qgis-wps-gc.png"><img alt="QGIS WPS Client 1" src="../_images/qgis-wps-gc.png" style="width: 600px;" /></a></p>
+<p><a class="reference internal" href="../images/qgis-wps-gc.png"><img alt="QGIS WPS Client 1" src="../images/qgis-wps-gc.png" style="width: 600px;" /></a></p>
 <p>You must select a service was run by double-clicking on the service that interests you to access the through interface parameters WPS service. This interface corresponds to the following screenshot.</p>
-<p><a class="reference internal" href="../_images/qgis-wps-buff.png"><img alt="QGIS WPS Client 1" src="../_images/qgis-wps-buff.png" style="width: 600px;" /></a></p>
+<p><a class="reference internal" href="../images/qgis-wps-buff.png"><img alt="QGIS WPS Client 1" src="../images/qgis-wps-buff.png" style="width: 600px;" /></a></p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">Only WFS and WCS layers can be used with WPS treatment services.</p>
 </div>
 <p>To perform and display the result, you must click on the button <strong>Run</strong>.</p>
 <p>We present below below an example of using a vector layer <strong>LA_REGION_S</strong> and execution services <strong>vector-tools.BufferPy</strong> et <strong>vector-tools.CentroidPy</strong>.</p>
-<p><a class="reference internal" href="../_images/qgis-wps-result.png"><img alt="QGIS WPS Client 1" src="../_images/qgis-wps-result.png" style="width: 800px;" /></a>
+<p><a class="reference internal" href="../images/qgis-wps-result.png"><img alt="QGIS WPS Client 1" src="../images/qgis-wps-result.png" style="width: 800px;" /></a>
 ..</p>
 </div>
 </div>
