@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.1)  6 APR 2018 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.1)  6 APR 2018 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,42 +1446,42 @@ Overfull \hbox (14.79999pt too wide) in paragraph at lines 1541--1541
  [] 
  []
 
-<add3.png, id=937, 29.10875pt x 20.075pt>
-File: add3.png Graphic file (type png)
- <use add3.png>
-Package pdftex.def Info: add3.png used on input line 1560.
+<add4.png, id=937, 29.10875pt x 20.075pt>
+File: add4.png Graphic file (type png)
+ <use add4.png>
+Package pdftex.def Info: add4.png used on input line 1560.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add3.png Graphic file (type png)
- <use add3.png>
-Package pdftex.def Info: add3.png used on input line 1560.
+File: add4.png Graphic file (type png)
+ <use add4.png>
+Package pdftex.def Info: add4.png used on input line 1560.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 
-<delete4.png, id=938, 30.1125pt x 22.0825pt>
-File: delete4.png Graphic file (type png)
- <use delete4.png>
-Package pdftex.def Info: delete4.png used on input line 1560.
+<delete5.png, id=938, 30.1125pt x 22.0825pt>
+File: delete5.png Graphic file (type png)
+ <use delete5.png>
+Package pdftex.def Info: delete5.png used on input line 1560.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete4.png Graphic file (type png)
+File: delete5.png Graphic file (type png)
 
-<use delete4.png>
-Package pdftex.def Info: delete4.png used on input line 1560.
+<use delete5.png>
+Package pdftex.def Info: delete5.png used on input line 1560.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: add3.png Graphic file (type png)
- <use add3.png>
-Package pdftex.def Info: add3.png used on input line 1560.
+File: add4.png Graphic file (type png)
+ <use add4.png>
+Package pdftex.def Info: add4.png used on input line 1560.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add3.png Graphic file (type png)
- <use add3.png>
-Package pdftex.def Info: add3.png used on input line 1560.
+File: add4.png Graphic file (type png)
+ <use add4.png>
+Package pdftex.def Info: add4.png used on input line 1560.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: delete4.png Graphic file (type png)
- <use delete4.png>
-Package pdftex.def Info: delete4.png used on input line 1560.
+File: delete5.png Graphic file (type png)
+ <use delete5.png>
+Package pdftex.def Info: delete5.png used on input line 1560.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete4.png Graphic file (type png)
+File: delete5.png Graphic file (type png)
 
-<use delete4.png>
-Package pdftex.def Info: delete4.png used on input line 1560.
+<use delete5.png>
+Package pdftex.def Info: delete5.png used on input line 1560.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  <add-territory-window.png, id=939, 453.695pt x 372.39125pt>
 File: add-territory-window.png Graphic file (type png)
@@ -1493,7 +1493,7 @@ File: add-territory-window.png Graphic file (type png)
  <use add-territory-window.png>
 Package pdftex.def Info: add-territory-window.png used on input line 1570.
 (pdftex.def)             Requested size: 453.6939pt x 372.39034pt.
- [27 <./add3.png> <./delete4.png>]
+ [27 <./add4.png> <./delete5.png>]
 <delete-territory-window.png, id=952, 452.69125pt x 392.46625pt>
 File: delete-territory-window.png Graphic file (type png)
 
@@ -2521,42 +2521,42 @@ Overfull \hbox (14.79999pt too wide) in paragraph at lines 3662--3662
  [] 
  []
 
-<add5.png, id=1446, 29.10875pt x 20.075pt>
-File: add5.png Graphic file (type png)
- <use add5.png>
-Package pdftex.def Info: add5.png used on input line 3681.
+<add3.png, id=1446, 29.10875pt x 20.075pt>
+File: add3.png Graphic file (type png)
+ <use add3.png>
+Package pdftex.def Info: add3.png used on input line 3681.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add5.png Graphic file (type png)
- <use add5.png>
-Package pdftex.def Info: add5.png used on input line 3681.
+File: add3.png Graphic file (type png)
+ <use add3.png>
+Package pdftex.def Info: add3.png used on input line 3681.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 
-<delete6.png, id=1447, 30.1125pt x 22.0825pt>
-File: delete6.png Graphic file (type png)
- <use delete6.png>
-Package pdftex.def Info: delete6.png used on input line 3681.
+<delete4.png, id=1447, 30.1125pt x 22.0825pt>
+File: delete4.png Graphic file (type png)
+ <use delete4.png>
+Package pdftex.def Info: delete4.png used on input line 3681.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete6.png Graphic file (type png)
+File: delete4.png Graphic file (type png)
 
-<use delete6.png>
-Package pdftex.def Info: delete6.png used on input line 3681.
+<use delete4.png>
+Package pdftex.def Info: delete4.png used on input line 3681.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: add5.png Graphic file (type png)
- <use add5.png>
-Package pdftex.def Info: add5.png used on input line 3681.
+File: add3.png Graphic file (type png)
+ <use add3.png>
+Package pdftex.def Info: add3.png used on input line 3681.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add5.png Graphic file (type png)
- <use add5.png>
-Package pdftex.def Info: add5.png used on input line 3681.
+File: add3.png Graphic file (type png)
+ <use add3.png>
+Package pdftex.def Info: add3.png used on input line 3681.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: delete6.png Graphic file (type png)
- <use delete6.png>
-Package pdftex.def Info: delete6.png used on input line 3681.
+File: delete4.png Graphic file (type png)
+ <use delete4.png>
+Package pdftex.def Info: delete4.png used on input line 3681.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete6.png Graphic file (type png)
+File: delete4.png Graphic file (type png)
 
-<use delete6.png>
-Package pdftex.def Info: delete6.png used on input line 3681.
+<use delete4.png>
+Package pdftex.def Info: delete4.png used on input line 3681.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  <add-table-window.png, id=1448, 407.5225pt x 133.49875pt>
 File: add-table-window.png Graphic file (type png)
@@ -2568,7 +2568,7 @@ File: add-table-window.png Graphic file (type png)
  <use add-table-window.png>
 Package pdftex.def Info: add-table-window.png used on input line 3691.
 (pdftex.def)             Requested size: 407.5215pt x 133.4984pt.
- [63 <./add5.png> <./delete6.png>] <delete-table-window.png, id=1458, 421.575pt
+ [63 <./add3.png> <./delete4.png>] <delete-table-window.png, id=1458, 421.575pt
  x 488.82625pt>
 File: delete-table-window.png Graphic file (type png)
 
@@ -3210,42 +3210,42 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `TS1/ptm/b/n' tried instead on input line 5436.
 
-<add4.png, id=1838, 29.10875pt x 20.075pt>
-File: add4.png Graphic file (type png)
- <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5436.
+<add5.png, id=1838, 29.10875pt x 20.075pt>
+File: add5.png Graphic file (type png)
+ <use add5.png>
+Package pdftex.def Info: add5.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add4.png Graphic file (type png)
- <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5436.
+File: add5.png Graphic file (type png)
+ <use add5.png>
+Package pdftex.def Info: add5.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
 
-<delete5.png, id=1839, 30.1125pt x 22.0825pt>
-File: delete5.png Graphic file (type png)
- <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5436.
+<delete6.png, id=1839, 30.1125pt x 22.0825pt>
+File: delete6.png Graphic file (type png)
+ <use delete6.png>
+Package pdftex.def Info: delete6.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete5.png Graphic file (type png)
+File: delete6.png Graphic file (type png)
 
-<use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5436.
+<use delete6.png>
+Package pdftex.def Info: delete6.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: add4.png Graphic file (type png)
- <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5436.
+File: add5.png Graphic file (type png)
+ <use add5.png>
+Package pdftex.def Info: add5.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: add4.png Graphic file (type png)
- <use add4.png>
-Package pdftex.def Info: add4.png used on input line 5436.
+File: add5.png Graphic file (type png)
+ <use add5.png>
+Package pdftex.def Info: add5.png used on input line 5436.
 (pdftex.def)             Requested size: 29.10867pt x 20.07494pt.
-File: delete5.png Graphic file (type png)
- <use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5436.
+File: delete6.png Graphic file (type png)
+ <use delete6.png>
+Package pdftex.def Info: delete6.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
-File: delete5.png Graphic file (type png)
+File: delete6.png Graphic file (type png)
 
-<use delete5.png>
-Package pdftex.def Info: delete5.png used on input line 5436.
+<use delete6.png>
+Package pdftex.def Info: delete6.png used on input line 5436.
 (pdftex.def)             Requested size: 30.11241pt x 22.08243pt.
  <add-theme-window.png, id=1840, 250.9375pt x 131.49126pt>
 File: add-theme-window.png Graphic file (type png)
@@ -3259,7 +3259,7 @@ Package pdftex.def Info: add-theme-window.png used on input line 5446.
 (pdftex.def)             Requested size: 250.93687pt x 131.49092pt.
  [101
 
- <./add4.png> <./delete5.png> <./add-theme-window.png>]
+ <./add5.png> <./delete6.png> <./add-theme-window.png>]
 <delete-theme-window.png, id=1852, 248.93pt x 163.61125pt>
 File: delete-theme-window.png Graphic file (type png)
 
@@ -3837,7 +3837,7 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic
 hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MapMint.pdf (126 pages, 6099908 bytes).
+Output written on MapMint.pdf (126 pages, 6099914 bytes).
 PDF statistics:
  2229 PDF objects out of 2487 (max. 8388607)
  1717 compressed objects within 18 object streams
