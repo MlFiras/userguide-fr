@@ -20,7 +20,7 @@
 \setcounter{tocdepth}{2}
 
 \title{MapMint, Guide utilisateur}
-\date{May 26, 2018}
+\date{May 27, 2018}
 \release{1.2}
 \author{Balley Beye, Nicolas Bozon, Dame Dieng, Gérald Fenoy, \\Abdoulaye Samb}
 \newcommand{\sphinxlogo}{\includegraphics{mm-logo.png}\par}
@@ -1879,13 +1879,13 @@ On first access to storage space, creates a specific MapMint Mapfile MapServer a
 \phantomsection\label{data/datasources:id16}{\hyperref[data/datasources:convertir-une-source-de-donnees]{\emph{Convert a data source}}}
 
 \item {} 
-\phantomsection\label{data/datasources:id17}{\hyperref[data/datasources:telechargement]{\emph{downloading}}}
+\phantomsection\label{data/datasources:id17}{\hyperref[data/datasources:telechargement]{\emph{Downloading}}}
 
 \item {} 
 \phantomsection\label{data/datasources:id18}{\hyperref[data/datasources:previsualisation]{\emph{preview}}}
 
 \item {} 
-\phantomsection\label{data/datasources:id19}{\hyperref[data/datasources:suppression]{\emph{suppression}}}
+\phantomsection\label{data/datasources:id19}{\hyperref[data/datasources:suppression]{\emph{Removal}}}
 
 \item {} 
 \phantomsection\label{data/datasources:id20}{\hyperref[data/datasources:ouverture]{\emph{Opening}}}
@@ -1912,17 +1912,17 @@ The pictograms used to illustrate the type of data source are shown in the follo
 \hline
 \includegraphics{data-vector-point-icon.png}
  & 
-Point type of vector data source
+Point Vector Data Source
 \\
 \hline
 \includegraphics{data-vector-line-icon.png}
  & 
-Line type of vector data source
+Line Vector Data Source
 \\
 \hline
 \includegraphics{data-vector-polygon-icon.png}
  & 
-Vector Polygon Data Source Type
+Vector Polygon Data Source
 \\
 \hline
 \includegraphics{data-raster-icon.png}
@@ -2002,7 +2002,7 @@ connection WFS
 
 
 \begin{notice}{note}{Note:}
-\emph{Other formats \textless{}http://www.gdal.org/ogr/ogr\_formats.html\textgreater{}} \_\_ borne by the bookseller \emph{OGR \textless{}http://www.gdal.org/ogr\textgreater{}} \_\_ can also be used with MapMint.
+\emph{Other formats \textless{}http://www.gdal.org/ogr/ogr\_formats.html\textgreater{}} \_\_ supported by the  \emph{OGR \textless{}http://www.gdal.org/ogr\textgreater{}} library \_\_ can also be used with MapMint.
 \end{notice}
 
 
@@ -2078,7 +2078,7 @@ Get more information about the character encoding of \href{http://fr.wikipedia.o
 
 \subsubsection{supported formats}
 \label{data/datasources:id1}
-Mint supports raster data formats listed below.
+MapMint supports raster data formats listed below.
 
 \begin{tabulary}{\linewidth}{|L|L|L|}
 \hline
@@ -2114,7 +2114,7 @@ jpg
 
 
 \begin{notice}{note}{Note:}
-On the other formats {}` \textless{}\href{http://www.gdal.org/formats\_list.html}{http://www.gdal.org/formats\_list.html}\textgreater{}{}`\_\_ Supported by the \href{http://www.gdal.org}{GDAL} can also be used with MapMint.
+Oher formats {}` \textless{}\href{http://www.gdal.org/formats\_list.html}{http://www.gdal.org/formats\_list.html}\textgreater{}{}`\_\_ Supported by the \href{http://www.gdal.org}{GDAL} can also be used with MapMint.
 \end{notice}
 
 
@@ -2124,10 +2124,10 @@ To view the histogram of a data source, click on the ``arrow'' icon to the right
 
 {\color{red}\bfseries{}\textbar{}view\textbar{}}
 
-The histogram of the data source allows you to view the distribution of his / her band (s) in the pixel array.
+The histogram of the data source allows you to view the distribution in the pixel array.
 
 \begin{notice}{note}{Note:}
-It is possible to zoom in the histogram holding your cursor and a rectangle desssinant
+It is possible to zoom in the histogram by holding your cursor and a drawing a rectangle.
 \end{notice}
 
 
@@ -2213,7 +2213,7 @@ Add Type single or multiple groups with the ``Add'' button, this entails adding 
 Data conversion is covered in part:: ref: \emph{data-processing}.
 
 
-\subsubsection{downloading}
+\subsubsection{Downloading}
 \label{data/datasources:telechargement}
 To download a data source on your computer, just click on the corresponding icon in the: ref: \emph{datasource-table-label}. This causes the direct download of the data, stored in a .zip file
 
@@ -2246,16 +2246,16 @@ External WMS type of data sources do not have the preview functionality
 \end{notice}
 
 
-\subsubsection{suppression}
+\subsubsection{Removal}
 \label{data/datasources:suppression}
-To delete a data source, please click on the corresponding icon in the: ref: \emph{data source-table-label}. This opens the blanking window illustrated below.
+To remove a data source, please click on the corresponding icon in the: ref: \emph{data source-table-label}. This opens the blanking window illustrated below.
 
 deeds
 
 Click the ``Delete'' button to delete the data. The window closes and the deletion of the data source is stated at the top of your screen in a green headband.
 
 \begin{notice}{warning}{Warning:}
-The use of this feature remove the source of data storage space and removes the physical data sets on the server. This action is permanent and irreversible.
+The use of this feature removes the source of the data storage space and also removes the physical data sets on the server. This action is permanent and cannot be undone.
 \end{notice}
 
 
@@ -2291,12 +2291,12 @@ After loading the data source, it is recommended to save the project \emph{Untit
 \end{minipage}}
 \begin{center}\setlength{\fboxsep}{5pt}\shadowbox{\box0}\end{center}
 
-The geoprocessing functionality of MapMint allowing the user to create new {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}} using those already available in the {\hyperref[data/index::doc]{\emph{\emph{Data Management Module}}}}.
+The geoprocessing functionality of MapMint allows the user to create new {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}} using those already available in the {\hyperref[data/index::doc]{\emph{\emph{Data Management Module}}}}.
 
 
 \subsection{Converter vector data sources}
 \label{data/processing:convertisseur-de-sources-de-donnees-vectorielles}
-The vector data converter provides a user interface to the command line tool  \href{http://www.gdal.org/ogr2ogr.html}{ogr2ogr} from  {\color{red}\bfseries{}{}`}the OGR library \textless{}\href{http://www.gdal.org/ogr/}{http://www.gdal.org/ogr/}\textgreater{} {\color{red}\bfseries{}{}`}\_\_. It allows to convert and re-project the vector data source.
+The vector data converter provides a user interface to the command line tool  \href{http://www.gdal.org/ogr2ogr.html}{ogr2ogr} from  {\color{red}\bfseries{}{}`}the OGR library \textless{}\href{http://www.gdal.org/ogr/}{http://www.gdal.org/ogr/}\textgreater{} {\color{red}\bfseries{}{}`}\_\_. It allows for the conversion and reprojection of vector data sources.
 
 To access, click on the corresponding icon in the toolbar of the {\hyperref[data/datasources::doc]{\emph{\emph{Data Sources}}}}. This causes the display of the converter form with the selected data source input and displayed in the ``Source''.
 
